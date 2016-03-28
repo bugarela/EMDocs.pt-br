@@ -1,32 +1,19 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\index.html](https://github.com/Microsoft/EMDocs-pr/blob/e081b9422fd713a8677d93a1ef70949fd9c16fed/EMDocs/index.html) | HandedOffSuccess | [Details](#dc5cb0d28892842e3c3db9a2caf8df9602e28c2c60)
- [EMDocs\Solutions\index.html](https://github.com/Microsoft/EMDocs-pr/blob/e081b9422fd713a8677d93a1ef70949fd9c16fed/EMDocs/Solutions/index.html) | HandedOffSuccess | [Details](#af75e6245155924c249958398a5ded70553f551797)
+ [EMDocs\Solutions\index.html](https://github.com/Microsoft/EMDocs-pr/blob/746739d23774d4c53081972ed20b2eb98a1863cc/EMDocs/Solutions/index.html) | HandedOffSuccess | [Details](#8d110ce61d9bd4a99c130d5298c484ef8eb52ae397)
 
 ## Item Details
-##### <a name='dc5cb0d28892842e3c3db9a2caf8df9602e28c2c60'></a> Source: [EMDocs\index.html](https://github.com/Microsoft/EMDocs-pr/blob/e081b9422fd713a8677d93a1ef70949fd9c16fed/EMDocs/index.html)
+##### <a name='8d110ce61d9bd4a99c130d5298c484ef8eb52ae397'></a> Source: [EMDocs\Solutions\index.html](https://github.com/Microsoft/EMDocs-pr/blob/746739d23774d4c53081972ed20b2eb98a1863cc/EMDocs/Solutions/index.html)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [dc5cb0d28892842e3c3db9a2caf8df9602e28c2c.html](https://github.com/Microsoft/EM.handoff/blob/d70948933772a419b647576d0e49fa641e395abf/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/dc5cb0d28892842e3c3db9a2caf8df9602e28c2c.html)
-* Handoff Datetime: 2016-03-28 17:16:50
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='af75e6245155924c249958398a5ded70553f551797'></a> Source: [EMDocs\Solutions\index.html](https://github.com/Microsoft/EMDocs-pr/blob/e081b9422fd713a8677d93a1ef70949fd9c16fed/EMDocs/Solutions/index.html)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [af75e6245155924c249958398a5ded70553f5517.html](https://github.com/Microsoft/EM.handoff/blob/d70948933772a419b647576d0e49fa641e395abf/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/af75e6245155924c249958398a5ded70553f5517.html)
-* Handoff Datetime: 2016-03-28 17:16:50
+* Handoff File: [8d110ce61d9bd4a99c130d5298c484ef8eb52ae3.html](https://github.com/Microsoft/EM.handoff/blob/80117b6b7fb6480ec5ae3fbe27fc8c4c983dbb7b/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/8d110ce61d9bd4a99c130d5298c484ef8eb52ae3.html)
+* Handoff Datetime: 2016-03-28 17:54:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
