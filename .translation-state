@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "4791aad270ebe7549417c3acc45301e3f33321c5",
+  "LastProcessedCommit": "248c15be4adf8f2a3e253da3d47212bc1ea78411",
   "LastTranslatedCommit": null,
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -5226,8 +5226,8 @@
         "EMDocs\\Solutions\\Envisioning-the-BYOD-Infrastructure-Solution.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.pt-br.xlf",
-      "HandoffFileCommit": "3f63a177d203594be10131a622db708c91b07f76",
-      "HandoffDateTime": "2016-04-01T19:54:34.6662154Z",
+      "HandoffFileCommit": "e50264a5d10466441c92b3d4381be64b3678e298",
+      "HandoffDateTime": "2016-04-04T18:58:28.5928495Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
