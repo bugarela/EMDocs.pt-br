@@ -3366,9 +3366,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "488fecaaea1604871e77e21675ad3e190beba1bd": {
@@ -3424,9 +3424,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "da1cee35a09823cf69521242a7004897517492b4": {
@@ -3453,9 +3453,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "a2acee00c6aca19d00659702a5ef05485af4449b": {
@@ -3482,9 +3482,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "af2a63ef1c7babad19083cef2169ab84741b8ecb": {
@@ -3540,9 +3540,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\style-and-voice.e6bad968630c564936e430b8974885a4fc02438a.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "24edd27bbe1280c3401eaa78e6ed88d1758d82f2": {
@@ -3569,9 +3569,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\tools-and-setup.95c5b917ee957eea9e503f22b82d5314576ee457.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "66931315b777c7f7659088ca00eea24db16b8e4f": {
@@ -3598,9 +3598,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\work-with-git.a0bc3817f6c10f6e100f51384e9fc6539869d5b8.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "9262fb48cd07ecb0430327526ff08f9162d4c767": {
@@ -3627,9 +3627,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "39cc82882215595514e978c62d87eb8e3337aed8": {
@@ -3656,9 +3656,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "2a402428ce18d051fc0792b29028dd8d4e51be1e": {
@@ -3685,9 +3685,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "c8e83fb351623e5efe4cc27e3319b6bb80847536": {
@@ -3714,9 +3714,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\rename-or-retire-an-article.8ab882b43c964087f440cc5762f237afde9290f5.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "487b02bd2fbf54ed09fa5c510d3f8620ceb117bd": {
@@ -20626,9 +20626,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\BGDCopy for Training.b4d0f6d2825154251faa647f62aa02611077ee81.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "8bbc91330f63b38b7f9b9c0578385701a4293edb": {
@@ -20655,9 +20655,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-app-considerations.47a5f8f2d50d482c801c868ef89529ddb2333893.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "623699894a6e033a59dd989363a7b32b2068b867": {
@@ -20684,9 +20684,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-app-reqs.b9000aee0e8857b584c534c29dd915e6442438d1.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "71c61e0d66c99cdc3ee9e4455319acee5ea0ce9a": {
@@ -20713,9 +20713,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-data-access-and-protection-considerations.9823ea903a3e070a7234c6e0ef09aaa3875ae76a.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "42f6f4596a446bc4ed3cdc91cc985af32b75cdcf": {
@@ -20742,9 +20742,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-data-access-protection-reqs.1db689a653714db8161990f6fcc1b5f4338de4bb.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "fce1a9d3de85cc27a666a439b171cb305873dd61": {
@@ -20771,9 +20771,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "788a324c3610386fd86c8455b4fd1c90882a7182": {
@@ -20800,9 +20800,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-design-considerations-guide.541d5e5bcea0d863185d9ca711288c7fe35eb32d.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "19981500aca954d301bc56c535f70a49b07d0999": {
@@ -20829,9 +20829,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-envisioning-the-byod-infrastructure-solution.f907e7abfba917fbdcfe8b52faf28bb6e4aa63e0.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "540cd88c18feadb402d2a69f45fef56076de2a8b": {
@@ -20858,9 +20858,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-management-considerations.0b86292377b4ae88afb7b88d44ced951a9eee9c2.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "18f1eff6404e8268410a35473c4c7297e0abe486": {
@@ -20887,9 +20887,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-management-reqs.8c99e701fdafa6c0344eb62e36237558dfe4e875.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "88ebdc0082c1aa3e06394313e970d15db4cc3cea": {
@@ -20916,9 +20916,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-summary-and-additional-resources.09c9433d1b3b5f861def64d181e833c0ba3b47f5.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "13268ae6b76a2e816e50143beb43afc9cc8c634e": {
@@ -20945,9 +20945,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-user-and-device-considerations.46c4671df2293b135442ab94a70a9dd91c4c16b8.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "58215c6ce610f9d91c2888c548772c0fd0da9438": {
@@ -20974,9 +20974,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\byod-user-device-reqs.2adb886173f56743f2a0c1bb61e465397e9d9851.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "e5097c5a0c6c960983c3ad4db1d0d397143bb375": {
@@ -21061,9 +21061,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune-configmgr-coexist.c14a1cb5d27308437cb869cb2a2c75962829aab4.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "fa89a445caa418100c4f23adfc6e83f503d596e1": {
@@ -21206,9 +21206,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\end-user-experience-conditional-access.4a68033662f5a0b862f762cdf275910eeb857a94.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "e21bcd8b2f7862d3975d51a42a8e47ee16841e3b": {
@@ -21235,9 +21235,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\end-user-experience-conditional-access-android.845fa27966cd14a9a4d7b9665112684b0fc7f2ac.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "31f734f336848d86661deb5f66f8ac1a23293f62": {
@@ -21264,9 +21264,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\end-user-experience-conditional-access-ios.1a35b3bc1d79141f39fb4c7ccc0686f48d56d2c6.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "4b55a8c583c466effbb2e58c608ce36f45cf8d84": {
@@ -21293,9 +21293,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\end-user-experience-conditional-access-winphone.1a08db98003da80e09e00327f28d099398265b30.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "e1887bb4c270b68b0791af0998bc19e658602191": {
@@ -21322,9 +21322,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "f7a644da7e04f913254d690c563f45e649dc0e49": {
@@ -21351,9 +21351,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.81b93a1d9b409b9c9854f09cc169f4a2aaca7ec8.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "33f290f25f1653d43042ae8d5701316207ffdd8a": {
@@ -21380,9 +21380,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "c59a423ad3a8699d31982adb86697b6f69163110": {
@@ -21409,9 +21409,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "a8dc38025bccace4d912382c0cb4469e8691abbc": {
@@ -21438,9 +21438,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "6413d86a72cc85baacb33b019650b26ad99dbbb4": {
@@ -21467,9 +21467,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "27af31f193e0086c8377e1bdfdf1d71b9cbd217d": {
@@ -21496,9 +21496,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "f30dac131ababe1ba3476e88fd774522d1c371fb": {
@@ -21525,9 +21525,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "7329d55f7299d33ff833d1b0c65ee6fda9480fbf": {
@@ -21554,9 +21554,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "be77fc302e91fb39cde959c49026141a448023c5": {
@@ -21612,9 +21612,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "09287f291cab2a6e4474751c8e59d6a76c0ccaec": {
@@ -21641,9 +21641,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "669c4652255c8fd5c27dfd4a7822032c922efb8b": {
@@ -21670,9 +21670,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "1714d8042f5a4eb6e72c45cf4db12ab24404992c": {
@@ -21699,9 +21699,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-access-control-resources.610635116b70e4897cbfec457e3d48d1081d959a.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "def5daadf6869d5af0f3b6025eec48a04d152796": {
@@ -21728,9 +21728,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "65c01f8fe084446d1635eee20d130d4de0c8f7f9": {
@@ -21757,9 +21757,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-authentication-authorization.17a8875f52470c06f5b516b7a9b5726ce4255004.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "94801a7072a6a5211cd98fa80bc11334aafba5b5": {
@@ -21786,9 +21786,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "f21804685d123161b83ba6ba1d4ffe2ad457bded": {
@@ -21815,9 +21815,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-client-privacy.117accab157f9e42a754fff2a447409d8a44c4c8.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "def6e3c2e3d30ba7e4cc5ed67a26dfc182eee9c8": {
@@ -21844,9 +21844,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-data-classification.e1d23e9cfce9c35ab9038ed1ca35d919cd74a914.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "bfeb1fd4cceacf225093d3a5c2d808ebeb21c825": {
@@ -21873,9 +21873,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-data-encryption.63496fdcfe83e58c965a65195a5c114f2c709062.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "dd175d4099997c7d77b4379d71e5a00cac4f3f87": {
@@ -21902,9 +21902,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-data-segregation.1064d58a3065225477dd6367cedf583f4c5bc70b.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "7f0eed2025625147d0e6c9f236ce2a74fb813d08": {
@@ -21931,9 +21931,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "c54180e154caed5b58159dec22651c73b4a944f6": {
@@ -21960,9 +21960,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-determine-network-requirements.a89a25cd1a8f9bd7cd13952eb851a1d699d0a46f.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "3be59381d215da3a6c1e7e33bae592d02201c196": {
@@ -21989,9 +21989,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-develop-incident-response-requirements.c55446a9e5b2708f3facd9b9dc2f05b9b0773738.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "8670e37bc847485053009db781cabac54e9bc922": {
@@ -22018,9 +22018,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-develop-mdm-adoption-strategy.987a4d2c8cc444e99a1a3b8c2537e1bfdf462054.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "1f193851c08d5fae5d3093e0470921e28a04b5b6": {
@@ -22047,9 +22047,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "fcb9b57ff0ada697ebd7a4aa91f089e950e9adf5": {
@@ -22076,9 +22076,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "58dfb42b11edda8700cd7ae33401709775c9adca": {
@@ -22105,9 +22105,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-device-management-options.ae8b0192deba91ac6b980471c581090e14cd5e1e.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "7a96c347f073850248b7d12c2abbcf10ea132935": {
@@ -22134,9 +22134,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-device-monitoring-options.06b033691c8394d67fdf0d8f7f1508ea16cb33d0.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "1ada8192acae3225187b5a1c403f33fd488e3e20": {
@@ -22163,9 +22163,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-device-provisioning-options.e80a49318421d656718abf4f326f90bcfe76e171.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "4c6ac267f89cc25652f7f657a05fab91004da7d7": {
@@ -22192,9 +22192,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-email-management-options.e9cae1595a63e7783c76a9bc58d716d55c60d7e7.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "ac9808463acd811e53135dd7ce60844c12d46439": {
@@ -22221,9 +22221,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-gather-data-protection-requirements.8e695735717294eed2b97b1d23b0419f1f047bfa.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "d1a4c8e75b74a60b91875f85388a984e8fd3dd14": {
@@ -22250,9 +22250,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "27bb02a1273fc0bef733d5478faaa810f049a803": {
@@ -22279,9 +22279,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-hardening-mobile-devices.58c27654e34d4bb4bffc9274226eeeb6f5ce7bba.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "9fbc103fea6184c051f34541dc2e823750ae3792": {
@@ -22308,9 +22308,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "41adc6302c98576fadaa4e36b68b8d11fbba8054": {
@@ -22337,9 +22337,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "de06585840b60ed19bfdfadb5544b6d7d6776691": {
@@ -22366,9 +22366,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-identify-saas-requirements.1192c195cc8885a76c3f7ced1648703273db6ef8.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "a338f9b449551f257b8a55ded74b5775feb6df06": {
@@ -22395,9 +22395,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-identify-saas-solution-infrastructure-integration-needs.171ce383135a53451bc07e486eb8bad0ff2eb82e.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "47cd57aa3fb22482a282dc8bb3446f762f7f6750": {
@@ -22424,9 +22424,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-network-connectivity-management-options.9e8c1446eea8160ed22fede68a8e0f8be7b9369a.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "588f85c687e63f416bac82e632065f2687092d52": {
@@ -22453,9 +22453,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "541b3a4cbb200558d527a14ce6cc691d74431f0b": {
@@ -22482,9 +22482,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-specify-mdm-location-requirements.e1b1f7764d753bf09a46f92e19912bb820ead1bd.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "519482cadc7f0054883b70dd0de20e25380ec1a6": {
@@ -22511,9 +22511,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-specify-privacy-requirements.9e7da6ba2675222ebbf39c779ebd91e202d42e1d.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "e07565fd34f2eb89db0047c88f7834ed13cdf301": {
@@ -22540,9 +22540,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-specify-your-access-requirements.064240af860c51a92acd5e0a3d7623dc459944c9.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "75179ab51b1c990aa612d74b494a2aef35a7c616": {
@@ -22569,9 +22569,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "130d6e4e8ba30c47e2e4df29e9527e48cd38fb6d": {
@@ -22598,9 +22598,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "8d2df20d71d83ccd38ef96c84600f234665ab27e": {
@@ -22627,9 +22627,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-step-3-plan-enhancing-mobile-devices-protection.1f77502e5e2a31b6fd1f940576259d4d836a691f.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "0721029aec7bf0f47607b6c69f74dcea4f3c0eda": {
@@ -22656,9 +22656,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "16b50ff249ba2d88e16bc53aabb6f69b9a863f6e": {
@@ -22685,9 +22685,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "59ecdb2b98b1e670eb74c4877246c0c9b41abcb7": {
@@ -22888,9 +22888,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "d80496eafd390f2889f1358f292a0b0c3110516e": {
@@ -22917,9 +22917,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune.c339485628a2e3c42b06b61f1803663dfcc6ad14.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "9b376cd981372ebbaf54a848b20f5ed76074fac9": {
@@ -22946,9 +22946,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune-configmgr.66864f6deb09f91dd30ed7ed779303d53c9935ff.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "6546488c0a58e89bca2e0783aa3dd084f7bd455a": {
@@ -22975,9 +22975,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune-configmgr-exchange.b77e8e1dbdc11c64f555640e604182cec5b3e649.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "c982dc560e292478af25e14ce3cab2f12e7d6611": {
@@ -23004,9 +23004,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune-configmgr-exchange-online.4ad093f67f4e82d8962333604593013f51d00c56.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "6391db5ecd97460c46ea31ab140cd429939660f3": {
@@ -23033,9 +23033,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune-exchange.245c72088b5eacaa51099f7c853f12941e410350.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "ac89d74b3d1c3e49dc9fbab3d236e985fb9a73c1": {
@@ -23062,9 +23062,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "876057a1a9615b2248a46e14394622e2fd88aecd": {
@@ -23091,9 +23091,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     },
     "b1e7f8cfe47b43a0352c11f0f7bff8ee4fcf4e5d": {
@@ -23178,9 +23178,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\archive\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf",
+      "ArchiveFileCommit": "a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e",
+      "ArchiveFileDateTime": "2016-04-15T09:21:32.2112687Z",
       "ArchiveException": null
     }
   }
