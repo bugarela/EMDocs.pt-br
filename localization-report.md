@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 377
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 110
+[ Handoff Success Files ](#handoff-success-list)| 112
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 132
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 135
+[ Ignored Files ](#ignored-list)| 133
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -40,11 +40,13 @@
  [EMDocs\index - old.html](https://github.com/Microsoft/EMDocs-pr/blob/2a36328d8d860f75da5f319ac6d91c6bb826749a/EMDocs/index - old.html) | HandedOffSuccess | [Details](#05027e092f650571473b69c882f1c472a4d7ab2f59)
  [EMDocs\index - old2.html](https://github.com/Microsoft/EMDocs-pr/blob/518bdbdf729af386831cf2ee9a8237e96b87cf88/EMDocs/index - old2.html) | HandedOffSuccess | [Details](#91db52d7c715ca1f2b60593897ba7de47da4d4db60)
  [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/9d982691bcc935854a3f745d8cd5ad5dc21d5cbf/EMDocs/index.md) | HandedOffSuccess | [Details](#df5174c565f2607d0d3c6e72193a65fb4d0d9ed261)
+ [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/2bb4503fbaa6ecea308aacad08837676771bc85e/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | HandedOffSuccess | [Details](#fa91b2af5aa12a2438936aa12566cb6ececc270762)
  [EMDocs\Solutions\end-user-experience-conditional-access.md](https://github.com/Microsoft/EMDocs-pr/blob/923edea20942ed9162097dad0cb081182226f7c1/EMDocs/Solutions/end-user-experience-conditional-access.md) | HandedOffSuccess | [Details](#632c8a5637a5d0b619da5b11e7b8d46c780b3f3687)
  [EMDocs\Solutions\end-user-experience-conditional-access-android.md](https://github.com/Microsoft/EMDocs-pr/blob/923edea20942ed9162097dad0cb081182226f7c1/EMDocs/Solutions/end-user-experience-conditional-access-android.md) | HandedOffSuccess | [Details](#deebb005a4211d268687eae379a3b9db68f155cf84)
  [EMDocs\Solutions\end-user-experience-conditional-access-ios.md](https://github.com/Microsoft/EMDocs-pr/blob/923edea20942ed9162097dad0cb081182226f7c1/EMDocs/Solutions/end-user-experience-conditional-access-ios.md) | HandedOffSuccess | [Details](#9e4877ab735e56d4ac22d29a6df48a0ff9b80f9585)
  [EMDocs\Solutions\end-user-experience-conditional-access-winphone.md](https://github.com/Microsoft/EMDocs-pr/blob/923edea20942ed9162097dad0cb081182226f7c1/EMDocs/Solutions/end-user-experience-conditional-access-winphone.md) | HandedOffSuccess | [Details](#a44be79f0119d902465699fa2fbe74338ecb41d386)
  [EMDocs\Solutions\index.html](https://github.com/Microsoft/EMDocs-pr/blob/424108bc02dce818712d16858949349ceed8d53f/EMDocs/Solutions/index.html) | HandedOffSuccess | [Details](#ddd35a19cff155d22e02914b7b5ec71e7fcb2b9497)
+ [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/2bb4503fbaa6ecea308aacad08837676771bc85e/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) | HandedOffSuccess | [Details](#1d16683905cbfefef9fe7a0fa06d30e26845a9bb98)
  [EMDocs\Solutions\media\150x150.png](https://github.com/Microsoft/EMDocs-pr/blob/1aaad6ccaca53d4bd6293a1da75eee95a2fa449a/EMDocs/Solutions/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f71139)
  [EMDocs\Solutions\media\1-rms-onboarding-process.png](https://github.com/Microsoft/EMDocs-pr/blob/bef88dbfdf467706b88aad10d456bf18f70054bb/EMDocs/Solutions/media/1-rms-onboarding-process.png) | HandedOffSuccess | [Details](#d7641e47928129e58192ac12d9e36cd56c57be4d138)
  [EMDocs\Solutions\media\4-aadp-assess-phase-v3.png](https://github.com/Microsoft/EMDocs-pr/blob/bef88dbfdf467706b88aad10d456bf18f70054bb/EMDocs/Solutions/media/4-aadp-assess-phase-v3.png) | HandedOffSuccess | [Details](#37eebe7c7d8e52eb31e73bd024985eac7486d0a3141)
@@ -305,9 +307,7 @@
  [EMDocs\Image\mdm-dcg-icon.png](https://github.com/Microsoft/EMDocs-pr/blob/c569df29668bc1fd3d0d6dd1e3269e9dffdd16f9/EMDocs/Image/mdm-dcg-icon.png) | Ignored | [Details](#48120e0469d0cf1f25ccae705922846592e9f13655)
  [EMDocs\Image\mobile_devices_icon.png](https://github.com/Microsoft/EMDocs-pr/blob/3521b67d5600e594342bcf0a22a47d2e2b8720d2/EMDocs/Image/mobile_devices_icon.png) | Ignored | [Details](#0f669e5642999152c9bdeb33b2306a43714cab7957)
  [EMDocs\Image\mobile_engagement_icon.png](https://github.com/Microsoft/EMDocs-pr/blob/7de4ac7ab4d2efb0a00964c2d7856d788cfa5b7d/EMDocs/Image/mobile_engagement_icon.png) | Ignored | [Details](#b241a9a18fa3ab470534603d032fa7cf8ff0f06658)
- [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/2bb4503fbaa6ecea308aacad08837676771bc85e/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | Ignored | [Details](#fa91b2af5aa12a2438936aa12566cb6ececc270762)
  [EMDocs\Solutions\docfx.json](https://github.com/Microsoft/EMDocs-pr/blob/ae12d5d56c0b3c73f9119d5b27a27d86d0d891b7/EMDocs/Solutions/docfx.json) | Ignored | [Details](#f895c956cef62646ff7edf49105a2021202ecaef83)
- [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/2bb4503fbaa6ecea308aacad08837676771bc85e/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) | Ignored | [Details](#1d16683905cbfefef9fe7a0fa06d30e26845a9bb98)
  [EMDocs\Solutions\media\1-aadp-onboarding-process-v3.png](https://github.com/Microsoft/EMDocs-pr/blob/bef88dbfdf467706b88aad10d456bf18f70054bb/EMDocs/Solutions/media/1-aadp-onboarding-process-v3.png) | Ignored | [Details](#5eac3f12f94f18d6da8d5191fbc2087b8baa461e137)
  [EMDocs\Solutions\media\2-aadp-onboarding-phases-v3.png](https://github.com/Microsoft/EMDocs-pr/blob/bef88dbfdf467706b88aad10d456bf18f70054bb/EMDocs/Solutions/media/2-aadp-onboarding-phases-v3.png) | Ignored | [Details](#0478b1d6b50ed08e780f0de7ba57e26d9a653c70140)
  [EMDocs\Solutions\media\4-aadp-assess-phase-v4.png](https://github.com/Microsoft/EMDocs-pr/blob/bef88dbfdf467706b88aad10d456bf18f70054bb/EMDocs/Solutions/media/4-aadp-assess-phase-v4.png) | Ignored | [Details](#c35f1ea3e19ceb9319688b7b85b0cce91505ebbe142)
@@ -1177,11 +1177,11 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fa91b2af5aa12a2438936aa12566cb6ececc270762'></a> Source: [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/2bb4503fbaa6ecea308aacad08837676771bc85e/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)
-* Status: Ignored
+* Status: HandedOffSuccess
 * Target File: 
-* Handoff File: 
-* Handoff Datetime: 0001-01-01 00:00:00
-* Handoff Reason: Ignored
+* Handoff File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/4075ab753a91aed8488a29b1325aa06c5b5e6cd2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf)
+* Handoff Datetime: 2016-04-18 15:47:50
+* Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -1609,11 +1609,11 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1d16683905cbfefef9fe7a0fa06d30e26845a9bb98'></a> Source: [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/2bb4503fbaa6ecea308aacad08837676771bc85e/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
-* Status: Ignored
+* Status: HandedOffSuccess
 * Target File: 
-* Handoff File: 
-* Handoff Datetime: 0001-01-01 00:00:00
-* Handoff Reason: Ignored
+* Handoff File: [learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/4075ab753a91aed8488a29b1325aa06c5b5e6cd2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.pt-br.xlf)
+* Handoff Datetime: 2016-04-18 15:47:50
+* Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
