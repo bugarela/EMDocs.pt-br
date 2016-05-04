@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md) | InSyncHandedBackSuccess | [Details](#0721029aec7bf0f47607b6c69f74dcea4f3c0eda133)
 
 ## Item Details
+##### <a name='0721029aec7bf0f47607b6c69f74dcea4f3c0eda133'></a> Source: [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/d00078bd732be2d186601754624b8707c930c98a/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
+* Handoff File: [mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/62f8ffe93f6aa45164b25149daf94f718b543fd8/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf)
+* Handoff Datetime: 2016-04-13 23:50:20
+* Handoff Reason: Include
+* Archive File: [mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/a1cb9712ed4e27bc1261d17e8805a4d3ed60b30e/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf)
+* Archive Datetime: 2016-04-15 09:21:32
+* Handback File: [mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/d2f17f12a907efad78e24da282f3962ef83de6e3/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf)
+* Handback Datetime: 2016-05-04 06:33:43
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
