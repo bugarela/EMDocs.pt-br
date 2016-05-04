@@ -5,12 +5,12 @@
  -------- | ----- 
  Total Files | 382
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 114
+[ Handoff Success Files ](#handoff-success-list)| 113
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 2
+[ Archive Success Files ](#archive-success-list)| 1
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 35
-[ In Sync Handback Files ](#insync-handback-success-list)| 96
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 36
+[ In Sync Handback Files ](#insync-handback-success-list)| 97
 [ Ignored Files ](#ignored-list)| 135
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -131,7 +131,6 @@
  [EMDocs\Solutions\media\ProtectEmail\Hybrid-Reports-Deployment-Status.png](https://github.com/Microsoft/EMDocs-pr/blob/7f7f39751b4ba314fede7699c813ff4eb34d346b/EMDocs/Solutions/media/ProtectEmail/Hybrid-Reports-Deployment-Status.png) | HandedOffSuccess | [Details](#3c17bb0e80792952c86ce97f9b623cd85518001f294)
  [EMDocs\Solutions\media\ProtectEmail\intune-sa-6blocked-devices.PNG](https://github.com/Microsoft/EMDocs-pr/blob/0194ed2a4c36b6dad96747fbfa6668790095f278/EMDocs/Solutions/media/ProtectEmail/intune-sa-6blocked-devices.PNG) | HandedOffSuccess | [Details](#49427494881cb50b4baadf18311da0f9744f6c43295)
  [EMDocs\Solutions\media\ProtectEmail\Protecting_your_data.png](https://github.com/Microsoft/EMDocs-pr/blob/0d597abfd03d1e5a5b148e72441b459e4535bfae/EMDocs/Solutions/media/ProtectEmail/Protecting_your_data.png) | HandedOffSuccess | [Details](#5d23feda97afbd203a4d57d0f958baca68438c2c296)
- [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md) | HandedOffSuccess | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -139,7 +138,6 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md) | ArchivedSuccess | [Details](#0721029aec7bf0f47607b6c69f74dcea4f3c0eda133)
- [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_1.md) | ArchivedSuccess | [Details](#589e630a9572813d02b6a335218e36f42ff0fe90364)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
@@ -181,6 +179,7 @@
  [EMDocs\Solutions\protect-email-attachments.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/protect-email-attachments.md) | OutofSyncHandedBackSuccess | [Details](#0bf455c24808f6dec237acb20150dd6bf129be70327)
  [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/f034ba0e33cdaad62391021986887afff2e376b6/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#13eae3089e5ab166f76ea4730ffde75c77fe1653329)
  [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/714233f3b2a7573fc662c6b3bbb16dcd33c8fa3e/EMDocs/toc.yml) | OutofSyncHandedBackSuccess | [Details](#b18d6beadc58195258675d46f89def4cd4f74efe330)
+ [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md) | OutofSyncHandedBackSuccess | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -266,6 +265,7 @@
  [EMDocs\Token\System-Center-2012-Configuration-Manager.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/System-Center-2012-Configuration-Manager.md) | InSyncHandedBackSuccess | [Details](#9af04e46b68b328c29cf635a880144c6d56d3848359)
  [EMDocs\Token\System-Center-2012-R2-Configuration-Manager.md](https://github.com/Microsoft/EMDocs-pr/blob/18059440f157c844e1be08e5c8af1cc47e168cc9/EMDocs/Token/System-Center-2012-R2-Configuration-Manager.md) | InSyncHandedBackSuccess | [Details](#745e57cb646c59dcdc9eae28f613b2f4c657b141360)
  [EMDocs\Token\System-Center-Configuration-Manager-2007.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/System-Center-Configuration-Manager-2007.md) | InSyncHandedBackSuccess | [Details](#1eeded8f5c2b65b278baea88b8031b29b568c9dc362)
+ [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_1.md) | InSyncHandedBackSuccess | [Details](#589e630a9572813d02b6a335218e36f42ff0fe90364)
  [EMDocs\Token\vmmblue_2.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_2.md) | InSyncHandedBackSuccess | [Details](#bf0e911029698ac65d18c0d5d08d362fdb4022e0365)
  [EMDocs\Token\win8_client_ent_2.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/win8_client_ent_2.md) | InSyncHandedBackSuccess | [Details](#05f6bc3083e7cd786d964a31b4b149f1e213548a366)
  [EMDocs\Token\win8RT_client_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/win8RT_client_1.md) | InSyncHandedBackSuccess | [Details](#14b0d8220b2f0ea1bbcc86aad21a64a532db5d96367)
@@ -5004,15 +5004,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='589e630a9572813d02b6a335218e36f42ff0fe90364'></a> Source: [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_1.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a630cd23359d62576d532b512f4068dc9fa293f2/EMDocs/Token/vmmblue_1.md)
 * Handoff File: [vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/98d2ddc51290f15866d8ecdc75308afd592887bc/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf)
 * Handoff Datetime: 2016-03-04 20:25:11
 * Handoff Reason: Include
 * Archive File: [vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/d7c8844b8cde1307bfb9c8480936bacc782caa45/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf)
 * Archive Datetime: 2016-04-15 09:29:53
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/2350e0bcb07fb2f40dbf9d20ef64d1f6d05d6fa0/ol-handback/Microsoft/EMDocs-pr.pt-br/master/vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf)
+* Handback Datetime: 2016-05-04 02:54:04
 * [Back to Top](#report-top)
 
 ##### <a name='bf0e911029698ac65d18c0d5d08d362fdb4022e0365'></a> Source: [EMDocs\Token\vmmblue_2.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_2.md)
@@ -5196,7 +5196,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380'></a> Source: [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md)
-* Status: HandedOffSuccess
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/39acb8d3ac04886e0b77951783c5094a710d597d/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.pt-br.xlf)
 * Handoff Datetime: 2016-05-03 09:24:31
@@ -5205,6 +5205,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [README.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a630cd23359d62576d532b512f4068dc9fa293f2/README.md)
+* Current Handback File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/2350e0bcb07fb2f40dbf9d20ef64d1f6d05d6fa0/ol-handback/Microsoft/EMDocs-pr.pt-br/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.pt-br.xlf)
+* Current Handback Datetime: 2016-05-04 02:54:04
 * Dependency From: contributor-guide\create-tables-markdown.md
 * [Back to Top](#report-top)
 
