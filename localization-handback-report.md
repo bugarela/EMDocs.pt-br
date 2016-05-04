@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_1.md) | InSyncHandedBackSuccess | [Details](#589e630a9572813d02b6a335218e36f42ff0fe90364)
 
 ## Item Details
-##### <a name='589e630a9572813d02b6a335218e36f42ff0fe90364'></a> Source: [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/vmmblue_1.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Token\vmmblue_1.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a630cd23359d62576d532b512f4068dc9fa293f2/EMDocs/Token/vmmblue_1.md)
-* Handoff File: [vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/98d2ddc51290f15866d8ecdc75308afd592887bc/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf)
-* Handoff Datetime: 2016-03-04 20:25:11
-* Handoff Reason: Include
-* Archive File: [vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/d7c8844b8cde1307bfb9c8480936bacc782caa45/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf)
-* Archive Datetime: 2016-04-15 09:29:53
-* Handback File: [vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/2350e0bcb07fb2f40dbf9d20ef64d1f6d05d6fa0/ol-handback/Microsoft/EMDocs-pr.pt-br/master/vmmblue_1.13b6e089d1331c9c1b05830fe727ed1f69383efe.pt-br.xlf)
-* Handback Datetime: 2016-05-04 02:54:04
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
