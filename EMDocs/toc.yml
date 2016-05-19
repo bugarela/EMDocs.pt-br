@@ -1,98 +1,98 @@
-- nome: Enterprise Mobility
+- name: Enterprise Mobility
   href: /em/
-  home page: /em
-  itens:
-  - nome: Soluções
+  homepage: /em
+  items:
+  - name: Soluções
     href: /em/solutions/
-    home page: /em/solutions/byod-design-considerations-guide
-  - nome: Azure RemoteApp
+    homepage: /em/solutions/byod-design-considerations-guide
+  - name: Azure RemoteApp
     href: /remoteapp/
-    home page: /remoteapp
-  - nome: Azure Active Directory
+    homepage: /remoteapp
+  - name: Azure Active Directory
     href: /active-directory/
-    home page: /active-directory
-  - nome: Multi-factor Authentication
+    homepage: /active-directory
+  - name: Multi-factor Authentication
     href: /multi-factor-authentication/
-    home page: /multi-factor-authentication
-  - nome: Advanced Threat Analytics
+    homepage: /multi-factor-authentication
+  - name: Advanced Threat Analytics
     href: /advanced-threat-analytics/
-    home page: /ata
-    itens:
-      - nome: Entender e explorar
+    homepage: /ata
+    items:
+      - name: Entender e explorar
         href: /advanced-threat-analytics/understand/
-        home page: /advanced-threat-analytics/understand/ata-understand-and-explore
-      - nome: Plano e design 
+        homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
+      - name: Plano e design 
         href: /advanced-threat-analytics/plandesign/
-        home page: /advanced-threat-analytics/plandesign/ata-plan-and-design
-      - nome: Implantar e usar
+        homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
+      - name: Implantar e usar
         href: /advanced-threat-analytics/deployuse/
-        home page: /advanced-threat-analytics/deployuse/ata-deploy-and-use
-      - nome: Solucionar problemas
+        homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
+      - name: Solucionar problemas
         href: /advanced-threat-analytics/troubleshoot/
-        home page: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
-  - nome: Intune
+        homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+  - name: Intune
     href: /intune/
-    home page: /intune
-    itens:
-      - nome: Entender e explorar
+    homepage: /intune
+    items:
+      - name: Entender e explorar
         href: /intune/understand/
-        home page: /intune/understand/ways-to-do-enterprise-mobility
-      - nome: Plano e design 
+        homepage: /intune/understand/ways-to-do-enterprise-mobility
+      - name: Plano e design 
         href: /intune/plandesign/
-        home page: /intune/plandesign/plan-you-user-and-device-groups
-      - nome: Implantar e usar
+        homepage: /intune/plandesign/plan-you-user-and-device-groups
+      - name: Implantar e usar
         href: /intune/deployuse/
-        home page: /intune/deployuse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
-      - nome: Solucionar problemas
+        homepage: /intune/deployuse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+      - name: Solucionar problemas
         href: /intune/troubleshoot/
-        home page: /intune/troubleshoot/troubleshoot-microsoft-intune
-      - nome: Introdução
+        homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
+      - name: Introdução
         href: /intune/getstarted/
-        home page: /intune/getstarted/what-s-new-in-microsoft-intune
-  - nome: Azure Rights Management
+        homepage: /intune/getstarted/what-s-new-in-microsoft-intune
+  - name: Azure Rights Management
     href: /rights-management/
-    home page: /rights-management
-    itens:
-      - nome: Entender e explorar
+    homepage: /rights-management
+    items:
+      - name: Entender e explorar
         href: /rights-management/understand-explore/
-        home page: /rights-management/understand-explore/what-is-azure-rights-management
-      - nome: Introdução
+        homepage: /rights-management/understand-explore/what-is-azure-rights-management
+      - name: Introdução
         href: /rights-management/get-started/
-        home page: /rights-management/get-started/requirements-for-azure-rights-management
-      - nome: Plano e design 
+        homepage: /rights-management/get-started/requirements-for-azure-rights-management
+      - name: Plano e design 
         href: /rights-management/plan-design/
-        home page: /rights-management/plan-design/azure-rights-management-deployment-roadmap
-      - nome: Implantar e usar
+        homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
+      - name: Implantar e usar
         href: /rights-management/deploy-use/
-        home page: /rights-management/deploy-use/activating-azure-rights-management
-      - nome: Desenvolver e personalizar aplicativos
+        homepage: /rights-management/deploy-use/activating-azure-rights-management
+      - name: Desenvolver e personalizar aplicativos
         href: /rights-management/develop/
-        home page: /rights-management/develop/developers-guide
-      - nome: Administrar
+        homepage: /rights-management/develop/developers-guide
+      - name: Administrar
         href: /rights-management/administer/
-        home page: /rights-management/administer/administering-azure-rights-management-with-powershell
-      - nome: Cliente RMS
+        homepage: /rights-management/administer/administering-azure-rights-management-with-powershell
+      - name: Cliente RMS
         href: /rights-management/rms-client/
-        home page: /rights-management/rms-client/rights-management-rms-client
-  - nome: Microsoft Identity Manager
+        homepage: /rights-management/rms-client/rights-management-rms-client
+  - name: Microsoft Identity Manager
     href: /microsoft-identity-manager/
-    home page: /microsoft-identity-manager
-    itens:
-      - nome: Entender e explorar
+    homepage: /microsoft-identity-manager
+    items:
+      - name: Entender e explorar
         href: /microsoft-identity-manager/understand/
-        home page: /microsoft-identity-manager/understand/journey-understand-evaluate
-      - nome: Plano e design 
+        homepage: /microsoft-identity-manager/understand/journey-understand-evaluate
+      - name: Plano e design 
         href: /microsoft-identity-manager/plandesign/
-        home page: /microsoft-identity-manager/plandesign/journey-plan-design
-      - nome: Implantar e usar
+        homepage: /microsoft-identity-manager/plandesign/journey-plan-design
+      - name: Implantar e usar
         href: /microsoft-identity-manager/deployuse/
-        home page: /microsoft-identity-manager/deployuse/journey-deploy-use-html
-      - nome: Referência
+        homepage: /microsoft-identity-manager/deployuse/journey-deploy-use-html
+      - name: Referência
         href: /microsoft-identity-manager/reference/
-        home page: /microsoft-identity-manager/reference/journey-develop-applications
-      - nome: Introdução
+        homepage: /microsoft-identity-manager/reference/journey-develop-applications
+      - name: Introdução
         href: /microsoft-identity-manager/getstarted/
-        home page: /microsoft-identity-manager/getstarted/journey-get-started
-  - nome: Referência
+        homepage: /microsoft-identity-manager/getstarted/journey-get-started
+  - name: Referência
     href: /active-directory/adal/
-    home page: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+    homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
