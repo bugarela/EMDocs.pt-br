@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "cbf600b265261b131f9e17d23d8db47ec6b88f34",
+  "LastProcessedCommit": "e1e590559822adbfd9e77c9b80a650dc16cff7c9",
   "LastTranslatedCommit": "d00078bd732be2d186601754624b8707c930c98a",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -3557,7 +3557,7 @@
       "FilePathList": [
         "contributor-guide\\contributor-guide-index.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.9219994Z",
@@ -3587,7 +3587,7 @@
       "FilePathList": [
         "contributor-guide\\file-names-and-locations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.905165Z",
@@ -3647,7 +3647,7 @@
       "FilePathList": [
         "contributor-guide\\style-and-voice.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\style-and-voice.e6bad968630c564936e430b8974885a4fc02438a.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.9219994Z",
@@ -3677,7 +3677,7 @@
       "FilePathList": [
         "contributor-guide\\tools-and-setup.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\tools-and-setup.95c5b917ee957eea9e503f22b82d5314576ee457.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.905165Z",
@@ -3707,7 +3707,7 @@
       "FilePathList": [
         "contributor-guide\\work-with-git.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\work-with-git.a0bc3817f6c10f6e100f51384e9fc6539869d5b8.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.9219994Z",
@@ -3737,7 +3737,7 @@
       "FilePathList": [
         "contributor-guide\\authoring-in-markdown.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.9219994Z",
@@ -3767,7 +3767,7 @@
       "FilePathList": [
         "contributor-guide\\create-tables-markdown.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.9219994Z",
@@ -3827,7 +3827,7 @@
       "FilePathList": [
         "contributor-guide\\rename-or-retire-an-article.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\rename-or-retire-an-article.8ab882b43c964087f440cc5762f237afde9290f5.pt-br.xlf",
       "HandoffFileCommit": "98d2ddc51290f15866d8ecdc75308afd592887bc",
       "HandoffDateTime": "2016-03-04T20:25:11.9219994Z",
@@ -21343,7 +21343,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-app-considerations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-app-considerations.47a5f8f2d50d482c801c868ef89529ddb2333893.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -21613,7 +21613,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-summary-and-additional-resources.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-summary-and-additional-resources.09c9433d1b3b5f861def64d181e833c0ba3b47f5.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22333,7 +22333,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\lp_selector.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22363,7 +22363,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\lp-selector1.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22393,7 +22393,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\lp-selector2.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22423,7 +22423,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-access-control-resources.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-access-control-resources.610635116b70e4897cbfec457e3d48d1081d959a.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22453,7 +22453,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-application-management-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22483,7 +22483,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-authentication-authorization.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-authentication-authorization.17a8875f52470c06f5b516b7a9b5726ce4255004.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22513,7 +22513,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-certificate-management-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22543,7 +22543,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-client-privacy.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-client-privacy.117accab157f9e42a754fff2a447409d8a44c4c8.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22573,7 +22573,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-data-classification.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-data-classification.e1d23e9cfce9c35ab9038ed1ca35d919cd74a914.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22603,7 +22603,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-data-encryption.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-data-encryption.63496fdcfe83e58c965a65195a5c114f2c709062.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22633,7 +22633,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-data-segregation.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-data-segregation.1064d58a3065225477dd6367cedf583f4c5bc70b.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22663,7 +22663,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-design-considerations-guide.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22693,7 +22693,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-determine-network-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-determine-network-requirements.a89a25cd1a8f9bd7cd13952eb851a1d699d0a46f.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22723,7 +22723,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-develop-incident-response-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-develop-incident-response-requirements.c55446a9e5b2708f3facd9b9dc2f05b9b0773738.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22753,7 +22753,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-develop-mdm-adoption-strategy.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-develop-mdm-adoption-strategy.987a4d2c8cc444e99a1a3b8c2537e1bfdf462054.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22783,7 +22783,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-develop-saas-mdm-strategy.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22813,7 +22813,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-device-enrollment-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22843,7 +22843,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-device-management-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-device-management-options.ae8b0192deba91ac6b980471c581090e14cd5e1e.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22873,7 +22873,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-device-monitoring-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-device-monitoring-options.06b033691c8394d67fdf0d8f7f1508ea16cb33d0.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22903,7 +22903,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-device-provisioning-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-device-provisioning-options.e80a49318421d656718abf4f326f90bcfe76e171.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22933,7 +22933,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-email-management-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-email-management-options.e9cae1595a63e7783c76a9bc58d716d55c60d7e7.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22963,7 +22963,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-gather-data-protection-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-gather-data-protection-requirements.8e695735717294eed2b97b1d23b0419f1f047bfa.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -22993,7 +22993,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-gather-monitoring-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23023,7 +23023,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-hardening-mobile-devices.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-hardening-mobile-devices.58c27654e34d4bb4bffc9274226eeeb6f5ce7bba.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23053,7 +23053,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-identify-business-needs.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23083,7 +23083,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-identify-saas-connectivity-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23113,7 +23113,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-identify-saas-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-identify-saas-requirements.1192c195cc8885a76c3f7ced1648703273db6ef8.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23143,7 +23143,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-identify-saas-solution-infrastructure-integration-needs.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-identify-saas-solution-infrastructure-integration-needs.171ce383135a53451bc07e486eb8bad0ff2eb82e.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23173,7 +23173,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-network-connectivity-management-options.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-network-connectivity-management-options.9e8c1446eea8160ed22fede68a8e0f8be7b9369a.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23203,7 +23203,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-next-steps-and-additional-resources.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23233,7 +23233,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-specify-mdm-location-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-specify-mdm-location-requirements.e1b1f7764d753bf09a46f92e19912bb820ead1bd.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23263,7 +23263,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-specify-privacy-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-specify-privacy-requirements.9e7da6ba2675222ebbf39c779ebd91e202d42e1d.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23293,7 +23293,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-specify-your-access-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-specify-your-access-requirements.064240af860c51a92acd5e0a3d7623dc459944c9.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23323,7 +23323,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-step-1-identify-your-mobile-device-management-requirements.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23353,7 +23353,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-step-2-plan-for-mobile-device-management.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23383,7 +23383,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-step-3-plan-enhancing-mobile-devices-protection.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-step-3-plan-enhancing-mobile-devices-protection.1f77502e5e2a31b6fd1f940576259d4d836a691f.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23413,7 +23413,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -23443,7 +23443,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\mdm-understand-mdm-lifecycle.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.pt-br.xlf",
       "HandoffFileCommit": "62f8ffe93f6aa45164b25149daf94f718b543fd8",
       "HandoffDateTime": "2016-04-13T23:50:20.593937Z",
@@ -24285,7 +24285,7 @@
       "FilePathList": [
         "contributor-guide\\article-metadata.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.pt-br.xlf",
       "HandoffFileCommit": "6155fb0d0fc0bf403d4e55c95ab6c17123331248",
       "HandoffDateTime": "2016-04-18T16:55:56.0941776Z",
@@ -24315,7 +24315,7 @@
       "FilePathList": [
         "contributor-guide\\content-channel-guidance.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.pt-br.xlf",
       "HandoffFileCommit": "6155fb0d0fc0bf403d4e55c95ab6c17123331248",
       "HandoffDateTime": "2016-04-18T16:55:56.0941776Z",
@@ -24345,7 +24345,7 @@
       "FilePathList": [
         "contributor-guide\\custom-markdown-extensions.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.pt-br.xlf",
       "HandoffFileCommit": "6155fb0d0fc0bf403d4e55c95ab6c17123331248",
       "HandoffDateTime": "2016-04-18T16:55:56.0941776Z",
@@ -24945,7 +24945,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-data-access-protection-reqs.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-data-access-protection-reqs.1db689a653714db8161990f6fcc1b5f4338de4bb.pt-br.xlf",
       "HandoffFileCommit": "c2d39584e23b27e6800e15ff6dc5d41bf9e50189",
       "HandoffDateTime": "2016-04-21T20:51:42.3468483Z",
@@ -25095,7 +25095,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-app-reqs.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-app-reqs.b9000aee0e8857b584c534c29dd915e6442438d1.pt-br.xlf",
       "HandoffFileCommit": "f06d4d0917610b92846bedd1e3609b08491f9c99",
       "HandoffDateTime": "2016-04-21T22:47:57.6134914Z",
@@ -25275,7 +25275,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-design-considerations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.pt-br.xlf",
       "HandoffFileCommit": "33747a0e1d29eba0bacd07a853693a0191c332f7",
       "HandoffDateTime": "2016-04-22T16:48:29.4712838Z",
@@ -25305,7 +25305,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-management-considerations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-management-considerations.0b86292377b4ae88afb7b88d44ced951a9eee9c2.pt-br.xlf",
       "HandoffFileCommit": "33747a0e1d29eba0bacd07a853693a0191c332f7",
       "HandoffDateTime": "2016-04-22T16:48:29.4712838Z",
@@ -25425,7 +25425,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25455,7 +25455,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-data-access-and-protection-considerations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-data-access-and-protection-considerations.9823ea903a3e070a7234c6e0ef09aaa3875ae76a.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25485,7 +25485,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-design-considerations-guide.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-design-considerations-guide.541d5e5bcea0d863185d9ca711288c7fe35eb32d.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25515,7 +25515,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-envisioning-the-byod-infrastructure-solution.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-envisioning-the-byod-infrastructure-solution.f907e7abfba917fbdcfe8b52faf28bb6e4aa63e0.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25545,7 +25545,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-management-reqs.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-management-reqs.8c99e701fdafa6c0344eb62e36237558dfe4e875.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25695,7 +25695,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune-configmgr-coexist.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune-configmgr-coexist.c14a1cb5d27308437cb869cb2a2c75962829aab4.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25755,7 +25755,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune-configmgr-exchange-online.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune-configmgr-exchange-online.4ad093f67f4e82d8962333604593013f51d00c56.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25845,7 +25845,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\end-user-experience-conditional-access.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\end-user-experience-conditional-access.4a68033662f5a0b862f762cdf275910eeb857a94.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25875,7 +25875,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\end-user-experience-conditional-access-android.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\end-user-experience-conditional-access-android.845fa27966cd14a9a4d7b9665112684b0fc7f2ac.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25905,7 +25905,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\end-user-experience-conditional-access-ios.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\end-user-experience-conditional-access-ios.1a35b3bc1d79141f39fb4c7ccc0686f48d56d2c6.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25935,7 +25935,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\end-user-experience-conditional-access-winphone.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\end-user-experience-conditional-access-winphone.1a08db98003da80e09e00327f28d099398265b30.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25965,7 +25965,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\enterprise-mobility-fasttrack-program.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -25995,7 +25995,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\implement-solution.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -26025,7 +26025,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -26055,7 +26055,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\protect-corporate-email-documents.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -26085,7 +26085,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\protect-email-attachments.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\protect-email-attachments.7c12c124ed16c23b2319105d98c02bf87bea025f.pt-br.xlf",
       "HandoffFileCommit": "c961462839e694a58a1a8df0a320558033b361c5",
       "HandoffDateTime": "2016-04-25T22:29:59.5179554Z",
@@ -26175,7 +26175,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune.c339485628a2e3c42b06b61f1803663dfcc6ad14.pt-br.xlf",
       "HandoffFileCommit": "676594204f3e271e2b572a771f34ae1c2a3564c0",
       "HandoffDateTime": "2016-04-26T17:47:06.1802311Z",
@@ -26205,7 +26205,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune-configmgr.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune-configmgr.66864f6deb09f91dd30ed7ed779303d53c9935ff.pt-br.xlf",
       "HandoffFileCommit": "676594204f3e271e2b572a771f34ae1c2a3564c0",
       "HandoffDateTime": "2016-04-26T17:47:06.1802311Z",
@@ -26235,7 +26235,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune-configmgr-exchange.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune-configmgr-exchange.b77e8e1dbdc11c64f555640e604182cec5b3e649.pt-br.xlf",
       "HandoffFileCommit": "676594204f3e271e2b572a771f34ae1c2a3564c0",
       "HandoffDateTime": "2016-04-26T17:47:06.1802311Z",
@@ -26265,7 +26265,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune-exchange.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune-exchange.245c72088b5eacaa51099f7c853f12941e410350.pt-br.xlf",
       "HandoffFileCommit": "676594204f3e271e2b572a771f34ae1c2a3564c0",
       "HandoffDateTime": "2016-04-26T17:47:06.1802311Z",
@@ -26295,7 +26295,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\conditional-access-intune-exchange-online.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.pt-br.xlf",
       "HandoffFileCommit": "676594204f3e271e2b572a771f34ae1c2a3564c0",
       "HandoffDateTime": "2016-04-26T17:47:06.1802311Z",
@@ -27031,7 +27031,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-user-and-device-considerations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-user-and-device-considerations.46c4671df2293b135442ab94a70a9dd91c4c16b8.pt-br.xlf",
       "HandoffFileCommit": "b6d818566a06f7d7f5a86d134b7a86486d368874",
       "HandoffDateTime": "2016-04-27T22:51:41.4784495Z",
@@ -27061,7 +27061,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.81b93a1d9b409b9c9854f09cc169f4a2aaca7ec8.pt-br.xlf",
       "HandoffFileCommit": "b6d818566a06f7d7f5a86d134b7a86486d368874",
       "HandoffDateTime": "2016-04-27T22:51:41.4784495Z",
@@ -27091,7 +27091,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-environment-expectations.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.pt-br.xlf",
       "HandoffFileCommit": "b6d818566a06f7d7f5a86d134b7a86486d368874",
       "HandoffDateTime": "2016-04-27T22:51:41.4784495Z",
@@ -27121,7 +27121,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.pt-br.xlf",
       "HandoffFileCommit": "b6d818566a06f7d7f5a86d134b7a86486d368874",
       "HandoffDateTime": "2016-04-27T22:51:41.4784495Z",
@@ -27211,7 +27211,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-your-responsibilities.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.pt-br.xlf",
       "HandoffFileCommit": "b6d818566a06f7d7f5a86d134b7a86486d368874",
       "HandoffDateTime": "2016-04-27T22:51:41.4784495Z",
@@ -27241,7 +27241,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf",
       "HandoffFileCommit": "b6d818566a06f7d7f5a86d134b7a86486d368874",
       "HandoffDateTime": "2016-04-27T22:51:41.4784495Z",
@@ -27361,7 +27361,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-phases.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.pt-br.xlf",
       "HandoffFileCommit": "5cdb1b3ac494880ca1f7dd49a9ad12bf9f9a54b2",
       "HandoffDateTime": "2016-04-29T17:46:17.807089Z",
@@ -27513,7 +27513,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-overview.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.pt-br.xlf",
       "HandoffFileCommit": "5b001df00438a24462c888a881d8330ba1548e20",
       "HandoffDateTime": "2016-05-04T22:24:53.2122168Z",
@@ -27543,7 +27543,7 @@
       "FilePathList": [
         "EMDocs\\Solutions\\byod-user-device-reqs.md"
       ],
-      "HasMetadata": false,
+      "HasMetadata": true,
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\byod-user-device-reqs.2adb886173f56743f2a0c1bb61e465397e9d9851.pt-br.xlf",
       "HandoffFileCommit": "5a6ace34035f9ba13c78e1e9b1e21948fa6e69c0",
       "HandoffDateTime": "2016-05-06T20:24:23.255551Z",
@@ -27577,6 +27577,36 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf",
       "HandoffFileCommit": "38daa75b7efc7def48979a11b227a805a62af1d1",
       "HandoffDateTime": "2016-05-11T03:59:05.3385104Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "21632ea50fe5f42cb2d50b2eae2a50c39cbf58b1": {
+      "FileHash": "21632ea50fe5f42cb2d50b2eae2a50c39cbf58b1",
+      "SourceFileCommit": "93cf8f4b51113ac023423b41b6367c103cea5ff3",
+      "SourceFilePath": "EMDocs\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\index.md"
+      ],
+      "HasMetadata": true,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf",
+      "HandoffFileCommit": "e463547553e0736cfbe30e5335b399a088ff988a",
+      "HandoffDateTime": "2016-05-19T00:37:07.0411771Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
