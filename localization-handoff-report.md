@@ -1,11 +1,29 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/69e648b4f6513f73349f67eb9113f6ad04f83506/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#56e17f01653a3fe71f52a03235fb7e7feadd73c0131)
 
 ## Item Details
+##### <a name='56e17f01653a3fe71f52a03235fb7e7feadd73c0131'></a> Source: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/69e648b4f6513f73349f67eb9113f6ad04f83506/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/54849ee8dd7fffb5e65bf4c11b240c23b13652ec/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
+* Handoff Datetime: 2016-05-20 04:38:36
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
+* Current Handback File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/0072eea8bfa1e7693ca6d3b129f10c1ec5130315/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
+* Current Handback Datetime: 2016-04-28 20:06:19
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
