@@ -53,7 +53,7 @@ Os produtos, as tecnologias e os serviços da Microsoft para uma solução de in
 - Serviço Microsoft Rights Management
 - Azure Rights Management 
 - Criptografia SMB
-- SS (Logon Único)
+- Logon Único (SSO)
 - Pastas de trabalho
 - WAP (Proxy de Aplicativo Web)
 
@@ -87,6 +87,6 @@ O design de infraestrutura para compatibilidade com a BYOD reúne as respostas �
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
