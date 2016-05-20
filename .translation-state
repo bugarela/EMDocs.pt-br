@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "3a2ee31d952d694e7443f48bc53923734cebc5cf",
+  "LastProcessedCommit": "7f1d552d80dcc35c97e313ed8badaf2d1c7244ed",
   "LastTranslatedCommit": "6f6ddc981f3a9db5b134542c943856c6b1d7e79f",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -27637,6 +27637,36 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf",
       "HandoffFileCommit": "54849ee8dd7fffb5e65bf4c11b240c23b13652ec",
       "HandoffDateTime": "2016-05-20T04:38:36.2893271Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "4e3f6c3bf9f75a3be46b64413db91ad5e398e01d": {
+      "FileHash": "4e3f6c3bf9f75a3be46b64413db91ad5e398e01d",
+      "SourceFileCommit": "1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb",
+      "SourceFilePath": "EMDocs\\Solutions\\mdm-step-2-plan-for-mobile-device-management.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\Solutions\\mdm-step-2-plan-for-mobile-device-management.md"
+      ],
+      "HasMetadata": true,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf",
+      "HandoffFileCommit": "11bbd76a3ee53999165306d19ca77d128f0d8672",
+      "HandoffDateTime": "2016-05-20T17:08:09.7863126Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
