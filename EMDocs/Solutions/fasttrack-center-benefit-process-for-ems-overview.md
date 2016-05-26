@@ -29,7 +29,7 @@ ms.suite: ems
 
 Você pode usar o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso. Use as informações desta seção para obter uma visão geral ilustrada do processo de integração.
 
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para EMS (Enterprise Mobility Suite)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 A integração tem dois componentes principais:
@@ -40,7 +40,7 @@ A integração tem dois componentes principais:
 
 O diagrama a seguir descreve as fases de integração de alto nível para uso do Benefício do FastTrack Center.
 
-![](./media/1-rms-onboarding-process.png)
+![As fases de integração de alto nível para uso do Benefício do FastTrack Center](./media/ft-1-onboarding-process.png)
 
 O processo básico é como descrito a seguir:
 
@@ -54,19 +54,17 @@ Todo o suporte à integração será fornecido remotamente por funcionários da 
 
 -   O suporte à integração é fornecido pelo Centro FastTrack e está disponível durante o horário comercial normal de uma determinada região.
 
--   Suporte de integração está disponível em chinês tradicional, inglês, francês, alemão, italiano, japonês, português (Brasil) ou espanhol.
+-   O suporte à integração está disponível em chinês tradicional, chinês simplificado, inglês, francês, alemão, italiano, japonês, coreano, português (Brasil), espanhol, tailandês e vietnamita.
 
 -   A equipe da Microsoft pode trabalhar diretamente com você ou seu representante.
 
->[!div class="passo a passo"]
-[Introdução de processo do FastTrack](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-[Ambiente de origem do FastTrack](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+Leia sobre a próxima parte do processo de integração do FastTrack: [Expectativas para o seu ambiente de origem](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 
 ### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO1-->
 
 

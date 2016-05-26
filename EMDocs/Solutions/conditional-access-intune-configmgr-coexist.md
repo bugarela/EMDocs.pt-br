@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Implantar o Exchange Online e local com o Microsoft Intune e o Configuration Manager
-Agora que leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), você está pronto para prosseguir com a implantação de uma solução.
+Agora que você leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents.md), está pronto para prosseguir com a implantação de uma solução.
 
 Um ambiente no qual ambos os Exchange local e o Exchange Online são usados para gerenciar perfis de email proporciona a capacidade de estender a experiência repleta de recursos e o controle administrativo que têm em sua organização para o Microsoft Exchange local existente na nuvem. Esse tipo de implantação "híbrida" fornece a aparência simplificada de uma única organização do Exchange entre uma organização local do Exchange Server 2013 e o Exchange Online no Microsoft Office 365. Além disso, esse tipo de implantação pode servir como uma etapa intermediária para migrar completamente para uma organização do Exchange Online.
 
@@ -38,12 +38,12 @@ Para configurar um tipo de coexistência de ambiente que implementa ambos o Exch
 Consulte os [Pré-requisitos de implantação híbrida](https://technet.microsoft.com/en-us/library/hh534377.aspx) para examinar os requisitos para criar e configurar esse tipo de ambiente.
 
 ## Etapas de Implantação
-Para implantar uma solução de coexistência, siga as etapas acima para implantar as soluções do [Exchange Server local](../Solutions/conditional-access-intune-configmgr-exchange.md) e do [Exchange Online](../Solutions/conditional-access-intune-configmgr-exchange-online.md).
+Para implantar uma solução de coexistência, siga as etapas acima para implantar as soluções [Exchange Server local](conditional-access-intune-configmgr-exchange.md) e [Exchange Online](conditional-access-intune-configmgr-exchange-online.md).
 
 ## Onde ir daqui
-Depois que tiver implantado uma solução para proteger emails corporativos e dados de emails em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](../Solutions/end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
+Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

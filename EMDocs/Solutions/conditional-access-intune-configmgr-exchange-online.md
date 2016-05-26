@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Implantar o Exchange Online com o Microsoft Intune e o Configuration Manager
-Agora que leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), você está pronto para prosseguir com a implantação de uma solução.
+Agora que você leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents.md), está pronto para prosseguir com a implantação de uma solução.
 
 Se já estiver usando o System Center Configuration Manager e o Exchange Online, você pode incorporar o Intune para gerenciar o acesso ao email e proteger os dados de email em dispositivos móveis. O processo de alto nível para implementar esta solução é o seguinte:
 
@@ -99,7 +99,7 @@ Se você desejar poder remover todos os email corporativo de um dispositivo iOS 
 
 ![Captura de tela que mostra a página "Regras" do Assistente para Criar Política de Conformidade, onde é possível especificar que um perfil de email deve ser gerenciado pelo Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-Se você especificar esta política de conformidade, um usuário que já tenha configurado a conta de email, deverá removê-la manualmente e, em seguida, o Intune a adicionará novamente por meio do processo de registro descrito em [Experiência de usuário final do acesso condicional](../Solutions/end-user-experience-conditional-access.md).
+Se você especificar essa política de conformidade, um usuário que já tenha configurado a conta de email deverá removê-la manualmente e, em seguida, o Intune a adicionará novamente por meio do processo de registro descrito em [Experiência de usuário final do acesso condicional](end-user-experience-conditional-access.md).
 
 Depois que a política de conformidade for criada, selecione o nome da política de conformidade na lista e clique em **Implantar**.
 
@@ -153,9 +153,9 @@ O exemplo a seguir mostra o status da implantação da política de configuraç�
 Dispositivos que usam autenticação moderna têm acesso condicional aplicado imediatamente. Para dispositivos que se conectam por meio do protocolo EAS, pode haver um tempo de atraso de até seis horas para que acesso condicional seja imposto, com base na configuração padrão. Durante esse período, um dispositivo pode ser considerado compatível.
 
 ## Onde ir daqui
-Depois que tiver implantado uma solução para proteger emails corporativos e dados de emails em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](../Solutions/end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
+Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

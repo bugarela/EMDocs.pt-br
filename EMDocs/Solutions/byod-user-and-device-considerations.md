@@ -11,9 +11,9 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: e7838e5f-8946-4e69-b287-9e53f97f136c
+ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 
-# optional metadata
+# optional metadataco
 
 #ROBOTS:
 #audience:
@@ -28,7 +28,8 @@ ms.suite: ems
 # Considerações sobre usuários e dispositivos
 
 O primeiro problema de usuários e dispositivos que precisa ser abordado é como as tecnologias estabelecidas afetarão a experiência do usuário ao acessar com segurança os recursos da empresa. Abordar a experiência do usuário em diferentes dispositivos pode ser um desafio, não apenas de um ponto de vista de segurança, mas também de uma perspectiva de desenvolvimento de aplicativo. O canal de comunicação entre o dispositivo e os recursos da empresa deve ser considerado para o nível adequado de segurança de rede necessário para evitar perda de dados enquanto os dados estão em trânsito.
-As seções a seguir se baseiam nos componentes do subdomínio Usuários e Dispositivos mostrado na Figura 1 em Definição de problema do BYOD, que é o diagrama conceitual para o domínio do problema do BYOD.
+
+As seções a seguir se baseiam nos componentes de subdomínio de Usuários e Dispositivos mostrados na seção [Definição de problemas do BYOD](byod-design-considerations-guide.md#problem-definition) deste guia, que é o diagrama conceitual para o domínio de problema do BYOD.
 
 ## Perfis
 
@@ -113,11 +114,11 @@ Use a lista abaixo para entender as vantagens e desvantagens das opções de dis
 
 No Windows Server 2012 R2, o novo conceito de [Ingresso no Local de Trabalho](https://technet.microsoft.com/library/dn280945.aspx) permite a TI mover o dispositivo de estado desconhecido para um estado conhecido. O dispositivo também pode ser usado como autenticação de dois fatores e logon único para aplicativos e recursos de local de trabalho. O Ingresso no Local de Trabalho está disponível nativamente no Windows 10, mas também é compatível com outras plataformas, como iOS e Android. O ingresso aproveita o DRS (Device Registration Service, serviço de registro de dispositivo). Para saber mais sobre o DRS, confira [Configurar um servidor de federação com o Serviço de Registro de Dispositivos](https://technet.microsoft.com/library/dn486831.aspx). Ingresso é uma nova tecnologia e funciona com casos de uso específicos. Confira [Proteger acesso a rec. da empresa de qualquer local e dispositivo](https://technet.microsoft.com/library/dn550982.aspx) para saber mais sobre uma solução que aproveite o Ingresso no Local de Trabalho com logon único.
 
-Se você considerar o uso DRS, entenda que ele não fornece recursos de gerenciamento. Se sua empresa precisar de mais controles de segurança para ter mais opções disponíveis de modo a controlar os dispositivos dos usuários, considere usar o DRS em conjunto com o [registro do dispositivo móvel](https://technet.microsoft.com/library/jj733620.aspx) como a solução de agente de gerenciamento. No entanto, ao escolher essa opção, você deve ter uma assinatura do Microsoft Intune. Para saber mais sobre o Microsoft Intune, confira [Comece a usar o Microsoft Intune](https://technet.microsoft.com/library/dn646953.aspx).
+Se você considerar o uso DRS, entenda que ele não fornece recursos de gerenciamento. Se sua empresa precisar de mais controles de segurança para ter mais opções disponíveis de modo a controlar os dispositivos dos usuários, considere usar o DRS em conjunto com o [registro do dispositivo móvel](https://technet.microsoft.com/library/jj733620.aspx) como a solução de agente de gerenciamento. No entanto, ao escolher essa opção, você deve ter uma assinatura do Microsoft Intune. Para saber mais sobre o Microsoft Intune, consulte a [página do Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune).
 
 ## Rede
 
-O acesso à rede corporativa da perspectiva do usuário e do dispositivo deve ser abordado. Como os usuários acessarão os dados da empresa usando os próprios dispositivos? A maioria das soluções de infraestrutura BYOD somente foca minimamente no acesso remoto a partir de dispositivos dos usuários; no entanto, de uma abordagem centrada em pessoas, você deve considerar onde os usuários se encontram fisicamente. Então é preciso se concentrar não apenas no acesso remoto, mas também em como os usuários acessarão os dados locais. Além disso, você precisará considerar as questões de regulamentação específicas para alinhamento geopolítico da sua organização. Por exemplo, como os usuários que estão fisicamente localizados em um país diferente podem ter aceso personalizado à rede?
+O acesso à rede corporativa da perspectiva do usuário e do dispositivo deve ser abordado. Como os usuários acessarão os dados da empresa usando os próprios dispositivos? A maioria das soluções de infraestrutura BYOD somente foca minimamente no acesso remoto a partir de dispositivos dos usuários; no entanto, de uma abordagem centrada em pessoas, você deve considerar onde os usuários se encontram fisicamente. Então é preciso se concentrar não apenas no acesso remoto, mas também em como os usuários acessarão os dados locais. Além disso, você precisará considerar as questões de regulamentação específicas para alinhamento geopolítico da sua organização. Por exemplo, como os usuários que estão fisicamente localizados em um país ou região diferente podem ter acesso personalizado à rede?
 
 Se sua empresa tiver recursos na nuvem pública que estarão acessíveis pela Internet em dispositivos dos usuários, deve considerar como será tratado o tráfego. Considere o uso de criptografia enquanto os dados estão em trânsito de dispositivos dos usuários para o provedor de nuvem. Quando os usuários acessarem recursos internos, você também deve usar a criptografia de dados.
 
@@ -175,7 +176,7 @@ Depois de definir o design para acesso remoto à rede, considere como dispositiv
 
 Você também pode segmentar os dispositivos que se conectarão à rede Wi-Fi de acordo com a plataforma em que são executados. Considere também como proteger sua comunicação e autorização enquanto estiverem acessando recursos corporativos locais.
 
-Você pode escolher uma segmentação física no ponto de acesso sem fio e componentes de rede (comutadores e roteadores) para isolar usuários que se conectam usando os próprios dispositivos. Também é possível implementar esse tipo de segmentação usando [Perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Uma ampla variedade de configurações de segurança está disponível, como certificados para autenticação do cliente e validação do servidor que foram provisionados usando [Como implantar perfis de certificado no Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
+Você pode escolher uma segmentação física no ponto de acesso sem fio e componentes de rede (comutadores e roteadores) para isolar usuários que se conectam usando os próprios dispositivos. Também é possível implementar esse tipo de segmentação usando [Perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Uma ampla variedade de configurações de segurança está disponível, como certificados para autenticação do cliente e validação do servidor que foram provisionados usando [Perfis de certificado do Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
 
 
 ### Opções de segmentação de rede Wi-Fi — vantagens e desvantagens
@@ -207,12 +208,12 @@ Use a lista abaixo para entender as vantagens e desvantagens das opções de seg
     - Desvantagens
         - Requer o IPsec para implementação usando [NAP (Proteção de Acesso à Rede) da Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), o que pode ser um problema em um cenário de BYOD que exija suporte para "qualquer dispositivo".
 
-> [!NOTE] Para saber mais sobre perfis de Wi-Fi no Configuration Manager, confira [Introdução aos perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, consulte [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 O local da rede desempenha uma função importante para considerações de usuário e dispositivo. Você pode aproveitar o controle de acesso de vários fatores no AD FS para habilitar políticas de autorização por aplicativo, em que é possível permitir ou negar acesso com base em usuário, dispositivo e local de rede. Confira [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) (Gerenciar risco com controle de acesso de vários fatores) para obter mais informações sobre como configurar um ambiente para validar esse recurso.
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

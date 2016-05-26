@@ -18,7 +18,7 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,17 +36,17 @@ Quando o dispositivo é avaliado como registro e em conformidade, a sincronizaç
 
 ## Android
 
-[Este tópico](../Solutions/end-user-experience-conditional-access-android.md) descreve a experiência de registro após o acesso condicional ser habilitado, e um usuário final tentar acessar emails em seu dispositivo móvel Android.
+[Este tópico](end-user-experience-conditional-access-android.md) descreve a experiência de registro após o acesso condicional ser habilitado, e um usuário final tentar acessar emails em seu dispositivo móvel Android.
 
 ## iOS
 
-[Este tópico](../Solutions/end-user-experience-conditional-access-ios.md) descreve a experiência do usuário final quando um usuário final tenta acessar um email em seu dispositivo móvel iOS após a habilitação do acesso condicional.
+[Este tópico](end-user-experience-conditional-access-ios.md) descreve a experiência do usuário quando um usuário final tenta acessar um email em seu dispositivo móvel iOS após a habilitação do acesso condicional.
 
 ## Windows Phone
 
-[Este tópico](../Solutions/end-user-experience-conditional-access-winphone.md) descreve a experiência do usuário final após o acesso condicional ser habilitado e um usuário final tentar acessar emails em seu dispositivo móvel Windows Phone.
+[Este tópico](end-user-experience-conditional-access-winphone.md) descreve a experiência do usuário final após o acesso condicional ser habilitado e um usuário final tentar acessar email em seu Windows Phone.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

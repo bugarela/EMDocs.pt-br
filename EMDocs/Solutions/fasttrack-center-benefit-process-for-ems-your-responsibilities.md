@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades do cliente
+title: Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades
 description:
 keywords:
 author: 
@@ -25,10 +25,11 @@ ms.suite: ems
 
 ---
 
-# Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades do cliente
+# Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades
+
 Quando você usa o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso, sua organização terá algumas responsabilidades durante o processo. As seções a seguir descrevem suas responsabilidades em cada fase do processo de integração.
 
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para EMS (Enterprise Mobility Suite)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 ## Responsabilidades gerais
 
@@ -114,15 +115,13 @@ Para ler sobre as outras partes do processo de integração do FastTrack, confir
 
 -   Habilite serviços diversos de acordo com as diretrizes da Microsoft.
 
->[!div class="passo a passo"]
-[Responsabilidades de FastTrack da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
-
+Esta é a última parte do processo de integração do FastTrack.
 
 ### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

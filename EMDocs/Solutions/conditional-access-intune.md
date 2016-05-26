@@ -28,7 +28,7 @@ ms.suite: ems
 # Usar o acesso condicional com o Microsoft Intune
 Essa solução permite usar o acesso condicional no Intune para ajudar a proteger emails e outros serviços de acordo com as condições especificadas.
 
-Confira [Restringir o acesso ao email e aos serviços do O365 com o Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) para saber mais sobre como você pode usar o recurso de acesso condicional com o Intune.
+Confira [Restringir o acesso a email e serviços do O365 com o Microsoft Intune](/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) para saber mais sobre como usar o recurso de acesso condicional com o Intune.
 
 > [!TIP]
 > Obtenha uma cópia baixável deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
@@ -67,14 +67,14 @@ O AAD DRS será ativado automaticamente para clientes do Intune e do Office 365.
 
 -   Você deve usar uma assinatura do Office 365 que inclui o Exchange Online (como E3) e os usuários devem ser licenciados para o Exchange Online.
 
--   O **conector de serviço a serviço do Microsoft Intune** conecta o Intune ao Microsoft Exchange Online e ajuda a gerenciar informações de dispositivos por meio do console do Intune (confira [Gerenciamento de dispositivos móveis usando o Exchange ActiveSync no Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune)). O conector não é necessário para usar políticas de conformidade ou políticas de acesso condicional, mas é necessário para executar relatórios que ajudam a avaliar o impacto de acesso condicional.
+-   O **Microsoft Intune Service to Service Connector** conecta o Intune ao Microsoft Exchange Online e ajuda a gerenciar informações de dispositivos por meio do console do Intune (confira [Mobile device management with Exchange ActiveSync and Microsoft Intune (Gerenciamento de dispositivo móvel usando o Exchange ActiveSync no Microsoft Intune)](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune)). O conector não é necessário para usar políticas de conformidade ou políticas de acesso condicional, mas é necessário para executar relatórios que ajudam a avaliar o impacto de acesso condicional.
 
     Se você configurar o conector, algumas políticas do Exchange ActiveSync do Intune podem ficar visíveis no console do Office, mas não serão definidas como políticas padrão e, portanto, não afetarão os dispositivos.
 
     > [!IMPORTANT]
     > Não configure o conector de serviço a serviço se você pretende usar o acesso condicional para o Exchange Online e o Exchange local.
 
-    Agora você está pronto para aprender a [implantar o Exchange Online com o Intune](../Solutions/conditional-access-intune-exchange-online.md).
+    Agora você está pronto para aprender a [implantar o Exchange Online com o Intune](conditional-access-intune-exchange-online.md).
 
 ## Para o Exchange Server local
 O acesso condicional ao Exchange local é compatível com:
@@ -96,14 +96,14 @@ Além disso:
 
 -   O Exchange ActiveSync pode ser configurado com autenticação baseada em certificado ou em entrada de credenciais de usuário.
 
--   É preciso usar o **Exchange Connector local**, que conecta o Intune ao Microsoft Exchange Server local. Isso permite que você gerencie dispositivos por meio do console do Intune (confira [Gerenciamento de dispositivos móveis usando o Exchange ActiveSync no Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune)).
+-   É preciso usar o **Exchange Connector local**, que conecta o Intune ao Microsoft Exchange Server local. Isso permite que você gerencie dispositivos por meio do console do Intune (confira [Mobile device management with Exchange ActiveSync and Microsoft Intune (Gerenciamento de dispositivo móvel usando o Exchange ActiveSync no Microsoft Intune)](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune)).
 
   > [!IMPORTANT]
 > Use a versão mais recente do Exchange Connector local. O Exchange Connector local disponível no console do Intune é específico para seu locatário do Intune e não pode ser usado com nenhum outro locatário. Você também deve garantir que o Exchange Connector para seu locatário esteja instalado em exatamente um computador, e não em várias máquinas.
 
-  Agora você está pronto para aprender a [implantar o Exchange Server local com o Intune](../Solutions/conditional-access-intune-exchange.md).
+  Agora você está pronto para aprender a [implantar o Exchange Server local com o Intune](conditional-access-intune-exchange.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

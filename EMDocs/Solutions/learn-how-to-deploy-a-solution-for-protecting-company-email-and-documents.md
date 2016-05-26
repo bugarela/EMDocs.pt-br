@@ -18,7 +18,7 @@ ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -29,6 +29,8 @@ ms.suite: ems
 Cada vez mais, as empresas estão permitindo que os funcionários aumentem sua produtividade acessando emails, documentos e recursos da empresa por meio de seus dispositivos móveis. No entanto, a quantidade de dados confidenciais armazenados em documentos e emails corporativos apresenta um risco de segurança significativo para as empresas.
 
 Este guia é voltado para você, profissional de TI, para ajudá-lo a determinar e implantar a melhor solução para sua empresa aplicar o acesso condicional em uma das configurações descritas abaixo. Isso permitirá que os funcionários usem seus dispositivos móveis para acessar emails corporativos enquanto os dados da empresa permanecem protegidos.
+
+Esta seção discute como implantar uma solução para proteger emails e documentos da empresa. Para obter detalhes sobre a arquitetura dessas soluções, consulte [Diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents).
 
 > [!TIP]
 > Obtenha uma cópia baixável deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
@@ -44,10 +46,10 @@ Proteção de email corporativo envolve dois objetivos principais:
 
 -   **Proteger o conteúdo e os anexos do email:** enquanto o acesso condicional permite que você garanta que somente dispositivos compatíveis sejam capazes de acessar o email, ainda há a questão de proteger o conteúdo e os anexos do email.  O conteúdo pode ser copiado, movido, salvo em um local diferente ou compartilhado com outro usuário.  O EMS resolve esse problema usando as políticas de gerenciamento de aplicativos móveis.
 
-    Aplicativos gerenciados são aplicativos que têm políticas de gerenciamento de aplicativo móvel aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Com esses aplicativos, você tem controle direto sobre implantação, gerenciamento contínuo, como inventário ou atualizações, e apagamento seletivo de aplicativos e seus dados associados. Além disso, por meio de um conjunto de políticas de gerenciamento (MAM) do aplicativo móvel, o Intune permite modificar a funcionalidade de aplicativos e restringir o compartilhamento de dados. Para obter mais detalhes de como essa solução funciona, incluindo detalhes da arquitetura, consulte [Proteger documentos e emails corporativos](../Solutions/architecture-guidance-for-protecting-company-email-and-documents).
+    Aplicativos gerenciados são aplicativos que têm políticas de gerenciamento de aplicativo móvel aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Com esses aplicativos, você tem controle direto sobre implantação, gerenciamento contínuo, como inventário ou atualizações, e apagamento seletivo de aplicativos e seus dados associados. Além disso, por meio de um conjunto de políticas de gerenciamento (MAM) do aplicativo móvel, o Intune permite modificar a funcionalidade de aplicativos e restringir o compartilhamento de dados. Para obter mais detalhes de como essa solução funciona, incluindo detalhes da arquitetura, consulte [Proteger documentos e email corporativos](architecture-guidance-for-protecting-company-email-and-documents).
 
     > [!NOTE]
-    > Você pode criar e implantar um perfil de email e definir uma política de conformidade que especifica que os perfis de email sejam gerenciados pelo Intune (recomendado). Isso lhe dá a capacidade de apagar emails de dispositivos desativados e garante que, para o iOS, anexos só possam ser abertos em aplicativos gerenciados pelo Intune. Consulte [Etapa 5: Criar políticas de conformidade e implantá-las para os usuários.](../Solutions/conditional-access-intune-configmgr-exchange.md) para obter mais informações.
+    > Você pode criar e implantar um perfil de email e definir uma política de conformidade que especifica que os perfis de email sejam gerenciados pelo Intune (recomendado). Isso lhe dá a capacidade de apagar emails de dispositivos desativados e garante que, para o iOS, anexos só possam ser abertos em aplicativos gerenciados pelo Intune. Consulte [Etapa 5: Criar políticas de conformidade e implantá-las nos usuários.](conditional-access-intune-configmgr-exchange.md) para obter mais informações.
 
 ### Soluções abordadas neste artigo
 Esta seção fornece uma visão geral de cada solução – Configuration Manager com a implementação do Intune, Intune sozinho, gerenciamento de aplicativos móveis e serviço Azure Rights Management.
@@ -59,20 +61,20 @@ Esta seção fornece uma visão geral de cada solução – Configuration Manage
 -   **Serviço de gerenciamento de direitos do Azure para políticas de prevenção de perda de dados:** o Azure Rights Management (Azure RMS) usa políticas de criptografia, identidade e autorização para ajudar a proteger seus arquivos e emails em vários dispositivos, como telefones, tablets e PCs. As informações podem ser protegidas em sua empresa e fora dela, porque a proteção permanece com os dados, mesmo quando eles saem dos limites da empresa.
 
 ### Avaliando sua implementação desejada
-Com todas as opções diferentes de design e configuração para gerenciar dispositivos móveis, é difícil determinar qual combinação melhor atende às necessidades da sua empresa. O [Guia de considerações de design de gerenciamento de dispositivos móveis](../Solutions/mdm-design-considerations-guide.md) ajuda você a entender os requisitos de design de gerenciamento de dispositivos móveis e detalha uma série de etapas e tarefas que você pode seguir para criar a solução mais adequada às necessidades de negócios e tecnologia da sua empresa.
+Com todas as opções diferentes de design e configuração para gerenciar dispositivos móveis, é difícil determinar qual combinação melhor atende às necessidades da sua empresa. O [Guia de considerações de design do Gerenciamento de dispositivo móvel](mdm-design-considerations-guide.md) ajuda você a entender os requisitos de design de gerenciamento de dispositivo móvel e detalha uma série de etapas e tarefas que você pode seguir para criar a solução mais adequada às necessidades de negócios e tecnologia da sua empresa.
 
 ### Experiência de alto nível do usuário final
 Após a solução ser implementada, os usuários finais só poderão acessar o email da empresa em dispositivos gerenciados **e** compatíveis. Quando eles tiverem a capacidade de acessar o email nos dispositivos, os dados da empresa ficarão protegidos e contidos no ecossistema do aplicativo, e ficarão disponíveis apenas para os usuários pretendidos. O acesso pode ser revogado a qualquer momento se o dispositivo for incompatível.
 
-Especificamente, as políticas de acesso condicional definidas no Intune garantem que os dispositivos possam acessar o email somente se forem compatíveis com as políticas de conformidade que você definir. Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis. O Serviço de gerenciamento de direitos do Azure pode ser usado para garantir que os dados confidenciais de emails, bem como os anexos encaminhados, somente possam ser lidos pelos destinatários pretendidos. A experiência do usuário final é descrita com mais detalhes em [Experiência do usuário final de acesso condicional](../Solutions/end-user-experience-conditional-access.md).
+Especificamente, as políticas de acesso condicional definidas no Intune garantem que os dispositivos possam acessar o email somente se forem compatíveis com as políticas de conformidade que você definir. Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis. O Serviço de gerenciamento de direitos do Azure pode ser usado para garantir que os dados confidenciais de emails, bem como os anexos encaminhados, somente possam ser lidos pelos destinatários pretendidos. A experiência do usuário final é descrita com mais detalhes em [Experiência do usuário final de acesso condicional](end-user-experience-conditional-access.md).
 
 ### Onde ir daqui
 Agora que você leu todo este tópico, pode aprender mais sobre como implantar uma solução específica para proteger documentos e emails da empresa, dependendo de seu ambiente:
 
-- [Usar o acesso condicional com o Microsoft Intune](../Solutions/conditional-access-intune.md)
-- [Usar o acesso condicional com o Microsoft Intune e o Configuration Manager](../Solutions/conditional-access-intune-configmgr.md)
+- [Usar o acesso condicional com o Microsoft Intune](conditional-access-intune.md)
+- [Usar o acesso condicional com o Microsoft Intune e o Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

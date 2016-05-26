@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 69020f79-4ce2-4984-b127-4520503fb729
+ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 
 # optional metadata
 
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisitos de usuário e dispositivo
 
-Antes de habilitar os usuários a acessarem recursos da empresa de seus dispositivos, responda às perguntas nas seções a seguir trabalhando com os consumidores desses recursos no seu ambiente e o departamento de TI. A Figura 2 mostra as interações entre usuários e dispositivos com o objetivo final de acesso e consumo de dados. Observe que o diagrama não aborda localização geográfica. Embora a localização geográfica seja uma consideração importante (e será abordada neste documento), a intenção da Figura 2 é ilustrar os componentes principais de usuários e dispositivos. Considerações de design devem ser feitas para permitir que essa comunicação ocorra.
+Antes de habilitar os usuários a acessarem recursos da empresa de seus dispositivos, responda às perguntas nas seções a seguir trabalhando com os consumidores desses recursos no seu ambiente e o departamento de TI. A Figura abaixo mostra as interações entre usuários e dispositivos com o objetivo final de acesso e consumo de dados. Observe que o diagrama não aborda localização geográfica. Embora a localização geográfica seja uma consideração importante (e será abordada neste documento), a intenção da figura é ilustrar os componentes principais de usuários e dispositivos. Considerações de design devem ser feitas para permitir que essa comunicação ocorra.
 
 ![Usuários, dispositivos e dados](./media/BYOD_Figure2.png)
 
@@ -66,8 +66,15 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
     - Nesse caso, a lista atual de dispositivos compatíveis dá suporte ao protocolo de criptografia que será usado?
 - Você tem a segmentação de rede estabelecida?
     - Nesse caso, você todos os dispositivos dos usuários conectados a uma rede separada para isolá-los da rede de produção?
+- Para funcionários de escritório residencial, como os usuários se conectarão à sua rede? Com fio, sem fio ou ambos?
+    - Se a rede for sem fio, como você pretende controlar o AAA (Autenticação, Autorização e Contabilização) dos dispositivos para que nenhum dispositivo sem registro e sem autorização possa usar recursos da rede sem liberação adequada?
+
+### Suporte técnico
+- Sua equipe de rede/segurança está pronta para acomodar auditorias de conformidade do dispositivo regular?
+- Você tem procedimentos e políticas de gerenciamento de alterações em vigor para dar suporte à implementação de BYOD?
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO1-->
 
 

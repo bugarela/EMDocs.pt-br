@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Implantar o Exchange Server local com o Microsoft Intune e o Configuration Manager
-Agora que leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), você está pronto para prosseguir com a implantação de uma solução.
+Agora que você leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents.md), está pronto para prosseguir com a implantação de uma solução.
 
 Se já estiver usando o System Center Configuration Manager e o Exchange em sua infraestrutura local, você pode incorporar o Intune para gerenciar o acesso ao email e proteger os dados de email em dispositivos móveis. O processo de alto nível para implementar esta solução é o seguinte:
 
@@ -55,9 +55,9 @@ Este diagrama mostra o fluxo de controle para clientes que tentam acessar o emai
 Verifique se seu ambiente inclui esses requisitos para implementação dessa solução.
 
 > [!NOTE]
-> Se você já tiver configurado o Configuration Manager para gerenciar dispositivos móveis por meio do serviço do Intune, prossiga para a [Etapas de Implantação](#DeploySteps).
+> Se você já tiver configurado o Configuration Manager para gerenciar dispositivos móveis por meio do serviço do Intune, prossiga para a [Etapas de implantação](#deployment-steps).
 
--   Verifique se você atende aos [requisitos de hardware para o conector local](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune).
+-   Verifique se você atende aos [requisitos de hardware para o conector local](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune).
 
 -   Verifique se você está executando o System Center 2012 R2 Configuration Manager SP1 com atualização cumulativa 1 ou posterior.
 
@@ -100,7 +100,7 @@ Verifique se seu ambiente inclui esses requisitos para implementação dessa sol
 > [!IMPORTANT]
 > Ao tentar instalar ou usar o conector do Exchange Server sem os cmdlets necessários, você verá um erro registrado com a mensagem: _Falha ao invocar o cmdlet &lt;cmdlet&gt; no arquivo EasDisc.log no computador do servidor do site_.
 
-## <a name="DeploySteps"></a>Etapas de Implantação
+## Etapas de Implantação
 Siga estas etapas para implantar a solução do Exchange local:
 
 ### Etapa 1: verificar se a função do Conector do Intune está instalada.
@@ -140,7 +140,7 @@ Se você desejar poder remover todos os email corporativo de um dispositivo iOS 
 
 ![Captura de tela que mostra a página "Regras" do Assistente para Criar Política de Conformidade, onde é possível especificar que um perfil de email deve ser gerenciado pelo Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-Se você especificar esta política de conformidade, um usuário que já tenha configurado a conta de email, deverá removê-la manualmente e, em seguida, o Intune a adicionará novamente por meio do processo de registro descrito em [Experiência de usuário final do acesso condicional](../Solutions/end-user-experience-conditional-access.md).
+Se você especificar essa política de conformidade, um usuário que já tenha configurado a conta de email deverá removê-la manualmente e, em seguida, o Intune a adicionará novamente por meio do processo de registro descrito em [Experiência de usuário final do acesso condicional](end-user-experience-conditional-access.md).
 
 Depois que a política de conformidade for criada, selecione o nome da política de conformidade na lista e clique em **Implantar**.
 
@@ -150,7 +150,7 @@ Decida primeiro como e quando você deseja impor o acesso condicional e os funci
 ### Etapa 7: monitorar registros e impor o acesso condicional.
 Se você já tiver um número significativo de usuários registrados e compatíveis no Intune, comece a impor o acesso condicional disponibilizando-o para aproximadamente 500 usuários por dia. Isso levará cerca de quatro a cinco meses para 70.000 usuários e permite tratar problemas que podem surgir sem restringir o acesso ao email para muitos usuários ao mesmo tempo.
 
-Se você não tiver um grande número de usuários já registrados no Intune, o acesso condicional fornecerá a eles uma experiência guiada para o registro, conforme descrito em [Experiência de acesso condicional do usuário final](../Solutions/end-user-experience-conditional-access.md).
+Se você não tiver um grande número de usuários já registrados no Intune, o acesso condicional fornecerá a eles uma experiência guiada para o registro, conforme descrito em [Experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md).
 
 ## Etapas de Verificação
 Usando a Ferramenta de Log de Rastreamento do Configuration Manager, abra o arquivo EasDisc.log (localizado na pasta Microsoft Configuration Manager/Logs em que você instalou o Configuration Manager). Procure no arquivo de log por "Exchange Connector" para encontrar informações sobre se o Exchange Connector está em execução e quantos dispositivos estão conectados.
@@ -188,9 +188,9 @@ O exemplo a seguir mostra o status da implantação da política de configuraç�
 Um dispositivo é bloqueado assim que é descoberto pelo conector do Exchange. A latência de bloqueio depende de intervalos configurados para sincronização Completa e sincronização delta e o tempo entre esses intervalos quando o dispositivo se conecta ao servidor do Exchange. Por padrão, uma sincronização Completa ocorre a cada 24 horas enquanto uma sincronização delta a cada 240 minutos. Durante esse período de latência, um dispositivo pode ser considerado compatível.
 
 ## Onde ir daqui
-Depois que tiver implantado uma solução para proteger emails corporativos e dados de emails em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](../Solutions/end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
+Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

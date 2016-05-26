@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
+title: Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 
@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
+ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: 
@@ -39,7 +39,7 @@ Os elementos que compõem o processo do benefício do FastTrack Center são:
 
 -   [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) para cada fase
 
--   [Suas responsabilidades](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) para cada fase
+-   [Responsabilidades do cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) para cada fase
 
 Eis o que você pode esperar quando a integração for concluída:
 
@@ -57,13 +57,13 @@ Eis o que você pode esperar quando a integração for concluída:
 
     -   Federadas com o AD FS (Serviços de Federação do Active Directory) 2.0 do Windows Server 2012 R2 ou posterior do seu Active Directory local.
 
-
+Leia sobre a próxima parte do processo de integração do FastTrack: [Visão geral do processo de integração](fasttrack-center-benefit-process-for-ems-overview.md)
 
 ### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

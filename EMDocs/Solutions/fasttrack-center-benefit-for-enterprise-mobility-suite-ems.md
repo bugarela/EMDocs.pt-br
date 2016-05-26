@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
+title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 
@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
+ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 
 # optional metadata
 
-#ROBOTS:
+ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer: 
@@ -30,7 +30,7 @@ Você pode usar o benefício do serviço ao comprar no mínimo 150 licenças par
 
 Este artigo fornece detalhes sobre a qualificação do plano e do serviço para o benefício de serviço.
 
-Para saber mais sobre o processo de integração, bem como funções e responsabilidades, confira [Processo do Benefício do FastTrack Center para Intune](FastTrack-Center-Benefit-Process-for-Intune.md). Caso você tenha interesse em preparar seu ambiente para outros serviços do Enterprise Mobility Suite, confira [Benefício do FastTrack Center para Enterprise Mobility Suite](FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
+Para saber mais sobre o processo de integração, bem como funções e responsabilidades, confira [Processo de benefício do FastTrack Center para EMS (Enterprise Mobility Suite)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 Procurando informações sobre o Microsoft FastTrack para Office 365? Consulte [Benefício do FastTrack Center para Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
@@ -51,6 +51,6 @@ O Enterprise Mobility Suite, ou qualquer um dos seus serviços de nuvem incluíd
 |Microsoft Azure RMS)|Sim|
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

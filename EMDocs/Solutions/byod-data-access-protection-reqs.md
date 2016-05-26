@@ -94,11 +94,10 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
 - Sua empresa tem políticas estabelecidas para definir como o acesso a dados é classificado?
 - Sua empresa precisa estar em conformidade com todas as regulamentações de manipulação de dados e privacidade?
     - Nesse caso, como essas normas conduzem as políticas de acesso de dados atuais para recursos locais?
-- Sua empresa tem políticas em vigor para [MDM (gerenciamento de dispositivo móvel)](http://aka.ms/mdmdcg) e MAM (gerenciamento de aplicativo móvel)?
+- Sua empresa tem políticas em vigor para [MDM (Gerenciamento de Dispositivo Móvel)](mdm-design-considerations-guide.md) e [MAM (Gerenciamento de Aplicativo Móvel)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - Sua empresa tem políticas estabelecidas para confiscação de dispositivo no caso de litígio judicial ou investigação criminal?
 
 
-
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

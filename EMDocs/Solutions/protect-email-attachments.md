@@ -1,17 +1,32 @@
 ---
+# required metadata
+
 title: Proteger anexos de email da empresa
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # Proteger emails e anexos contra vazamento de dados
-[Proteção de documentos e emails corporativos](../Solutions/protect-corporate-email-documents.md) descreveu como você pode ter certeza de que apenas dispositivos em conformidade poderão acessar emails corporativos. No entanto, o conteúdo de email e anexos de email não são protegidos apenas protegendo o acesso. O conteúdo pode ser copiado, movido, salvo em um local diferente ou compartilhado com outro usuário. O EMS resolve esse problema usando as políticas MAM (gerenciamento de aplicativo móvel).
+[Protegendo emails e documentos corporativos](protect-corporate-email-documents.md) descreveu como você pode ter certeza de que apenas dispositivos compatíveis possam acessar emails corporativos. No entanto, o conteúdo de email e anexos de email não são protegidos apenas protegendo o acesso. O conteúdo pode ser copiado, movido, salvo em um local diferente ou compartilhado com outro usuário. O EMS resolve esse problema usando as políticas MAM (gerenciamento de aplicativo móvel).
 
 Aplicativos gerenciados são aplicativos implantados pelo administrador de TI que estão de acordo com os requisitos de segurança da empresa. Com esses aplicativos, a TI tem controle direto sobre implantação, gerenciamento contínuo, como inventário ou atualizações, e apagamento seletivo de aplicativos e seus dados associados. Além disso, por meio de um conjunto de políticas MAM (gerenciamento de aplicativo móvel), o Intune permite modificar a funcionalidade de aplicativos e restringir o compartilhamento de dados, como:
 
@@ -58,9 +73,9 @@ Seu administrador de TI cria as políticas de gerenciamento de aplicativo móvel
 Os usuários finais podem instalar aplicativos gerenciados e usá-los para fazer seu trabalho. Eles só poderão mover ou compartilhar dados entre aplicativos gerenciados. Qualquer tentativa de mover dados para fora do ecossistema do aplicativo gerenciado será bloqueada.
 
 ## Onde ir daqui
-Agora que você sabe como [proteger emails e documentos corporativos](../Solutions/protect-corporate-email-documents.md), bem como anexos de email, é possível aprender a [implementar uma solução que proteja o email corporativo](../Solutions/implement-solution.md).
+Agora que você sabe como [proteger emails e documentos corporativos](protect-corporate-email-documents.md), bem como anexos de email, é possível aprender a [implementar uma solução que proteja o email corporativo](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

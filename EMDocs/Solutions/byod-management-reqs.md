@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: c576a1be-c706-4a12-a2e2-b3d85e632afa
+ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 
 # optional metadata
 
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisitos de gerenciamento
 
-Gerenciamento de dispositivos é um dos fundamentos de qualquer estratégia centrada em pessoas e deve ser avaliada em relação aos requisitos da empresa. Dependendo do nível de maturidade da empresa, um sistema de gerenciamento pode estar estabelecido, precisando ser expandida para cobrir os cenários BYOD que a empresa está adotando. A Figura 4 mostra interações de gerenciamento ao gerenciar usuários, dispositivos e dados. Considerações devem ser feitas para cada componente do subdomínio de gerenciamento.
+Gerenciamento de dispositivos é um dos fundamentos de qualquer estratégia centrada em pessoas e deve ser avaliada em relação aos requisitos da empresa. Dependendo do nível de maturidade da empresa, um sistema de gerenciamento pode estar estabelecido, precisando ser expandida para cobrir os cenários BYOD que a empresa está adotando. A figura abaixo mostra interações de gerenciamento ao gerenciar usuários, dispositivos e dados. Considerações devem ser feitas para cada componente do subdomínio de gerenciamento.
 
 ![Requisitos de gerenciamento](./media/BYOD_Figure4.png)
 
@@ -105,6 +105,6 @@ As perguntas sobre requisitos de gerenciamento são categorizadas em sete áreas
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

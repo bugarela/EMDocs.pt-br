@@ -1,13 +1,28 @@
 ---
+# required metadata
+
 title: Proteção de email e documentos da empresa
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # Proteção de emails e documentos corporativos
@@ -35,7 +50,7 @@ Acesso condicional é determinado por dois tipos de políticas que podem ser def
 ## Experiência de alto nível do usuário final
 Após a solução ser implementada, os usuários finais só poderão acessar o email da empresa em dispositivos gerenciados e compatíveis. Quando eles tiverem a capacidade de acessar o email nos dispositivos, os dados da empresa ficarão protegidos e contidos no ecossistema do aplicativo, e ficarão disponíveis apenas para os usuários pretendidos. O acesso pode ser revogado a qualquer momento se o dispositivo for incompatível.
 
-Especificamente, as políticas de acesso condicional definidas no Intune garantem que os dispositivos possam acessar o email somente se forem compatíveis com as políticas de conformidade que você definir. Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis. O Serviço de gerenciamento de direitos do Azure pode ser usado para garantir que os dados confidenciais de emails, bem como os anexos encaminhados, somente possam ser lidos pelos destinatários pretendidos. A experiência do usuário final é descrita com mais detalhes em [Experiência do usuário final de acesso condicional](../Solutions/end-user-experience-conditional-access.md).
+Especificamente, as políticas de acesso condicional definidas no Intune garantem que os dispositivos possam acessar o email somente se forem compatíveis com as políticas de conformidade que você definir. Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis. O Serviço de gerenciamento de direitos do Azure pode ser usado para garantir que os dados confidenciais de emails, bem como os anexos encaminhados, somente possam ser lidos pelos destinatários pretendidos. A experiência do usuário final é descrita com mais detalhes em [Experiência do usuário final de acesso condicional](end-user-experience-conditional-access.md).
 
 
 Assista a [este](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) vídeo de quatro minutos para ver como acesso condicional afeta os usuários finais.
@@ -109,9 +124,9 @@ Quando o usuário tenta acessar email no dispositivo pela primeira vez ou sincro
 Quando o dispositivo é avaliado como registro e em conformidade, a sincronização de email deve acontecer dentro de alguns minutos.
 
 ## Onde ir daqui
-Agora que você sabe como proteger emails e documentos corporativos, você pode ler sobre como [proteger anexos de email](../Solutions/protect-email-attachments.md). Ou, se você estiver pronto, saiba mais sobre [como implementar uma solução para proteger seu email corporativo](../Solutions/implement-solution.md).
+Agora que você sabe como proteger emails e documentos corporativos, pode ler sobre como [proteger anexos de email](protect-email-attachments.md). Ou, se você estiver pronto, saiba mais sobre [como implementar uma solução para proteger seu email corporativo](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisitos de aplicativo
 
-Cada organização usa uma variedade de recursos técnicos para permitir que a equipe de trabalho realize suas tarefas de forma otimizada e, na maioria das vezes, a principal ferramenta é um aplicativo. Esses recursos poderiam ser combinados em uma abordagem de várias plataformas em que tecnologias diferentes são usadas para atingir uma meta determinada ou criando um aplicativo personalizado capaz de executar uma tarefa ou automatizar certos processos. É importante considerar os aplicativos ao criar a estratégia de BYOD. Os usuários usarão diferentes formatos para consumir esses aplicativos; portanto, você precisa considerar a variedade de recursos a que esses aplicativos devem ter suporte. A Figura 5 mostra como usuários e os dispositivos que usam aplicativos consumem dados e as considerações para cada componente do subdomínio de aplicativos.
+Cada organização usa uma variedade de recursos técnicos para permitir que a equipe de trabalho realize suas tarefas de forma otimizada e, na maioria das vezes, a principal ferramenta é um aplicativo. Esses recursos poderiam ser combinados em uma abordagem de várias plataformas em que tecnologias diferentes são usadas para atingir uma meta determinada ou criando um aplicativo personalizado capaz de executar uma tarefa ou automatizar certos processos. É importante considerar os aplicativos ao criar a estratégia de BYOD. Os usuários usarão diferentes formatos para consumir esses aplicativos; portanto, você precisa considerar a variedade de recursos a que esses aplicativos devem ter suporte. A figura abaixo mostra como usuários e dispositivos usam aplicativos para consumir dados e as considerações para cada componente do subdomínio de aplicativos.
 
 ![Requisitos de aplicativo](./media/BYOD_Figure5.png)
 
@@ -117,7 +117,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - Há um subsistema comum de validação ou limpeza de entrada que processe os dados de fora do sistema?
 - Esses aplicativos consumirão alguma biblioteca externa, como a biblioteca JavaScript?
     - Nesse caso, você executou uma avaliação de risco de segurança para essas chamadas externas?
-- Os aplicativos foram validados usando o método [STRIDE](https://msdn.microsoft.com/library/ee823878(v=cs.20).aspx) (falsificação, violação, repúdio, divulgação de informações, negação de serviço e elevação de privilégio)?
+- Os aplicativos foram validados usando o método [STRIDE](https://msdn.microsoft.com/library/ee823878.aspx) (Falsificação, Violação, Repúdio, Divulgação de Informações Confidenciais, Negação de Serviço e Elevação de Privilégio)?
 - Os aplicativos lidam com dados de identificação pessoal?
 - Você executa alguma análise de privacidade para esses aplicativos?
 - Os aplicativos usará blocos dinâmicos?
@@ -125,6 +125,6 @@ os requisitos de aplicativo são categorizados em seis áreas:
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

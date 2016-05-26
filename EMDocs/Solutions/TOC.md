@@ -1,8 +1,6 @@
-# [Cenários e guias](scenarios-guides.md)
-
 # [Introdução ao FastTrack](enterprise-mobility-fasttrack-program.md)
 ## [Benefícios do FastTrack para o EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
-## [Processo de benefícios do FastTrack para o EMS](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
+## [Processo de benefício do FastTrack para EMS](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
 ### [Visão geral](fasttrack-center-benefit-process-for-ems-overview.md)
 ### [Ambiente de origem](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 ### [Fases](fasttrack-center-benefit-process-for-ems-phases.md)
@@ -75,6 +73,6 @@
 ### [iOS](end-user-experience-conditional-access-ios.md)
 ### [Windows Phone](end-user-experience-conditional-access-winphone.md)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

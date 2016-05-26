@@ -60,7 +60,7 @@ Como você pode ver na tabela anterior, ao criar a solução de infraestrutura B
 
 Se a empresa optar por dar suporte a diferentes tipos de dispositivos, você precisará compreender os recursos dos dispositivos, como criptografia de armazenamento, opções de conectividade VPN e linguagens de programação com suporte. Avalie o que pode ser implementado para estar em conformidade com as políticas da empresa. Monitoramento de dispositivos para atender a conformidade pode ser feito impondo políticas. Considere habilitar a criptografia de dispositivo enquanto os dados estiverem em repouso em dispositivos de usuários; isso pode ajudá-lo em sua estratégia de vazamento de dados. Impor políticas como desbloqueio de senha, histórico de senhas e senhas fortes pode dar segurança semelhante em dispositivos locais e móveis.
 
-Configurações de conformidade no Configuration Manager permitem à TI gerenciar a configuração e a conformidade de servidores, laptops, computadores desktop e dispositivos móveis da empresa. Considere usar as configurações de conformidade padrão integradas no Gerenciador de Configurações para dispositivos móveis como uma linha de base e, a partir daí, personalizar de acordo com as necessidades da empresa. Para saber mais sobre as configurações de conformidade no Configuration Manager, confira Introduction to Compliance Settings in Configuration Manager (Introdução às configurações de conformidade no Configuration Manager).
+Configurações de conformidade no Configuration Manager permitem à TI gerenciar a configuração e a conformidade de servidores, laptops, computadores desktop e dispositivos móveis da empresa. Considere usar as configurações de conformidade padrão integradas no Gerenciador de Configurações para dispositivos móveis como uma linha de base e, a partir daí, personalizar de acordo com as necessidades da empresa. Para saber mais sobre configurações de conformidade no Configuration Manager, consulte [Introdução às configurações de conformidade no Configuration Manager](https://technet.microsoft.com/en-us/library/gg682139.aspx).
 
 Usando a limpeza seletiva do Windows, a TI pode proteger os dados corporativos da empresa que serão distribuídos entre dispositivos pessoais ou corporativos. Os desenvolvedores podem criar aplicativos para usar uma política de limpeza seletiva do Windows em dados e protegê-los em um domínio da Internet que pertença à empresa. Para saber mais sobre a Limpeza Seletiva do Windows, confira Windows Selective Wipe for Device Data Management (Limpeza Seletiva do Windows para gerenciamento de dados de dispositivo).
 
@@ -184,9 +184,12 @@ A solução de gerenciamento adotada pela empresa também é responsável por ab
 
 Um desafio nesta área é poder gerenciar plataformas diferentes e preservar a uma interface de gerenciamento centralizado que permita à TI identificar rapidamente os dispositivos que estão conectados locais e na nuvem. Você deve considerar a adoção de uma plataforma de gerenciamento que possa consolidar ambos (local e nuvem) e também uma plataforma de gerenciamento que seja capaz de gerenciar sistemas Windows e não Windows.
 
-Para gerenciamento centralizado local, você pode usar o Gerenciador de Configurações. Usando essa opção, a TI pode aproveitar o recurso Registro Enterprise para registrar os dispositivos com o servidor do Gerenciador de Configurações da empresa. Para saber mais sobre como gerenciar dispositivos usando o Configuration Manager, confira Gerenciar dispositivos móveis com o Configuration Manager e o Microsoft Intune.
+Para gerenciamento centralizado local, você pode usar o Gerenciador de Configurações. Usando essa opção, a TI pode aproveitar o recurso Registro Enterprise para registrar os dispositivos com o servidor do Gerenciador de Configurações da empresa. Para saber mais sobre como gerenciar dispositivos usando o Configuration Manager, confira [Gerenciar Dispositivos Móveis com o Configuration Manager e o Microsoft Intune](https://technet.microsoft.com/en-us/library/jj884158.aspx).
 
-Para gerenciar outras plataformas que não sejam dispositivos baseados em Windows, você pode aproveitar o serviço de nuvem Microsoft Intune. O Portal da empresa Microsoft Intune pode ser usado para registrar, gerenciar e instalar aplicativos licenciados. Os usuários podem ter acesso fácil a aplicativos e instalá-los em seus dispositivos. Para saber mais sobre o Microsoft Intune, confira [Gerenciamento direto do Microsoft Intune](https://technet.microsoft.com/library/jj733620.aspx). Para saber mais sobre o Portal da empresa Microsoft Intune, confira o [Portal da empresa Microsoft Intune](https://technet.microsoft.com/library/jj676642.aspx).
+Para gerenciar outras plataformas que não sejam dispositivos baseados em Windows, você pode aproveitar o serviço de nuvem Microsoft Intune. O Portal da empresa Microsoft Intune pode ser usado para registrar, gerenciar e instalar aplicativos licenciados. Os usuários podem ter acesso fácil a aplicativos e instalá-los em seus dispositivos. 
+
+>[!TIP] 
+>Para saber mais sobre o Microsoft Intune, consulte a [página do Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune). 
 
 Embora essas sejam duas opções, você pode integrar ambas para oferecer implantação e provisionamento de aplicativo de um único local. Use a tabela a seguir para identificar qual opção se ajusta ao seu projeto de BYOD.
 
@@ -199,6 +202,6 @@ Embora essas sejam duas opções, você pode integrar ambas para oferecer implan
                                                                     
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
