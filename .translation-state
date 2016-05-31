@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "f4ffd11010f1f42dc3c1a628156c332a0606f7ce",
+  "LastProcessedCommit": "e8eaa3539b64ff204e341a99547b7f8a7e971c2f",
   "LastTranslatedCommit": "febbeab1e0dd47ffd571ee663972749a0aecb241",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -27735,6 +27735,36 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf",
       "HandoffFileCommit": "e884fa562789ef0d88ad566ae52bcafa75c46304",
       "HandoffDateTime": "2016-05-27T17:58:37.9999993Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "d7ee9f5c3eaa76d259e4d1cf0f1f1b32bf27b8a8": {
+      "FileHash": "d7ee9f5c3eaa76d259e4d1cf0f1f1b32bf27b8a8",
+      "SourceFileCommit": "376a4b59c212d21b1fb2663fd8d0838c0d961884",
+      "SourceFilePath": "EMDocs\\toc.yml",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\toc.yml"
+      ],
+      "HasMetadata": false,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf",
+      "HandoffFileCommit": "c511fca5c94ba2434613df9e39a85b9bc9a67ae3",
+      "HandoffDateTime": "2016-05-31T09:17:40.6242573Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,

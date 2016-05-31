@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/376a4b59c212d21b1fb2663fd8d0838c0d961884/EMDocs/toc.yml) | HandedBackFailed | [Details](#d7ee9f5c3eaa76d259e4d1cf0f1f1b32bf27b8a8330)
 
 ## Item Details
+##### <a name='d7ee9f5c3eaa76d259e4d1cf0f1f1b32bf27b8a8330'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/376a4b59c212d21b1fb2663fd8d0838c0d961884/EMDocs/toc.yml)
+* Status: HandedBackFailed
+* Target File: 
+* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/c511fca5c94ba2434613df9e39a85b9bc9a67ae3/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf)
+* Handoff Datetime: 2016-05-31 09:17:40
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
