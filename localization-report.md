@@ -1165,8 +1165,8 @@
 * Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/e884fa562789ef0d88ad566ae52bcafa75c46304/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf)
 * Handoff Datetime: 2016-05-27 17:58:37
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/6fc015514cbf052eb45d50d89c6977d8c78e4823/EMDocs/index.md)
@@ -1552,8 +1552,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/7d9fa11130b2b809eb0f787b261948665af0c480/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.pt-br.xlf)
 * Handoff Datetime: 2016-05-25 15:58:20
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/6fc015514cbf052eb45d50d89c6977d8c78e4823/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
@@ -1675,8 +1675,8 @@
 * Handoff File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-application-management-options.md)
@@ -1702,8 +1702,8 @@
 * Handoff File: [mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-certificate-management-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-certificate-management-options.md)
@@ -1765,8 +1765,8 @@
 * Handoff File: [mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-design-considerations-guide.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-design-considerations-guide.md)
@@ -1780,8 +1780,8 @@
 * Handoff File: [mdm-determine-network-requirements.a89a25cd1a8f9bd7cd13952eb851a1d699d0a46f.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-determine-network-requirements.a89a25cd1a8f9bd7cd13952eb851a1d699d0a46f.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-determine-network-requirements.a89a25cd1a8f9bd7cd13952eb851a1d699d0a46f.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-determine-network-requirements.a89a25cd1a8f9bd7cd13952eb851a1d699d0a46f.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-determine-network-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-determine-network-requirements.md)
@@ -1819,8 +1819,8 @@
 * Handoff File: [mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-develop-saas-mdm-strategy.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-develop-saas-mdm-strategy.md)
@@ -1834,8 +1834,8 @@
 * Handoff File: [mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-device-enrollment-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-device-enrollment-options.md)
@@ -1849,8 +1849,8 @@
 * Handoff File: [mdm-device-management-options.ae8b0192deba91ac6b980471c581090e14cd5e1e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-device-management-options.ae8b0192deba91ac6b980471c581090e14cd5e1e.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-device-management-options.ae8b0192deba91ac6b980471c581090e14cd5e1e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-device-management-options.ae8b0192deba91ac6b980471c581090e14cd5e1e.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-device-management-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-device-management-options.md)
@@ -1864,8 +1864,8 @@
 * Handoff File: [mdm-device-monitoring-options.06b033691c8394d67fdf0d8f7f1508ea16cb33d0.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-device-monitoring-options.06b033691c8394d67fdf0d8f7f1508ea16cb33d0.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-device-monitoring-options.06b033691c8394d67fdf0d8f7f1508ea16cb33d0.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-device-monitoring-options.06b033691c8394d67fdf0d8f7f1508ea16cb33d0.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-device-monitoring-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-device-monitoring-options.md)
@@ -1879,8 +1879,8 @@
 * Handoff File: [mdm-device-provisioning-options.e80a49318421d656718abf4f326f90bcfe76e171.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-device-provisioning-options.e80a49318421d656718abf4f326f90bcfe76e171.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-device-provisioning-options.e80a49318421d656718abf4f326f90bcfe76e171.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-device-provisioning-options.e80a49318421d656718abf4f326f90bcfe76e171.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-device-provisioning-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-device-provisioning-options.md)
@@ -1894,8 +1894,8 @@
 * Handoff File: [mdm-email-management-options.e9cae1595a63e7783c76a9bc58d716d55c60d7e7.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-email-management-options.e9cae1595a63e7783c76a9bc58d716d55c60d7e7.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-email-management-options.e9cae1595a63e7783c76a9bc58d716d55c60d7e7.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-email-management-options.e9cae1595a63e7783c76a9bc58d716d55c60d7e7.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-email-management-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-email-management-options.md)
@@ -1921,8 +1921,8 @@
 * Handoff File: [mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-gather-monitoring-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-gather-monitoring-requirements.md)
@@ -1960,8 +1960,8 @@
 * Handoff File: [mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-identify-saas-connectivity-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-identify-saas-connectivity-requirements.md)
@@ -1975,8 +1975,8 @@
 * Handoff File: [mdm-identify-saas-requirements.1192c195cc8885a76c3f7ced1648703273db6ef8.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-identify-saas-requirements.1192c195cc8885a76c3f7ced1648703273db6ef8.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-identify-saas-requirements.1192c195cc8885a76c3f7ced1648703273db6ef8.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-identify-saas-requirements.1192c195cc8885a76c3f7ced1648703273db6ef8.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-identify-saas-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-identify-saas-requirements.md)
@@ -1990,8 +1990,8 @@
 * Handoff File: [mdm-identify-saas-solution-infrastructure-integration-needs.171ce383135a53451bc07e486eb8bad0ff2eb82e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-identify-saas-solution-infrastructure-integration-needs.171ce383135a53451bc07e486eb8bad0ff2eb82e.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-identify-saas-solution-infrastructure-integration-needs.171ce383135a53451bc07e486eb8bad0ff2eb82e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-identify-saas-solution-infrastructure-integration-needs.171ce383135a53451bc07e486eb8bad0ff2eb82e.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-identify-saas-solution-infrastructure-integration-needs.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-identify-saas-solution-infrastructure-integration-needs.md)
@@ -2005,8 +2005,8 @@
 * Handoff File: [mdm-network-connectivity-management-options.9e8c1446eea8160ed22fede68a8e0f8be7b9369a.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-network-connectivity-management-options.9e8c1446eea8160ed22fede68a8e0f8be7b9369a.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-network-connectivity-management-options.9e8c1446eea8160ed22fede68a8e0f8be7b9369a.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-network-connectivity-management-options.9e8c1446eea8160ed22fede68a8e0f8be7b9369a.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-network-connectivity-management-options.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-network-connectivity-management-options.md)
@@ -2020,8 +2020,8 @@
 * Handoff File: [mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-next-steps-and-additional-resources.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-next-steps-and-additional-resources.md)
@@ -2083,8 +2083,8 @@
 * Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/11bbd76a3ee53999165306d19ca77d128f0d8672/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
 * Handoff Datetime: 2016-05-20 17:08:09
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
@@ -2110,8 +2110,8 @@
 * Handoff File: [mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/d00078bd732be2d186601754624b8707c930c98a/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
@@ -2125,8 +2125,8 @@
 * Handoff File: [mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/05a10310764db4fbd24e99a596106d9b736ba4c2/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.pt-br.xlf)
 * Handoff Datetime: 2016-06-01 22:49:41
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-understand-mdm-lifecycle.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a581eed441b7e00e12e14a1501144d07426e75a6/EMDocs/Solutions/mdm-understand-mdm-lifecycle.md)
@@ -4569,8 +4569,8 @@
 * Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/c511fca5c94ba2434613df9e39a85b9bc9a67ae3/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf)
 * Handoff Datetime: 2016-05-31 09:17:40
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/25866247cac0522559de87cec5b256f0eaac67b1/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf)
+* Archive Datetime: 2016-06-02 00:25:59
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
