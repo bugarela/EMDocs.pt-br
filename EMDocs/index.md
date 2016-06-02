@@ -36,6 +36,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">Benefícios do FastTrack para o EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">O que é o Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">O que é o Advanced Threat Analytics?</a></li>
+                <li><a href="/active-directory/active-directory-whatis">O que é o Active Directory do Azure?</a></li>
             </ul>
             <ul class="column-half">
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">O que é o Microsoft Identity Manager?</a></li>
@@ -175,6 +176,6 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 </article>
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=May16_HO4-->
 
 

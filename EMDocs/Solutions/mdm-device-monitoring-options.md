@@ -4,9 +4,9 @@
 title: Opções de monitoramento de dispositivo
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -105,6 +105,6 @@ Explore os detalhes sobre as opções de monitoramento de dispositivos móveis e
 - ConfigMgr: [Como monitorar dispositivos móveis](https://technet.microsoft.com/library/gg682128.aspx) e [gerenciar relatórios](https://technet.microsoft.com/library/gg699377.aspx)
 - MDM para Office 365: [Visão geral das tarefas de gerenciamento de dispositivo](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

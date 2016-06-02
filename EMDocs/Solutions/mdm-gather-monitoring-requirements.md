@@ -4,9 +4,9 @@
 title: Reunir os requisitos de monitoramento
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -64,6 +64,6 @@ Responda às seguintes perguntas sobre o planejamento do monitoramento de dispos
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

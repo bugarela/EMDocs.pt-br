@@ -4,9 +4,9 @@
 title: Próximas etapas e recursos adicionais
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -61,6 +61,6 @@ Monitorar os seguintes recursos fornece as notícias e atualizações mais recen
 - [Blog do Microsoft Office 365](http://blogs.office.com/office365forbusiness/)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

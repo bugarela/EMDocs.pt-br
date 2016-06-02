@@ -4,9 +4,9 @@
 title: Identificar requisitos de conectividade de SaaS
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -78,6 +78,6 @@ Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa cons
 - Para as organizações que não tenham uma infraestrutura do ConfigMgr atual configurada, será necessário planejá-la, instalá-la e configurá-la antes da integração com o Intune
 - Exige requisitos de implantação local adicional e alterações de configuração para as organizações com o ConfigMgr.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

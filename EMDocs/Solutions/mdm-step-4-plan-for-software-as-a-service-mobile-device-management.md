@@ -4,9 +4,9 @@
 title: Etapa 4 - Planejar o gerenciamento de dispositivos móveis de software como serviço
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -45,6 +45,6 @@ Há 4 etapas nesta seção do guia. O tempo total para leitura das seções é d
 - [Desenvolver uma estratégia de gerenciamento de dispositivo móvel SaaS](mdm-develop-saas-mdm-strategy.md)
 - [Identificar requisitos de conectividade de SaaS](mdm-identify-saas-connectivity-requirements.md)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

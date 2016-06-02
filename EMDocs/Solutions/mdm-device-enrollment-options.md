@@ -4,9 +4,9 @@
 title: Opções de registro do dispositivo
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -50,6 +50,6 @@ Suas respostas às perguntas na Etapa 1 ajudarão você a decidir como deseja qu
 
 Sua organização pode desejar permitir ambos os cenários de registro, adotando uma abordagem flexível para permitir diferentes métodos para diferentes departamentos ou situações. Nesse caso, sua solução de gerenciamento de dispositivos móveis deve ter a capacidade de dar suporte a ambos os cenários.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

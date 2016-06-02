@@ -4,9 +4,9 @@
 title: Desenvolver uma estratégia de gerenciamento de dispositivo móvel SaaS
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -81,6 +81,6 @@ Não deixe de ler o artigo **[Ajudar a proteger seus dados com apagamento remoto
 
 Para obter mais detalhes sobre as funcionalidades e os requisitos da solução de SaaS, leia o tópico **[descrição do serviço para Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** para entender as diferenças no suporte a SaaS no [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e em uma infraestrutura [híbrida](https://technet.microsoft.com/library/jj884158.aspx) do Intune e do ConfigMgr.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

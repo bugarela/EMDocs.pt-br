@@ -4,9 +4,9 @@
 title: Opções de gerenciamento de dispositivo
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -101,6 +101,6 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
 - Atualmente, não há suporte para perfis de VPN e de email para dispositivos com Android
 - Atualmente, não há suporte para o suporte ao navegador gerenciado
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

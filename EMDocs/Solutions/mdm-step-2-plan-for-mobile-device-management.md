@@ -4,9 +4,9 @@
 title: Etapa 2 - Planejar o gerenciamento de dispositivos móveis
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -48,6 +48,6 @@ Há 11 etapas nesta seção do guia. O tempo total para leitura das seções é 
 - [Opções de gerenciamento de conectividade de rede](mdm-network-connectivity-management-options)
 - [Opções de gerenciamento de certificados](mdm-certificate-management-options.md)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

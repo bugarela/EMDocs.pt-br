@@ -4,9 +4,9 @@
 title: Opções de gerenciamento de email
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -91,6 +91,6 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 - ConfigMgr: Como habilitar [perfis de email](https://technet.microsoft.com/library/dn554227.aspx) e o [acesso a email condicional](https://technet.microsoft.com/library/dn919655.aspx)
 - MDM para Office 365: [Recursos de gerenciamento de dispositivos móveis](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

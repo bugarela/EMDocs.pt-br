@@ -4,9 +4,9 @@
 title: Opções de gerenciamento de aplicativos
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -77,6 +77,6 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você deverá ser c
 
 Explore os detalhes sobre as opções de gerenciamento de aplicativos móveis revisando o seguinte para o Intune e o ConfigMgr: Configurar e implantar políticas de gerenciamento de aplicativos móveis no console do Microsoft Intune. Além disso, não deixe de conferir a lista de aplicativos da Microsoft que podem ser usados com as políticas de MAM do Intune, bem como a lista crescente de aplicativos parceiros compatíveis com o Intune.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 
