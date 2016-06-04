@@ -4,9 +4,9 @@
 title: Compreender o ciclo de vida do MDM
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -93,7 +93,7 @@ O gerenciamento de dispositivos móveis geralmente envolve diversas áreas admin
 - **Inventário e relatórios:** ao gerenciar dispositivos móveis, convém gravar e analisar eventos de plataforma e de dispositivo móveis para acompanhar a conformidade com as políticas de gerenciamento em sua organização. Os relatórios detalhados também podem fornecer dados e estatísticas em tempo real para que você possa tomar decisões melhores e mais rápidas com base no status dos dispositivos móveis e nos usuários de dispositivos móveis. Mais detalhes sobre o inventário e relatórios são incluídos em uma seção posterior.
 
 ### Questões de planejamento de gerenciamento de dispositivo
-Por enquanto, concentre-se apenas nos principais aspectos da administração, já que você ainda está definindo os requisitos. É possível refinar esses requisitos conforme você percorre seu plano e entende melhor as necessidades gerais de sua organização.</para><para>Responda às seguintes perguntas de planejamento sobre o gerenciamento de dispositivos:
+Por enquanto, concentre-se apenas nos principais aspectos da administração, já que você ainda está definindo os requisitos. É possível refinar esses requisitos conforme você percorre seu plano e entende melhor as necessidades gerais de sua organização.</para><para>Responda as seguintes perguntas de planejamento sobre o gerenciamento do dispositivo:
 
 - Você precisa de políticas específicas de gerenciamento aplicadas a grupos de usuários, grupos de dispositivos e/ou grupos de sistemas operacionais de dispositivos?
 - Você precisa de políticas específicas de gerenciamento para diferentes tipos de dispositivos? Por exemplo, políticas separadas para dispositivos de propriedade da empresa ou do usuário, ou dispositivos móveis e não móveis?
@@ -144,6 +144,6 @@ Responda às seguintes perguntas de planejamento sobre a desativação e cancela
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -4,9 +4,9 @@
 title: Opções de gerenciamento de conectividade de rede
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -36,7 +36,7 @@ Ao usar o [Intune](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) ou u
 
 O [Intune](/Intune/deployuse/vpn-connections-in-microsoft-intune) e o [ConfigMgr](https://technet.microsoft.com/library/dn261217.aspx) também podem implantar perfis de VPN diretamente em dispositivos móveis, para permitir que o usuário acesse recursos corporativos internos sem configuração adicional ou trabalho manual. Além disso, o Intune pode configurar dispositivos móveis para iniciar automaticamente uma conexão VPN que é baseada no recurso de tipo ou no método de acesso. Lembre-se, no entanto, de que existem requisitos de configuração diferentes para fazer isso para diferentes tipos de sistemas operacionais de dispositivos móveis.
 
-Suas respostas às perguntas na Tarefa 3 podem ajudá-lo a determinar como você deseja que os dispositivos sejam conectados aos recursos corporativos. Esteja ciente de que, atualmente, o <token>MDM para o Office 365</token> não dá suporte ao gerenciamento de recursos de rede sem fio e VPN para dispositivos móveis.
+Suas respostas às perguntas na Tarefa 3 podem ajudá-lo a determinar como você deseja que os dispositivos sejam conectados aos recursos corporativos. Lembre-se de que, atualmente, o <token>MDM para Office 365</token> não dá suporte ao gerenciamento de recursos de rede VPN e sem fio para dispositivos móveis.
 
 As listas abaixo relacionam as vantagens e desvantagens do gerenciamento de redes sem fio e de VPN usando o Intune autônomo e o Intune com o ConfigMgr híbridos.
 
@@ -77,6 +77,6 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 - Intune: habilitar os perfis [sem fio](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) e de [VPN](/Intune/deployuse/vpn-connections-in-microsoft-intune)
 - ConfigMgr: habilitar os perfis [sem fio](https://technet.microsoft.com/library/dn261221.aspx) e de [VPN](https://technet.microsoft.com/library/dn261217.aspx)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

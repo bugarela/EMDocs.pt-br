@@ -4,9 +4,9 @@
 title: Determinar os requisitos de rede
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -30,7 +30,7 @@ ms.suite: ems
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Habilitar o acesso seguro e gerenciado para uma ampla variedade de recursos corporativos por dispositivos móveis é um recurso importante de uma solução de gerenciamento de dispositivos móveis. Embora esses recursos normalmente tenham sido colocados em redes locais, agora é mais comum que eles sejam hospedados, além dos serviços Web baseados em nuvem e redes externas.</para><para>A forma como os dispositivos móveis se conectam às plataformas de email corporativo, VPNs (redes virtuais privadas) e redes Wi-Fi sem fio corporativas desempenha um papel importante em manter dados corporativos e outros recursos protegidos contra o acesso não autorizado. Igualmente importante é tornar fácil e conveniente para os usuários de dispositivos móveis terem acesso seguro a estes recursos para evitar que eles encontrem um método mais conveniente, mas não seguro de armazenar e acessar os recursos.</para></content>
+Habilitar o acesso seguro e gerenciado para uma ampla variedade de recursos corporativos por dispositivos móveis é um recurso importante de uma solução de gerenciamento de dispositivos móveis. Embora esses recursos normalmente sejam localizados em redes locais, é mais comum agora que os recursos sejam hospedados além de serviços Web baseados em nuvem e redes externas.</para><para>Como os dispositivos móveis se conectam a plataformas de email corporativo, redes virtuais privadas (VPNs) e redes sem fio (WiFi) corporativas, todos desempenham uma função importante em manter dados corporativos e outros recursos protegidos de acesso não autorizado. Igualmente importante é tornar fácil e conveniente para os usuários de dispositivos móveis terem acesso seguro a estes recursos para evitar que eles encontrem um método mais conveniente, mas não seguro de armazenar e acessar os recursos.</para></content>
 
 
 ## Gerenciamento de email
@@ -94,7 +94,7 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de conect
 
 ## Gerenciamento de certificados
 
-Certificados digitais, sejam autoassinados ou emitidos por CAs (Autoridades de Certificação) de terceiros, podem ser usados para autenticar dispositivos móveis em conexões de rede ou em recursos de rede específicos. Para simplificar o gerenciamento de certificados digitais, os administradores normalmente gerenciam os certificados usando perfis de certificados. Isso permite um método uniforme e centralizado para gerenciar certificados, incluindo como eles são criados, emitidos e renovados. Isso também ajuda os usuários a se conectarem aos recursos corporativos, sem que haja a necessidade de solicitar e instalar certificados manualmente ou usando um processo de segurança não aprovado.</para><para>No entanto, o uso de certificados para esse tipo de autenticação geralmente exige requisitos de infraestrutura local adicionais. Isso pode incluir todos ou alguns dos seguintes componentes de rede, dependendo do nível de integração com suporte da solução de gerenciamento de dispositivos móveis:
+Certificados digitais, sejam autoassinados ou emitidos por CAs (Autoridades de Certificação) de terceiros, podem ser usados para autenticar dispositivos móveis em conexões de rede ou em recursos de rede específicos. Para simplificar o gerenciamento de certificados digitais, os administradores normalmente gerenciam os certificados usando perfis de certificados. Isso permite um método uniforme e centralizado para gerenciar certificados, incluindo como eles são criados, emitidos e renovados. Isso também ajuda os usuários se conectarem a recursos corporativos sem a necessidade de solicitar e instalar certificados manualmente ou usando um processo de segurança não aprovado.</para><para>No entanto, usar certificados para esse tipo de autenticação geralmente requer requisitos de infraestrutura local adicionais. Isso pode incluir todos ou alguns dos seguintes componentes de rede, dependendo do nível de integração com suporte da solução de gerenciamento de dispositivos móveis:
 
 - **Serviços de diretório:** serviços de diretório, como o Active Directory da Microsoft, geralmente são necessários para conectar com segurança e gerenciar todos os outros componentes de rede.
 - **Servidor de AC (autoridade de certificação):** se você estiver emitindo certificados autoassinados para a sua organização, você precisará de uma autoridade de certificação para criar, emitir, gerenciar e renovar os certificados digitais.
@@ -115,6 +115,6 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de certif
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

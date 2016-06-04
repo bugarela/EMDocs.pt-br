@@ -4,9 +4,9 @@
 title: Opções de provisionamento de dispositivo
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -36,7 +36,7 @@ Quando um usuário pode usar e registrar seus próprios dispositivos, isso aumen
 
 **Visão geral do processo de registro para dispositivos móveis usando o Intune e o ConfigMgr híbridos**
 
-1. Com o <token>Com o Windows Server 2012 R2, um novo conceito conhecido como registro de dispositivo foi introduzido.  Os usuários podem registrar seus dispositivos para logon único e acessar os dados corporativos usando o Ingresso no Local de Trabalho.  Como parte desse processo de registro, um certificado é instalado no dispositivo. Em troca de registrar seu dispositivo e torná-lo conhecido para a solução de gerenciamento de dispositivos, o usuário obtém acesso aos recursos corporativos que anteriormente não estavam disponíveis fora de seus PCs ingressados em domínio.
+1. Com o <token>Windows Server 2012 R2, um novo conceito conhecido como registro de dispositivo foi introduzido.  Os usuários podem registrar seus dispositivos para logon único e acessar os dados corporativos usando o Ingresso no Local de Trabalho.  Como parte desse processo de registro, um certificado é instalado no dispositivo. Em troca de registrar seu dispositivo e torná-lo conhecido para a solução de gerenciamento de dispositivos, o usuário obtém acesso aos recursos corporativos que anteriormente não estavam disponíveis fora de seus PCs ingressados em domínio.
 2. Os usuários podem registrar dispositivos que configuram o dispositivo para o gerenciamento com o Intune [usando o Portal da Empresa](/Intune/deployuse/enroll-devices-in-microsoft-intune) e, em seguida, aproveitar o Portal da Empresa do Microsoft Intune para acessar facilmente os aplicativos e dados corporativos, e poder gerenciar seus próprios dispositivos, executando tarefas como apagamento remoto caso sejam perdidos, roubados ou substituídos.
 3. É possível publicar o acesso aos recursos corporativos com a funcionalidade interna disponível no Windows Server 2012 R2 chamada [Proxy de Aplicativo Web](https://technet.microsoft.com/library/dn584107.aspx), com base no reconhecimento de dispositivo (ou seja, se é foi registrado) e a identidade dos usuários. Se você estiver usando o Enterprise Mobility Suite, também poderá publicar aplicativos usando o Proxy de Aplicativo do Azure AD. A autenticação multifator pode ser usada por meio da [Autenticação Ativa do Azure](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
 4. Para fornecer aos administradores uma visão unificada de todo o ambiente, os dados do Intune são sincronizados com o ConfigMgr, que fornece o gerenciamento unificado localmente e na nuvem.
@@ -87,6 +87,6 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você precisa deter
 
 Para obter mais detalhes sobre as opções de registro e provisionamento de dispositivos móveis, lembre-se de examinar como [habilitar registros de dispositivo móvel](/Intune/deployuse/enroll-devices-in-microsoft-intune) no Intune e comparar esses requisitos e procedimentos com a [habilitação de registros de dispositivo móvel](https://technet.microsoft.com/library/jj884158.aspx) no ConfigMgr e no MDM para Office 365.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

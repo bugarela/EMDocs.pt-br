@@ -28,7 +28,7 @@ ms.suite: ems
 # Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - fases
 Quando você usa o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso, há várias fases envolvidas no processo. As seções a seguir descrevem cada fase do processo de integração.
 
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para EMS (Enterprise Mobility Suite)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 A integração tem quatro fases principais, conforme mostra a figura a seguir:
@@ -107,8 +107,7 @@ Para o Microsoft Intune, e com base em seu dispositivo móvel e nas necessidades
 
     -   Se você tiver uma implementação existente do System Center Configuration Manager e quiser para expandir seus recursos de gerenciamento com o Microsoft Intune, configure o Configuration Manager como sua autoridade MDM.
 
-        > [!NOTE]
-        > Se você estiver procurando apenas aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos próprios, dispositivos compartilhados ou dispositivos de quiosque de seus usuários finais, a configuração de uma autoridade MDM não é necessária.
+        > [!NOTE] Se você estiver procurando apenas aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos próprios, dispositivos compartilhados ou dispositivos de quiosque de seus usuários finais, a configuração de uma autoridade MDM não será necessária.
 
 -   Se o Gerenciamento de Dispositivo Móvel estiver no seu escopo, forneceremos orientações com:
 
@@ -120,7 +119,7 @@ Para o Microsoft Intune, e com base em seu dispositivo móvel e nas necessidades
 
         -   Políticas de acesso condicional.
 
-        -   Implantação de perfis de email.
+        -   Implantação de email, Wi-Fi e perfis VPN.
 
         -   Configuração do Microsoft Intune Exchange Connector, quando aplicável.
 
@@ -167,10 +166,10 @@ A instalação do AzRMS inclui a habilitação dos recursos a seguir:
 Leia sobre a próxima parte do processo de integração do FastTrack: [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 
 ### Quer saber mais?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO5-->
+<!--HONumber=May16_HO4-->
 
 

@@ -4,9 +4,9 @@
 title: Identificar as necessidades de integração de infraestrutura da solução SaaS
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -41,7 +41,7 @@ As decisões tomadas nessas duas áreas afetarão significativamente a implanta�
 
 A conexão e sincronização do seu diretório local de contas de dispositivo e usuário com a solução de SaaS é realmente a liga que na verdade conecta os usuários, dispositivos móveis, aplicativos móveis e o gerenciamento de dispositivos móveis. Saber quem é um usuário (identidade) e associar a identidade a dispositivos móveis específicos é essencial para gerenciar o acesso aos recursos e aos dados da empresa no dispositivo móvel. Em muitos aspectos, maximizar a forma como essas áreas são conectadas à solução de SaaS determina o valor geral para você e seus usuários de dispositivos móveis.  Conectividade onipresente significa que as pessoas e dispositivos podem usar dispositivos e aplicativos em qualquer lugar, e é essencial que o gerenciamento de identidade de usuário acompanhe as demandas dessa conectividade. Nunca é demais enfatizar que o modo como você gerencia a identidade e autenticação de usuário é fundamental para o sucesso de sua solução de gerenciamento de dispositivos móveis.
 
-A sincronização de serviços de diretório local para a solução de SaaS é outra área fundamental a ser considerada ao definir sua estratégia de gerenciamento de dispositivos móveis. A maioria das organizações prefere manter uma infraestrutura local de diretório de dispositivo e usuário, mas precisa estender essas contas para uma variedade de serviços baseados em nuvem. Isso pode incluir apenas uma solução de gerenciamento de dispositivos móveis baseada em SaaS, mas na maioria dos cenários, as organizações precisam integrar as contas de usuários e dispositivos em vários tipos diferentes de serviços baseados em nuvem. Isso pode incluir aplicativos, dados ou serviços Web de terceiros baseados em nuvem. Manter suas contas de diretório de usuário e dispositivo sincronizadas é a base de uma solução de gerenciamento de identidade bem projetada. Depois de integrar seu diretório local ao diretório na nuvem, você também poderá habilitar o SSO (logon único) para permitir que os usuários entrem em todos os serviços usando suas credenciais locais. Ambos <token>Intune</token> e o Office 365 podem aproveitar essa integração para habilitar o SSO com aplicativos SaaS que a organização talvez queira usar.
+A sincronização de serviços de diretório local para a solução de SaaS é outra área fundamental a ser considerada ao definir sua estratégia de gerenciamento de dispositivos móveis. A maioria das organizações prefere manter uma infraestrutura local de diretório de dispositivo e usuário, mas precisa estender essas contas para uma variedade de serviços baseados em nuvem. Isso pode incluir apenas uma solução de gerenciamento de dispositivos móveis baseada em SaaS, mas na maioria dos cenários, as organizações precisam integrar as contas de usuários e dispositivos em vários tipos diferentes de serviços baseados em nuvem. Isso pode incluir aplicativos, dados ou serviços Web de terceiros baseados em nuvem. Manter suas contas de diretório de usuário e dispositivo sincronizadas é a base de uma solução de gerenciamento de identidade bem projetada. Depois de integrar seu diretório local ao diretório na nuvem, você também poderá habilitar o SSO (logon único) para permitir que os usuários entrem em todos os serviços usando suas credenciais locais. O <token>Intune</token> e o Office 365 podem aproveitar essa integração para habilitar o SSO com aplicativos SaaS que a organização talvez queira usar.
 
 ### Perguntas sobre identidade e conectividade de diretório
 
@@ -83,6 +83,6 @@ Como parte do planejamento de ciclo de vida do gerenciamento de SaaS, você deve
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 
