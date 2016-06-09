@@ -30,8 +30,18 @@ ms.suite: ems
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte do mesmo setor, os requisitos de negócios reais poderão variar. Você ainda pode aproveitar as práticas recomendadas do setor, mas, em última análise, são as necessidades de negócios da empresa que identificarão os requisitos para a solução de gerenciamento de dispositivos móveis. 
-Para ajudar você a identificar suas necessidades comerciais, responda às seguintes perguntas:
+Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte do mesmo setor, os requisitos de negócios reais poderão variar. Você ainda pode aproveitar as práticas recomendadas do setor, mas, em última análise, são as necessidades de negócios da empresa que identificarão os requisitos para a solução de gerenciamento de dispositivos móveis. Para ajudar você a identificar suas necessidades comerciais, responda às seguintes perguntas:
+
+- **Usuários:** um dos principais pontos ao adotar a mobilidade é colocar o usuário no centro da solução de mobilidade e permitir que ele seja mais produtivo, ao mesmo tempo que mantém os dados da empresa seguros e disponíveis. Isso é importante para entender quais são os requisitos do usuário.
+    - O usuário poderá trazer seu próprio dispositivo e acessar os recursos da empresa?
+        - Em caso afirmativo, quais são os requisitos para acessar recursos da empresa?
+    - Sua empresa tem diferentes necessidades de usuário?
+        - Em caso afirmativo, como cada perfil de usuário afetará a estratégia de mobilidade?
+    - Os usuários poderão acessar todos os aplicativos aos quais tenham acesso no ambiente local por meio de seus dispositivos móveis?
+        - Caso contrário, quais aplicativos estarão disponíveis para os usuários?
+            - Esses aplicativos estão disponíveis para todas as plataformas de dispositivos móveis com suporte?
+            - Será necessário modificar ou atualizar aplicativos para executá-los em todas as plataformas de dispositivos móveis com suporte?
+    - Os usuários precisam apenas do acesso básico a recursos de email (incluindo calendário, contatos e tarefas)?
 
 - **Propriedade do dispositivo:** você deve entender a política de propriedade do dispositivo de sua empresa.
     - Quem possui o dispositivo móvel? 
@@ -69,16 +79,6 @@ Para ajudar você a identificar suas necessidades comerciais, responda às segui
     - Os aplicativos funcionam em uma rede de baixa latência? 
     - Os aplicativos fornecem recursos de autenticação?
         - Nesse caso, que método de autenticação os aplicativos usam?
-- **Usuários:** um dos principais pontos ao adotar a mobilidade é colocar o usuário no centro da solução de mobilidade e permitir que ele seja mais produtivo, ao mesmo tempo que mantém os dados da empresa seguros e disponíveis. Isso é importante para entender quais são os requisitos do usuário.
-    - O usuário poderá trazer seu próprio dispositivo e acessar os recursos da empresa?
-        - Em caso afirmativo, quais são os requisitos para acessar recursos da empresa?
-    - Sua empresa tem diferentes necessidades de usuário?
-        - Em caso afirmativo, como cada perfil de usuário afetará a estratégia de mobilidade?
-    - Os usuários poderão acessar todos os aplicativos aos quais tenham acesso no ambiente local por meio de seus dispositivos móveis?
-        - Caso contrário, quais aplicativos estarão disponíveis para os usuários?
-            - Esses aplicativos estão disponíveis para todas as plataformas de dispositivos móveis com suporte?
-            - Será necessário modificar ou atualizar aplicativos para executá-los em todas as plataformas de dispositivos móveis com suporte?
-    - Os usuários precisam apenas do acesso básico a recursos de email (incluindo calendário, contatos e tarefas)?
 
 Durante esta tarefa, você deve também avaliar se a empresa tem políticas existentes em vigor de gerenciamento e conformidade para dispositivos móveis e como essas políticas podem afetar a seleção da solução de gerenciamento de dispositivos móveis.
 
@@ -87,6 +87,6 @@ Durante esta tarefa, você deve também avaliar se a empresa tem políticas exis
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

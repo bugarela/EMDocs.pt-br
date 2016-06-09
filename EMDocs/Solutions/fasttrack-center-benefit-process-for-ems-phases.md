@@ -4,8 +4,8 @@
 title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - fases
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -170,6 +170,6 @@ Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

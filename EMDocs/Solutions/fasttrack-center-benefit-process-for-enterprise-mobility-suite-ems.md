@@ -4,8 +4,8 @@
 title: Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -60,10 +60,10 @@ Eis o que você pode esperar quando a integração for concluída:
 Leia sobre a próxima parte do processo de integração do FastTrack: [Visão geral do processo de integração](fasttrack-center-benefit-process-for-ems-overview.md)
 
 ### Quer saber mais?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

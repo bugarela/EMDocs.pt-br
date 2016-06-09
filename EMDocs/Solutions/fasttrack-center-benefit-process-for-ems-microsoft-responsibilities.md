@@ -4,8 +4,8 @@
 title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades da Microsoft
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -28,7 +28,7 @@ ms.suite: ems
 # Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades da Microsoft
 As seções a seguir descrevem o que você pode esperar da Microsoft quando sua organização estiver usando o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso.
 
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para EMS (Enterprise Mobility Suite)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 ## Geral
@@ -86,13 +86,11 @@ Fornecimento de orientação sobre:
 
     -   Configuração da sincronização de senha (hash de senha) para o Microsoft Intune (Active Directory do Azure) com a ferramenta Azure Active Directory Connect.
 
-        > [!NOTE]
-        > Desenvolvimento e implementação de extensões de regras personalizadas estão fora do escopo.
+        > [!NOTE] O desenvolvimento e a implementação de extensões de regras personalizadas estão fora do escopo.
 
 -   Para uma única floresta quando o destino são identidades federadas: Instalação e configuração dos Serviços de Federação do Active Directory (AD FS) para autenticação de domínio local com o Microsoft Intune em uma configuração de site único e tolerante a falhas, se necessário.
 
-    > [!NOTE]
-    > Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
+    > [!NOTE] Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
 
 -   Teste da funcionalidade de SSO (logon único) se implantada.
 
@@ -242,10 +240,10 @@ Fornecimento de orientação sobre:
 Leia sobre a próxima parte do processo de integração do FastTrack: [Responsabilidades do cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
 
 ### Quer saber mais?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

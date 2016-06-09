@@ -4,8 +4,8 @@
 title: Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -29,7 +29,7 @@ ms.suite: ems
 
 Quando você usa o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso, sua organização terá algumas responsabilidades durante o processo. As seções a seguir descrevem suas responsabilidades em cada fase do processo de integração.
 
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para EMS (Enterprise Mobility Suite)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 ## Responsabilidades gerais
 
@@ -118,10 +118,10 @@ Para ler sobre as outras partes do processo de integração do FastTrack, confir
 Esta é a última parte do processo de integração do FastTrack.
 
 ### Quer saber mais?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 
