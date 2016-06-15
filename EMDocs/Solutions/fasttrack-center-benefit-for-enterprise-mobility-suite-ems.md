@@ -4,8 +4,8 @@
 title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -51,6 +51,6 @@ O Enterprise Mobility Suite, ou qualquer um dos seus serviços de nuvem incluíd
 |Microsoft Azure RMS)|Sim|
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 
