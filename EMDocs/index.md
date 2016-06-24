@@ -21,12 +21,12 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
     <section id="hero-content" class="graph">
         <h1>Documentação do Microsoft Enterprise Mobility</h1>
         <h2>Bem-vindo a documentação técnica do Microsoft Enterprise Mobility. Esses artigos ajudarão você a compreender e explorar as soluções e os produtos do Enterprise Mobility, começar a usar os serviços e planejar sua implementação. Você também encontrará conteúdo técnico detalhado para ajudar a implantar e usar os serviços, desenvolver aplicativos e solucionar problemas.</h2>
-        <h3>Ainda não conhece o Enterprise Mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visite a página do Microsoft Enterprise Mobility &rarr;</a></h3>
+        <h3>Ainda não conhece o Enterprise Mobility? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visite a página do Microsoft Enterprise Mobility &rarr;</a></h3>
     </section>
     <aside class="alert section-border">
         <p>Inscreva-se para uma avaliação de 30 dias do Enterprise Mobility Suite</p>
         <ol class="action-list">
-        <li><a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">Avaliação Gratuita</a></li>
+        <li><a href="http://go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">Avaliação Gratuita</a></li>
         </ol>
     </aside>
     <section id="featured" class="container">
@@ -176,6 +176,6 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 </article>
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO4-->
 
 
