@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/e10a2cb8001935d27c54689230385528df9c8caf/EMDocs/index.md) | InSyncHandedBackSuccess | [Details](#2086870cbad8d5981f461793857cb62f49ce230b59)
 
 ## Item Details
-##### <a name='2086870cbad8d5981f461793857cb62f49ce230b59'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/e10a2cb8001935d27c54689230385528df9c8caf/EMDocs/index.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/56dd4c1a01cd5660ce6750fec392ccb9ceeaecd3/EMDocs/index.md)
-* Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/b3e91c32fb23f9b627fb68a94e62aa2ab3c7ff65/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf)
-* Handoff Datetime: 2016-06-23 18:23:12
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/e5b2baa054321c7c37a98b2cd958391a761eba8b/ol-handback/Microsoft/EMDocs-pr.pt-br/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.pt-br.xlf)
-* Handback Datetime: 2016-06-24 16:58:25
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
