@@ -1,11 +1,29 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/34c2f8b1d1f7a0e7cfcba60d1ae0bf2e0ecb0928/EMDocs/toc.yml) | OutofSyncHandedBackSuccess | [Details](#ae46ff9126927568c56af9864c05ea72b72e1241332)
 
 ## Item Details
+##### <a name='ae46ff9126927568c56af9864c05ea72b72e1241332'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/34c2f8b1d1f7a0e7cfcba60d1ae0bf2e0ecb0928/EMDocs/toc.yml)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/9895c6ce3164e968da994424e44a9e18a4149f37/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf)
+* Handoff Datetime: 2016-06-28 21:23:21
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/13c977e4f51161d7755469ee73d679593a6fe406/EMDocs/toc.yml)
+* Current Handback File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/a8782e7d73f0db4d751b6b5efb63a95486c5cca0/ol-handback/Microsoft/EMDocs-pr.pt-br/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf)
+* Current Handback Datetime: 2016-06-04 19:43:52
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
