@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\Solutions\conditional-access-intune-exchange-online.md](https://github.com/Microsoft/EMDocs-pr/blob/4e6a2c100c63ff21b7ccb89d59517dd63195b657/EMDocs/Solutions/conditional-access-intune-exchange-online.md) | OutofSyncHandedBackSuccess | [Details](#82b00a5ce54a25b50563c9e5ef3c33b3c648639d78)
+ [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/60b9891fcf0e81bc0b5b2d0418a244af231bc8d2/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | OutofSyncHandedBackSuccess | [Details](#a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f61)
 
 ## Item Details
-##### <a name='82b00a5ce54a25b50563c9e5ef3c33b3c648639d78'></a> Source: [EMDocs\Solutions\conditional-access-intune-exchange-online.md](https://github.com/Microsoft/EMDocs-pr/blob/4e6a2c100c63ff21b7ccb89d59517dd63195b657/EMDocs/Solutions/conditional-access-intune-exchange-online.md)
+##### <a name='a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f61'></a> Source: [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/60b9891fcf0e81bc0b5b2d0418a244af231bc8d2/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0d4d9e879db83cb28658f65f552e432ad62e3e59/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.pt-br.xlf)
-* Handoff Datetime: 2016-07-01 17:44:59
+* Handoff File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/917455f1794b42ce28aacb9ce068e1d69ecdabe6/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf)
+* Handoff Datetime: 2016-07-01 21:45:45
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\conditional-access-intune-exchange-online.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/6fc015514cbf052eb45d50d89c6977d8c78e4823/EMDocs/Solutions/conditional-access-intune-exchange-online.md)
-* Current Handback File: [conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/8c0d9a01c734c389481ba1907b207ac9c53c8859/ol-handback/Microsoft/EMDocs-pr.pt-br/master/conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.pt-br.xlf)
+* Current Target File: [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/6fc015514cbf052eb45d50d89c6977d8c78e4823/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)
+* Current Handback File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/8c0d9a01c734c389481ba1907b207ac9c53c8859/ol-handback/Microsoft/EMDocs-pr.pt-br/master/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.pt-br.xlf)
 * Current Handback Datetime: 2016-05-26 06:27:23
 * [Back to Top](#report-top)
 
