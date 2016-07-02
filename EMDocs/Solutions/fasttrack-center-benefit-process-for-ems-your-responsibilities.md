@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades
-description:
-keywords:
+title: "Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 2dd5e54fe1348cc23274afc735759c92fbf81e28
+
 
 ---
 
@@ -122,6 +117,7 @@ Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
