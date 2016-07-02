@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Desenvolver uma estratégia de gerenciamento de dispositivo móvel SaaS
-description:
-keywords:
+title: "Desenvolver uma estratégia de gerenciamento de dispositivo móvel SaaS"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 91d1498db006b387ff524b2b26c715c3a109dd8a
+
 
 ---
 
@@ -81,6 +75,7 @@ Não deixe de ler o artigo **[Ajudar a proteger seus dados com apagamento remoto
 
 Para obter mais detalhes sobre as funcionalidades e os requisitos da solução de SaaS, leia o tópico **[descrição do serviço para Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** para entender as diferenças no suporte a SaaS no [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e em uma infraestrutura [híbrida](https://technet.microsoft.com/library/jj884158.aspx) do Intune e do ConfigMgr.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
