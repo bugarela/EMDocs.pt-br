@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Especificar seus requisitos de acesso
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 1cdc3cdf-cb71-46d5-99fd-05ec96771b81
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: e07565fd34f2eb89db0047c88f7834ed13cdf301
+
 
 ---
 
@@ -67,6 +61,7 @@ Ao projetar sua solução de MDM, considere o seguinte:
 Leia [Proteger o acesso aos recursos da empresa de qualquer local, em qualquer dispositivo](https://technet.microsoft.com/library/dn550982) para entender melhor como aproveitar os recursos internos do Windows Server 2012 R2 em conjunto com o ConfigMgr para fornecer acesso aos recursos de sua empresa. 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
