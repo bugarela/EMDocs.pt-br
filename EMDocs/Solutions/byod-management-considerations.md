@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Consideração sobre gerenciamento
-description:
-keywords:
+title: "Consideração sobre gerenciamento"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f752f75206cb37cbe565e44a00f20fcdad13ddb5
+ms.openlocfilehash: 91deaf9d02b27182353cbe511ff86a01582dc60a
+
 
 ---
 
@@ -202,6 +196,7 @@ Embora essas sejam duas opções, você pode integrar ambas para oferecer implan
                                                                     
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
