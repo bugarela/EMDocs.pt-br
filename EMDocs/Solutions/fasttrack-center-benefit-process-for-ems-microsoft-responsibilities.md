@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades da Microsoft
-description:
-keywords:
+title: "Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades da Microsoft"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 59710c77266e9c20697012208bba5ee468ee0f38
+
 
 ---
 
@@ -86,11 +81,13 @@ Fornecimento de orientação sobre:
 
     -   Configuração da sincronização de senha (hash de senha) para o Microsoft Intune (Active Directory do Azure) com a ferramenta Azure Active Directory Connect.
 
-        > [!NOTE] O desenvolvimento e a implementação de extensões de regras personalizadas estão fora do escopo.
+        > [!NOTE]
+        > Desenvolvimento e implementação de extensões de regras personalizadas estão fora do escopo.
 
 -   Para uma única floresta quando o destino são identidades federadas: Instalação e configuração dos Serviços de Federação do Active Directory (AD FS) para autenticação de domínio local com o Microsoft Intune em uma configuração de site único e tolerante a falhas, se necessário.
 
-    > [!NOTE] Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
+    > [!NOTE]
+    > Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
 
 -   Teste da funcionalidade de SSO (logon único) se implantada.
 
@@ -244,6 +241,7 @@ Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

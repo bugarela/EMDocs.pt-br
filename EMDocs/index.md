@@ -1,19 +1,22 @@
 ---
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
+title: "Documentação do Enterprise Mobility"
+description: "Documentação técnica do Microsoft Enterprise Mobility"
+keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation
+author: msswadhwa
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: hubpage
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.suite: ems
+ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
+translationtype: Human Translation
+ms.sourcegitcommit: 9bb6da88c988c5e7f4e85f27e8fbf4a8002ae1d0
+ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
 
-title: Documentação do Enterprise Mobility  
-description: Documentação técnica do Microsoft Enterprise Mobility  
-keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation  
-author: msswadhwa  
-manager: swadhwa  
-ms.date: 04/28/2016  
-ms.topic: hubpage  
-ms.prod:   
-ms.service:   
-ms.technology:   
-ms.suite: ems  
-ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620  
 
 ---
 # Documentação do Microsoft Enterprise Mobility
@@ -155,13 +158,13 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             <h2 class="section-heading"><span class="icon icon-note"></span> Cenários &amp; guias</h2>
             <div class="resource-list row">
                 <ul class="column-half">
-                    <li><a href="./solutions/mdm-design-considerations-guide.md">Guia de considerações de design de gerenciamento de dispositivos móveis</a></li>
-                    <li><a href="./solutions/byod-design-considerations-guide.md">Guia de considerações sobre design para BYOD</a></li>
+                    <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">Guia de considerações de design de gerenciamento de dispositivos móveis</a></li>
+                    <li><a href="/enterprise-mobility/solutions/byod-design-considerations-guide">Guia de considerações sobre design para BYOD</a></li>
                     <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Guia de considerações de design de identidade híbrida</a></li>
                 </ul>
                 <ul class="column-half">
-                    <li><a href="./solutions/conditional-access-intune.md">Acesso condicional com o Intune</a></li>
-                    <li><a href="./solutions/architecture-guidance-for-protecting-company-email-and-documents.md">Proteger emails e documentos da empresa</a></li>
+                    <li><a href="/enterprise-mobility/solutions/conditional-access-intune">Acesso condicional com o Intune</a></li>
+                    <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Proteger emails e documentos da empresa</a></li>
                 </ul>
             </div>
         </section>
@@ -176,6 +179,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 </article>
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jun16_HO5-->
 
 
