@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "9d52c41f6ee2ff9f1c8b83fef4a443b57ce95398",
+  "LastProcessedCommit": "a36ef31e4ad10344eb277b574d0c2d7ba301705e",
   "LastTranslatedCommit": "b41db7b4a4593e7579c4636c8207dac5ce6e7e54",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -35051,6 +35051,41 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\protect-company-data-on-mobile-devices-through-application-management-policies.a78658af63ee45ea8b0d743f90c512ff8a52c4e1.pt-br.xlf",
       "HandoffFileCommit": "314fc7608ee78f699b155d49d1ac82e98d3c7d41",
       "HandoffDateTime": "2016-07-11T17:34:48.1399882Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null,
+      "BilingualFilePath": null,
+      "BilingualFileCommit": null,
+      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualException": null
+    },
+    "2aff3233de8421a9bd25dfc5af31857f8e235ef4": {
+      "FileHash": "2aff3233de8421a9bd25dfc5af31857f8e235ef4",
+      "SourceFileCommit": "c4bb719f7b3b04b30f9ea6f39f05d4676b0ae2f3",
+      "SourceFilePath": "EMDocs\\toc.yml",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\toc.yml"
+      ],
+      "HasMetadata": false,
+      "TranslationType": 1,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.pt-br\\master\\toc.a910960291aeeb7b80ff16cc12adc02a09c33921.pt-br.xlf",
+      "HandoffFileCommit": "7975570c1f65a4e14f59dc5f04a667e6e3dac4d8",
+      "HandoffDateTime": "2016-07-11T21:55:37.3295791Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
