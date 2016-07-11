@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Diferenciação de dados
-description:
-keywords:
+title: "Diferenciação de dados"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+
 
 ---
 
@@ -38,7 +31,7 @@ A diferenciação de dados é importante, não apenas para a sua organização, 
 
 Ao manter separados todos os aplicativos, dados da empresa e políticas que foram implantadas pela solução de MDM, eles podem ser removidos do dispositivo, se necessário, sem afetar o conteúdo e aplicativos pessoais do usuário usando o apagamento seletivo. 
 
->[!TIP]Leia [Ajudar a proteger seus dados com apagamento remoto, bloqueio remoto ou redefinição de senha com o Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) para saber mais sobre como o apagamento remoto se comportará em outras plataformas como iOS e Android. 
+>[!TIP] Leia [Ajudar a proteger seus dados com apagamento completo ou seletivo o Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para saber mais sobre como o apagamento remoto se comportará em outras plataformas como iOS e Android. 
 
 O apagamento seletivo para o gerenciamento de dados de dispositivos móveis está incluído no Windows Server 2012 R2 e Windows 8.1. Ele funciona por meio da vinculação de recursos que ajudam os administradores do Exchange Server e do Microsoft Intune a gerenciar dados corporativos em dispositivos e a desenvolver aplicativos que possam usar os recursos de [Apagamento Seletivo do Windows](https://technet.microsoft.com/library/dn486874.aspx).  O Windows Phone 8 e mais recentes dão suporte à separação de dados no armazenamento interno.
 
@@ -52,7 +45,7 @@ A EDP (Proteção de Dados Empresariais) fornece a separação de dados, mas nã
 
 A EDP oferece a separação de dados por meio de criptografia de dados empresariais. Leia [Visão geral da EDP (Proteção de Dados Empresariais)](https://technet.microsoft.com/library/dn985838.aspx) para saber mais. As políticas de EDP do Intune gerenciarão a lista de aplicativos protegidos pela EDP, locais de rede da empresa, nível de proteção e configurações de criptografia.
 
-Quando um usuário instala e entra em um aplicativo que dá suporte a várias identidades em um dispositivo gerenciado pelo Intune, como o Outlook, o Intune verifica se a conta que está sendo usada corresponde à conta gerenciada no dispositivo. Se a conta for gerenciada e também houver uma política para o aplicativo e o usuário, as configurações da política protegerão os dados nessa conta. Quando o usuário adiciona contas pessoais ao aplicativo, essas contas ficam fora do gerenciamento e da proteção do Intune. Isso permite o uso pessoal do aplicativo sem comprometer a proteção corporativa. Leia [Proteger dados usando políticas de gerenciamento de aplicativos móveis com o Microsoft Intune](/intune/deployuse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) para saber mais sobre a funcionalidade de várias identidade no Intune. 
+Quando um usuário instala e entra em um aplicativo que dá suporte a várias identidades em um dispositivo gerenciado pelo Intune, como o Outlook, o Intune verifica se a conta que está sendo usada corresponde à conta gerenciada no dispositivo. Se a conta for gerenciada e também houver uma política para o aplicativo e o usuário, as configurações da política protegerão os dados nessa conta. Quando o usuário adiciona contas pessoais ao aplicativo, essas contas ficam fora do gerenciamento e da proteção do Intune. Isso permite o uso pessoal do aplicativo sem comprometer a proteção corporativa. Leia [Proteger dados usando políticas de gerenciamento de aplicativos móveis com o Microsoft Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) para saber mais sobre a funcionalidade de várias identidade no Intune. 
 
 A tabela abaixo compara os recursos de apagamento seletivo disponíveis em diferentes soluções de MDM para ajudar você a escolher a solução de MDM que melhor atende aos requisitos de diferenciação de dados de sua organização.
 
@@ -93,8 +86,9 @@ A tabela abaixo compara os recursos de apagamento seletivo disponíveis em difer
 
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
 
-Não deixe de ler o artigo [Ajudar a proteger seus dados com apagamento remoto, bloqueio remoto ou redefinição de senha com Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) para entender como os dados são removidos e mantidos após um apagamento seletivo para cada plataforma de dispositivo móvel. Se você tiver um ambiente híbrido, confira o artigo [Como apagar dispositivos móveis remotamente usando o Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para entender como o ConfigMgr pode ser usado para realizar essa tarefa.
+Não deixe de ler o artigo [Ajudar a proteger seus dados com apagamento completo ou seletivo usando o Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para entender como os dados são removidos e mantidos após um apagamento seletivo para cada plataforma de dispositivo móvel. Se você tiver um ambiente híbrido, confira o artigo [Como apagar dispositivos móveis remotamente usando o Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para entender como o ConfigMgr pode ser usado para realizar essa tarefa.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

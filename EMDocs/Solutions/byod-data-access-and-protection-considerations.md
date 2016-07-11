@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Considerações de acesso e proteção de dados
-description:
-keywords:
+title: "Considerações de acesso e proteção de dados"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
+ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+
 
 ---
 
@@ -117,8 +111,7 @@ Use a lista abaixo para entender as considerações sobre proteção de dados de
     - VPN de site para site: se você tiver uma [infraestrutura de nuvem híbrida](http://blogs.technet.com/b/cloudsolutions/archive/2013/08/22/hybrid-it-infrastructure-solution-for-enterprise-it-overview.aspx) conectada a Serviços de Nuvem, considere usar a VPN site a site para manter o canal seguro disponível para uso por aplicativos localizados em dispositivos dos usuários
 - (3.2) Dados em repouso no datacenter do provedor de serviço de nuvem (opcional — aplica-se apenas se a empresa estiver usando serviços em nuvem para BYOD)
     - Provedor de serviço de nuvem: considere as opções que o provedor de serviços de nuvem pode oferecer para criptografar os dados em repouso
-    - Gerenciamento de chaves: verifique com o provedor de serviço de nuvem como o gerenciamento de chaves é tratado e como ocorre o processo de backup. Além disso, considere integração entre serviços de nuvem com um sistema de gerenciamento de chaves local
-(4) Dados em repouso em dispositivos dos usuários
+    - Gerenciamento de chaves: verifique com o provedor de serviço de nuvem como o gerenciamento de chaves é tratado e como ocorre o processo de backup. Além disso, considere integração entre serviços de nuvem com um sistema de gerenciamento de chaves local (4) Dados em repouso em dispositivos dos usuários
     - Criptografia de armazenamento: considere uma solução de armazenamento que oferece suporte à criptografia
     - Gerenciamento de chaves: a chave usada para criptografar o armazenamento deve ter um backup e um agente de recuperação de chave deve estar disponível, caso necessário
     - Limpeza remota: os dados que residem em dispositivos dos usuários podem ser excluídos remotamente, caso necessário
@@ -255,6 +248,7 @@ Ao aproveitar os recursos de Controle de Acesso Dinâmico, você pode identifica
 O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita à TI os recursos mostrados na tabela anterior. Para saber mais sobre o Controle de Acesso Dinâmico, confira [Controle de Acesso Dinâmico: visão geral de cenários](https://technet.microsoft.com/library/hh831717.aspx).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

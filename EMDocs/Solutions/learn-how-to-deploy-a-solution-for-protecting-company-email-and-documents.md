@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Saiba como implantar uma solução para proteger documentos e email da empresa
-description:
-keywords:
+title: "Saiba como implantar uma solução para proteger documentos e email da empresa"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c965f619511720175393f91ba49d019ba4bcff4f
+ms.openlocfilehash: 2dc585131b1897109afeb3ace9f8b9f6a245a313
+
 
 ---
 
@@ -30,7 +24,7 @@ Cada vez mais, as empresas estão permitindo que os funcionários aumentem sua p
 
 Este guia é voltado para você, profissional de TI, para ajudá-lo a determinar e implantar a melhor solução para sua empresa aplicar o acesso condicional em uma das configurações descritas abaixo. Isso permitirá que os funcionários usem seus dispositivos móveis para acessar emails corporativos enquanto os dados da empresa permanecem protegidos.
 
-Esta seção discute como implantar uma solução para proteger emails e documentos da empresa. Para obter detalhes sobre a arquitetura dessas soluções, consulte [Diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents).
+Esta seção discute como implantar uma solução para proteger emails e documentos da empresa. Para obter detalhes sobre a arquitetura dessas soluções, consulte [Diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents.md).
 
 > [!TIP]
 > Obtenha uma cópia baixável deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
@@ -46,7 +40,7 @@ Proteção de email corporativo envolve dois objetivos principais:
 
 -   **Proteger o conteúdo e os anexos do email:** enquanto o acesso condicional permite que você garanta que somente dispositivos compatíveis sejam capazes de acessar o email, ainda há a questão de proteger o conteúdo e os anexos do email.  O conteúdo pode ser copiado, movido, salvo em um local diferente ou compartilhado com outro usuário.  O EMS resolve esse problema usando as políticas de gerenciamento de aplicativos móveis.
 
-    Aplicativos gerenciados são aplicativos que têm políticas de gerenciamento de aplicativo móvel aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Com esses aplicativos, você tem controle direto sobre implantação, gerenciamento contínuo, como inventário ou atualizações, e apagamento seletivo de aplicativos e seus dados associados. Além disso, por meio de um conjunto de políticas de gerenciamento (MAM) do aplicativo móvel, o Intune permite modificar a funcionalidade de aplicativos e restringir o compartilhamento de dados. Para obter mais detalhes de como essa solução funciona, incluindo detalhes da arquitetura, consulte [Proteger documentos e email corporativos](architecture-guidance-for-protecting-company-email-and-documents).
+    Aplicativos gerenciados são aplicativos que têm políticas de gerenciamento de aplicativo móvel aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Com esses aplicativos, você tem controle direto sobre implantação, gerenciamento contínuo, como inventário ou atualizações, e apagamento seletivo de aplicativos e seus dados associados. Além disso, por meio de um conjunto de políticas de gerenciamento (MAM) do aplicativo móvel, o Intune permite modificar a funcionalidade de aplicativos e restringir o compartilhamento de dados. Para obter mais detalhes de como essa solução funciona, incluindo detalhes da arquitetura, consulte [Proteger documentos e email corporativos](architecture-guidance-for-protecting-company-email-and-documents.md).
 
     > [!NOTE]
     > Você pode criar e implantar um perfil de email e definir uma política de conformidade que especifica que os perfis de email sejam gerenciados pelo Intune (recomendado). Isso lhe dá a capacidade de apagar emails de dispositivos desativados e garante que, para o iOS, anexos só possam ser abertos em aplicativos gerenciados pelo Intune. Consulte [Etapa 5: Criar políticas de conformidade e implantá-las nos usuários.](conditional-access-intune-configmgr-exchange.md) para obter mais informações.
@@ -75,6 +69,7 @@ Agora que você leu todo este tópico, pode aprender mais sobre como implantar u
 - [Usar o acesso condicional com o Microsoft Intune e o Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

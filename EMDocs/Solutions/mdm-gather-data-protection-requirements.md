@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Reunir os requisitos de proteção de dados
-description:
-keywords:
+title: "Reunir os requisitos de proteção de dados"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: ac9808463acd811e53135dd7ce60844c12d46439
+
 
 ---
 
@@ -67,8 +61,9 @@ A lista abaixo inclui opções comuns que devem ter o suporte da solução de MD
 - É necessária a criptografia em cartões de memória
 - Permitindo o retorno ocioso sem uma senha
 
->[!TIP] No Windows Phone 8.1, a política Permitir o retorno ocioso sem senha pode ser configurada usando o [Protocolo de Gerenciamento de Dispositivo do Windows Phone 8.1 Enterprise] (http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
+>[!TIP] No Windows Phone 8.1, a política Permitir retorno ocioso sem senha pode ser configurada usando o [Protocolo de gerenciamento de dispositivos empresariais do Windows Phone 8.1](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

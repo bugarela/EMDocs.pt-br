@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opções de monitoramento de dispositivo
-description:
-keywords:
+title: "Opções de monitoramento de dispositivo"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 23cfc12a-fa96-4fb3-8de1-af4569e8cb71
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: f543376b1e850c7d6e868c91d942aa8058e11b41
+
 
 ---
 
@@ -32,7 +25,7 @@ ms.suite: ems
 
 Monitorar e entender o status e a configuração de todos os dispositivos móveis gerenciados pela sua organização ajuda a descobrir problemas e não conformidade, além de gerenciar o inventário de dispositivos. Sem relatórios detalhados sobre hardware, software e status de conformidade, é impossível garantir que as suas políticas de dispositivo estejam de fato em vigor e funcionando corretamente. O monitoramento proativo ajuda a reduzir pequenos problemas antes que eles se tornem maiores e mais caros.
 
-O [Intune](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune),o [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e uma [implantação híbrida](https://technet.microsoft.com/library/gg699377.aspx) do Intune e do ConfigMgr incluem monitoramento e relatórios para ajudar a gerenciar dispositivos, usuários e a conformidade com as políticas e procedimentos de sua organização. Ao usar os relatórios internos junto com os relatórios personalizados, é possível monitorar o gerenciamento de dispositivos móveis em áreas como:
+O [Intune](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune), o [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e uma [implantação híbrida](https://technet.microsoft.com/library/gg699377.aspx) do Intune e do ConfigMgr incluem monitoramento e relatórios para ajudar a gerenciar dispositivos, usuários e a conformidade com as políticas e procedimentos de sua organização. Ao usar os relatórios internos junto com os relatórios personalizados, é possível monitorar o gerenciamento de dispositivos móveis em áreas como:
 
 - Relatórios de atualização de software
 - Relatórios de inventário de software
@@ -101,10 +94,11 @@ As respostas para as perguntas na Tarefa 2 podem ajudar a determinar as necessid
 
 Explore os detalhes sobre as opções de monitoramento de dispositivos móveis examinando o seguinte:
 
-- Intune: **[Como monitorar os dispositivos móveis](https://technet.microsoft.com/library/jj733634.aspx)** e [gerenciar relatórios](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune)
+- Intune: **[Como monitorar os dispositivos móveis](https://technet.microsoft.com/library/jj733634.aspx)** e [gerenciar relatórios](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune)
 - ConfigMgr: [Como monitorar dispositivos móveis](https://technet.microsoft.com/library/gg682128.aspx) e [gerenciar relatórios](https://technet.microsoft.com/library/gg699377.aspx)
 - MDM para Office 365: [Visão geral das tarefas de gerenciamento de dispositivo](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

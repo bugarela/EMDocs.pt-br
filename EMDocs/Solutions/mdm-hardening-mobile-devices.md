@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Proteção de dispositivos móveis
-description:
-keywords:
+title: "Proteção de dispositivos móveis"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 1a8b4be857a8fede2df37db1eabd7b95cea1dba9
+
 
 ---
 
@@ -39,11 +32,11 @@ Uma maneira de abordar a proteção do dispositivo móvel é ter diferentes cama
 
 ## Diferentes áreas de proteção do dispositivo móvel
 
-Cada camada pode ser usada para agrupar áreas que devem ser compatíveis com os requisitos de segurança de sua empresa. Por exemplo, você pode configurar o Intune para implantar [políticas de segurança](/intune/deployuse/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) para dispositivos que são específicas para proteger configurações do sistema e permitir a criptografia. As políticas também ajudam a garantir que apenas os [aplicativos compatíveis](https://technet.microsoft.com/library/dn818906.aspx) estejam disponíveis para instalação em dispositivos móveis por meio da criação de uma lista de permissões de acesso.
+Cada camada pode ser usada para agrupar áreas que devem ser compatíveis com os requisitos de segurança de sua empresa. Por exemplo, você pode configurar o Intune para implantar [políticas de segurança](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) para dispositivos que são específicas para proteger configurações do sistema e habilitar a criptografia. As políticas também ajudam a garantir que apenas os [aplicativos compatíveis](https://technet.microsoft.com/library/dn818906.aspx) estejam disponíveis para instalação em dispositivos móveis por meio da criação de uma lista de permissões de acesso.
 
 Em dispositivos BYOD executando o Windows 8.1 Enterprise, o AppLocker possibilita que você bloqueie ou permita um aplicativo com base em seu caminho de arquivo, hash ou propriedades que persistem nas atualizações do aplicativo (por exemplo, nome do editor, nome do produto, nome de arquivo e versão do arquivo). No Windows 10, um novo provedor de serviço de configuração do AppLocker foi adicionado a fim de permitir que você habilite as regras de AppLocker usando um servidor de MDM. Leia [AppLocker CSP](https://msdn.microsoft.com/library/windows/hardware/dn920019(v=vs.85).aspx) para saber mais sobre esse novo recurso no Windows 10.
 
-Outra área que deve ser controlada é a experiência de navegação móvel dos usuários. Uma política de navegador gerenciado inclui uma lista de permissão ou bloqueio que restringe os sites que podem ser visitados pelos usuários do navegador gerenciado. Leia [Gerenciar o acesso à Internet usando políticas de navegador gerenciado com o Microsoft Intune](/intune/deployuse/manage-internet-access-using-managed-browser-policies) para obter mais informações sobre como configurar essas políticas no Intune.
+Outra área que deve ser controlada é a experiência de navegação móvel dos usuários. Uma política de navegador gerenciado inclui uma lista de permissão ou bloqueio que restringe os sites que podem ser visitados pelos usuários do navegador gerenciado. Leia [Gerenciar o acesso à Internet usando políticas de navegador gerenciado com o Microsoft Intune](/intune/deploy-use/manage-internet-access-using-managed-browser-policies) para obter mais informações sobre como configurar essas políticas no Intune.
 
 Em um ambiente híbrido com o ConfigMgr local, você pode criar um [linha de base de configuração](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) para definir um estado de proteção básica para dispositivos móveis gerenciados. Você pode personalizar essa linha de base para incluir todas as configurações necessárias, e implantá-la em seus dispositivos móveis. As opções de configurações de conformidade variam de acordo com a plataforma do dispositivo móvel, portanto leia [Configurações de conformidade para dispositivos móveis no Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx) para saber mais sobre as opções disponíveis para cada dispositivo.
 
@@ -95,9 +88,10 @@ A proteção da plataforma de dispositivo móvel desempenha um papel importante 
 
 - Se a sua empresa não tiver uma atual infraestrutura local do ConfigMgr, ela precisará de recursos para planejar, instalar e configurar o ConfigMgr antes da integração
 
->[!TIP] Leia mais sobre as configurações do gerenciamento de dispositivos móveis que podem ser definidas em uma política de segurança de dispositivo móvel do Microsoft Intune em [Configurações da política de gerenciamento de dispositivos móveis para o Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP] Leia mais sobre as configurações do gerenciamento de dispositivo móvel que podem ser definidas em uma política de segurança de dispositivo móvel do Microsoft Intune em [Configurações da política de gerenciamento de dispositivo móvel para o Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Opções de gerenciamento de dispositivo
-description:
-keywords:
+title: "Opções de gerenciamento de dispositivo"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 3393393abd35b0f61e371325c3e15f67123599f6
+
 
 ---
 
@@ -43,7 +37,7 @@ O gerenciamento de dispositivos móveis com o Intune e o ConfigMgr gira em torno
  2. Criando [linhas de base de configuração](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)
  3. Implantando as [linhas de base de configuração](https://technet.microsoft.com/library/hh219289.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) em coleções de usuário ou dispositivo do ConfigMgr
 
-- **Políticas de acesso condicional:** as políticas de acesso condicional definem como o acesso a email é gerenciado e podem ser usadas separadamente ou em conjunto com as políticas de conformidade. As conexões com seu serviço do Exchange Server local ou do Exchange Online devem ser configuradas no [Intune](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) ou no [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) antes que as políticas de acesso condicional possam ser implantadas. O acesso condicional também pode ser configurado para serviços do Office 365 e do SharePoint Online.
+- **Políticas de acesso condicional:** as políticas de acesso condicional definem como o acesso a email é gerenciado e podem ser usadas separadamente ou em conjunto com as políticas de conformidade. As conexões com seu serviço do Exchange Server local ou do Exchange Online devem ser configuradas no [Intune](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) ou no [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) antes que as políticas de acesso condicional possam ser implantadas. O acesso condicional também pode ser configurado para serviços do Office 365 e do SharePoint Online.
 
 Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você deseja que os dispositivos sejam registrados na solução de gerenciamento de dispositivos móveis. A lista abaixo ajudará você a entender as vantagens e desvantagens de cada cenário de gerenciamento.
 
@@ -52,7 +46,7 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
 **Vantagens**
 
 - Dá suporte ao controle de política simplificado para gerenciar usuários e dispositivos, agora separado por plataforma de dispositivo.
-- Dá suporte às plataformas Android, iOS, Windows 10 https://technet.microsoft.com/library/mt147406.aspx, Windows 8.x e Windows Phone, bem como suporte para o Exchange ActiveSync.
+- Dá suporte às plataformas Android, iOS, [Windows 10](https://technet.microsoft.com/library/mt147406.aspx), Windows 8.x e Windows Phone, bem como ao Exchange ActiveSync.
 - Fornece um console de administração e gerenciamento simples baseado na web, que é acessível de qualquer local
 - Dá suporte a políticas baseadas em grupo, facilitando o gerenciamento de grandes números e tipos diversificados de dispositivos móveis
 - Dá suporte a recursos e funcionalidades avançados de conformidade do dispositivo móvel, incluindo a detecção da raiz e jailbreak do dispositivo
@@ -101,6 +95,7 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
 - Atualmente, não há suporte para perfis de VPN e de email para dispositivos com Android
 - Atualmente, não há suporte para o suporte ao navegador gerenciado
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO1-->
 
 
