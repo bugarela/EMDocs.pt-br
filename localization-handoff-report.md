@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\protect-company-data-on-mobile-devices-through-application-management-policies.md](https://github.com/Microsoft/EMDocs-pr/blob/e02bcf307b0dbff9c682cc3533fcd9a15c17a76f/EMDocs/Solutions/protect-company-data-on-mobile-devices-through-application-management-policies.md) | HandedOffSuccess | [Details](#2c1de581d00f1569a2e8ba7c64246acbe9ba5754328)
 
 ## Item Details
+##### <a name='2c1de581d00f1569a2e8ba7c64246acbe9ba5754328'></a> Source: [EMDocs\Solutions\protect-company-data-on-mobile-devices-through-application-management-policies.md](https://github.com/Microsoft/EMDocs-pr/blob/e02bcf307b0dbff9c682cc3533fcd9a15c17a76f/EMDocs/Solutions/protect-company-data-on-mobile-devices-through-application-management-policies.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [protect-company-data-on-mobile-devices-through-application-management-policies.a78658af63ee45ea8b0d743f90c512ff8a52c4e1.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/314fc7608ee78f699b155d49d1ac82e98d3c7d41/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/protect-company-data-on-mobile-devices-through-application-management-policies.a78658af63ee45ea8b0d743f90c512ff8a52c4e1.pt-br.xlf)
+* Handoff Datetime: 2016-07-11 17:34:48
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
