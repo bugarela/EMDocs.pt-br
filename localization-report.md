@@ -1578,14 +1578,14 @@
 
 ##### <a name='42a320985cf1062a5e239bf55317f10b46062ee893'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/0e876521461696e32dc164cc306e7be7c36fca09/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
 * Handoff File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/db83b61df4ecb209ce5d66964238c251ab995bb5/ol-handback/Microsoft/EMDocs-pr.pt-br/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf)
-* Handback Datetime: 2016-07-02 12:02:27
+* Handback File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='eec74f54e6e6265d53f62fdccead61bff917450394'></a> Source: [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md)
@@ -1893,14 +1893,14 @@
 
 ##### <a name='3a387d8e83431f5fd3fdd4e7466323f2d768edf1118'></a> Source: [EMDocs\Solutions\mdm-gather-monitoring-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-gather-monitoring-requirements.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\mdm-gather-monitoring-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/918c28f2f3cb5138bcd87cb06c3fcb2634f628d1/EMDocs/Solutions/mdm-gather-monitoring-requirements.md)
+* Target File: [EMDocs\Solutions\mdm-gather-monitoring-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Solutions/mdm-gather-monitoring-requirements.md)
 * Handoff File: [mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/705e16d1ca4bf090d38a80b9b7f72e4b44498bb4/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf)
-* Handback Datetime: 2016-07-02 17:58:56
+* Handback File: [mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-gather-monitoring-requirements.e392d95cc93ab471a91d0452ebecf284805050e5.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='15a02b34861c57659310491d744bd3bc953ed449119'></a> Source: [EMDocs\Solutions\mdm-hardening-mobile-devices.md](https://github.com/Microsoft/EMDocs-pr/blob/1e23cdad577738a72b6dc8423a5ba6cf7af29bfb/EMDocs/Solutions/mdm-hardening-mobile-devices.md)
@@ -1935,14 +1935,14 @@
 
 ##### <a name='d5e660e87a80b7703a09214b1d1f07e41e8f5483121'></a> Source: [EMDocs\Solutions\mdm-identify-saas-connectivity-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-connectivity-requirements.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\mdm-identify-saas-connectivity-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/15025b2de8e9158869a4900d29c8fa44fcad1042/EMDocs/Solutions/mdm-identify-saas-connectivity-requirements.md)
+* Target File: [EMDocs\Solutions\mdm-identify-saas-connectivity-requirements.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Solutions/mdm-identify-saas-connectivity-requirements.md)
 * Handoff File: [mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/f72d523ab991b76d4d404719cb372190b8b090ca/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf)
-* Handback Datetime: 2016-07-02 11:01:50
+* Handback File: [mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-identify-saas-connectivity-requirements.37fca244626c8529dc74b2784f5be77f92867f3e.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='949a049f3cfdae84b0203898f7c0a5f7e38fdb98122'></a> Source: [EMDocs\Solutions\mdm-identify-saas-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-requirements.md)
@@ -2049,14 +2049,14 @@
 
 ##### <a name='f5223794a8dbb9a9318de90965fd01bd3e98bcaf130'></a> Source: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/95eeb4decc5408d9f4f22cbb44f5bccc14968fb3/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/744ba59de442030cba468b5a2b02f0bad93aa487/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
+* Target File: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
 * Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/1e7d093cd9023b8feff39b5961d2fa66b5693c22/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
 * Handoff Datetime: 2016-06-28 23:25:48
 * Handoff Reason: Include
 * Archive File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/649be3cef09d735929b3f19adddcb43b450fa58f/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
-* Handback Datetime: 2016-07-02 18:12:57
+* Handback File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='8d2df20d71d83ccd38ef96c84600f234665ab27e131'></a> Source: [EMDocs\Solutions\mdm-step-3-plan-enhancing-mobile-devices-protection.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-step-3-plan-enhancing-mobile-devices-protection.md)
@@ -4640,14 +4640,14 @@
 
 ##### <a name='d71edd347bbd5ea3371e35b5e890fc07b8843504338'></a> Source: [EMDocs\Token\cmshort.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/cmshort.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Token\cmshort.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/4350529f6ec23ba754002b9c525f568919c4f847/EMDocs/Token/cmshort.md)
+* Target File: [EMDocs\Token\cmshort.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Token/cmshort.md)
 * Handoff File: [cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/eac8c9c91948e680bcc093de22192fe9837d323f/ol-handback/Microsoft/EMDocs-pr.pt-br/master/cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf)
-* Handback Datetime: 2016-07-02 11:32:31
+* Handback File: [cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/cmshort.fe429dfe7cec2340302032078cc3a935829df943.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='22d729cee559eca2f7a1951dc76827ee1de29133339'></a> Source: [EMDocs\Token\ConfigMgr.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/ConfigMgr.md)
@@ -4784,14 +4784,14 @@
 
 ##### <a name='3f4c4fb2cae07922ab07f4d746b669a46667dc97348'></a> Source: [EMDocs\Token\Microsoft-Intune-Company-Portal.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Microsoft-Intune-Company-Portal.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Token\Microsoft-Intune-Company-Portal.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/e5f82a41f7632ee6939aad3c3b83286aa744e55b/EMDocs/Token/Microsoft-Intune-Company-Portal.md)
+* Target File: [EMDocs\Token\Microsoft-Intune-Company-Portal.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Token/Microsoft-Intune-Company-Portal.md)
 * Handoff File: [Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/01fe13cd922a4d949e64cd33c286f56ea1b2f784/ol-handback/Microsoft/EMDocs-pr.pt-br/master/Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf)
-* Handback Datetime: 2016-07-03 00:05:26
+* Handback File: [Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/Microsoft-Intune-Company-Portal.106213da4f2ae4f08383d85f04e7c02206714d41.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='fb4c7817eac9a4569076492c3d678228adfa9cdf351'></a> Source: [EMDocs\Token\nextref_client_7.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/nextref_client_7.md)
@@ -4844,14 +4844,14 @@
 
 ##### <a name='e6941659aebdc767f8a42883d25b4e1257d5d621355'></a> Source: [EMDocs\Token\sbs8_mob_2.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/sbs8_mob_2.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Token\sbs8_mob_2.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/4350529f6ec23ba754002b9c525f568919c4f847/EMDocs/Token/sbs8_mob_2.md)
+* Target File: [EMDocs\Token\sbs8_mob_2.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Token/sbs8_mob_2.md)
 * Handoff File: [sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/eac8c9c91948e680bcc093de22192fe9837d323f/ol-handback/Microsoft/EMDocs-pr.pt-br/master/sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf)
-* Handback Datetime: 2016-07-02 11:32:31
+* Handback File: [sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/sbs8_mob_2.58af3918ca79e352d146cac11b4c648d24e91358.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='548d65c3592e436f39a11d12db8cce60ad025526356'></a> Source: [EMDocs\Token\sc2012r2_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/sc2012r2_1.md)
@@ -4880,14 +4880,14 @@
 
 ##### <a name='9a6ac8653c2c5cf52a29ca4ef6b37b3dd7b8d33c358'></a> Source: [EMDocs\Token\sccmlongname.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/sccmlongname.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Token\sccmlongname.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/918c28f2f3cb5138bcd87cb06c3fcb2634f628d1/EMDocs/Token/sccmlongname.md)
+* Target File: [EMDocs\Token\sccmlongname.md](https://github.com/Microsoft/EMDocs-pr.pt-br/blob/a49d28bca194208b772f037b99830f840eaec7ba/EMDocs/Token/sccmlongname.md)
 * Handoff File: [sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f6f054ecfb7c6b32f6b1088ec22b668b4a940d4/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf)
 * Handoff Datetime: 2016-06-27 09:39:13
 * Handoff Reason: Include
 * Archive File: [sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/0f0fcc29659e3d3fe0509239c3a51ae30e50cb43/ol-handoff/Microsoft/EMDocs-pr.pt-br/master/archive/sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf)
 * Archive Datetime: 2016-07-02 00:45:44
-* Handback File: [sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/705e16d1ca4bf090d38a80b9b7f72e4b44498bb4/ol-handback/Microsoft/EMDocs-pr.pt-br/master/sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf)
-* Handback Datetime: 2016-07-02 17:58:56
+* Handback File: [sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/ff03c537daab54b40715611e2cddd85f02a5f31c/ol-handback/Microsoft/EMDocs-pr.pt-br/master/sccmlongname.8daabfa5eb28286122a922097f92be413a67a477.pt-br.xlf)
+* Handback Datetime: 2016-07-13 19:07:05
 * [Back to Top](#report-top)
 
 ##### <a name='cad3187986387bfe5f86110f478472b563645089359'></a> Source: [EMDocs\Token\sccmshortname.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/sccmshortname.md)
