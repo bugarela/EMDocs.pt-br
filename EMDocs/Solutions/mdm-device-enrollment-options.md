@@ -44,6 +44,6 @@ Suas respostas às perguntas na Etapa 1 ajudarão você a decidir como deseja qu
 Sua organização pode desejar permitir ambos os cenários de registro, adotando uma abordagem flexível para permitir diferentes métodos para diferentes departamentos ou situações. Nesse caso, sua solução de gerenciamento de dispositivos móveis deve ter a capacidade de dar suporte a ambos os cenários.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
