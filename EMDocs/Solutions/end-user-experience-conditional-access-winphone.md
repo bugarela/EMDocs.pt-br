@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Experiência do usuário final para acesso condicional em dispositivos Windows Phone
-description:
-keywords:
+title: "Experiência do usuário final para acesso condicional em dispositivos Windows Phone"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 1527f382ab35dd47d1342eb6e320048f76d62e60
+
 
 ---
 
@@ -103,10 +97,10 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 5.  Se o problema estiver corrigido, o usuário clica em **Continuar** para concluir o processo. O acesso ao email deverá ficar disponível novamente dentro de alguns minutos.
 
 ### Onde ir daqui
-A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e
-[iOS](end-user-experience-conditional-access-ios.md).
+A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

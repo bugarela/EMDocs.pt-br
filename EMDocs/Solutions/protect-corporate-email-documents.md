@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Proteção de email e documentos da empresa
-description:
-keywords:
+title: "Proteção de email e documentos da empresa"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 5911fc980156316c3b2466dae78d72801bf08934
+
 
 ---
 
@@ -127,6 +121,7 @@ Quando o dispositivo é avaliado como registro e em conformidade, a sincronizaç
 Agora que você sabe como proteger emails e documentos corporativos, pode ler sobre como [proteger anexos de email](protect-email-attachments.md). Ou, se você estiver pronto, saiba mais sobre [como implementar uma solução para proteger seu email corporativo](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Considerações sobre usuários e dispositivos
-description:
-keywords:
+title: "Considerações sobre usuários e dispositivos"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
-
-# optional metadataco
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 3a95624c9092dba51e515bd294bd13beb4071510
+ms.openlocfilehash: 8d5c06c66102c21adcb26b86e4f8ed3550c3aca0
+
 
 ---
 
@@ -176,7 +170,7 @@ Depois de definir o design para acesso remoto à rede, considere como dispositiv
 
 Você também pode segmentar os dispositivos que se conectarão à rede Wi-Fi de acordo com a plataforma em que são executados. Considere também como proteger sua comunicação e autorização enquanto estiverem acessando recursos corporativos locais.
 
-Você pode escolher uma segmentação física no ponto de acesso sem fio e componentes de rede (comutadores e roteadores) para isolar usuários que se conectam usando os próprios dispositivos. Também é possível implementar esse tipo de segmentação usando [Perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Uma ampla variedade de configurações de segurança está disponível, como certificados para autenticação do cliente e validação do servidor que foram provisionados usando [Perfis de certificado do Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
+Você pode escolher uma segmentação física no ponto de acesso sem fio e componentes de rede (comutadores e roteadores) para isolar usuários que se conectam usando os próprios dispositivos. Também é possível implementar esse tipo de segmentação usando [Perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Uma ampla variedade de configurações de segurança está disponível, como certificados para autenticação do cliente e validação do servidor que foram provisionados usando [Como implantar perfis de certificado no Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
 
 
 ### Opções de segmentação de rede Wi-Fi — vantagens e desvantagens
@@ -208,12 +202,13 @@ Use a lista abaixo para entender as vantagens e desvantagens das opções de seg
     - Desvantagens
         - Requer o IPsec para implementação usando [NAP (Proteção de Acesso à Rede) da Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), o que pode ser um problema em um cenário de BYOD que exija suporte para "qualquer dispositivo".
 
-> [!NOTE] Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, consulte [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, confira [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 O local da rede desempenha uma função importante para considerações de usuário e dispositivo. Você pode aproveitar o controle de acesso de vários fatores no AD FS para habilitar políticas de autorização por aplicativo, em que é possível permitir ou negar acesso com base em usuário, dispositivo e local de rede. Confira [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) (Gerenciar risco com controle de acesso de vários fatores) para obter mais informações sobre como configurar um ambiente para validar esse recurso.
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

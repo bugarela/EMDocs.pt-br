@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Usar acesso condicional com o Exchange Server local, o Microsoft Intune e o Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: da76ba04d70ece8f20fdbe0fb19ad310f1fb8d28
+ms.openlocfilehash: ca38c22f5de2a33e399d7d7a7a9beafdc49e5686
+
 
 ---
 
@@ -191,6 +185,7 @@ Um dispositivo é bloqueado assim que é descoberto pelo conector do Exchange. A
 Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

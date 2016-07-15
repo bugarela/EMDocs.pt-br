@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Etapa 2 - Planejar o gerenciamento de dispositivos móveis
-description:
-keywords:
+title: "Etapa 2 - Planejar o gerenciamento de dispositivos móveis"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/20/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3cdc1318-50a2-4280-b051-1e009620816e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: f5223794a8dbb9a9318de90965fd01bd3e98bcaf
+
 
 ---
 
@@ -42,12 +36,13 @@ Há 11 etapas nesta seção do guia. O tempo total para leitura das seções é 
 - [Opções de registro do dispositivo](mdm-device-enrollment-options.md)
 - [Opções de provisionamento de dispositivo](mdm-device-provisioning-options.md)
 - [Opções de gerenciamento de dispositivo](mdm-device-management-options.md)
-- [Opções de gerenciamento de aplicativos](mdm-application-management-options)
+- [Opções de gerenciamento de aplicativos](mdm-application-management-options.md)
 - [Opções de monitoramento de dispositivo](mdm-device-monitoring-options.md)
 - [Opções de gerenciamento de email](mdm-email-management-options.md)
-- [Opções de gerenciamento de conectividade de rede](mdm-network-connectivity-management-options)
+- [Opções de gerenciamento de conectividade de rede](mdm-network-connectivity-management-options.md)
 - [Opções de gerenciamento de certificados](mdm-certificate-management-options.md)
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

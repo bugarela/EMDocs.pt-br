@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - fases
-description:
-keywords:
+title: "Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - fases"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 7f89f613d40daf3472685d0bce12767f35ee65c8
+
 
 ---
 
@@ -107,7 +102,8 @@ Para o Microsoft Intune, e com base em seu dispositivo móvel e nas necessidades
 
     -   Se você tiver uma implementação existente do System Center Configuration Manager e quiser para expandir seus recursos de gerenciamento com o Microsoft Intune, configure o Configuration Manager como sua autoridade MDM.
 
-        > [!NOTE] Se você estiver procurando apenas aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos próprios, dispositivos compartilhados ou dispositivos de quiosque de seus usuários finais, a configuração de uma autoridade MDM não será necessária.
+        > [!NOTE]
+        > Se você estiver procurando apenas aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos próprios, dispositivos compartilhados ou dispositivos de quiosque de seus usuários finais, a configuração de uma autoridade MDM não é necessária.
 
 -   Se o Gerenciamento de Dispositivo Móvel estiver no seu escopo, forneceremos orientações com:
 
@@ -170,6 +166,7 @@ Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opções de registro do dispositivo
-description:
-keywords:
+title: "Opções de registro do dispositivo"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 90604329992f8ecb881ac1b83358af16de5b65cb
+
 
 ---
 
@@ -33,7 +26,7 @@ ms.suite: ems
 
 O registro de dispositivos no Microsoft Intune, seja autônomo ou conectado ao System Center 2012 R2 Configuration Manager (ConfigMgr), exige a preparação do serviço para os dispositivos. O registro de dispositivos móveis no MDM para Office 365 também exige a ativação do MDM, definição das configurações básicas e inclusão de cada usuário em uma [política de segurança](https://technet.microsoft.com/library/ms.o365.cc.newdevicepolicy.aspx), sendo que cada usuário deverá responder a uma mensagem de registro na próxima vez que entrar no Office 365 em seu dispositivo móvel. Eles devem concluir as etapas de ativação e registro em cada dispositivo móvel que usarão para acessar os emails e documentos do Office 365.
 
-O Intune autônomo precisa ser configurado para definir a solução de Autoridade de Gerenciamento de Dispositivos Móveis, que pode ser uma infraestrutura do Intune ou do ConfigMgr local. Isso significa basicamente “qual plataforma de gerenciamento você deseja usar para gerenciar dispositivos registrados pelo Intune – Intune *ou* ConfigMgr?”” É *muito importante* entender o [impacto de escolher a melhor opção](/Intune/deployuse/enroll-devices-in-microsoft-intune) para a sua organização, já que a solução de gerenciamento não pode ser facilmente alterada depois de escolhida. Se precisar alterar essa configuração posteriormente, você precisará entrar em contato com o Suporte da Microsoft para obter assistência. Para locatários do Office 365, você pode designar e alterar com mais facilidade a autoridade de MDM entre o MDM para Office 365 e o Intune. Você pode alternar facilmente a autoridade de gerenciamento no nível do usuário alterando a atribuição de licença de um usuário. 
+O Intune autônomo precisa ser configurado para definir a solução de Autoridade de Gerenciamento de Dispositivos Móveis, que pode ser uma infraestrutura do Intune ou do ConfigMgr local. Isso significa basicamente “qual plataforma de gerenciamento você deseja usar para gerenciar dispositivos registrados pelo Intune – Intune *ou* ConfigMgr?”” É *muito importante* entender o [impacto de escolher a melhor opção](/Intune/deploy-use/enroll-devices-in-microsoft-intune) para a sua organização, já que a solução de gerenciamento não pode ser facilmente alterada depois de escolhida. Se precisar alterar essa configuração posteriormente, você precisará entrar em contato com o Suporte da Microsoft para obter assistência. Para locatários do Office 365, você pode designar e alterar com mais facilidade a autoridade de MDM entre o MDM para Office 365 e o Intune. Você pode alternar facilmente a autoridade de gerenciamento no nível do usuário alterando a atribuição de licença de um usuário. 
 
 Para a maioria das organizações que já está usando o ConfigMgr para gerenciar PCs, servidores e outros dispositivos, conectar a solução local ao Intune e gerenciar dispositivos com o ConfigMgr geralmente é a melhor opção. Para atribuir a autoridade de gerenciamento de dispositivo móvel ao ConfigMgr, você precisará criar uma [assinatura do Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) e selecionar a opção para permitir que o ConfigMgr gerencie a assinatura do Intune e os dispositivos registrados pelo Intune. A assinatura do Intune também pode ser criada [dentro do console do ConfigMgr](https://technet.microsoft.com/library/jj884158.aspx).
 
@@ -50,6 +43,7 @@ Suas respostas às perguntas na Etapa 1 ajudarão você a decidir como deseja qu
 
 Sua organização pode desejar permitir ambos os cenários de registro, adotando uma abordagem flexível para permitir diferentes métodos para diferentes departamentos ou situações. Nesse caso, sua solução de gerenciamento de dispositivos móveis deve ter a capacidade de dar suporte a ambos os cenários.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

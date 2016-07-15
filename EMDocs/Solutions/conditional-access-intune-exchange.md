@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Usar acesso condicional com o Microsoft Intune e o Exchange Server local
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 6ed28a5ec5449dbca6e4f885dd0fa60bf30c3d91
+
 
 ---
 
@@ -44,7 +37,7 @@ Siga as etapas em [Configurar o conector local do Microsoft Intune para um Excha
 > É possível configurar somente uma conexão do Exchange por conta do Intune. Se você tentar configurar uma conexão adicional, ela substituirá a conexão original.
 
 ### Etapa 2: Criar políticas de conformidade e implantá-las para os usuários.
-As políticas de conformidade definem regras e configurações com que um dispositivo deve manter a conformidade para ser considerado compatível pelas políticas de acesso condicional. Siga as etapas em [Criar uma política de conformidade no Microsoft Intune](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) para criar e implantar políticas de conformidade.
+As políticas de conformidade definem regras e configurações com que um dispositivo deve manter a conformidade para ser considerado compatível pelas políticas de acesso condicional. Siga as etapas em [Criar uma política de conformidade no Microsoft Intune](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) para criar e implantar políticas de conformidade.
 
 Se você desejar poder remover todos os email corporativo de um dispositivo iOS depois que ele não fizer mais parte da sua empresa, será necessário criar e implantar um perfil de email e, em seguida, definir a política de conformidade que especifica que perfis de email são gerenciados pelo Intune. Você deve implantar o perfil de email para o mesmo conjunto de usuários-alvos desta política de conformidade.
 ![Captura de tela que mostra a página "Regras" do Assistente para Criar Política de Conformidade, onde é possível especificar que um perfil de email deve ser gerenciado pelo Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
@@ -70,7 +63,7 @@ As políticas de acesso condicional usam o fluxo a seguir para um ambiente do Ex
 
 ![Fluxograma que mostra como as políticas de acesso condicional do Exchange Server local avaliam se permitem ou bloqueiam dispositivos](./media/ProtectEmail/conditional-access-8-2.png)
 
-Siga as informações fornecidas em [Configurar uma política de acesso condicional](/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#-a-name-bkmk_enablexchngonprem-a-configure-a-conditional-access-policy) para definir a política de acesso condicional.
+Siga as informações fornecidas em [Configurar uma política de acesso condicional](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) para definir a política de acesso condicional.
 
 ## Relatórios
 
@@ -84,6 +77,7 @@ No painel do Intune, clique no bloco **Dispositivos Bloqueados no Exchange** par
 Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO2-->
 
 
