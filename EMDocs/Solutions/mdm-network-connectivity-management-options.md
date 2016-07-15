@@ -71,6 +71,6 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 - ConfigMgr: habilitar os perfis [sem fio](https://technet.microsoft.com/library/dn261221.aspx) e de [VPN](https://technet.microsoft.com/library/dn261217.aspx)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 

@@ -99,6 +99,6 @@ Explore os detalhes sobre as opções de monitoramento de dispositivos móveis e
 - MDM para Office 365: [Visão geral das tarefas de gerenciamento de dispositivo](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
