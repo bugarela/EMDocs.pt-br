@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: fed75819dbc13755b5ef28cbe3abe008d46c8473
 
@@ -83,6 +84,6 @@ A lista abaixo ajudará você a entender as vantagens e desvantagens do gerencia
 Para obter mais detalhes sobre as opções de gerenciamento de certificados de dispositivo móvel, leia como [habilitar perfis de certificado](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) no Intune e compare esses requisitos e procedimentos com a [habilitação de perfis de certificado](https://technet.microsoft.com/library/dn261202.aspx) no System Center 2012 R2 Configuration Manager.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

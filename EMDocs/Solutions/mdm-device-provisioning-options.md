@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: 8185d89d5be464a902aa56f30f15cc6d8f59dff5
 
@@ -81,6 +82,6 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você precisa deter
 Para obter mais detalhes sobre as opções de registro e provisionamento de dispositivos móveis, lembre-se de examinar como [habilitar registros de dispositivo móvel](/Intune/deploy-use/enroll-devices-in-microsoft-intune) no Intune e comparar esses requisitos e procedimentos com a [habilitação de registros de dispositivo móvel](https://technet.microsoft.com/library/jj884158.aspx) no ConfigMgr e no MDM para Office 365.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 64cd77f7930216f38786451b56037f49d97b095a
 
 
 ---
@@ -31,7 +32,8 @@ A diferenciação de dados é importante, não apenas para a sua organização, 
 
 Ao manter separados todos os aplicativos, dados da empresa e políticas que foram implantadas pela solução de MDM, eles podem ser removidos do dispositivo, se necessário, sem afetar o conteúdo e aplicativos pessoais do usuário usando o apagamento seletivo. 
 
->[!TIP] Leia [Ajudar a proteger seus dados com apagamento completo ou seletivo o Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para saber mais sobre como o apagamento remoto se comportará em outras plataformas como iOS e Android. 
+>[!TIP] 
+> Leia [Ajudar a proteger seus dados com apagamento completo ou seletivo o Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para saber mais sobre como o apagamento remoto se comportará em outras plataformas como iOS e Android. 
 
 O apagamento seletivo para o gerenciamento de dados de dispositivos móveis está incluído no Windows Server 2012 R2 e Windows 8.1. Ele funciona por meio da vinculação de recursos que ajudam os administradores do Exchange Server e do Microsoft Intune a gerenciar dados corporativos em dispositivos e a desenvolver aplicativos que possam usar os recursos de [Apagamento Seletivo do Windows](https://technet.microsoft.com/library/dn486874.aspx).  O Windows Phone 8 e mais recentes dão suporte à separação de dados no armazenamento interno.
 
@@ -89,6 +91,6 @@ A tabela abaixo compara os recursos de apagamento seletivo disponíveis em difer
 Não deixe de ler o artigo [Ajudar a proteger seus dados com apagamento completo ou seletivo usando o Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para entender como os dados são removidos e mantidos após um apagamento seletivo para cada plataforma de dispositivo móvel. Se você tiver um ambiente híbrido, confira o artigo [Como apagar dispositivos móveis remotamente usando o Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para entender como o ConfigMgr pode ser usado para realizar essa tarefa.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

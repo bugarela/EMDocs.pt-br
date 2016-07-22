@@ -86,6 +86,6 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 - MDM para Office 365: [Recursos de gerenciamento de dispositivos móveis](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

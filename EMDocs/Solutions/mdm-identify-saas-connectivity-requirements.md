@@ -73,6 +73,6 @@ Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa cons
 - Exige requisitos de implantação local adicional e alterações de configuração para as organizações com o ConfigMgr.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

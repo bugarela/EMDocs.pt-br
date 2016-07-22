@@ -43,6 +43,6 @@ Há 11 etapas nesta seção do guia. O tempo total para leitura das seções é 
 - [Opções de gerenciamento de certificados](mdm-certificate-management-options.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
