@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Planejar o aprimoramento da proteção de dispositivos móveis
-description:
-keywords:
+title: "Planejar o aprimoramento da proteção de dispositivos móveis"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 8d2df20d71d83ccd38ef96c84600f234665ab27e
+
 
 ---
 
@@ -82,6 +76,7 @@ Há 12 etapas nesta seção do guia. O tempo total para leitura das seções é 
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

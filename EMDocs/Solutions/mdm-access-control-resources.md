@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Controle de acesso aos recursos
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 35a01a69e89762da314905c58a4868c6443d32e8
+
 
 ---
 
@@ -38,13 +31,13 @@ Para gerenciar o controle de recursos específicos, primeiro você autentica e a
 
 ## Fluxo básico de autenticação e autorização
 
-A ACL (Lista de Controle de Acesso) tradicional é bastante limitada e não leva em consideração outros aspectos do estado do usuário, como onde ele está localizado ao tentar acessar este recurso. Se a sua organização precisar incluir mais variáveis antes de conceder acesso a um recurso, você poderá usar o [Controle de Acesso Dinâmico](https://technet.microsoft.com/library/dn408191.aspx), originalmente disponível no Windows Server 2012. O Windows 10 oferece suporte ao atestado de integridade, que ajuda a equipe de TI a controlar o estado de integridade do dispositivo antes de fornecer acesso aos dados. Serviço de atestado de integridade remoto executa uma série de verificações sobre as medidas. Ele valida os pontos de dados relacionados à segurança, incluindo o estado de inicialização (Inicialização Segura, Modo de Depuração etc.) e o estado dos componentes que gerenciam a segurança (BitLocker, o Device Guard etc.). Em seguida, transmite o estado de integridade do dispositivo enviando um blob criptografado de integridade de volta ao dispositivo. Leia [Controlar a integridade de dispositivos baseados no Windows 10](https://technet.microsoft.com/en-us/library/mt592023.aspx) para saber mais.
+A ACL (Lista de Controle de Acesso) tradicional é bastante limitada e não leva em consideração outros aspectos do estado do usuário, como onde ele está localizado ao tentar acessar este recurso. Se a sua organização precisar incluir mais variáveis antes de conceder acesso a um recurso, você poderá usar o [Controle de Acesso Dinâmico](https://technet.microsoft.com/library/dn408191.aspx), originalmente disponível no Windows Server 2012. O Windows 10 oferece suporte ao atestado de integridade, que ajuda a equipe de TI a controlar o estado de integridade do dispositivo antes de fornecer acesso aos dados. Serviço de atestado de integridade remoto executa uma série de verificações sobre as medidas. Ele valida os pontos de dados relacionados à segurança, incluindo o estado de inicialização (Inicialização Segura, Modo de Depuração etc.) e o estado dos componentes que gerenciam a segurança (BitLocker, o Device Guard etc.). Em seguida, transmite o estado de integridade do dispositivo enviando um blob criptografado de integridade de volta ao dispositivo. Leia [Controlar a integridade de dispositivos baseados no Windows 10](https://technet.microsoft.com/library/mt592023.aspx) para saber mais.
 
-Os administradores do Intune podem exibir o status do Atestado de Integridade do Dispositivo do Windows 10 no [console de Administração do Intune](/intune/deploy/introduction-to-device-compliance-policies-in-microsoft-intune). O atestado de integridade do dispositivo permite que o administrador garanta que os computadores cliente têm configurações confiáveis de BIOS, TPM e software de inicialização. Para dar suporte ao atestado de integridade do dispositivo, os dispositivos do cliente devem estar executando o Windows 10 com o TPM 2 habilitado. 
+Os administradores do Intune podem exibir o status do Atestado de Integridade do Dispositivo do Windows 10 no [console de Administração do Intune](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune). O atestado de integridade do dispositivo permite que o administrador garanta que os computadores cliente têm configurações confiáveis de BIOS, TPM e software de inicialização. Para dar suporte ao atestado de integridade do dispositivo, os dispositivos do cliente devem estar executando o Windows 10 com o TPM 2 habilitado. 
 
 Com muitas empresas atuando como provedores de nuvem de maneira independente usando tecnologias que permitem que elas tenham uma nuvem privada, outra opção é usar o RBAC (Controle de Acesso Baseado em Função). [O Azure AD permite que a TI use RBAC](http://azure.microsoft.com/documentation/articles/role-based-access-control-configure/) para controlar o acesso aos recursos. E como o Azure AD pode ser integrado ao seu Active Directory local, você pode usá-los juntos para determinar como os usuários acessam os recursos.
 
-Um recurso também pode ser um aplicativo, o que significa que, para implementar o controle de acesso a recursos, sua solução de MDM também deve ter a capacidade de controlar como os aplicativos são instalados e acessados. [As políticas de gerenciamento de aplicativos móveis no Intune](/intune/deployuse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) permitem que você modifique a funcionalidade dos aplicativos implantados para ajudar a ter certeza de que eles atendem às políticas de conformidade e segurança de sua empresa. 
+Um recurso também pode ser um aplicativo, o que significa que, para implementar o controle de acesso a recursos, sua solução de MDM também deve ter a capacidade de controlar como os aplicativos são instalados e acessados. [As políticas de gerenciamento de aplicativos móveis no Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) permitem que você modifique a funcionalidade dos aplicativos implantados para ajudar a ter certeza de que eles atendem às políticas de conformidade e segurança de sua empresa. 
 
 Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que melhor atende aos requisitos de controle de acesso de sua organização.
 
@@ -96,6 +89,7 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

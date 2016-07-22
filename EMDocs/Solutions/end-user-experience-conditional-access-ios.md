@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Experiência do usuário final para acesso condicional em dispositivos iOS
-description:
-keywords:
+title: "Experiência do usuário final para acesso condicional em dispositivos iOS"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 6ff6f8c66e5b4ed838c72dd06f200118c6461cb0
+
 
 ---
 
@@ -100,6 +94,7 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

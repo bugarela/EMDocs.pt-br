@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Classificação de dados
-description:
-keywords:
+title: "Classificação de dados"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: b2025b8b3d976b7a14c050c095d199c5a4c73cb8
+
 
 ---
 
@@ -36,7 +29,7 @@ O Office 365 fornece alguma classificação automática de dados de email que po
 
 O Intune e o ConfigMgr não têm a classificação de dados interna, portanto dependem da classificação baseada em nuvem com o Azure RMS ou o ADRMS local. Outra opção é usar o [EMS (Enterprise Mobility Suite)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) como a sua solução de MDM. Com o EMS, você terá acesso ao [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) e ao [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), que pode ser usado para classificar os dados. A classificação de dados com o Azure RMS pode ser integrada a uma solução de gerenciamento local em um ambiente híbrido. 
 
-O Intune permite ao departamento de TI atender às políticas usando políticas de conformidade, que são conjuntos de regras e configurações às quais um dispositivo deve obedecer para ser considerado compatível pelas políticas de acesso condicional. Você também pode usar as políticas de conformidade para monitorar e corrigir problemas com dispositivos, independentemente do acesso condicional. Leia [Gerenciar políticas de conformidade do dispositivo para o Microsoft Intune](/intune/deploy/introduction-to-device-compliance-policies-in-microsoft-intune) para saber mais.
+O Intune permite ao departamento de TI atender às políticas usando políticas de conformidade, que são conjuntos de regras e configurações às quais um dispositivo deve obedecer para ser considerado compatível pelas políticas de acesso condicional. Você também pode usar as políticas de conformidade para monitorar e corrigir problemas com dispositivos, independentemente do acesso condicional. Leia [Gerenciar políticas de conformidade do dispositivo para o Microsoft Intune](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) para saber mais.
 
 Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM que melhor atenda aos requisitos de *classificação de dados* de sua organização.
 
@@ -86,6 +79,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 - Não disponível para clientes que não estão adotando a solução baseada em nuvem
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

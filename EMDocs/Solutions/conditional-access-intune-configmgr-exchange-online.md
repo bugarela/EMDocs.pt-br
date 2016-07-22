@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Usar acesso condicional com o Exchange Online, Microsoft Intune e Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: b2772f555ac064a286b084c1ef50ef5449083d90
+
 
 ---
 
@@ -34,8 +28,7 @@ Se já estiver usando o System Center Configuration Manager e o Exchange Online,
 
 -   Comece impondo o acesso condicional.
 
--   Opcionalmente, configure o conector do Exchange Server para o Exchange Online
-    Esse conector é necessário apenas para fins de relatório. Ele não é necessário para habilitar o acesso condicional.
+-   Outra opção é configurar o conector do Exchange Server para Exchange Online. Este conector é necessário apenas para fins de relatório. Ele não é necessário para habilitar o acesso condicional.
 
 ## Fluxo de controle de acesso condicional para o Exchange Online
 Este diagrama mostra o fluxo de controle para clientes que tentam acessar o email no Exchange Online. A e B podem ser realizados antes da imposição de acesso condicional.
@@ -137,7 +130,7 @@ Se você estiver executando o SSRS (SQL Server Reporting Services), você pode e
 
 Para exibir relatórios do SSRS, você deve ter uma função de relatórios instalada no servidor primário:
 
-1.  No Configuration Manager, clique em **Administração &gt; Configuração de Hierarquia &gt; Configuração do Site &gt; Servidores e Funções de Sistema de Site**.
+1.  No Configuration Manager, clique em **Administração &gt; Configuração da Hierarquia &gt; Configuração do Site &gt; Funções de Servidores e Sistema de Site**.
 
 2.  Selecione um servidor e clique em **Adicionar Função de Sistema de Site** para abrir o assistente Adicionar Função de Sistema de Site.
 
@@ -156,6 +149,7 @@ Dispositivos que usam autenticação moderna têm acesso condicional aplicado im
 Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

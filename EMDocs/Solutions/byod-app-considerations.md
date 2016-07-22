@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Considerações sobre aplicativo
-description:
-keywords:
+title: "Considerações sobre aplicativo"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: 4c9422a04ac855b8e1b97445e7f84685be0dba77
+
 
 ---
 
@@ -234,7 +228,7 @@ A experiência de armazenamento para a VDI foi aprimorada no Windows Server 2012
 
 Para saber mais sobre VDI no Windows Server 2012 R2, confira [Novidades sobre Serviços de Área de Trabalho Remota no Windows Server 2012 R2](https://technet.microsoft.com/library/dn283323.aspx).
 
-A decisão de qual aplicativo de implantação e experiência serão usados para seu design de infraestrutura BYOD deve ser equilibrada com o custo total de propriedade (TCO). Para entender melhor o TCO para adoção de VDI, recomendamos a leitura de [Análise de TCO da VDI para ambientes de trabalho de escritório] (http://download.microsoft.com/download/7/9/A/79AAA903-25B4-4D76-8580-BC47D5700433/Microsoft VDI TCO whitepaper customer ready v1 2.pdf).
+A decisão de qual aplicativo de implantação e experiência serão usados para seu design de infraestrutura BYOD deve ser equilibrada com o custo total de propriedade (TCO). Para entender melhor o TCO para adoção de VDI, recomendamos que você leia [Análise do TCO para VDI para ambientes de trabalho de escritório](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html).
 
 ## Segurança 
 
@@ -243,6 +237,7 @@ Considere o uso de um ciclo de vida de desenvolvimento de segurança para todos 
 Considerações de segurança são importantes para os aplicativos que serão consumidos pelos usuários usando seus próprios dispositivos. É recomendável usar coleções personalizadas com base em grupos de segurança do Active Directory para limitar os usuários de destino a alguns aplicativos com requisitos de acesso específicos, limitando os usuários que podem instalá-los. A segurança também pode ser utilizada para aprimorar a experiência do usuário, permitindo que os usuários usem o mesmo nome de usuário e senha para acessar recursos corporativos, o que podem ser feito usando AD FS. A segurança também é importante ao projetar a implantação para esses aplicativos. Você deve adquirir e implantar certificados e chaves de sideload antes de habilitar o registro de usuário. Trabalhe em coordenação com outras equipes para simplificar o processo de certificação do aplicativo.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

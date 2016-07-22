@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Opções de gerenciamento de email
-description:
-keywords:
+title: "Opções de gerenciamento de email"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 13749f7100df8a157ae8204641442aadfa3c7f16
+
 
 ---
 
@@ -87,10 +81,11 @@ Suas respostas às perguntas na Etapa 1 podem ajudar a determinar como você des
 
 Explore os detalhes sobre as opções de gerenciamento de configuração de email do dispositivo móvel examinando o seguinte:
 
-- Intune: Como [habilitar perfis de email](/Intune/deployuse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) e o [acesso a email condicional](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune)
+- Intune: Como [habilitar perfis de email](/Intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) e o [acesso a email condicional](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)
 - ConfigMgr: Como habilitar [perfis de email](https://technet.microsoft.com/library/dn554227.aspx) e o [acesso a email condicional](https://technet.microsoft.com/library/dn919655.aspx)
 - MDM para Office 365: [Recursos de gerenciamento de dispositivos móveis](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO1-->
 
 

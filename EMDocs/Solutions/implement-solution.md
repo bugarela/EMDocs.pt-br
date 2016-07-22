@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Implementação de uma solução para proteger o email e os anexos da empresa
-description:
-keywords:
+title: "Implementação de uma solução para proteger o email e os anexos da empresa"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: eec74f54e6e6265d53f62fdccead61bff9174503
+
 
 ---
 
@@ -46,8 +40,7 @@ Este artigo ajuda você a se preparar e implementar uma solução para proteger 
 
 -   **Políticas**: a solução EMS e seus componentes têm várias políticas através das quais acesso e segurança são gerenciados. Determine quais políticas seu administrador de TI precisa configurar. As três políticas chave a serem usadas para pesquisar e planejar ao proteger o acesso ao email e dados de email são:
 
-    -   **Políticas de conformidade do aplicativo**: determine o que conformidade significa para a sua empresa. O Intune inclui várias regras que podem ser definidas, mas todas essas regras podem ou não se aplicar à sua empresa. Você pode alterar as políticas a qualquer momento, mas é uma boa prática
-        determinar um conjunto básico de políticas de sua empresa. Políticas de conformidade são direcionadas a grupos de usuários e de dispositivos do Intune.
+    -   **Políticas de conformidade do aplicativo**: determine o que conformidade significa para a sua empresa. O Intune inclui várias regras que podem ser definidas, mas todas essas regras podem ou não se aplicar à sua empresa. Você pode alterar as políticas a qualquer momento, mas é recomendável determinar um conjunto básico de políticas para a sua empresa. Políticas de conformidade são direcionadas a grupos de usuários e de dispositivos do Intune.
 
     -   **Políticas de acesso condicional**: políticas de acesso condicional são destinadas a grupos de segurança do Azure AD. Determine quais usuários serão direcionados pelas políticas e se há usuários que precisam ser isentos. O acesso condicional tem suporte tanto na solução baseada em nuvem quanto na implementação híbrida.
 
@@ -104,6 +97,7 @@ Para obter instruções passo a passo sobre como implantar uma solução para pr
 - [Usar o acesso condicional com o Microsoft Intune e o Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
