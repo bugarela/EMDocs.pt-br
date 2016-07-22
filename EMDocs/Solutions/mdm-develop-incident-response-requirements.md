@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 3be59381d215da3a6c1e7e33bae592d02201c196
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: fa40b0e67e410e7104aa1b9c5d05112ee9ed67fc
 
 
 ---
@@ -26,7 +26,8 @@ ms.openlocfilehash: 3be59381d215da3a6c1e7e33bae592d02201c196
 
 Embora muitas organizações já tenham um plano de IR (resposta a incidentes) em vigor, verifique se o plano inclui dispositivos móveis e as etapas necessárias no caso de um incidente ser relatado nesses dispositivos. Se a sua empresa estiver adotando apenas agora uma solução de mobilidade, provavelmente o plano de IR atual não cobre dispositivos móveis. Se a sua organização não tiver um plano de IR, é importante trabalhar junto à sua equipe de segurança para entender os requisitos à medida que você desenvolve um, e para que você saiba as perguntas certas a serem feitas e escolha a melhor solução de MDM para as suas necessidades. 
  
->[!TIP] Leia [Respondendo a incidentes de segurança de TI](https://technet.microsoft.com/library/cc700825.aspx) para entender melhor os requisitos mínimos de um plano de IR.
+>[!TIP] 
+> Leia [Respondendo a incidentes de segurança de TI](https://technet.microsoft.com/library/cc700825.aspx) para entender melhor os requisitos mínimos de um plano de IR.
 
 Ao projetar sua solução de MDM, lembre-se de responder às seguintes perguntas para garantir que os dispositivos móveis possam ser gerenciados se houver um incidente.
 
@@ -46,6 +47,6 @@ Ao projetar sua solução de MDM, lembre-se de responder às seguintes perguntas
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

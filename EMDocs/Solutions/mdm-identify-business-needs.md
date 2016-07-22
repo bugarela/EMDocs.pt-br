@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06
-ms.openlocfilehash: b43a8e20d485c970bb90f4ce619518377423b6db
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 6a30eede24c320b5f68e84f6df1a133dd3885b11
 
 
 ---
@@ -76,12 +76,13 @@ Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte
 
 Durante esta tarefa, você deve também avaliar se a empresa tem políticas existentes em vigor de gerenciamento e conformidade para dispositivos móveis e como essas políticas podem afetar a seleção da solução de gerenciamento de dispositivos móveis.
 
->[!TIP] Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. A próxima seção apresentará as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Ao responder a essas perguntas, você poderá selecionar a solução que melhor atende às suas necessidades de negócios.
+>[!TIP] 
+> Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. A próxima seção apresentará as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Ao responder a essas perguntas, você poderá selecionar a solução que melhor atende às suas necessidades de negócios.
 
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

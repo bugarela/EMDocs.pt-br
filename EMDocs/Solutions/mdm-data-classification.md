@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: b2025b8b3d976b7a14c050c095d199c5a4c73cb8
 
@@ -80,6 +81,6 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

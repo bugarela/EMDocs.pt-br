@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 541b3a4cbb200558d527a14ce6cc691d74431f0b
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 3ff89e864ebb0bb20aec623f1e04c874ab7ad7c3
 
 
 ---
@@ -36,11 +36,12 @@ Os requisitos locais são um dos vários fatores que você deve levar em conside
         - Caso contrário, ela pode ser híbrida?
     - Sua empresa precisa de um modelo descentralizado em que diferentes locais devem ter autonomia sobre a administração do gerenciamento de dispositivos?
 
->[!TIP] Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. A próxima seção apresentará as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Ao responder a essas perguntas, você poderá selecionar a solução que melhor atende às suas necessidades de negócios.
+>[!TIP] 
+> Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. A próxima seção apresentará as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Ao responder a essas perguntas, você poderá selecionar a solução que melhor atende às suas necessidades de negócios.
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

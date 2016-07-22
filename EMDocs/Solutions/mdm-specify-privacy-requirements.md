@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: b4564a1f537a2c4f299bcedf986338f4a18b5f0c
 
 
 ---
@@ -27,7 +27,8 @@ ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
 
 Na etapa anterior, você definiu as tarefas de gerenciamento de dispositivos, incluindo gerenciamento de distribuição de conteúdo e gerenciamento de dispositivos. Nesta tarefa, o objetivo é definir os requisitos de privacidade para o conteúdo da empresa que residirá no dispositivo móvel. 
 
->[!TIP] Leia a solução Gerenciamento simplificado de dispositivos móveis e computadores em um ambiente híbrido para saber mais sobre a distribuição de conteúdo para dispositivos móveis.
+>[!TIP] 
+> Leia a solução Gerenciamento simplificado de dispositivos móveis e computadores em um ambiente híbrido para saber mais sobre a distribuição de conteúdo para dispositivos móveis.
 
 Os requisitos de privacidade e conformidade de uma organização variam de acordo com o setor, regulamentos aplicáveis e tipo de negócio. Por exemplo, talvez você queira que a sua solução de MDM permita executar inventários básicos de hardware, inventários de software, coleções de arquivo e distribuição de software em dispositivos móveis. O inventário de hardware e a distribuição de software geralmente têm suporte por padrão. 
 
@@ -53,6 +54,6 @@ Antes de escolher uma solução de gerenciamento de dispositivos móveis, consid
 Leia a [Política de Privacidade do Microsoft Online Services](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) para entender melhor como os serviços do Microsoft Cloud, incluindo o Intune, manterão a privacidade do usuário
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -72,6 +72,6 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você deverá ser c
 Explore os detalhes sobre as opções de gerenciamento de aplicativos móveis revisando o seguinte para o Intune e o ConfigMgr: Configurar e implantar políticas de gerenciamento de aplicativos móveis no console do Microsoft Intune. Além disso, não deixe de conferir a lista de aplicativos da Microsoft que podem ser usados com as políticas de MAM do Intune, bem como a lista crescente de aplicativos parceiros compatíveis com o Intune.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

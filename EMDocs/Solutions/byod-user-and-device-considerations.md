@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3a95624c9092dba51e515bd294bd13beb4071510
-ms.openlocfilehash: 8d5c06c66102c21adcb26b86e4f8ed3550c3aca0
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: a3aa062b36a4563c3166d7ce68f616049049034f
 
 
 ---
@@ -202,13 +202,14 @@ Use a lista abaixo para entender as vantagens e desvantagens das opções de seg
     - Desvantagens
         - Requer o IPsec para implementação usando [NAP (Proteção de Acesso à Rede) da Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), o que pode ser um problema em um cenário de BYOD que exija suporte para "qualquer dispositivo".
 
-> [!NOTE] Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, confira [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] 
+> Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, confira [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 O local da rede desempenha uma função importante para considerações de usuário e dispositivo. Você pode aproveitar o controle de acesso de vários fatores no AD FS para habilitar políticas de autorização por aplicativo, em que é possível permitir ou negar acesso com base em usuário, dispositivo e local de rede. Confira [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) (Gerenciar risco com controle de acesso de vários fatores) para obter mais informações sobre como configurar um ambiente para validar esse recurso.
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

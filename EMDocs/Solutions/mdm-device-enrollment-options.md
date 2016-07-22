@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: 90604329992f8ecb881ac1b83358af16de5b65cb
 
@@ -44,6 +45,6 @@ Suas respostas às perguntas na Etapa 1 ajudarão você a decidir como deseja qu
 Sua organização pode desejar permitir ambos os cenários de registro, adotando uma abordagem flexível para permitir diferentes métodos para diferentes departamentos ou situações. Nesse caso, sua solução de gerenciamento de dispositivos móveis deve ter a capacidade de dar suporte a ambos os cenários.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

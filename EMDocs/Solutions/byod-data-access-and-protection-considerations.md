@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
-ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 1d6f468df0675a410d53241ae23014712be2fee4
 
 
 ---
@@ -217,7 +217,8 @@ Para impor enforce Multi-Factor Authentication, as empresas podem usar os recurs
 
 Para implantar a autorização por aplicativo aos usuários que acessem aplicativos de uma rede interna ou externa, a TI pode aproveitar o Proxy de aplicativo Web. Usando o Proxy de aplicativo Web, a TI pode criar regras específicas para impor a autenticação e autorização em conjunto com o AD FS. A publicação de Proxy de aplicativo Web funciona para qualquer dispositivo do usuário. É possível usar laptops, tablets ou smartphones pessoais. Além disso, os usuários não precisarão instalar software adicional em seus dispositivos para acessarem aplicativos publicados. O Proxy de aplicativo Web funciona como um proxy reverso para todos os aplicativos publicados por meio dele, e como tal, a experiência do usuário é a mesmo de dispositivos dos usuários conectados diretamente aos aplicativos. Para saber mais sobre Proxy de Aplicativo Web, confira [Visão geral de Proxy de Aplicativo Web](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] Se você tiver um cenário híbrido e precisar ter uma experiência tranquila de autenticação e autorização do usuário, leia o [Guia de considerações de design de identidade híbrida](http://aka.ms/azhidcg).
+>[!NOTE] 
+> Se você tiver um cenário híbrido e precisar ter uma experiência tranquila de autenticação e autorização do usuário, leia o [Guia de considerações de design de identidade híbrida](http://aka.ms/azhidcg).
 
 ## Política e conformidade
 
@@ -249,6 +250,6 @@ O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

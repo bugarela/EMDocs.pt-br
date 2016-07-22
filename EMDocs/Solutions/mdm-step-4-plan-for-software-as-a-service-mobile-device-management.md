@@ -40,6 +40,6 @@ Há 4 etapas nesta seção do guia. O tempo total para leitura das seções é d
 - [Identificar requisitos de conectividade de SaaS](mdm-identify-saas-connectivity-requirements.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

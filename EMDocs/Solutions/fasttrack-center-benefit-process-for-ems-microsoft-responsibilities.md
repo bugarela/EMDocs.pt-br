@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 59710c77266e9c20697012208bba5ee468ee0f38
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
 
 
 ---
@@ -115,11 +115,13 @@ Fornecimento de orientação sobre:
 
     -   Configure a sincronização entre florestas do Active Directory local e o diretório do Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] Desenvolvimento e implementação de extensões de regras personalizadas estão fora do escopo.
+        > [!NOTE] 
+        > Desenvolvimento e implementação de extensões de regras personalizadas estão fora do escopo.
 
 -   Para uma única floresta quando o destino for identidades federadas: instalação e configuração dos Serviços de Federação do Active Directory (AD FS) para autenticação de domínio local com o Microsoft Azure AD Premium em uma configuração de site único e tolerante a falhas, se necessário.
 
-    > [!NOTE] Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
+    > [!NOTE] 
+    > Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
 
 -   Teste da funcionalidade de SSO (logon único), se implantada.
 
@@ -164,7 +166,8 @@ Fornecimento de orientação sobre:
 
     -   Se você tiver uma implementação existente do System Center Configuration Manager e quiser para expandir seus recursos de gerenciamento com o Microsoft Intune, configure o Configuration Manager como sua autoridade MDM.
 
-        > [!NOTE] Se você estiver apenas procurando aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos compartilhados, de quiosque ou compartilhados dos seus usuários finais, a configuração de uma autoridade MDM não é necessária.
+        > [!NOTE] 
+        > Se você estiver apenas procurando aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos compartilhados, de quiosque ou compartilhados dos seus usuários finais, a configuração de uma autoridade MDM não é necessária.
 
 -   Se o Gerenciamento de Dispositivo Móvel estiver no seu escopo, forneceremos orientações com:
 
@@ -242,6 +245,6 @@ Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
