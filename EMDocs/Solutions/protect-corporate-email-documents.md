@@ -1,8 +1,8 @@
 ---
 title: "Proteção de email e documentos da empresa"
-description: 
+description: "Permitir que apenas dispositivos compatíveis acessem email da sua empresa e protejam o conteúdo e anexos de email."
 keywords: 
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 5911fc980156316c3b2466dae78d72801bf08934
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: a9a58e85db02196a5214573f91575d1d64b15b7b
 
 
 ---
@@ -122,6 +122,6 @@ Agora que você sabe como proteger emails e documentos corporativos, pode ler so
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

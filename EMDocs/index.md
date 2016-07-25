@@ -1,28 +1,25 @@
 ---
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
-title: "Documentação do Enterprise Mobility"
+title: "Documentação do Enterprise Mobility | Microsoft Docs"
 description: "Documentação técnica do Microsoft Enterprise Mobility"
-keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation
+keywords: "microsoft docs, documentação do enterprise mobility, aprender sobre enterprise mobility, guia do enterprise mobility, documentação técnica do enterprise mobility"
 author: msswadhwa
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: hubpage
-ms.prod: 
-ms.service: 
-ms.technology: 
 ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: 9bb6da88c988c5e7f4e85f27e8fbf4a8002ae1d0
-ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
+ms.sourcegitcommit: bc95bae4c85c0abde94f15e599e3d3e712f0d30a
+ms.openlocfilehash: 9a5db8decb1ae2d759aef0a71ff5598e1b85a4ba
 
 
 ---
-# Documentação do Microsoft Enterprise Mobility
+# Documentação do Enterprise Mobility
 <article id="main">
     <section id="hero-content" class="graph">
-        <h1>Documentação do Microsoft Enterprise Mobility</h1>
+        <h1>Documentação do Enterprise Mobility</h1>
         <h2>Bem-vindo a documentação técnica do Microsoft Enterprise Mobility. Esses artigos ajudarão você a compreender e explorar as soluções e os produtos do Enterprise Mobility, começar a usar os serviços e planejar sua implementação. Você também encontrará conteúdo técnico detalhado para ajudar a implantar e usar os serviços, desenvolver aplicativos e solucionar problemas.</h2>
         <h3>Ainda não conhece o Enterprise Mobility? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visite a página do Microsoft Enterprise Mobility &rarr;</a></h3>
     </section>
@@ -36,12 +33,13 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Conteúdo em destaque</h2>
         <div class="features row">
             <ul class="column-half">
+                <li><mark><b>NOVO</b></mark> <a href="./information-protection/what-is-information-protection.md">Proteção de Informações do Azure (visualização)</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">Benefícios do FastTrack para o EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">O que é o Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">O que é o Advanced Threat Analytics?</a></li>
-                <li><a href="/active-directory/active-directory-whatis">O que é o Active Directory do Azure?</a></li>
             </ul>
             <ul class="column-half">
+                <li><a href="/active-directory/active-directory-whatis">O que é o Active Directory do Azure?</a></li>
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">O que é o Microsoft Identity Manager?</a></li>
                 <li><a href="/rights-management/understand-explore/what-is-azure-rms">O que é o Azure Rights Management?</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Gerenciamento de dispositivo móvel no Microsoft</a></li>
@@ -155,7 +153,7 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
     </div>
     <div class="section-border">
         <section class="resources container">
-            <h2 class="section-heading"><span class="icon icon-note"></span> Cenários &amp; guias</h2>
+            <h2 class="section-heading"><span class="icon icon-note"></span> Cenários &amp; Soluções</h2>
             <div class="resource-list row">
                 <ul class="column-half">
                     <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">Guia de considerações de design de gerenciamento de dispositivos móveis</a></li>
@@ -165,6 +163,7 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
                 <ul class="column-half">
                     <li><a href="/enterprise-mobility/solutions/conditional-access-intune">Acesso condicional com o Intune</a></li>
                     <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Proteger emails e documentos da empresa</a></li>
+                    <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Recursos de segurança e proteção do Office 365</a></li>
                 </ul>
             </div>
         </section>
@@ -180,6 +179,6 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

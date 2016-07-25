@@ -1,6 +1,6 @@
 ---
 title: "Usando políticas de gerenciamento de aplicativos móveis no Configuration Manager"
-description: 
+description: "Crie e implante um aplicativo no Configuration Manager com uma política de MAM (gerenciamento do aplicativo móvel)."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 48f0f43b925090aec2cf0585b1372f5c27d1bd5b
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: abc605760bbe8b6bea886763f91f287ff6a92f15
 
 
 ---
@@ -26,7 +26,7 @@ Começando com o System Center 2012 Configuration Manager SP2, as políticas de 
 - Dispositivos que executam o iOS 7 e posterior.
 
 > [!TIP]
-> Além dos dispositivos gerenciados, políticas de gerenciamento de aplicativo móvel podem ser usadas para proteger aplicativos em dispositivos que não são gerenciados pelo Intune. Usando essa nova funcionalidade, você pode aplicar políticas de gerenciamento de aplicativo móvel para aplicativos conectados aos serviços do Office 365. Isso não tem suporte em aplicativos que se conectam ao Exchange ou SharePoint local.
+> Além dos dispositivos gerenciados, políticas de MAM (gerenciamento de aplicativo móvel) podem ser usadas para proteger aplicativos em dispositivos que não são gerenciados pelo Intune. Usando essa nova funcionalidade, você pode aplicar políticas de gerenciamento de aplicativo móvel para aplicativos conectados aos serviços do Office 365. Isso não tem suporte em aplicativos que se conectam ao Exchange ou SharePoint local.
 Para usar essa nova funcionalidade, você deve usar o portal do Azure. Os seguintes tópicos podem ajudá-lo a começar:
 - [Preparar-se para configurar as políticas de gerenciamento de aplicativos móveis com o Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
 - [Criar e implantar políticas de gerenciamento de aplicativo móvel com o Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
@@ -38,12 +38,12 @@ Para aplicar restrições a um aplicativo, o aplicativo deve incorporar o SDK (S
 - **Usar um aplicativo gerenciado por política** (Android e iOS): tem o SDK do aplicativo inserido. Para adicionar este tipo de aplicativo, especifique um link para o aplicativo de uma loja de aplicativos, como a iTunes Store ou o Google Play. Nenhum processamento adicional é necessário para este tipo de aplicativo. Para obter uma lista dos aplicativos gerenciados pela política que estão disponíveis para dispositivos iOS e Android, veja [Galeria de aplicativos móveis do Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
 - **Usar um aplicativo "encapsulado"** (Android e iOS): aplicativos que são empacotados novamente para incluir o SDK do aplicativo usando a Ferramenta de disposição de aplicativos do Microsoft Intune. Normalmente, essa ferramenta é usada para processar aplicativos da empresa criados internamente. Ele não pode ser usado para processar aplicativos que foram baixados da loja de aplicativos. Consulte [Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) (Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição de Aplicativo do Microsoft Intune) e [Prepare Android apps for mobile application management with the Microsoft Intune App Wrapping Tool](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) (Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição do Aplicativo do Microsoft Intune).
 
-## Criar e implantar um aplicativo com uma política de gerenciamento de aplicativos móveis
+## Criar e implantar um aplicativo no Configuration Manager com uma política de gerenciamento do aplicativo móvel
 
 - Etapa 1: obter o link para um aplicativo gerenciado por política ou criar um aplicativo encapsulado.
 - Etapa 2: criar um aplicativo do Configuration Manager contendo um aplicativo.
 - Etapa 3: criar uma política de gerenciamento de aplicativos móveis.
-- Etapa 4: associar a política de gerenciamento de aplicativos a um tipo de implantação.
+- Etapa 4: associar a política de gerenciamento de aplicativo a um tipo de implantação.
 - Etapa 5: monitorar a implantação do aplicativo.
 
 ### Etapa 1: obter o link para um aplicativo gerenciado por política ou criar um aplicativo encapsulado.
@@ -63,7 +63,7 @@ Em seguida, [crie uma política de gerenciamento de aplicativos](https://technet
 
 Depois que você criar a nova política, ela é exibida no nó **Políticas de Gerenciamento de Aplicativos** no espaço de trabalho **Biblioteca de Software**.
 
-### Etapa 4: associar a política de gerenciamento de aplicativos a um tipo de implantação.
+### Etapa 4: associar a política de gerenciamento de aplicativo a um tipo de implantação.
 Quando um tipo de implantação é criado para um aplicativo que exige uma política de gerenciamento de aplicativos, o Configuration Manager reconhecerá que uma política de gerenciamento de aplicativos deve ser vinculada a este tipo de implantação quando o aplicativo associado é implantado e solicitará que você associe uma política de gerenciamento de aplicativos. Para o Managed Browser, você precisará associar uma política Geral e uma política do Managed Browser. Para saber mais, veja [How to Create and Deploy Applications for Mobile Devices in Configuration Manager (Como criar e implantar aplicativos para dispositivos móveis no Configuration Manager)](https://technet.microsoft.com/en-us/library/dn469410.aspx).
 
 > [!TIP]
@@ -73,7 +73,7 @@ Quando um tipo de implantação é criado para um aplicativo que exige uma polí
 
 
 ### Etapa 5: monitorar a implantação do aplicativo.
-Depois de criar e implantar um aplicativo associado a uma política de gerenciamento de aplicativos móveis, é possível [monitorar o aplicativo e resolver conflitos de política](https://technet.microsoft.com/en-us/library/mt131414.aspx?f=255&MSPPError=-2147217396#BKMK_Step5).
+Depois de criar e implantar um aplicativo associado a uma política de MAM, é possível [monitorar o aplicativo e resolver conflitos de política](https://technet.microsoft.com/en-us/library/mt131414.aspx?f=255&MSPPError=-2147217396#BKMK_Step5).
 
 Para obter informações gerais sobre como monitorar aplicativos, veja [Como monitorar aplicativos no Configuration Manager](https://technet.microsoft.com/en-us/library/gg682201.aspx).
 
@@ -83,6 +83,6 @@ Depois de criar e implantar um aplicativo associado a uma política de MAM, voc�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

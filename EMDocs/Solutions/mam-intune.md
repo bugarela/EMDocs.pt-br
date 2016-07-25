@@ -1,6 +1,6 @@
 ---
-title: "Usando políticas de gerenciamento de aplicativos móveis no Intune"
-description: 
+title: "Usando Políticas de Gerenciamento de Aplicativos Móveis no Intune"
+description: "Crie e implante um aplicativo no Intune com uma política de gerenciamento de aplicativos móveis."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,27 +13,27 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 6e1c55e17c37c5e470c4b391cc8aea4ea777856f
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 6e1141ea69d92e0afcaa36f8b29d4d5000019769
 
 
 ---
 
-# Usar políticas de gerenciamento de aplicativos móveis no Intune
+# Usar Políticas de Gerenciamento de Aplicativos Móveis no Intune
 Um dos motivos principais pelos quais muitas empresas usam o Microsoft Intune é implantar aplicativos que os usuários precisam para realizar seu trabalho. Antes de implantar aplicativos, você precisará [tornar seus dispositivos gerenciados](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
 Por exemplo, se sua empresa usa o Microsoft Word, há versões disponíveis para Windows, iOS, Android e outros. O desafio que você como um administrador de TI enfrenta é gerenciar a variedade de aplicativos disponíveis, em muitas plataformas diferentes de computador e de dispositivo com o objetivo de permitir que os usuários façam seu trabalho e, simultaneamente, garantir a segurança dos seus dados corporativos.
 
 Se estiver usando o Intune com o Configuration Manager, consulte [How to Control Apps Using Mobile Application Management Policies in Configuration Manager](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396) (Como controlar aplicativos usando políticas de gerenciamento de aplicativos móveis no Configuration Manager).
 
-As políticas de gerenciamento de aplicativos móveis dão suporte a:
+As políticas de MAM (gerenciamento de aplicativos móveis) dão suporte a:
 - Dispositivos que executam o Android 4 e posterior.
 - Dispositivos que executam o iOS 7 e posterior.
 
 > [!NOTE]
-> Políticas de gerenciamento de aplicativos móveis dão suporte a dispositivos registrados com o Intune. Para saber mais sobre como criar políticas de gerenciamento de aplicativos para dispositivos que não são gerenciados pelo Intune, veja [Protect app data using mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) (Proteger os dados do aplicativo usando políticas de gerenciamento de aplicativos móveis com o Microsoft Intune).
+> As políticas de MAM dão suporte a dispositivos registrados com o Intune. Para saber mais sobre como criar políticas de gerenciamento de aplicativos para dispositivos que não são gerenciados pelo Intune, veja [Protect app data using mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) (Proteger os dados do aplicativo usando políticas de gerenciamento de aplicativos móveis com o Microsoft Intune).
 
-Diferente de outras políticas do Intune, você não implanta uma política de gerenciamento de aplicativo móvel diretamente. Em vez disso, você associa a política ao aplicativo que deseja restringir. Quando o aplicativo é implantado e instalado em dispositivos, as configurações especificadas entrarão em vigor.
+Diferente de outras políticas do Intune, você não implanta uma política de MAM diretamente. Em vez disso, você associa a política ao aplicativo que deseja restringir. Quando o aplicativo é implantado e instalado em dispositivos, as configurações especificadas entrarão em vigor.
 
 Para aplicar restrições a um aplicativo, o aplicativo deve incorporar o SDK (Software Development Kit) do aplicativo Microsoft Intune. Há dois métodos de obter esse tipo de aplicativo:
 
@@ -51,7 +51,7 @@ Por exemplo, usando o aplicativo do Outlook:
 
 Word, Excel e PowerPoint também dão suporte a várias identidades, exceto as restrições de política que se aplicam somente ao gerenciar e editar dados de identificação empresarial de um serviço, como OneDrive ou SharePoint.
 
-## Criar e implantar um aplicativo com uma política de gerenciamento de aplicativos móveis
+## Criar e implantar um aplicativo no Intune com uma política de gerenciamento de aplicativos móveis
 
 - Etapa 1: obter o link para um aplicativo gerenciado por política ou criar um aplicativo encapsulado.
 - Etapa 2: publicar o aplicativo em seu espaço de armazenamento de nuvem.
@@ -93,7 +93,7 @@ Pode haver situações em que você implantar um aplicativo e um dos usuários o
 
 Nesse caso, você deve pedir ao usuário para desinstalar manualmente a versão não gerenciada para que possa ser instalada a versão gerenciada que você configurou.
 
-No entanto, para dispositivos que executam o iOS 9 e versões posteriores, o Intune automaticamente solicitará ao usuário permissão para assumir o gerenciamento do aplicativo existente. Se eles concordarem, o aplicativo será gerenciado pelo Intune e qualquer política de gerenciamento de aplicativo móvel associada ao aplicativo também será aplicada.
+No entanto, para dispositivos que executam o iOS 9 e versões posteriores, o Intune automaticamente solicitará ao usuário permissão para assumir o gerenciamento do aplicativo existente. Se eles concordarem, o aplicativo será gerenciado pelo Intune e qualquer política de MAM associada ao aplicativo também será aplicada.
 
 
 ### Etapa 5: monitorar a implantação do aplicativo com a política de MAM
@@ -103,9 +103,9 @@ Use os procedimentos a seguir para monitorar a implantação do aplicativo por m
 2. Execute uma das seguintes etapas:
   -  Clique em **Todos os Usuários** e clique duas vezes no usuário cujos dispositivos você deseja examinar. Na página Propriedades do Usuário, clique em **Dispositivos** e clique duas vezes no dispositivo que você deseja examinar.
   -  Clique em **Todos os Dispositivos > Todos os Dispositivos Móveis**. Na página Propriedades do Grupo de Dispositivos, clique em **Dispositivos** e clique duas vezes no dispositivo que você deseja examinar.
-3. Na página Propriedades do Dispositivo Móvel, clique em **Política** para ver uma lista das políticas de gerenciamento de aplicativo móvel que foram implantados no dispositivo.
-4. Selecione a política de gerenciamento de aplicativo móvel cujo status você deseja exibir. Você pode ver detalhes da política no painel inferior e expandir o nó para exibir as configurações.
-5.  Na coluna Status de cada uma das políticas de gerenciamento de aplicativo móvel, Compatível, Compatível (Pendente) ou Erro será exibido. Se a política selecionada tiver uma ou mais configurações conflitantes, Erro será exibido nesse campo.
+3. Na página Propriedades do Dispositivo Móvel, clique em **Política** para ver uma lista das políticas de MAM que foram implantados no dispositivo.
+4. Selecione a política de MAM cujo status você deseja exibir. Você pode ver detalhes da política no painel inferior e expandir o nó para exibir as configurações.
+5.  Na coluna Status de cada uma das políticas de MAM, Compatível, Compatível (Pendente)ou Erro será exibido. Se a política selecionada tiver uma ou mais configurações conflitantes, Erro será exibido nesse campo.
 6.  Após ter identificado um conflito, você pode revisar as configurações de política conflitantes para usar a mesma configuração ou implantar apenas uma política para o aplicativo e o usuário.
 
 > [!NOTE]
@@ -117,6 +117,6 @@ Depois de criar e implantar um aplicativo associado a uma política de MAM, voc�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

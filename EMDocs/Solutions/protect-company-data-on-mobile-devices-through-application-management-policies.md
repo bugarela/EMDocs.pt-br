@@ -1,6 +1,6 @@
 ---
 title: Proteger dados da empresa usando MAM com MDM
-description: 
+description: "Crie e implante aplicativos com políticas de MAM (gerenciamento de aplicativos móveis) para proteger melhor os dados da empresa."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: e925f84d1e885c8427dbd13eb060e8e2761aaeb6
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 5a58ea05ce49f0d135d8a5ca3ad2e52c312f4490
 
 
 ---
@@ -27,12 +27,15 @@ Este guia se concentra na habilitação de aplicativos gerenciados como ele se a
 - Como uma solução de gerenciamento de nuvem usando o Intune
 - Como um serviço integrado com o Configuration Manager
 
-Isso permite que você crie e implante aplicativos com políticas MAM (gerenciamento de aplicativos móveis) para proteger melhor os dados da empresa.
+Isso permite que você crie e implante aplicativos com políticas de MAM (gerenciamento de aplicativos móveis) para proteger melhor os dados da empresa.
 
 Este documento se concentra na criação dessas políticas de MAM quando o dispositivo do usuário final é registrado no Intune para MDM. Veja [Proteger a linha de aplicativos de negócios e dados em dispositivos não registrados no Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) para saber como configurar essas políticas de MAM quando o dispositivo não estiver registrado no Intune para MDM.
 
+> [!TIP]
+> Baixe uma cópia deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
+
 ## Introdução
-Aplicativos gerenciados são aplicativos que têm políticas de gerenciamento de aplicativo móvel aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Você tem duas opções para gerenciar aplicativos móveis:
+Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Você tem duas opções para gerenciar aplicativos móveis:
 - **A funcionalidade padrão**, como Apple Managed Open In, que protege os dados da empresa controlando os aplicativos que têm permissão para abrir certos documentos e anexos de email
 - **O SDK de Aplicativo do Intune**, que permite limitar a funcionalidade e restringir o compartilhamento de dados para todos os aplicativos que têm o SDK de Aplicativo do Intune habilitado. Alguns dos principais recursos do SDK de Aplicativo do Intune é que ele permite:
   - Gerenciar a função de salvar como
@@ -71,6 +74,6 @@ Agora que você está familiarizado com o processo geral de MAM, está pronto pa
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

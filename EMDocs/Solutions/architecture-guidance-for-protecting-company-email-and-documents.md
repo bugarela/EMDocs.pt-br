@@ -1,8 +1,8 @@
 ---
 title: Diretrizes de arquitetura para proteger documentos e email da empresa
-description: 
+description: "Forneça proteção de dados para sua empresa enquanto garante que a experiência do usuário final seja simples e não afete a produtividade."
 keywords: 
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 60b9891fcf0e81bc0b5b2d0418a244af231bc8d2
-ms.openlocfilehash: a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: dc610b43b0f4b79a8a86cf87f722bd4d066602c1
 
 
 ---
@@ -99,6 +99,6 @@ Além disso, se você quiser saber mais sobre o EMS e Azure Active Directory, po
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

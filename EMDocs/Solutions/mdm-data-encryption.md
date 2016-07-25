@@ -1,10 +1,10 @@
 ---
-title: Desenvolver os requisitos de resposta a incidentes
-description: 
+title: Desenvolver seus requisitos de criptografia de dados
+description: "Este tópico tem criptografia de dados de considerações design em dispositivos móveis. Este tópico faz parte de um conjunto maior de artigos sobre Considerações de Design de Gerenciamento de Dispositivos Móveis."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: bfeb1fd4cceacf225093d3a5c2d808ebeb21c825
+ms.sourcegitcommit: 4993391889b87512cda6b9c170960b156c32e163
+ms.openlocfilehash: 3d80b531c02a4b2a85082d2070e20129d51eeeee
 
 
 ---
@@ -34,7 +34,8 @@ Você pode usar a criptografia completa de disco ou a criptografia baseada nos d
 
 O Windows 10 Mobile usa criptografia no dispositivo, com base na tecnologia BitLocker, para criptografar todo o armazenamento interno, incluindo o sistema operacional e as partições de armazenamento de dados. O usuário pode ativar a criptografia no dispositivo, ou o departamento de TI pode ativar e aplicar a criptografia para dispositivos gerenciados pela empresa por meio de ferramentas de MDM. Quando a criptografia do dispositivo é ativada, todos os dados armazenados no telefone são criptografados automaticamente. Um dispositivo com Windows 10 Mobile com criptografia ativada ajuda a proteger a confidencialidade dos dados armazenados em caso de perda ou roubo do dispositivo. Leia o Guia de segurança do Windows 10 Mobile para saber mais.
 
->[!TIP] Para saber mais sobre os dispositivos móveis que podem ter a criptografia habilitada usando o ConfigMgr, leia [Configurações de conformidade para dispositivos móveis no Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
+>[!TIP] 
+> Para saber mais sobre os dispositivos móveis que podem ter a criptografia habilitada usando o ConfigMgr, leia [Configurações de conformidade para dispositivos móveis no Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
 Para aplicativos associados a uma política de gerenciamento de aplicativos móveis do Intune, a criptografia é fornecida pela Microsoft. Os dados são criptografados de forma síncrona durante operações de E/S de arquivos, de acordo com a configuração na política de gerenciamento de aplicativos móveis. Nos dispositivos com Android, os aplicativos gerenciados usam a criptografia AES-128 no modo CBC (Encadeamento de Blocos de Criptografia) usando as bibliotecas de criptografia da plataforma, que não são certificadas pelo FIPS 140-2. 
 
@@ -81,6 +82,6 @@ Para saber mais sobre como combinar os recursos do Intune e do ConfigMgr para au
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
