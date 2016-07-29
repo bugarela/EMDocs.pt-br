@@ -11,8 +11,8 @@ ms.topic: hubpage
 ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: bc95bae4c85c0abde94f15e599e3d3e712f0d30a
-ms.openlocfilehash: 9a5db8decb1ae2d759aef0a71ff5598e1b85a4ba
+ms.sourcegitcommit: d36908f56ada888e6b6b987ca3c160f85e3c44a8
+ms.openlocfilehash: 705c0dcf6541095ccc7df7207e62280da0411b82
 
 
 ---
@@ -33,7 +33,7 @@ ms.openlocfilehash: 9a5db8decb1ae2d759aef0a71ff5598e1b85a4ba
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Conteúdo em destaque</h2>
         <div class="features row">
             <ul class="column-half">
-                <li><mark><b>NOVO</b></mark> <a href="./information-protection/what-is-information-protection.md">Proteção de Informações do Azure (visualização)</a></li>
+                <li><mark><b>NOVO</b></mark> <a href="/rights-management/information-protection/what-is-information-protection">Azure Information Protection (visualização)</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">Benefícios do FastTrack para o EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">O que é o Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">O que é o Advanced Threat Analytics?</a></li>
@@ -179,6 +179,6 @@ ms.openlocfilehash: 9a5db8decb1ae2d759aef0a71ff5598e1b85a4ba
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
