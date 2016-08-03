@@ -70,6 +70,6 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

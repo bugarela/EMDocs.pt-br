@@ -120,6 +120,6 @@ os requisitos de aplicativo são categorizados em seis áreas:
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

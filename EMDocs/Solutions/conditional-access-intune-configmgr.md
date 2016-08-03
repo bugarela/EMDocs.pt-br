@@ -87,6 +87,6 @@ Se seu ambiente incluir o Exchange Online e o Exchange local, você poderá ler 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
