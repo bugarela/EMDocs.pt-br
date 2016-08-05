@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 40fbc4d61c4ccf574f41753bd4795562ccc82be0
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 62087a35c1a8876d8d06c6a78059270fe86b8b09
 
 
 ---
@@ -110,6 +110,7 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de certif
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

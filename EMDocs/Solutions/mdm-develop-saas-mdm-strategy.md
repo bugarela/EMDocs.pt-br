@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 91d1498db006b387ff524b2b26c715c3a109dd8a
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 29a71aed55e7b92626443caa5536928d42458b49
 
 
 ---
@@ -76,6 +76,7 @@ Não deixe de ler o artigo **[Ajudar a proteger seus dados com apagamento remoto
 Para obter mais detalhes sobre as funcionalidades e os requisitos da solução de SaaS, leia o tópico **[descrição do serviço para Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** para entender as diferenças no suporte a SaaS no [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e em uma infraestrutura [híbrida](https://technet.microsoft.com/library/jj884158.aspx) do Intune e do ConfigMgr.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 
