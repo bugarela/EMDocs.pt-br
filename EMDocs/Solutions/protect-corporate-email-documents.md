@@ -13,8 +13,8 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: a9a58e85db02196a5214573f91575d1d64b15b7b
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: cc6844a9329cafd14d7902ec1d677c5bea685b86
 
 
 ---
@@ -74,7 +74,7 @@ Para obter um estado compatível, o dispositivo em que o cliente EAS está em ex
 
 -   Registrar com o Intune
 
--   Registrar-se com o [Active Directory do Azure](https://msdn.microsoft.com/en-us/6a14cb1f-a058-4453-8ede-d9f4a66a7073.aspx)e
+-   Registre-se com o [Azure Active Directory](https://msdn.microsoft.com/6a14cb1f-a058-4453-8ede-d9f4a66a7073.aspx) para
 
 -   Estar em conformidade com as políticas de dispositivo definidas por seu administrador de TI.
 
@@ -122,6 +122,6 @@ Agora que você sabe como proteger emails e documentos corporativos, pode ler so
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

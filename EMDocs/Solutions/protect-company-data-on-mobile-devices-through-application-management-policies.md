@@ -13,8 +13,8 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
-ms.openlocfilehash: 5a58ea05ce49f0d135d8a5ca3ad2e52c312f4490
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 8e1b6153191727fba11366f6907ae3f70e11d246
 
 
 ---
@@ -29,7 +29,7 @@ Este guia se concentra na habilitação de aplicativos gerenciados como ele se a
 
 Isso permite que você crie e implante aplicativos com políticas de MAM (gerenciamento de aplicativos móveis) para proteger melhor os dados da empresa.
 
-Este documento se concentra na criação dessas políticas de MAM quando o dispositivo do usuário final é registrado no Intune para MDM. Veja [Proteger a linha de aplicativos de negócios e dados em dispositivos não registrados no Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) para saber como configurar essas políticas de MAM quando o dispositivo não estiver registrado no Intune para MDM.
+Este documento se concentra na criação dessas políticas de MAM quando o dispositivo do usuário final é registrado no Intune para MDM. Veja [Proteger a linha de aplicativos de negócios e dados em dispositivos não registrados no Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) para obter informações sobre como configurar essas políticas de MAM quando o dispositivo não estiver registrado no Intune para MDM.
 
 > [!TIP]
 > Baixe uma cópia deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
@@ -43,23 +43,23 @@ Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas qu
   - Exigir autenticação quando um aplicativo é acessado
   - Apagar dados da empresa de um aplicativo gerenciado pelo Intune
 
-  Confira [Visão geral do SDK de aplicativo do Intune](https://docs.microsoft.com/en-us/intune/develop/intune-app-sdk) para obter uma descrição de todos os recursos do SDK.
+  Confira [Visão geral do SDK de aplicativo do Intune](https://docs.microsoft.com/intune/develop/intune-app-sdk) para obter uma descrição de todos os recursos do SDK.
 
 ## Antes de começar
-- **Saiba mais sobre a implantação de aplicativos usando o Microsoft Intune:**  [Saiba mais](https://docs.microsoft.com/en-us/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) sobre os conceitos básicos da implantação de aplicativos do Intune.
+- **Saiba mais sobre a implantação de aplicativos usando o Microsoft Intune:**  [aprenda sobre](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) os conceitos básicos da implantação de aplicativos do Intune.
 
-- **Avalie a implementação desejada:** com todas as opções diferentes de design e configuração para gerenciar dispositivos móveis, é difícil determinar qual combinação melhor atende às necessidades da sua empresa. O [Guia de considerações de design de gerenciamento de dispositivo móvel](https://docs.microsoft.com/en-us/enterprise-mobility/Solutions/mdm-design-considerations-guide) ajuda você a entender os requisitos de design de gerenciamento de dispositivo móvel e detalha uma série de etapas e tarefas que você pode seguir para criar a solução mais adequada às necessidades de negócios e tecnologia da sua empresa.
+- **Avalie a implementação desejada:** com todas as opções diferentes de design e configuração para gerenciar dispositivos móveis, é difícil determinar qual combinação melhor atende às necessidades da sua empresa. O [Guia de considerações de design do Gerenciamento de dispositivo móvel](https://docs.microsoft.com/enterprise-mobility/Solutions/mdm-design-considerations-guide) ajuda você a entender os requisitos de design de gerenciamento de dispositivo móvel e detalha uma série de etapas e tarefas que você pode seguir para criar a solução mais adequada às necessidades de negócios e tecnologia da sua empresa.
 - **Entenda a experiência do usuário final de alto nível:** depois que a solução é implementada, você poderá proteger dados em dispositivos caso a empresa os gerencie ou não. Basta implementar políticas de nível de aplicativo para poder restringir o acesso aos recursos da empresa e manter os dados dentro do alcance do seu departamento de TI.
 
    > [!NOTE]
    > A experiência do usuário final desta solução é descrita com mais detalhes no artigo [Experiência do usuário final](end-user-experience-mam.md).
 
-- **Entenda o ciclo de vida do aplicativo:** assim como com o gerenciamento de dispositivos, os aplicativos têm um ciclo de vida que acompanha você da preparação à implantação, monitoramento, atualização e desativação. O Intune pode ajudá-lo em todos os estágios desse ciclo de vida. Para obter informações detalhadas sobre o ciclo de vida do aplicativo, confira [Visão geral do ciclo de vida do aplicativo](https://docs.microsoft.com/en-us/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
+- **Entenda o ciclo de vida do aplicativo:** assim como com o gerenciamento de dispositivos, os aplicativos têm um ciclo de vida que acompanha você da preparação à implantação, monitoramento, atualização e desativação. O Intune pode ajudá-lo em todos os estágios desse ciclo de vida. Para obter informações detalhadas sobre o ciclo de vida do aplicativo, confira [Visão geral do ciclo de vida do aplicativo](https://docs.microsoft.com/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
 - **Saiba mais sobre os aplicativos da Microsoft que você pode usar com políticas de MAM:** a página de [parceiros de aplicativos Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) contém as informações mais recentes sobre aplicativos da Microsoft e de outras empresas que você pode usar com as políticas de gerenciamento de aplicativos móveis.
 
   Use a Ferramenta de encapsulamento de aplicativos do Microsoft Intune para mudar o comportamento de aplicativos internamente e configurar as funcionalidades do aplicativo sem mudar seu código. Veja os tópicos a seguir para obter informações mais específicas:
- - [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de disposição de aplicativos do Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
- - [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Encapsulamento de Aplicativos do Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de disposição de aplicativos do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Encapsulamento de Aplicativos do Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
 - **Entender como os conflitos da política são resolvidos:** quando houver um conflito de política de gerenciamento de aplicativo móvel na primeira implantação para o usuário ou dispositivo, o valor da configuração específica em conflito será removido da política implantada para o aplicativo e ele usará um valor de conflito interno (**mais restritivo** é o padrão).
 
@@ -74,6 +74,6 @@ Agora que você está familiarizado com o processo geral de MAM, está pronto pa
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

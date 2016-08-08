@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 1d6f468df0675a410d53241ae23014712be2fee4
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: 878f20d5fa1e1180f149bf8b2865ae719cf61352
 
 
 ---
@@ -32,7 +32,7 @@ Com o Windows Server 2012 R2, é possível criptografar os dados em repouso nos 
 
 Se você pensar no armazenamento como um recipiente de conteúdo, é possível obter um ótimo valor ao proteger o consumo desse conteúdo. Vazamento de dados pode ser evitado através da aplicação de diretivas que afetam como o conteúdo que reside no armazenamento que será usado pelo usuário final. O [AD RMS (Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx) pode ser usado para ampliar a estratégia de segurança para sua organização protegendo documentos que usem IRM (Gerenciamento de Direitos de Informação). O AD RMS permite que indivíduos e administradores especifiquem, por meio de políticas de IRM, permissões de acesso a documentos, pastas de trabalho e apresentações. Isso ajuda a evitar que informações confidenciais sejam impressas, encaminhadas ou copiadas por pessoas não autorizadas. Depois que a permissão para um arquivo for restrita usando o IRM, as restrições de acesso e uso são aplicadas, independentemente de onde as informações estão, porque a permissão para um arquivo é armazenada no arquivo em si.
 
-Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arquivos, também será possível usar o [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx). O Azure Rights Management pode proteger as informações confidenciais da empresa usando criptografia, identidade e políticas de autorização, a fim de ajudar a proteger arquivos e emails, e funciona em vários dispositivos — PCs, tablets e telefones. As informações podem ser protegidas tanto em sua organização quanto fora dela, pois essa proteção permanece com os dados, mesmo quando eles saem dos limites da organização. 
+Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arquivos, também será possível usar o [Azure Rights Management](https://technet.microsoft.com/library/jj585026.aspx). O Azure Rights Management pode proteger as informações confidenciais da empresa usando criptografia, identidade e políticas de autorização, a fim de ajudar a proteger arquivos e emails, e funciona em vários dispositivos — PCs, tablets e telefones. As informações podem ser protegidas tanto em sua organização quanto fora dela, pois essa proteção permanece com os dados, mesmo quando eles saem dos limites da organização. 
 
 Outras tecnologias de armazenamento disponíveis no sistema operacional Windows também podem ser usadas para melhorar a proteção geral dos dados, como o BitLocker para criptografia de unidade e o [EFS (Encrypting File System)](https://technet.microsoft.com/library/cc700811.aspx) para criptografia de arquivo. Use a tabela a seguir para ver as vantagens e desvantagens da proteção de armazenamento. Tenha em mente que essas opções não se excluem mutuamente. Em outras palavras, a decisão de design pode concluir que você precisa de todas essas opções em sua solução de infraestrutura BYOD para proteção de armazenamento.
 
@@ -196,12 +196,12 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Exige uma infraestrutura de servidor de federação.
         - Exige o certificado para proteger a comunicação entre o servidor de federação e o serviço de nuvem.
 
-Ambientes híbridos que exigem que os usuários tenham conectividade com serviços de nuvem em seus próprios dispositivos podem aproveitar a integração entre o [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/) e os AD DS (Serviços de Domínio do Active Directory). Em um [cenário de identidade híbrida](https://technet.microsoft.com/library/dn550987.aspx), as empresas que desejam preservar a autenticação de usuário perfeita podem escolher as seguintes opções:
+Ambientes híbridos que exigem que os usuários tenham conectividade com serviços de nuvem em seus próprios dispositivos podem aproveitar a integração entre o [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) e os AD DS (Serviços de Domínio do Active Directory). Em um [cenário de identidade híbrida](https://technet.microsoft.com/library/dn550987.aspx), as empresas que desejam preservar a autenticação de usuário perfeita podem escolher as seguintes opções:
 
 - Sincronização de diretórios com sincronização de senha: usando o DirSync com [sincronização de hash de senha](https://technet.microsoft.com/library/dn246918.aspx) entre o AD DS e o Azure AD.
 - Autenticação federada com logon único: atributos de usuário são sincronizados usando o DirSync. A autenticação é enviada através de federação (AD FS) e concluída no AD DS
 
-Ao usar o Serviço de Registro de Dispositivo no Windows 8.1, um certificado é instalado em um dispositivo do usuário e um registro de dispositivo é criado no AD DS com o número de impressão digital do certificado. Esse link entre o dispositivo e o usuário permite que a TI controle os dispositivos que estão sendo registrados por cada usuário. Esse recurso não exige uma PKI corporativa. O registro de dispositivos também está disponível no Azure AD para Windows 10. Leia [Introdução ao registro de dispositivo do Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-registration-overview/) para obter mais informações sobre o Registro do dispositivo usando o Azure AD e Windows 10.
+Ao usar o Serviço de Registro de Dispositivo no Windows 8.1, um certificado é instalado em um dispositivo do usuário e um registro de dispositivo é criado no AD DS com o número de impressão digital do certificado. Esse link entre o dispositivo e o usuário permite que a TI controle os dispositivos que estão sendo registrados por cada usuário. Esse recurso não exige uma PKI corporativa. O registro de dispositivos também está disponível no Azure AD para Windows 10. Leia [Introdução ao registro de dispositivo do Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/) para obter mais informações sobre o Registro do dispositivo usando o Azure AD e Windows 10.
 
 ## Autenticação e autorização
 
@@ -213,7 +213,7 @@ A decisão de permitir que os usuários acessem aplicativos e dados em seus disp
 
 Autenticação e autorização são tratadas pelo AD FS em conexão com AD DS. Os dados em trânsito no datacenter também usarão o protocolo HTTPS ao se conectarem com a função de servidor de arquivos e serviços de autenticação.
 
-Para impor enforce Multi-Factor Authentication, as empresas podem usar os recursos internos no AD FS ou usar [MFA (Azure Multi-Factor Authentication)](https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/). Aproveitando essa funcionalidade no Azure, a TI pode impor autenticação multifator a usuários que acessam os recursos da empresa na Internet. Para saber mais sobre a autenticação multifator, confira [Gerenciar riscos com a Multi-Factor Authentication adicional para aplicativos confidenciais](https://technet.microsoft.com/library/dn280949.aspx).
+Para impor a Multi-Factor Authentication, as empresas podem usar os recursos internos no AD FS ou usar [MFA (Azure Multi-Factor Authentication)](https://azure.microsoft.com/documentation/articles/multi-factor-authentication/). Aproveitando essa funcionalidade no Azure, a TI pode impor autenticação multifator a usuários que acessam os recursos da empresa na Internet. Para saber mais sobre a autenticação multifator, confira [Gerenciar riscos com a Multi-Factor Authentication adicional para aplicativos confidenciais](https://technet.microsoft.com/library/dn280949.aspx).
 
 Para implantar a autorização por aplicativo aos usuários que acessem aplicativos de uma rede interna ou externa, a TI pode aproveitar o Proxy de aplicativo Web. Usando o Proxy de aplicativo Web, a TI pode criar regras específicas para impor a autenticação e autorização em conjunto com o AD FS. A publicação de Proxy de aplicativo Web funciona para qualquer dispositivo do usuário. É possível usar laptops, tablets ou smartphones pessoais. Além disso, os usuários não precisarão instalar software adicional em seus dispositivos para acessarem aplicativos publicados. O Proxy de aplicativo Web funciona como um proxy reverso para todos os aplicativos publicados por meio dele, e como tal, a experiência do usuário é a mesmo de dispositivos dos usuários conectados diretamente aos aplicativos. Para saber mais sobre Proxy de Aplicativo Web, confira [Visão geral de Proxy de Aplicativo Web](https://technet.microsoft.com/library/dn280944.aspx).
 
@@ -250,6 +250,6 @@ O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita �
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

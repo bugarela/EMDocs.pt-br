@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
 
 
 ---
@@ -34,7 +34,7 @@ Aplicativos gerenciados são aplicativos implantados pelo administrador de TI qu
 
 -   Limpe seletivamente apenas os dados que estão associados ao aplicativo gerenciado. Quando um dispositivo é perdido, roubado ou deixa de ser gerenciado pela sua equipe de TI, um apagamento seletivo pode remover todos os dados corporativos dos aplicativos, deixando apenas dados pessoais do aplicativo. Isso é conhecido como várias identidades.
 
-Com [Azure Rights Management Services](https://technet.microsoft.com/en-us/library/jj585026.aspx), você pode estender a proteção de email das seguintes maneiras:
+Com [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms), você pode estender a proteção de email das seguintes maneiras:
 
 -   Mensagens de email podem ser criptografadas para que somente os usuários certos possam ler ou exibir o conteúdo dentro ou fora da empresa.
 
@@ -59,7 +59,7 @@ Com [Azure Rights Management Services](https://technet.microsoft.com/en-us/libra
 ## A experiência de administração de TI:
 Seu administrador de TI cria as políticas de gerenciamento de aplicativo móvel, associa a política ao aplicativo e a implanta para usuários ou dispositivos. Quando o aplicativo gerenciado é instalado no dispositivo, as restrições de aplicativo entram em vigor. Criar e implantar aplicativos gerenciados envolvem pouco ou nenhum esforço adicional:
 
--   Há aplicativos existentes que já têm o SDK do aplicativo que permite aplicar restrições ao aplicativo. Eles não exigem qualquer outro processamento, apenas adicionar um link que aponte para uma loja de aplicativos, como iTunes ou Google Play. Leia [este](https://technet.microsoft.com/en-us/library/dn708489.aspx) artigo para ver a lista de aplicativos gerenciados.
+-   Há aplicativos existentes que já têm o SDK do aplicativo que permite aplicar restrições ao aplicativo. Eles não exigem qualquer outro processamento, apenas adicionar um link que aponte para uma loja de aplicativos, como iTunes ou Google Play. Leia [este](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) artigo para ver a lista de aplicativos gerenciados.
 
 -   Se você quiser gerenciar aplicativos criados internamente, é possível reempacotar os aplicativos com a ferramenta de disposição de texto do aplicativo Microsoft Intune. A ferramenta reempacota o aplicativo, o que permite aplicar restrições ao aplicativo.
 
@@ -71,6 +71,6 @@ Agora que você sabe como [proteger emails e documentos corporativos](protect-co
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

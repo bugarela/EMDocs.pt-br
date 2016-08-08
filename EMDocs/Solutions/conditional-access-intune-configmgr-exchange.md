@@ -13,8 +13,8 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: 7cb50027c7bde353f2df24b2b13b93259aee7b78
+ms.sourcegitcommit: ed846db95330ad4e4ed8e9ad0a9eaeb1c7882b70
+ms.openlocfilehash: 88acc7bbdb2651db89623f167a0f7cec5c277bd6
 
 
 ---
@@ -98,15 +98,15 @@ Verifique se seu ambiente inclui esses requisitos para implementação dessa sol
 Siga estas etapas para implantar a solução do Exchange local:
 
 ### Etapa 1: verificar se a função do Conector do Intune está instalada.
-Certifique-se de que a função do Conector do Intune esteja instalada para que o Configuration Manager possa interagir com o Intune. Consulte [Gerenciar Dispositivos Móveis com o Configuration Manager e o Intune](https://technet.microsoft.com/en-us/library/JJ884158.aspx) .
+Certifique-se de que a função do Conector do Intune esteja instalada para que o Configuration Manager possa interagir com o Intune. Consulte [Gerenciar Dispositivos Móveis com o Configuration Manager e o Intune](https://technet.microsoft.com/library/JJ884158.aspx) para obter mais informações.
 
 ### Etapa 2: instalar e configurar um conector do Exchange Server.
 O Configuration Manager dá suporte apenas a um conector em uma organização do Exchange.
 
 > [!IMPORTANT]
-> Antes de instalar o conector do Exchange Server, verifique se o Configuration Manager dá suporte à versão do Microsoft Exchange que você está usando. Para obter mais informações, consulte [Configurações com suporte no Configuration Manager](https://technet.microsoft.com/en-us/library/gg682077.aspx).
+> Antes de instalar o conector do Exchange Server, verifique se o Configuration Manager dá suporte à versão do Microsoft Exchange que você está usando. Para obter mais informações, consulte [Configurações com suporte no Configuration Manager](https://technet.microsoft.com/library/gg682077.aspx).
 
-Siga as etapas em [como gerenciar dispositivos móveis usando o Configuration Manager e o Exchange](https://technet.microsoft.com/en-us/library/gg682001.aspx) para instalar e configurar o conector do Exchange Server.
+Siga as etapas em [Como gerenciar dispositivos móveis usando o Configuration Manager e o Exchange](https://technet.microsoft.com/library/gg682001.aspx) para instalar e configurar o conector do Exchange Server.
 
 ### Etapa 3: executar uma sincronização completa para descobrir os usuários.
 
@@ -125,10 +125,10 @@ Usando a Ferramenta de Log de Rastreamento do Configuration Manager, você pode 
 ### Etapa 4: criar coleções de usuários.
 Determine os grupos de usuários do Intune aos quais a política de acesso condicional será aplicada. Em seguida, crie coleções de usuários para grupos de usuários que serão alvo ou ficarão isentos da política de acesso condicional. Você especificará esses grupos ao importo acesso condicional posteriormente.
 
-Siga as etapas em [Como Criar Coleções no Configuration Manager](https://technet.microsoft.com/en-us/library/gg712295.aspx) para criar coleções de usuários.
+Siga as etapas em [Como criar coleções no Configuration Manager](https://technet.microsoft.com/library/gg712295.aspx) para criar coleções de usuários.
 
 ### Etapa 5: criar políticas de conformidade e implantá-las para os usuários.
-As políticas de conformidade definem regras e configurações com que um dispositivo deve manter a conformidade para ser considerado compatível pelas políticas de acesso condicional. Siga as etapas em [Políticas de conformidade no Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx) para criar políticas de conformidade.
+As políticas de conformidade definem regras e configurações com que um dispositivo deve manter a conformidade para ser considerado compatível pelas políticas de acesso condicional. Siga as etapas em [Políticas de conformidade no Configuration Manager](https://technet.microsoft.com/library/mt131417.aspx) para criar políticas de conformidade.
 
 Se você desejar poder remover todos os email corporativo de um dispositivo iOS depois que ele não fizer mais parte da sua empresa, será necessário criar e implantar um perfil de email e, em seguida, definir a política de conformidade que especifica que perfis de email são gerenciados pelo Intune. Você deve implantar o perfil de email para o mesmo conjunto de usuários-alvos desta política de conformidade.
 
@@ -139,7 +139,7 @@ Se você especificar essa política de conformidade, um usuário que já tenha c
 Depois que a política de conformidade for criada, selecione o nome da política de conformidade na lista e clique em **Implantar**.
 
 ### Etapa 6: configurar a política de acesso condicional.
-Decida primeiro como e quando você deseja impor o acesso condicional e os funcionários que serão afetados. Em seguida, siga as etapas em [Acesso Condicional para Email do Exchange no Configuration Manager](https://technet.microsoft.com/en-us/library/mt131421.aspx) para configurar a política de acesso condicional para o Exchange local.
+Decida primeiro como e quando você deseja impor o acesso condicional e os funcionários que serão afetados. Em seguida, siga as etapas em [Acesso Condicional para Email do Exchange no Configuration Manager](https://technet.microsoft.com/library/mt131421.aspx) para configurar a política de acesso condicional para o Exchange local.
 
 ### Etapa 7: monitorar registros e impor o acesso condicional.
 Se você já tiver um número significativo de usuários registrados e compatíveis no Intune, comece a impor o acesso condicional disponibilizando-o para aproximadamente 500 usuários por dia. Isso levará cerca de quatro a cinco meses para 70.000 usuários e permite tratar problemas que podem surgir sem restringir o acesso ao email para muitos usuários ao mesmo tempo.
@@ -151,7 +151,7 @@ Usando a Ferramenta de Log de Rastreamento do Configuration Manager, abra o arqu
 
 ![Captura de tela que mostra o arquivo EasDisc.log aberto na Ferramenta de Log de Rastreamento do Configuration Manager](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
-A Ferramenta de Log de Rastreamento do Configuration Manager está incluída no [Kit de Ferramentas do System Center 2012 R2 Configuration Manager](http://www.microsoft.com/en-us/download/details.aspx?id=50012).
+A Ferramenta de Log de Rastreamento do Configuration Manager está incluída no [Kit de Ferramentas do System Center 2012 R2 Configuration Manager](http://www.microsoft.com/download/details.aspx?id=50012).
 
 ## Relatórios
 Você pode usar o console do Configuration Manager para exibir informações específicas sobre os dispositivos que foram descobertos pelo Exchange Connector. Para os dispositivos nos quais o acesso condicional é imposto, você pode exibir o status atual de cada dispositivo, a última vez que o dispositivo esteve conectado ao Exchange Server e assim por diante.
@@ -186,6 +186,6 @@ Depois de implantar uma solução para proteger email corporativo e dados de ema
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

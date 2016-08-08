@@ -13,8 +13,8 @@ ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: 8d1e7f6bf8d798dee570d970c30e98974f9bd5be
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 9f783b0faf8da0beaffbfd2e5dd9d7bfcdc08ac2
 
 
 ---
@@ -29,7 +29,7 @@ Se já estiver usando o Configuration Manager, bem como uma coexistência entre 
 ## Pré-requisitos
 Para configurar um tipo de coexistência de ambiente que implementa ambos o Exchange local e o Exchange Online, sua organização do Exchange existente deve atender a certos requisitos. Se você não atender a esses requisitos, não será possível concluir as etapas necessárias para configurar uma implantação híbrida entre sua organização do Exchange local e a organização do Exchange Online no Microsoft Office 365.
 
-Consulte os [Pré-requisitos de implantação híbrida](https://technet.microsoft.com/en-us/library/hh534377.aspx) para examinar os requisitos para criar e configurar esse tipo de ambiente.
+Consulte os [Pré-requisitos de implantação híbrida](https://technet.microsoft.com/library/hh534377.aspx) para examinar os requisitos para criar e configurar esse tipo de ambiente.
 
 ## Etapas de Implantação
 Para implantar uma solução de coexistência, siga as etapas acima para implantar as soluções [Exchange Server local](conditional-access-intune-configmgr-exchange.md) e [Exchange Online](conditional-access-intune-configmgr-exchange-online.md).

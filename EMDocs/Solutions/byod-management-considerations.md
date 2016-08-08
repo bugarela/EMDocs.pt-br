@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f752f75206cb37cbe565e44a00f20fcdad13ddb5
-ms.openlocfilehash: 91deaf9d02b27182353cbe511ff86a01582dc60a
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: 20a93c06b30fddf42f464a9a30b784c8aa4d7a33
 
 
 ---
@@ -54,7 +54,7 @@ Como você pode ver na tabela anterior, ao criar a solução de infraestrutura B
 
 Se a empresa optar por dar suporte a diferentes tipos de dispositivos, você precisará compreender os recursos dos dispositivos, como criptografia de armazenamento, opções de conectividade VPN e linguagens de programação com suporte. Avalie o que pode ser implementado para estar em conformidade com as políticas da empresa. Monitoramento de dispositivos para atender a conformidade pode ser feito impondo políticas. Considere habilitar a criptografia de dispositivo enquanto os dados estiverem em repouso em dispositivos de usuários; isso pode ajudá-lo em sua estratégia de vazamento de dados. Impor políticas como desbloqueio de senha, histórico de senhas e senhas fortes pode dar segurança semelhante em dispositivos locais e móveis.
 
-Configurações de conformidade no Configuration Manager permitem à TI gerenciar a configuração e a conformidade de servidores, laptops, computadores desktop e dispositivos móveis da empresa. Considere usar as configurações de conformidade padrão integradas no Gerenciador de Configurações para dispositivos móveis como uma linha de base e, a partir daí, personalizar de acordo com as necessidades da empresa. Para saber mais sobre configurações de conformidade no Configuration Manager, consulte [Introdução às configurações de conformidade no Configuration Manager](https://technet.microsoft.com/en-us/library/gg682139.aspx).
+Configurações de conformidade no Configuration Manager permitem à TI gerenciar a configuração e a conformidade de servidores, laptops, computadores desktop e dispositivos móveis da empresa. Considere usar as configurações de conformidade padrão integradas no Gerenciador de Configurações para dispositivos móveis como uma linha de base e, a partir daí, personalizar de acordo com as necessidades da empresa. Para obter mais informações sobre configurações de conformidade no Configuration Manager, consulte [Introdução às configurações de conformidade no Configuration Manager](https://technet.microsoft.com/library/gg682139.aspx).
 
 Usando a limpeza seletiva do Windows, a TI pode proteger os dados corporativos da empresa que serão distribuídos entre dispositivos pessoais ou corporativos. Os desenvolvedores podem criar aplicativos para usar uma política de limpeza seletiva do Windows em dados e protegê-los em um domínio da Internet que pertença à empresa. Para saber mais sobre a Limpeza Seletiva do Windows, confira Windows Selective Wipe for Device Data Management (Limpeza Seletiva do Windows para gerenciamento de dados de dispositivo).
 
@@ -178,7 +178,7 @@ A solução de gerenciamento adotada pela empresa também é responsável por ab
 
 Um desafio nesta área é poder gerenciar plataformas diferentes e preservar a uma interface de gerenciamento centralizado que permita à TI identificar rapidamente os dispositivos que estão conectados locais e na nuvem. Você deve considerar a adoção de uma plataforma de gerenciamento que possa consolidar ambos (local e nuvem) e também uma plataforma de gerenciamento que seja capaz de gerenciar sistemas Windows e não Windows.
 
-Para gerenciamento centralizado local, você pode usar o Gerenciador de Configurações. Usando essa opção, a TI pode aproveitar o recurso Registro Enterprise para registrar os dispositivos com o servidor do Gerenciador de Configurações da empresa. Para saber mais sobre como gerenciar dispositivos usando o Configuration Manager, confira [Gerenciar Dispositivos Móveis com o Configuration Manager e o Microsoft Intune](https://technet.microsoft.com/en-us/library/jj884158.aspx).
+Para gerenciamento centralizado local, você pode usar o Gerenciador de Configurações. Usando essa opção, a TI pode aproveitar o recurso Registro Enterprise para registrar os dispositivos com o servidor do Gerenciador de Configurações da empresa. Para obter mais informações sobre como gerenciar dispositivos usando o Configuration Manager, confira [Gerenciar Dispositivos Móveis com o Configuration Manager e o Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
 Para gerenciar outras plataformas que não sejam dispositivos baseados em Windows, você pode aproveitar o serviço de nuvem Microsoft Intune. O Portal da empresa Microsoft Intune pode ser usado para registrar, gerenciar e instalar aplicativos licenciados. Os usuários podem ter acesso fácil a aplicativos e instalá-los em seus dispositivos. 
 
@@ -197,6 +197,6 @@ Embora essas sejam duas opções, você pode integrar ambas para oferecer implan
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
