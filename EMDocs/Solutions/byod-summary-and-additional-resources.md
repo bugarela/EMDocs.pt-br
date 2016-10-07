@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 423c1de5-db20-4327-8c3b-a39b830cb58b
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: 3dbae9e0244c0e56ebecf726df71133ee4d4adcd
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: a959db750a4334f19e1269726a5536f55afa4dbf
 
 
 ---
@@ -29,7 +30,7 @@ Depois de identificar os requisitos e restrições no seu ambiente e avaliar cad
 
 Para soluções relacionadas ao cenário BYOD, consulte:
 
-- [Guia de considerações de design de gerenciamento de dispositivos móveis](http://aka.ms/mdmdcg)
+- [Guia de considerações sobre design para o gerenciamento de dispositivos móveis](http://aka.ms/mdmdcg)
 - [Gerenciar identidades de ambientes híbridos usando DirSync com federação (logon único)](https://technet.microsoft.com/library/dn550987.aspx)
 - [Gerenciar identidades de ambientes híbridos usando DirSync com sincronização de senha](https://technet.microsoft.com/library/dn550986.aspx)
 - [Acesso seguro aos recursos da empresa de qualquer local em qualquer dispositivo](https://technet.microsoft.com/library/dn550982.aspx)
@@ -39,6 +40,6 @@ Para soluções relacionadas ao cenário BYOD, consulte:
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
