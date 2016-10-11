@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: 47b76f7910cbfcb8a2faf147c945b140950840e8
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: cff2abcc7befdb3be47ebd73820a31c520d6fa17
 
 
 ---
@@ -45,7 +46,7 @@ Este diagrama mostra os principais recursos de segurança necessários em qualqu
 2. Considerações sobre proteção de dados em trânsito:
     - Criptografia de dados
     - Autenticação
-    - Autorização
+    - Authorization
 3. Considerações sobre proteção de dados em repouso em sua organização local:
     - Criptografia de dados
     - Autenticação
@@ -53,7 +54,7 @@ Este diagrama mostra os principais recursos de segurança necessários em qualqu
 4. Considerações sobre proteção de dados em repouso na nuvem:
     - Criptografia de dados
     - Autenticação
-    - Autorização
+    - Authorization
 
 As tarefas descritas nas seções a seguir podem ajudar você a entender como necessidades de segurança específicas influenciarão em sua decisão sobre a melhor solução de MDM para seus requisitos de negócios.
 
@@ -77,6 +78,6 @@ Há 12 etapas nesta seção do guia. O tempo total para leitura das seções é 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
