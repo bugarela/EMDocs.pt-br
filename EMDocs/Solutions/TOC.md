@@ -7,6 +7,11 @@
 #### [Fases](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 #### [Responsabilidades do cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+### [Como configurar seu método preferencial de verificação de segurança adicional](fasttrack-how-to-enroll-in-mfa.md)
+### [Como gerenciar sua própria senha](fasttrack-how-to-manage-your-password.md)
+### [Instruções de registro do usuário final no Intune para administradores de TI](fasttrack-intune-enduser-enrollment-instructions.md)
+### [Como usar aplicativos com suporte para várias identidades](fasttrack-how-to-use-apps-with-multi-identity-support.md)
+### [Como usar aplicativos móveis gerenciados pela sua organização](fasttrack-how-to-work-with-managed-apps.md)
 ## [Guia de design para BYOD](byod-design-considerations-guide.md)
 ### [Previsão da solução de infraestrutura](byod-envisioning-the-byod-infrastructure-solution.md)
 #### [Requisitos de usuário e dispositivo](byod-user-device-reqs.md)
@@ -16,7 +21,7 @@
 ### [Considerações sobre design](byod-design-considerations.md)
 #### [Usuário e dispositivo](byod-user-and-device-considerations.md)
 #### [Acesso a dados e proteções](byod-data-access-and-protection-considerations.md)
-#### [Management](byod-management-considerations.md)
+#### [Gerenciamento](byod-management-considerations.md)
 #### [Aplicativos](byod-app-considerations.md)
 ## [Guia de design do Gerenciamento de Dispositivo Móvel](mdm-design-considerations-guide.md)
 ### [Etapa 1: Identificar requisitos](mdm-step-1-identify-your-mobile-device-management-requirements.md)
@@ -75,6 +80,6 @@
 ### [Experiência do usuário MAM](end-user-experience-MAM.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 
