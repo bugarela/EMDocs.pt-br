@@ -2,12 +2,12 @@
   href: /
   homepage: /
   items:
-  - name: "Enterprise Mobility"
-    href: /enterprise-mobility/
-    homepage: /enterprise-mobility
+  - name: "Enterprise Mobility + Security"
+    href: /enterprise-mobility-security/
+    homepage: /enterprise-mobility-security
     items:
     - name: "Soluções"
-      href: /enterprise-mobility/solutions/
+      href: /enterprise-mobility-security/solutions/
       homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
     - name: "Azure RemoteApp"
       href: /remoteapp/
@@ -147,24 +147,24 @@
       href: /sccm/
       homepage: /sccm
       items:
-        - name: "Guia Infra-estrutura principal"
+        - name: "Infraestrutura principal"
           href: /sccm/core/
           homepage: /sccm/core/understand/introduction
-        - name: "Guia Gerenciamento de aplicativo"
+        - name: "Gerenciamento de aplicativos"
           href: /sccm/apps/
           homepage: /sccm/apps/understand/get-started-with-application-management
-        - name: "Guia Conformidade do dispositivo"
+        - name: "Conformidade do dispositivo"
           href: /sccm/compliance/
           homepage: /sccm/compliance/understand/ensure-device-compliance
-        - name: "Guia Gerenciamento de dispositivo móvel"
+        - name: "Gerenciamento de dispositivos móveis"
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
-        - name: "Guia Implantação de sistema operacional"
+        - name: "Implantação de sistema operacional"
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
-        - name: "Guia Proteger os dados e a infraestrutura"
+        - name: "Proteger os dados e a infraestrutura"
           href: /sccm/protect/
           homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
-        - name: "Guia Gerenciamento de atualização de software"
+        - name: "Gerenciamento de atualização de software"
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction

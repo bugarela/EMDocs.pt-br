@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: affb004f69e50d7c41ede6d29355fbb991949ebd
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
 
 
 ---
@@ -29,7 +30,7 @@ Para resolver os problemas identificados anteriormente e ajudar as organizaçõe
 
 - Fornecer aos usuários a flexibilidade para usar seus próprios dispositivos para acessar dados e aplicativos corporativos.
 - Gerenciar dispositivos que estão acessando recursos corporativos quando local e na nuvem.
-- Habilita o departamento de TI a proteger dados corporativos armazenados em dispositivos usando criptografia e gerenciamento de direitos para proteger contra o acesso local não autorizado e apagando remotamente dados corporativos pela Internet quando um dispositivo é perdido ou desativado ou durante o processo de desligamento de um funcionário.
+- Habilita o departamento de TI a proteger dados corporativos armazenados em dispositivos usando criptografia e a proteção de informações para proteger contra o acesso local não autorizado e apagando remotamente dados corporativos pela Internet quando um dispositivo é perdido ou desativado ou durante o processo de rescisão do contrato de um funcionário.
 - Fornecer aos usuários uma identidade comum quando eles estiverem acessando os recursos locais e na nuvem.
 - Habilitar a TI a gerenciar várias identidades e manter as informações sincronizadas entre ambientes diferentes.
 - Habilitar serviços de autenticação da empresa, como Multi-Factor Authentication e logon único.
@@ -53,6 +54,6 @@ As considerações sobre o domínio do problema do BYOD apresentados neste guia 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

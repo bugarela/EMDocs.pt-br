@@ -1,10 +1,10 @@
 ---
-title: "Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)"
+title: "Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,17 +13,17 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 42a320985cf1062a5e239bf55317f10b46062ee8
+ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
+ms.openlocfilehash: 678b0f25d03f2b5ff8d53effd75ea9c6fc99cfa9
 
 
 ---
 
-# Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)
-Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas da Microsoft para preparar o Azure Active Directory Premium, Microsoft Intune e/ou Azure Rights Management para uso. Para saber se a sua organização está qualificada, confira [Benefício do FastTrack Center para o Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+# Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)
+Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas da Microsoft para deixar o Azure Active Directory Premium e/ou Microsoft Intune prontos para uso. Você também pode solicitar ajuda por meio do portal do FastTrack para a Proteção de Informações do Azure, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Para saber se a sua organização está qualificada, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
-Os elementos que compõem o processo do benefício do FastTrack Center são: 
+Aqui está o que abordamos sobre o processo de integração:
 
 -   [Visão geral do processo de integração](fasttrack-center-benefit-process-for-ems-overview.md)
 
@@ -51,14 +51,7 @@ Eis o que você pode esperar quando a integração for concluída:
 
     -   Federadas com o AD FS (Serviços de Federação do Active Directory) 2.0 do Windows Server 2012 R2 ou posterior do seu Active Directory local.
 
-Leia sobre a próxima parte do processo de integração do FastTrack: [Visão geral do processo de integração](fasttrack-center-benefit-process-for-ems-overview.md)
 
-### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
-
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 

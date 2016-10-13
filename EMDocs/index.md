@@ -1,30 +1,30 @@
 ---
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
-title: "Documentação do Enterprise Mobility | Microsoft Docs"
-description: "Documentação técnica do Microsoft Enterprise Mobility"
+title: "Documentação do Enterprise Mobility + Security | Microsoft Docs"
+description: "Documentação técnica do Microsoft Enterprise Mobility + Security"
 keywords: "microsoft docs, documentação do enterprise mobility, aprender sobre enterprise mobility, guia do enterprise mobility, documentação técnica do enterprise mobility"
 author: msswadhwa
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 10/03/2016
 ms.topic: hubpage
 ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: e6fdd88632bfe1bb1a04f73923273709eaf54559
-ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
+ms.sourcegitcommit: e8bac2fe14b1058b8e7e8ae3033b5dca2c284669
+ms.openlocfilehash: 21457bc58aec5df390b2e1826cc09a28761b9591
 
 
 ---
-# Documentação do Enterprise Mobility
+# Documentação do Enterprise Mobility + Security
 <article id="main">
     <section id="hero-content" class="graph">
-        <h1>Documentação do Enterprise Mobility</h1>
-        <h2>Bem-vindo a documentação técnica do Microsoft Enterprise Mobility. Esses artigos ajudarão você a compreender e explorar as soluções e os produtos do Enterprise Mobility, começar a usar os serviços e planejar sua implementação. Você também encontrará conteúdo técnico detalhado para ajudar a implantar e usar os serviços, desenvolver aplicativos e solucionar problemas.</h2>
-        <h3>Ainda não conhece o Enterprise Mobility? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visite a página do Microsoft Enterprise Mobility &rarr;</a></h3>
+        <h1>Documentação do Enterprise Mobility + Security</h1>
+        <h2>Bem-vindo à documentação técnica do Microsoft Enterprise Mobility + Security. Esses artigos ajudarão você a compreender e explorar as soluções e os produtos do Enterprise Mobility + Security, começar a usar os serviços e planejar sua implementação. Você também encontrará conteúdo técnico detalhado para ajudar a implantar e usar os serviços, desenvolver aplicativos e solucionar problemas.</h2>
+        <h3>Ainda não conhece o Enterprise Mobility + Security? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visite a página do Microsoft Enterprise Mobility + Security &rarr;</a></h3>
     </section>
     <aside class="alert section-border">
-        <p>Inscreva-se para uma avaliação de 30 dias do Enterprise Mobility Suite</p>
+        <p>Inscreva-se para uma avaliação de 30 dias do Enterprise Mobility + Security</p>
         <ol class="action-list">
         <li><a href="http://go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">Avaliação Gratuita</a></li>
         </ol>
@@ -41,7 +41,7 @@ ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
             <ul class="column-half">
                 <li><a href="/active-directory/active-directory-whatis">O que é o Active Directory do Azure?</a></li>
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">O que é o Microsoft Identity Manager?</a></li>
-                <li><a href="/rights-management/understand-explore/what-is-azure-rms">O que é o Azure Rights Management?</a></li>
+                <li><a href="/information-protection/understand-explore/what-is-information-protection">O que é o Azure Information Protection?</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Gerenciamento de dispositivo móvel no Microsoft</a></li>
             </ul>
         </div>
@@ -99,7 +99,13 @@ ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
                                 <p>Gerenciar &amp; proteger aplicativos corporativos &amp; dados em dispositivos usando recursos de MDM &amp; MAM do Intune.</p>
                                 </a>
                             </li>
-                        </ul>
+                            <li class="column column-third">
+                                <a href="/sccm/">
+                                <h3>System Center Configuration Manager</h3>
+                                <p>Gerenciar e proteger os computadores, servidores e dispositivos corporativos com a infraestrutura local do Configuration Manager.</p>
+                                </a>
+                            </li>
+                          </ul>
                     </section>
                 </li>
                 <li class="journey-step">
@@ -114,9 +120,9 @@ ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
                     <section class="journey-step-elements content">
                         <ul class="row">
                             <li class="column column-third">
-                                <a href="/rights-management/">
-                                <h3>Azure Rights Management</h3>
-                                <p>Proteja suas informações contra o acesso não autorizado e controle como elas são usadas.</p>
+                                <a href="/information-protection/">
+                                <h3>Azure Information Protection</h3>
+                                <p>Classificar, rotular e aplicar proteção para email e outros dados confidenciais.</p>
                                 </a>
                             </li>
                             <li class="column column-third">
@@ -125,26 +131,12 @@ ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
                                 <p>Identifique brechas &amp; ameaças usando a análise comportamental e crie relatórios em uma linha do tempo de ataque.</p>
                                 </a>
                             </li>
-                        </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                        <span class="icon icon-desktops"></span>
-                        <p>Virtualização de área de trabalho</p>
-                        </div>
-                        <p class="description column-two-thirds">Transmita aplicativos de seu data center ou na nuvem para manter os usuários produtivos em qualquer lugar, em qualquer dispositivo e proteger mais seus dados.
-                        </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                        <li class="column column-third">
-                            <a href="/remoteapp/">
-                            <h3>Azure RemoteApp</h3>
-                            <p>Implante aplicativos de nuvem do Windows na nuvem e execute-os em qualquer dispositivo.</p>
-                            </a>
-                        </li>
+                            <li class="column column-third">
+                                <a href="https://technet.microsoft.com/library/mt489024.aspx">
+                                <h3>Cloud App Security</h3>
+                                <p>Traga a segurança dos seus sistemas locais para seus aplicativos em nuvem para visibilidade mais detalhada, controles abrangentes e proteção aprimorada.</p>
+                                </a>
+                            </li>
                         </ul>
                     </section>
                 </li>
@@ -155,23 +147,23 @@ ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
         <section class="resources container">
             <h2 class="section-heading"><span class="icon icon-note"></span> Cenários &amp; Soluções</h2>
             <div class="resource-list row">
-                <ul class="column-half">
-                    <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">Guia de considerações sobre design para o gerenciamento de dispositivos móveis</a></li>
-                    <li><a href="/enterprise-mobility/solutions/byod-design-considerations-guide">Guia de considerações sobre design para BYOD</a></li>
-                    <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Guia de considerações de design de identidade híbrida</a></li>
-                </ul>
-                <ul class="column-half">
-                    <li><a href="/enterprise-mobility/solutions/conditional-access-intune">Acesso condicional com o Intune</a></li>
-                    <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Proteger emails e documentos da empresa</a></li>
-                    <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Recursos de segurança e proteção do Office 365</a></li>
-                </ul>
-            </div>
+              <ul class="column-half">
+                  <li><a href="/enterprise-mobility/solutions/enterprise-mobility-fasttrack-program">Cenários Técnicos do EMS</a></li>
+                  <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Proteger emails e documentos da empresa</a></li>
+                  <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Recursos de segurança e proteção do Office 365</a></li>
+              </ul>
+              <ul class="column-half">
+                  <li><a href="https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview">Guia de considerações de design de identidade híbrida</a></li>
+                  <li><a href="/enterprise-mobility/solutions/byod-design-considerations-guide">Guia de considerações sobre design para BYOD</a></li>
+                  <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">Guia de considerações sobre design para o gerenciamento de dispositivos móveis</a></li>
+            </ul>
+            </div>            
         </section>
     </div>
     <aside class="alert alert-social">
         <p>Acompanhar as últimas notícias</p>
         <ol class="action-list">
-            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Blog do Enterprise Mobility</a></li>
+            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Blog do Enterprise Mobility + Security</a></li>
             <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">Blog In The Cloud</a></li>
         </ol>
     </aside>
@@ -179,6 +171,6 @@ ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 
