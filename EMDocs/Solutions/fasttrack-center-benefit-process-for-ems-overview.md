@@ -1,10 +1,10 @@
 ---
-title: "Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - visão geral"
+title: "Visão Geral do Benefício do FastTrack Center"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,34 +14,32 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 6d93a086bc86864d677327b37eaff39bdfd495fd
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 8c1ed6125137bf0059068d9864a5d1271bd7a9d1
 
 
 ---
 
-# Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - visão geral
+# Visão Geral do Benefício do FastTrack Center
 
-Você pode usar o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso. Use as informações desta seção para obter uma visão geral ilustrada do processo de integração.
-
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Com o Benefício do FastTrack Center para o Azure Active Directory Premium e/ou Microsoft Intune, você trabalha remotamente com especialistas da Microsoft para tornar o seu ambiente pronto para uso e planeja a distribuição e o uso dentro da organização. Para saber mais sobre qualificação, veja [Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 A integração tem dois componentes principais:
 
 -   **Integração principal** - tarefas exigidas para a configuração de locatário e integração com o Azure Active Directory, se for necessário. A integração de núcleo também fornece a linha de base para integração de outros serviços qualificados da Microsoft Online.
 
--   **Integração do serviço** - tarefas necessárias para configurar qualquer uma das variantes autônomas do pacote do EMS (Azure Active Directory Premium, Microsoft Intune, Azure Rights Management Premium).
+-   **Integração do serviço** – tarefas necessárias para configurar qualquer uma das variantes autônomas da carga de trabalho do EMS (Azure Active Directory Premium, Microsoft Intune).
 
 O diagrama a seguir descreve as fases de integração de alto nível para uso do Benefício do FastTrack Center.
 
-![As fases de integração de alto nível para uso do Benefício do FastTrack Center](./media/ft-1-onboarding-process.png)
+![As fases de integração de alto nível para uso do Benefício do FastTrack Center](./media/ft-onboarding-process.png)
 
-O processo básico é como descrito a seguir:
+Eis aqui como o processo funciona:
 
-- A Microsoft tentará entrar em contato com você para oferecer assistência de integração após sua compra de licenças para um serviço qualificado. Você também pode solicitar assistência do [Centro FastTrack](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização. Para solicitar assistência, entre no [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), acesse o painel, clique na guia Ofertas e clique em “Solicitar Assistência para o Microsoft Intune, Azure Active Directory Premium ou Azure Rights Management Premium”. Uma vez iniciado o suporte de integração, vamos definir uma agenda de reuniões online.
+- A Microsoft tentará entrar em contato com você para oferecer assistência de integração após sua compra de licenças para um serviço qualificado. Você também pode solicitar assistência do [Centro FastTrack](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização. Para solicitar assistência, entre no [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com) com sua conta corporativa ou de estudante, vá até o painel, clique em sua empresa (ou adicione-a se necessário), clique na guia Serviços e depois em “Solicitar Assistência para o Microsoft Intune ou o Azure Active Directory Premium”. Uma vez iniciado o suporte de integração, vamos definir uma agenda de reuniões online.
 
--   A equipe de Integração da Microsoft ajudará você com os principais recursos, comuns a todos os serviços do Microsoft Online, ajudará você a realizar a integração de cada serviço qualificado.
+-   A equipe de Integração da Microsoft ajudará você com os principais recursos comuns a todos os serviços do Microsoft Online e depois lhe ajudará a realizar a integração de cada serviço qualificado.
 
 Todo o suporte à integração será fornecido remotamente por funcionários da Microsoft atribuídos a essa tarefa:
 
@@ -53,14 +51,11 @@ Todo o suporte à integração será fornecido remotamente por funcionários da 
 
 -   A equipe da Microsoft pode trabalhar diretamente com você ou seu representante.
 
-Leia sobre a próxima parte do processo de integração do FastTrack: [Expectativas para o seu ambiente de origem](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+**Quer saber mais?**
 
-### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 

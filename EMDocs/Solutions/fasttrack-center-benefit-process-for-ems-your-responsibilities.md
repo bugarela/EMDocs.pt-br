@@ -1,10 +1,10 @@
 ---
-title: "Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades"
+title: Suas responsabilidades
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 2dd5e54fe1348cc23274afc735759c92fbf81e28
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
 
 
 ---
 
-# Processo do benefício do FastTrack Center para o Enterprise Mobility Suite - suas responsabilidades
+# Suas responsabilidades
 
-Quando você usa o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso, sua organização terá algumas responsabilidades durante o processo. As seções a seguir descrevem suas responsabilidades em cada fase do processo de integração.
-
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Você tem as responsabilidades a seguir durante a integração.
 
 ## Responsabilidades gerais
 
@@ -46,7 +44,7 @@ Para ler sobre as outras partes do processo de integração do FastTrack, confir
 
 -   Gerenciamento, configuração e aplicação de políticas de segurança além daquelas criadas para configuração e funcionalidade de linha de base dos serviços do EMS.
 
--   Registro de contas de usuário além daquelas usadas para testar a funcionalidade e configuração de linha de base de serviços EMS do Microsoft Azure AD Premium.
+-   Registro de contas de usuário além daquelas usadas para testar a funcionalidade e configuração de linha de base de serviços do EMS do Microsoft Azure AD.
 
 -   Configuração de rede, análise, validação de largura de banda, teste e monitoramento.
 
@@ -110,14 +108,11 @@ Para ler sobre as outras partes do processo de integração do FastTrack, confir
 
 -   Habilite serviços diversos de acordo com as diretrizes da Microsoft.
 
-Esta é a última parte do processo de integração do FastTrack.
+**Quer saber mais?**
 
-### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 

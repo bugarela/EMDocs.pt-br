@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: f00fa25e5e0b03c098f78e4d5f1be0957cdea24f
 
 
 ---
@@ -34,7 +34,7 @@ Aplicativos gerenciados são aplicativos implantados pelo administrador de TI qu
 
 -   Limpe seletivamente apenas os dados que estão associados ao aplicativo gerenciado. Quando um dispositivo é perdido, roubado ou deixa de ser gerenciado pela sua equipe de TI, um apagamento seletivo pode remover todos os dados corporativos dos aplicativos, deixando apenas dados pessoais do aplicativo. Isso é conhecido como várias identidades.
 
-Com [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms), você pode estender a proteção de email das seguintes maneiras:
+Com a [Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms), você pode estender a proteção de email das seguintes maneiras:
 
 -   Mensagens de email podem ser criptografadas para que somente os usuários certos possam ler ou exibir o conteúdo dentro ou fora da empresa.
 
@@ -71,6 +71,6 @@ Agora que você sabe como [proteger emails e documentos corporativos](protect-co
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
