@@ -13,8 +13,8 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: cc6844a9329cafd14d7902ec1d677c5bea685b86
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: b3a0ce1b7a7465ca29888b4d332ede6b5a604fd6
 
 
 ---
@@ -44,7 +44,7 @@ Acesso condicional é determinado por dois tipos de políticas que podem ser def
 ## Experiência de alto nível do usuário final
 Após a solução ser implementada, os usuários finais só poderão acessar o email da empresa em dispositivos gerenciados e compatíveis. Quando eles tiverem a capacidade de acessar o email nos dispositivos, os dados da empresa ficarão protegidos e contidos no ecossistema do aplicativo, e ficarão disponíveis apenas para os usuários pretendidos. O acesso pode ser revogado a qualquer momento se o dispositivo for incompatível.
 
-Especificamente, as políticas de acesso condicional definidas no Intune garantem que os dispositivos possam acessar o email somente se forem compatíveis com as políticas de conformidade que você definir. Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis. O Serviço de gerenciamento de direitos do Azure pode ser usado para garantir que os dados confidenciais de emails, bem como os anexos encaminhados, somente possam ser lidos pelos destinatários pretendidos. A experiência do usuário final é descrita com mais detalhes em [Experiência do usuário final de acesso condicional](end-user-experience-conditional-access.md).
+Especificamente, as políticas de acesso condicional definidas no Intune garantem que os dispositivos possam acessar o email somente se forem compatíveis com as políticas de conformidade que você definir. Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis. A Proteção de Informações do Azure pode ser usada para garantir que os dados confidenciais de emails, bem como os anexos encaminhados, somente possam ser lidos pelos destinatários pretendidos. A experiência do usuário final é descrita com mais detalhes em [Experiência do usuário final de acesso condicional](end-user-experience-conditional-access.md).
 
 
 Assista a [este](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) vídeo de quatro minutos para ver como acesso condicional afeta os usuários finais.
@@ -122,6 +122,6 @@ Agora que você sabe como proteger emails e documentos corporativos, pode ler so
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

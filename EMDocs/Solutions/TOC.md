@@ -32,7 +32,7 @@
 #### [Compreender o ciclo de vida do MDM](mdm-understand-mdm-lifecycle.md)
 #### [Reunir os requisitos de monitoramento](mdm-gather-monitoring-requirements.md)
 #### [Determinar os requisitos de rede](mdm-determine-network-requirements.md)
-#### [Opções de registro do dispositivo](mdm-device-enrollment-options.md)
+### [Opções de registro do dispositivo](mdm-device-enrollment-options.md)
 #### [Opções de provisionamento de dispositivo](mdm-device-provisioning-options.md)
 #### [Opções de gerenciamento de dispositivo](mdm-device-management-options.md)
 #### [Opções de gerenciamento de aplicativos](mdm-application-management-options.md)
@@ -78,8 +78,10 @@
 ### [MAM com o Intune](MAM-intune.md)
 ### [MAM com Configuration Manager](MAM-configmgr.md)
 ### [Experiência do usuário MAM](end-user-experience-MAM.md)
+## [Licenças de Software para download incluídas com o EMS](subscription-might-include-downloadable-software.md)
+## [Perguntas frequentes do suporte do EMS](ems-support-faq.md)
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades da Microsoft"
+title: Responsabilidades da Microsoft
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 07/07/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 777236784c06eeea2e62bcb77b2ceabc5d31b14a
 
 
 ---
 
-# Processo do Benefício do FastTrack Center para o Enterprise Mobility Suite - responsabilidades da Microsoft
-As seções a seguir descrevem o que você pode esperar da Microsoft quando sua organização estiver usando o [Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure Active Directory Premium, o Microsoft Intune e/ou o Azure Rights Management para uso.
+# Responsabilidades da Microsoft
 
-Para ler sobre as outras partes do processo de integração do FastTrack, confira [Processo do Benefício do FastTrack Center para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
-
+A Microsoft tem as responsabilidades a seguir durante a integração.
 
 ## Geral
 
@@ -115,12 +113,12 @@ Fornecimento de orientação sobre:
 
     -   Configure a sincronização entre florestas do Active Directory local e o diretório do Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] 
+        > [!NOTE]
         > Desenvolvimento e implementação de extensões de regras personalizadas estão fora do escopo.
 
--   Para uma única floresta quando o destino for identidades federadas: instalação e configuração dos Serviços de Federação do Active Directory (AD FS) para autenticação de domínio local com o Microsoft Azure AD Premium em uma configuração de site único e tolerante a falhas, se necessário.
+-   Para uma única floresta quando destinar-se a identidades federadas: instalação e configuração dos Serviços de Federação do Active Directory (AD FS) para autenticação de domínio local com o Microsoft Azure Active Directory Premium em uma configuração de site único e tolerante a falhas, se necessário.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Para todas as configurações de várias florestas, as implantações do AD FS estão fora do escopo.
 
 -   Teste da funcionalidade de SSO (logon único), se implantada.
@@ -133,24 +131,28 @@ Fornecimento de orientação sobre a configuração de:
 
 -   Sincronização de diretório do Azure Active Directory Connect (com write-back de senha e sincronização de hash de senha).
 
--   AD FS (Serviços de Federação do Active Directory).
+  - SSPR (Autoatendimento de Redefinição de Senha).
 
-- SSPR (Autoatendimento de Redefinição de Senha).
+  - MFA (Autenticação Multifator do Azure).
 
-- MFA (Multi-factor Authentication do Azure).
+  - Uma integração de Aplicativo SaaS (software como serviço) com SSO (logon único) do [Marketplace do Azure Active Directory](https://azure.microsoft.com/marketplace/active-directory/).
 
-- Um aplicativo integrado, que pode incluir Logon Único para aplicativos SaaS.
+  - Tela de logon personalizada, incluindo logotipo, texto e imagens.
 
-- Relatórios de uso e segurança para administradores.
+  - Grupos de autoatendimento e dinâmico (grupos).
 
-- SSGM (Autoatendimento de Gerenciamento de Grupo).
+  - Proxy de Aplicativo do Azure Active Directory.
 
-- Proxy de aplicativo.
+  - Azure Active Directory Connect Health.
 
-- Notificações do administrador.
+  - Identity Protection.
 
-- Tela de logon personalizada, incluindo logotipo, texto e imagens.
- 
+  - Privileged Identity Management.
+
+  - Relatórios de uso e segurança para administradores.
+
+  - Notificações e alertas administrativos.
+
 ### Fase habilitar - Microsoft Intune
 Fornecimento de orientação sobre:
 
@@ -164,10 +166,10 @@ Fornecimento de orientação sobre:
 
     -   Configure o Microsoft Intune como sua autoridade MDM quando o Microsoft Intune for sua única solução MDM ou se estiver em conjunto com o gerenciamento de dispositivo móvel do Office 365.
 
-    -   Se você tiver uma implementação existente do System Center Configuration Manager e quiser para expandir seus recursos de gerenciamento com o Microsoft Intune, configure o Configuration Manager como sua autoridade MDM.
+    -   Se você tiver uma implementação existente do System Center Configuration Manager e quiser expandir seus recursos de gerenciamento com o Microsoft Intune, você deverá configurar o Configuration Manager como sua autoridade do MDM.
 
-        > [!NOTE] 
-        > Se você estiver apenas procurando aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos compartilhados, de quiosque ou compartilhados dos seus usuários finais, a configuração de uma autoridade MDM não é necessária.
+        > [!NOTE]
+        > Se você desejar apenas aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos compartilhados, dispositivos de quiosque ou dispositivos de propriedade de seus usuários finais, a configuração de uma autoridade do MDM não será necessária.
 
 -   Se o Gerenciamento de Dispositivo Móvel estiver no seu escopo, forneceremos orientações com:
 
@@ -183,11 +185,11 @@ Fornecimento de orientação sobre:
 
         -   Configuração do Microsoft Intune Exchange Connector, quando aplicável.
 
-    -   Registro de até dois dispositivos de teste de cada plataforma com suporte para o Microsoft Intune ou Configuration Manager com o serviço Microsoft Intune.
+    -   Registro de dispositivos de cada plataforma com suporte para o Microsoft Intune ou o Configuration Manager com o serviço Microsoft Intune.
 
     -   Uso de relatórios de inventário de hardware e software.
 
--   Se o Gerenciamento de Aplicativo Móvel (MAM) estiver no seu escopo, ou se você estiver procurando complementar a solução MDM de terceiros existente com as políticas de MAM, forneceremos orientações para:
+-   Se o MAM (Gerenciamento de Aplicativo Móvel) estiver no seu escopo ou se você estiver procurando complementar a solução de MDM de terceiros existente com as políticas de MAM, forneceremos diretrizes para:
 
     -   Configuração de políticas de MAM para cada plataforma com suporte.
 
@@ -203,48 +205,11 @@ Fornecimento de orientação sobre:
 
     -   Uso dos relatórios de hardware e software disponíveis no Intune.
 
-### Fase de habilitação - Azure Right Management Premium
+**Quer saber mais?**
 
-Fornecimento de orientação sobre:
-
--   Ativando o locatário do Azure RMS.
-
--   Adicionando administradores de segurança de informações adicionais para gerenciar modelos.
-
--   Atribuir uma conta de superusuário para o Azure RMS.
-
--   Licenciando dois usuários piloto para o Azure RMS.
-
--   Configurando dois grupos de distribuição de teste para validar as políticas.
-
--   Configurando um modelo personalizado do Azure RMS para seu diretório.
-
--   Fornecendo diretrizes ao configurar a integração do SharePoint Online e o Exchange Online com o Azure RMS, incluindo:
-
-    -   Configurando e validando a integração do Exchange Online com o Azure RMS.
-
-    -   Configurando um regra de fluxo de email de teste para criptografar mensagens confidenciais enviadas a destinatários externos à sua organização.
-
-    -   Configurando e validando a proteção do SharePoint Online de uma biblioteca de teste a ser protegida com o Azure RMS.
-
--   Configurar um servidor local com o conector RMS, quando aplicável:
-
-    -   Configurando e validando a integração local do Exchange 2013/2010 com o Azure RMS.
-
-    -   Instalando uma regra de fluxo de email de teste para criptografar mensagens confidenciais enviadas a destinatários externos à sua organização usando o conector.
-
-    -   Configurando e validando a proteção local do SharePoint 2013/2010 de uma biblioteca de teste a ser protegida com o Azure RMS.
-
--   Instalando o aplicativo RMS sharing para dispositivos Windows e não Windows.
-
-Leia sobre a próxima parte do processo de integração do FastTrack: [Responsabilidades do cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-
-### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
