@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: 5e9bfffa88ba1375f3c0e0ea61d16677af87d137
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: bf4d1604d28aef3a5f5b23efb112b867b2dee8c6
 
 
 ---
@@ -28,25 +28,25 @@ Esta seção usa o OneDrive for Business como exemplo para demonstrar como a exp
 
 1.  Inicie o aplicativo **OneDrive for Business** para abrir a página de logon.
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-1-launchOnedrive.png)
+  ![Captura de tela mostrando a página de logon do OneDrive for Business para o iOS.](./media/ft-useMngdApps-1-launchOnedrive.png)
 > [!NOTE]
 > Em um dispositivo pessoal, normalmente o usuário final deve baixar o aplicativo. Se o dispositivo for gerenciado por uma solução MDM, você pode implantar o aplicativo no dispositivo.
 
 2.  Digite seu nome de usuário da conta corporativa. Você será redirecionado para a página de **autenticação do O365** para inserir suas credenciais de trabalho.
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-2-enterName.png)
+  ![Captura de tela mostrando um usuário do iOS digitando suas credenciais na página de entrada do Office 365.](./media/ft-useMngdApps-2-enterName.png)
 3.  Depois que as credenciais forem autenticadas com êxito pelo Azure AD, as políticas de MAM serão aplicadas e você deverá será solicitado a reiniciar o aplicativo **OneDrive for Business**.
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-3-restart.png)
+  ![Captura de tela mostrando que o OneDrive deve ser reiniciado.](./media/ft-useMngdApps-3-restart.png)
 > [!NOTE]
 > A caixa de diálogo de reinício necessário é exibida somente em dispositivos que não estão registrados no Intune.
 
 4.  Inicie novamente o aplicativo **OneDrive for Business**. O aplicativo é iniciado com as políticas de MAM ativadas. Agora você deverá definir um **PIN** para o aplicativo. (se você tiver configurado a política para isso).
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-4-enterPIN.png)
+  ![Captura de tela solicitando que usuário do iOS defina um PIN para o aplicativo.](./media/ft-useMngdApps-4-enterPIN.png)
 5.  Depois de definir e confirmar o PIN, você poderá acessar os arquivos no seu **OneDrive for Business**.
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-5-accessFiles.png)
+  ![Captura de tela mostrando vários arquivos acessíveis no OneDrive for Business no iOS.](./media/ft-useMngdApps-5-accessFiles.png)
 > [!NOTE]
 > Quando você altera uma política implantada, as alterações serão aplicadas da próxima vez que abrir o aplicativo.
 
@@ -58,29 +58,29 @@ Esta seção usa o OneDrive for Business como exemplo para demonstrar como a exp
 
 2.  Digite seu nome de usuário da conta corporativa. Você será redirecionado para a página de autenticação do O365 para inserir suas credenciais de trabalho.
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-6-enterCreds.png)
+  ![Captura de tela mostrando um usuário do Android digitando suas credenciais na página de entrada do Office 365.](./media/ft-useMngdApps-6-enterCreds.png)
 3.  Depois que as credenciais forem autenticadas com êxito pelo Azure AD, você verá uma mensagem com instruções para instalar o aplicativo do portal da empresa, se ele já não estiver instalado no dispositivo. Toque em **Obter o aplicativo** para continuar.
 > [!NOTE]
 > O aplicativo Portal da Empresa é necessário para todos os aplicativos associados a políticas de MAM em dispositivos Android. Para dispositivos não registrados no Intune, o aplicativo deve ser instalado no dispositivo, mas não precisa inicialização ou autenticação no aplicativo.
 
 4.  Agora você estará na loja do **Google Play** , em que poderá baixar e instalar o aplicativo do **Portal da Empresa** .
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-7-installPortal.png)
+  ![Captura de tela solicitando que o usuário do Android acesse a Google Play Store para obter o Portal da Empresa do Intune.](./media/ft-useMngdApps-7-installPortal.png)
 
  O aplicativo de Portal da Empresa ajuda a manter os dados seguros e protegidos.
-![TEXTO DESCRITIVO](./media/ft-useMngdApps-8-intunePortal.png)
+![Captura de tela solicitando que o usuário do Android instale o Portal da Empresa do Intune.](./media/ft-useMngdApps-8-intunePortal.png)
 5.  Depois de concluir a instalação, escolha **Aceitar** para aceitar os termos.
 6.  O aplicativo **OneDrive for Business** é iniciado automaticamente.
 7.  Na próxima vez que abrir o OneDrive for Business, você verá o prompt para definir um **PIN**, desde que as configurações de política tenham sido definidas para exigir um PIN para acessar o aplicativo **OneDrive for Business**.
 
-  ![TEXTO DESCRITIVO](./media/ft-useMngdApps-9-setNewPIN.png)
+  ![Captura de tela solicitando que o usuário do Android defina um PIN para o aplicativo](./media/ft-useMngdApps-9-setNewPIN.png)
 8.  Depois que o PIN for definido e confirmado, você poderá continuar usando o **OneDrive for Business**, agora gerenciado por políticas de aplicativo.
 
 ### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 
