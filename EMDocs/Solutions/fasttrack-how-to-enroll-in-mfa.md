@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: b349cae1f73c4dab5dbce45937b91a8aaca7c052
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: 4b1c82f5ecd5360b51d0f2af69df77ff2924aa0e
 
 
 ---
@@ -35,10 +35,10 @@ Ao utilizar o processo de registro, você será capaz de especificar seu método
 
 |Método|Descrição|
 |------------|----------------------------------|
-|Chamada de Telefone Celular|Faz uma chamada de voz automática para o número de telefone de autenticação. O usuário atende a chamada e pressiona # no teclado numérico do telefone para autenticar. Este número de telefone não será sincronizado ao Active Directory local.|
-|Mensagem de Texto via Celular|Envia uma mensagem de texto que contém um código de verificação para o usuário. É solicitado que o usuário responda à mensagem de texto com o código de verificação ou que insira o código de verificação na interface de entrada.|
-|Chamada de Telefone Comercial|faz uma chamada de voz automática para o usuário. O usuário atende a chamada e pressiona # no teclado numérico do telefone para autenticar.|
-|Aplicativos Móveis|Envia uma notificação para o aplicativo móvel Microsoft Authenticator no smartphone ou tablet do usuário. O usuário toca em Verificar no aplicativo para autenticar. Como alternativa, o aplicativo também pode ser usado como um token OTP para autenticação offline. O usuário insere o token na tela de entrada para autenticar.|
+|[Chamada de Telefone Celular](#mobile-phone-(text-or-call))|Faz uma chamada de voz automática para o número de telefone de autenticação. O usuário atende a chamada e pressiona # no teclado numérico do telefone para autenticar. Este número de telefone não será sincronizado ao Active Directory local.|
+|[Mensagem de Texto via Celular](#mobile-phone-(text-or-call))|Envia uma mensagem de texto que contém um código de verificação para o usuário. É solicitado que o usuário responda à mensagem de texto com o código de verificação ou que insira o código de verificação na interface de entrada.|
+|[Chamada de Telefone Comercial](#office-phone-call)|faz uma chamada de voz automática para o usuário. O usuário atende a chamada e pressiona # no teclado numérico do telefone para autenticar.|
+|[Aplicativos Móveis](#mobile-application)|Envia uma notificação para o aplicativo móvel Microsoft Authenticator no smartphone ou tablet do usuário. O usuário toca em Verificar no aplicativo para autenticar. Como alternativa, o aplicativo também pode ser usado como um token OTP para autenticação offline. O usuário insere o token na tela de entrada para autenticar.|
 
 _O aplicativo Microsoft Authenticator pode operar em dois modos diferentes para fornecer a segurança adicional que um serviço de autenticação multifator pode proporcionar. Eles são os seguintes:_
 
@@ -117,10 +117,10 @@ O aplicativo Microsoft Authenticator está disponível para Windows Phone, Andro
 12. Clique em **Concluído**.
 
 ### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

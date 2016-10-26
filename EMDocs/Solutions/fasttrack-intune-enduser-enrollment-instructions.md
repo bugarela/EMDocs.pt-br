@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: c11de7d94408b2a0d3e1511f2f93c1f56655c080
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: 7d04b320606403530801de71a37d308cf378856f
 
 
 ---
@@ -162,17 +162,17 @@ O dispositivo agora está registrado no Intune, e você é levado de volta ao ap
   ![Captura de tela solicitando que o usuário registre o dispositivo Mac OS X](./media/ft-userEnrollMacOSx-2-enrollDevice.png)
 4.  Na caixa de diálogo Instalar o Perfil de Gerenciamento, toque em **Instalar**. Se uma caixa de diálogo for exibida solicitando que você insira suas credenciais, digite seu nome de usuário e senha e, em seguida, toque em **Continuar > Instalar**.
 
-  ![Captura de tela solicitando que o usuário instale o perfil de gerenciamento para um dispositivo Mac OS X](./media/ft-userEnrollMacOSx-3-installProfile.png)
+  ![Captura de tela solicitando que o usuário instale o perfil de gerenciamento em um dispositivo Mac OS X](./media/ft-userEnrollMacOSx-3-installProfile.png)
 
 Ao concluir o registro, você verá uma página de Perfil de Gerenciamento mostrando que o perfil foi verificado.
 
   ![Captura de tela mostrando que o perfil de gerenciamento foi verificado em um dispositivo Mac OS X](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
 ### Quer saber mais?
-Confira [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

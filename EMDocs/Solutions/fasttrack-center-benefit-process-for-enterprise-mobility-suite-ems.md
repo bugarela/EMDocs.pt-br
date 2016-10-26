@@ -13,14 +13,14 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
-ms.openlocfilehash: 678b0f25d03f2b5ff8d53effd75ea9c6fc99cfa9
+ms.sourcegitcommit: 2631d31711823e8a3f50ab58edf841aefb4f7153
+ms.openlocfilehash: 8f880796888183053f3311edeb13dbbfac44e667
 
 
 ---
 
 # Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)
-Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas da Microsoft para deixar o Azure Active Directory Premium e/ou Microsoft Intune prontos para uso. Você também pode solicitar ajuda por meio do portal do FastTrack para a Proteção de Informações do Azure, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Para saber se a sua organização está qualificada, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas da Microsoft para deixar o Azure Active Directory Premium e/ou Microsoft Intune prontos para uso. Você também pode solicitar ajuda por meio do [site do FastTrack](http://fasttrack.microsoft.com/ems) para Proteção de Informações do Azure, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Para saber se a sua organização está qualificada, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Aqui está o que abordamos sobre o processo de integração:
@@ -52,6 +52,6 @@ Eis o que você pode esperar quando a integração for concluída:
     -   Federadas com o AD FS (Serviços de Federação do Active Directory) 2.0 do Windows Server 2012 R2 ou posterior do seu Active Directory local.
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 
