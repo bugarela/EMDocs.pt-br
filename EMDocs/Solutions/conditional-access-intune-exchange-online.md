@@ -13,8 +13,8 @@ ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 37ec8e1f175cfbe5a6ff3f101b2773abb8680786
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: b0141331db2c63761997ffa1ad20d062b9e9969b
 
 
 ---
@@ -33,7 +33,7 @@ As políticas de conformidade definem regras e configurações com que um dispos
 
 Se você desejar poder remover todos os email corporativo de um dispositivo iOS depois que ele não fizer mais parte da sua empresa, será necessário criar e implantar um perfil de email e, em seguida, definir a política de conformidade que especifica que perfis de email são gerenciados pelo Intune. Você deve implantar o perfil de email para o mesmo conjunto de usuários-alvos desta política de conformidade.
 
-![Captura de tela que mostra a página "Regras" do Assistente para Criar Política de Conformidade, onde é possível especificar que um perfil de email deve ser gerenciado pelo Intune.](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![Captura de tela mostrando a seção "Perfis de Email" na guia Geral do Assistente para Criar Políticas do Intune, em que é possível especificar que um perfil de email deve ser gerenciado pelo Intune.](./media/ProtectEmail/intune-create-policy-email-profile.PNG)
 
 Se você especificar essa política de conformidade, um usuário que já tenha configurado a conta de email deverá removê-la manualmente e, em seguida, o Intune a adicionará novamente por meio do processo de registro descrito em [Experiência de usuário final do acesso condicional](end-user-experience-conditional-access.md).
 
@@ -74,6 +74,6 @@ Depois de implantar uma solução para proteger email corporativo e dados de ema
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 
