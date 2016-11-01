@@ -1,10 +1,10 @@
 ---
 title: "Recursos adicionais e resumo de BYOD | Guia de considerações sobre design para BYOD"
-description: 
+description: "Resumo do guia de considerações sobre design de BYOD e mais recursos para aprender"
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: a959db750a4334f19e1269726a5536f55afa4dbf
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 0451218eb8d9858d333665d9b98fb18f169a8f11
 
 
 ---
@@ -30,16 +30,15 @@ Depois de identificar os requisitos e restrições no seu ambiente e avaliar cad
 
 Para soluções relacionadas ao cenário BYOD, consulte:
 
+- [Noções básicas sobre BYOD: o que significa para minha empresa](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-1-Understanding-BYOD-What-it-Means-for-My-Company)
+- [Noções básicas sobre BYOD: como torná-lo realidade](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-2-Understanding-BYOD-How-to-Make-it-Happen)
+- [BYOD e considerações sobre design](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-3-BYOD-and-Design-Considerations)
 - [Guia de considerações sobre design para o gerenciamento de dispositivos móveis](http://aka.ms/mdmdcg)
-- [Gerenciar identidades de ambientes híbridos usando DirSync com federação (logon único)](https://technet.microsoft.com/library/dn550987.aspx)
-- [Gerenciar identidades de ambientes híbridos usando DirSync com sincronização de senha](https://technet.microsoft.com/library/dn550986.aspx)
-- [Acesso seguro aos recursos da empresa de qualquer local em qualquer dispositivo](https://technet.microsoft.com/library/dn550982.aspx)
-- [Gerenciar dispositivos móveis e PCs migrando para o Configuration Manager com Microsoft Intune](https://technet.microsoft.com/library/dn582037.aspx)
-- [Gerenciamento de dispositivos móveis para os clientes do Configuration Manager 2007 planejando migrar para o System Center 2012 R2 Configuration Manager](https://technet.microsoft.com/library/dn508400.aspx)
 
 
 
 
-<!--HONumber=Oct16_HO1-->
+
+<!--HONumber=Oct16_HO3-->
 
 
