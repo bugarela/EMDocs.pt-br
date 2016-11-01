@@ -1,6 +1,6 @@
 ---
 title: "Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)"
-description: 
+description: "Visão geral do processo de integração do Benefício do FastTrack Center"
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -13,8 +13,8 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2631d31711823e8a3f50ab58edf841aefb4f7153
-ms.openlocfilehash: 8f880796888183053f3311edeb13dbbfac44e667
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 081bfbfde1a5a8a99e03303941030a88036cfcc0
 
 
 ---
@@ -52,6 +52,6 @@ Eis o que você pode esperar quando a integração for concluída:
     -   Federadas com o AD FS (Serviços de Federação do Active Directory) 2.0 do Windows Server 2012 R2 ou posterior do seu Active Directory local.
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

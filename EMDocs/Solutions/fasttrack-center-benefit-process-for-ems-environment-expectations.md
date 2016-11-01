@@ -1,6 +1,6 @@
 ---
 title: Expectativas para o Ambiente de Origem
-description: 
+description: "Requisitos de ambiente de origem para usar o Benefício do FastTrack Center"
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
-ms.openlocfilehash: cd295135195fe96a53a49d47b9e982fe3ba8600c
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 387a260519fc812a63a35ad4984e6d88d3325d3a
 
 
 ---
@@ -39,6 +39,6 @@ A tabela a seguir mostra o que é esperado do seu ambiente de origem existente p
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

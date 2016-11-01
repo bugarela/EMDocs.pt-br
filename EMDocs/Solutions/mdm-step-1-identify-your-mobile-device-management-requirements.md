@@ -1,6 +1,6 @@
 ---
 title: "Etapa 1 - Identificar os requisitos de gerenciamento de dispositivos móveis"
-description: 
+description: "Considerações sobre design ao identificar requisitos de gerenciamento de dispositivo móvel para sua organização."
 keywords: 
 author: YuriDio
 manager: swadhwa
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: c18b72350993bef44160d6199aa9cef7069c09f3
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 948a05f1a7a0ab53a07f72719165c60daa7a01ce
 
 
 ---
@@ -37,6 +37,6 @@ Há 3 etapas nesta seção do guia. O tempo total para leitura das seções é d
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

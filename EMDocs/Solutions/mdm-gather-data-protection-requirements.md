@@ -1,10 +1,10 @@
 ---
 title: "Reunir os requisitos de proteção de dados"
-description: 
+description: "Requisitos comuns de proteção de dados em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 134ff06f33c452dda050709248955580f91c3932
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 7be45973429ae6a54210494188751e3e6c54592e
 
 
 ---
@@ -67,6 +67,6 @@ A lista abaixo inclui opções comuns que devem ter o suporte da solução de MD
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

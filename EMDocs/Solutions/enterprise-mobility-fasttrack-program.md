@@ -1,6 +1,6 @@
 ---
 title: Programa FastTrack para Enterprise Mobility
-description: 
+description: Um programa para ajudar clientes qualificados a planejar e implantar o Intune e o Azure Active Directory Premium
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -13,8 +13,8 @@ ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
-ms.openlocfilehash: 8140cd56e0fef920c7ab4c1a76fe7926ebcd05fe
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: db7cdab6b183fba8b429858a5e4fe189bd059d6f
 
 
 ---
@@ -30,6 +30,6 @@ Para aprender sobre o processo do FastTrack Center e quem é responsável pelo q
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

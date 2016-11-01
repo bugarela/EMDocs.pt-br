@@ -1,6 +1,6 @@
 ---
 title: "Planos e Serviços Qualificados do Benefício do FastTrack Center"
-description: 
+description: "Planos e serviços qualificados do Benefício do FastTrack Center"
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
-ms.openlocfilehash: 1c212e1e04797080990b28cad8d14c1f263aa889
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 8a2a799769c27267e0157f8fd1ee450f26c4eb2c
 
 
 ---
@@ -60,6 +60,6 @@ O Enterprise Mobility + Security e os serviços de nuvem incluídos no Benefíci
 |Microsoft Cloud App Security|Limitado</br>Somente Plano de Sucesso e solicitar ajuda por meio da equipe Obter Ajuda|
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

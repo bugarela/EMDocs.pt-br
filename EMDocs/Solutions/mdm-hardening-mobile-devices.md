@@ -1,10 +1,10 @@
 ---
 title: "Proteção de dispositivos móveis"
-description: 
+description: "Considerações ao fortalecer dispositivos móveis em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9ee7fc3539432039ee5a7fadac9c5b8475e8c924
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 9518ff77696607d9f872942b511342ed07e8db5a
 
 
 ---
@@ -95,6 +95,6 @@ A proteção da plataforma de dispositivo móvel desempenha um papel importante 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
