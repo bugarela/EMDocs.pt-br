@@ -1,10 +1,10 @@
 ---
 title: "Considerações de acesso e proteção de dados"
-description: 
+description: "Considerações sobre design para proteção e acesso a dados em um cenário de BYOD."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: 696374bf33144ef29b7143414035f761786bd4e9
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: e7411890405267eaea2e32d686052472b88edad2
 
 
 ---
@@ -251,6 +251,6 @@ O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita �
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
