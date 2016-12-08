@@ -1,10 +1,11 @@
 ---
 title: "Requisitos de acesso e proteção de dados"
-description: "Requisitos comuns de acesso e proteção de dados em um cenário de BYOD."
+description: "Este artigo fornece um conjunto de requisitos comuns de acesso e proteção de dados que devem ser usados em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: be15d3cdc06579702f8b8f72697868110add30b7
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
 
 
 ---
 
-# Requisitos de acesso e proteção de dados
+# <a name="data-access-and-protection-requirements"></a>Requisitos de acesso e proteção de dados
 
 Um dos elementos mais importantes ao permitir que os usuários acessem recursos da empresa de seus próprios dispositivos é preservar os dados da empresa e proteger essas informações. Sua empresa pode ter uma variedade de requisitos de conformidade que devem estar disponíveis para garantir que os dados estejam seguros, independentemente de onde estão localizados. A figura abaixo mostra as interações entre usuários e dispositivos durante o acesso a dados e os componentes que devem ser considerados para esse subdomínio.
 
@@ -28,7 +29,7 @@ Um dos elementos mais importantes ao permitir que os usuários acessem recursos 
 
 A seção a seguir contém perguntas sobre acesso a dados e proteção que você precisará responder para formular os requisitos para o design da sua solução.
 
-## Perguntas a fazer
+## <a name="questions-to-ask"></a>Perguntas a fazer
 
 As perguntas sobre requisitos de acesso e proteção dos dados são categorizadas em seis áreas:
 
@@ -38,7 +39,7 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
 - Authorization
 - Política e conformidade
 
-### Armazenamento
+### <a name="storage"></a>Armazenamento
 
 - Enquanto os dados estão em repouso no data center, você tem criptografia habilitada?
 - Sua empresa fornece acesso offline aos dados localizados em armazenamento do datacenter (em outras palavras, você sincronizará dados com dispositivos de usuários)?
@@ -50,7 +51,7 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
 - A política da sua empresa permite que os usuários usem o armazenamento baseado em nuvem a partir de computadores corporativos?
     - Caso contrário, você planeja estender essa política para usuários que estão acessando os dados em seus próprios dispositivos?
 
-### Rede
+### <a name="network"></a>Rede
 
 - Você tem qualquer tipo de criptografia de rede local?
     - Nesse caso, é limitado a comunicação entre servidores, ou toda a rede é criptografada?
@@ -61,14 +62,14 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
 - Sua empresa usa algum mecanismo de inspeção de rede?
     - Nesse caso, você planeja estender esse recurso para usuários que levem seus próprios dispositivos e conectem-se à rede corporativa?
 
-### Diretório
+### <a name="directory"></a>Diretório
 
 - Sua empresa usa um diretório de único usuário ou tem vários provedores?
 - O diretório da sua empresa está localizado local, na nuvem ou em ambos (híbrido)?
 - Quando os usuários acessam aplicativos em seus dispositivos, em relação ao qual diretório eles estarão autenticando?
 - A sua empresa planeja agrupar autenticação entre serviços locais e de nuvem?
 
-### Autenticação
+### <a name="authentication"></a>Autenticação
 
 - Que tipo de autenticação é usado atualmente no seu ambiente?
 - Você planeja preservar esse método de autenticação ou deseja aprimorá-lo antes de habilitar os usuários a usarem seus próprios dispositivos para acessarem os recursos da empresa?
@@ -77,14 +78,14 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
 - Você planeja habilitar logon único para os aplicativos acessados a partir de dispositivos dos usuários?
 - Você pretende utilizar recursos de nuvem para fornecer um nível adicional de autenticação para usuários remotos?
 
-### Authorization
+### <a name="authorization"></a>Authorization
 
 - No ambiente atual, depois que os usuários são autenticados, você tem quaisquer outros controles estabelecidos para validar se o usuário está autorizado a acessar as informações solicitadas?
 - Você planeja fornecer acesso condicional com base em um conjunto de regras predefinidas para usuários remotos?
 - Sua empresa executa imposição de autorização para dados localizados locais ou na nuvem?
 - Sua empresa usa o [princípio de necessidade de saber](http://en.wikipedia.org/wiki/Need_to_know) para autorizar o acesso a dados?
 
-### Política e conformidade
+### <a name="policy-and-compliance"></a>Política e conformidade
 
 - Sua empresa tem políticas estabelecidas para definir como o acesso a dados é classificado?
 - Sua empresa precisa estar em conformidade com todas as regulamentações de manipulação de dados e privacidade?
@@ -94,6 +95,6 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

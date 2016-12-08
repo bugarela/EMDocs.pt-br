@@ -1,10 +1,11 @@
 ---
 title: "Diferenciação de dados"
-description: 
+description: "Este artigo fornece um conjunto de considerações de design para diferenciação de dados, que devem ser usadas em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: c25ffae65d37b92e8b09ccfa1615fa92a9580638
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 030d0c1dca506ac7757e8c26910ea4725a1b9c2c
 
 
 ---
 
-# Diferenciação de dados
+# <a name="data-segregation"></a>Diferenciação de dados
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +30,7 @@ A diferenciação de dados é importante, não apenas para a sua organização, 
 
 ![Diferenciação de dados](./media/MDM_Figure_10.png)
 
-## Os dados pessoais do usuário são isolados dos dados da empresa
+## <a name="users-personal-data-is-isolated-from-companys-data"></a>Os dados pessoais do usuário são isolados dos dados da empresa
 
 Ao manter separados todos os aplicativos, dados da empresa e políticas que foram implantadas pela solução de MDM, eles podem ser removidos do dispositivo, se necessário, sem afetar o conteúdo e aplicativos pessoais do usuário usando o apagamento seletivo. 
 
@@ -52,7 +53,7 @@ Quando um usuário instala e entra em um aplicativo que dá suporte a várias id
 
 A tabela abaixo compara os recursos de apagamento seletivo disponíveis em diferentes soluções de MDM para ajudar você a escolher a solução de MDM que melhor atende aos requisitos de diferenciação de dados de sua organização.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -65,7 +66,7 @@ A tabela abaixo compara os recursos de apagamento seletivo disponíveis em difer
 - Não inclui a criptografia nativa para o armazenamento de dispositivo móvel
 - A falta de integração com a atual plataforma de MDM local significa uma interface de gerenciamento adicional para você usar
 
-## Office 365 com MDM
+## <a name="office-365-with-mdm"></a>Office 365 com MDM
 
 **Vantagens**
 
@@ -76,7 +77,7 @@ A tabela abaixo compara os recursos de apagamento seletivo disponíveis em difer
 
 - A falta de integração com a atual plataforma de MDM local significa uma interface de gerenciamento adicional para você usar
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -93,6 +94,6 @@ Não deixe de ler o artigo [Ajudar a proteger seus dados com apagamento completo
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,8 +1,9 @@
 ---
 title: "Opções de monitoramento de dispositivo"
-description: 
+description: "Este artigo fornece diretrizes sobre as opções de monitoramento de dispositivo existentes ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: c34d0000d723594ab46917ae9baedc3e56ebbb48
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: fb4062531b8b202fb22ffcb0fbba390879be89cd
 
 
 ---
 
-# Opções de monitoramento de dispositivo
+# <a name="device-monitoring-options"></a>Opções de monitoramento de dispositivo
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -43,7 +44,7 @@ Dependendo da configuração de sua infraestrutura, você poderá criar uma vari
 
 As respostas para as perguntas na Tarefa 2 podem ajudar a determinar as necessidades de monitoramento e relatórios de seus dispositivos móveis. As listas abaixo mostram as vantagens e desvantagens dos recursos de monitoramento e relatórios em cada solução de MDM.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -67,7 +68,7 @@ As respostas para as perguntas na Tarefa 2 podem ajudar a determinar as necessid
 
 - Apenas alertas por email, sem alertas de voz nem baseados em texto
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -81,7 +82,7 @@ As respostas para as perguntas na Tarefa 2 podem ajudar a determinar as necessid
 
 - Somente relatórios de status de conformidade do dispositivo móvel
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -102,6 +103,6 @@ Explore os detalhes sobre as opções de monitoramento de dispositivos móveis e
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

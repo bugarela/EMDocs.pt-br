@@ -1,10 +1,11 @@
 ---
 title: "Requisitos de usuário e de dispositivos"
-description: 
+description: "Este artigo fornece um conjunto de requisitos comuns a serem adotados por usuários e seus dispositivos em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 8c53476e8b5995ecd6e40213304e20ba1a939266
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
 
 
 ---
 
-# Requisitos de usuário e dispositivo
+# <a name="user-and-device-requirements"></a>Requisitos de usuário e dispositivo
 
 Antes de habilitar os usuários a acessarem recursos da empresa de seus dispositivos, responda às perguntas nas seções a seguir trabalhando com os consumidores desses recursos no seu ambiente e o departamento de TI. A Figura abaixo mostra as interações entre usuários e dispositivos com o objetivo final de acesso e consumo de dados. Observe que o diagrama não aborda localização geográfica. Embora a localização geográfica seja uma consideração importante (e será abordada neste documento), a intenção da figura é ilustrar os componentes principais de usuários e dispositivos. Considerações de design devem ser feitas para permitir que essa comunicação ocorra.
 
@@ -28,7 +29,7 @@ Antes de habilitar os usuários a acessarem recursos da empresa de seus disposit
 
 O resultado desse processo é uma definição clara de funcionalidade a ser fornecida. A seção abaixo contém perguntas sobre usuários e dispositivos que você precisará responder para formular os requisitos de design da sua solução.
 
-## Perguntas a fazer
+## <a name="questions-to-ask"></a>Perguntas a fazer
 
 Os requisitos de usuário e dispositivo são categorizados em três áreas:
 
@@ -36,14 +37,14 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
 - Dispositivo
 - Rede
 
-### Perfil
+### <a name="profile"></a>Perfil
 
 - Quais são os tipos de perfis de usuário que você tem em sua empresa (por exemplo, funcionários remotos, viajantes ocasionais e funcionários do escritório doméstico em tempo integral)?
 - Todos os usuários têm os mesmos requisitos para realizarem seus trabalhos?
 - Você tem uma matriz que estabelece as necessidades dos usuários de acordo com os trabalhos/funções?
 
 
-### Dispositivos
+### <a name="devices"></a>Dispositivos
 
 - Quais são os tipos de dispositivo que os usuários levarão (como smartphones, tablets e laptops)?
 - Você planeja oferecer a capacidade de limpeza remota de todos os tipos de dispositivos?
@@ -53,7 +54,7 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
 - Sua empresa segue algum requisito de conformidade que deve ser aplicado a todos os dispositivos que possivelmente terão acesso aos dados da sua empresa?
 - Sua empresa tem uma política em vigor para lidar com dispositivos roubados?
 
-### Rede
+### <a name="network"></a>Rede
 
 - Sua empresa tem algum recurso na nuvem que poderá ser acessado através da Internet usando dispositivos dos usuários?
 - Sua empresa tem restrições de política para usuários que acessam os dados da empresa de localizações geográficas diferentes?
@@ -64,13 +65,13 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
 - Para funcionários de escritório residencial, como os usuários se conectarão à sua rede? Com fio, sem fio ou ambos?
     - Se a rede for sem fio, como você pretende controlar o AAA (Autenticação, Autorização e Contabilização) dos dispositivos para que nenhum dispositivo sem registro e sem autorização possa usar recursos da rede sem liberação adequada?
 
-### Suporte técnico
+### <a name="technical-support"></a>Suporte técnico
 - Sua equipe de rede/segurança está pronta para acomodar auditorias de conformidade do dispositivo regular?
 - Você tem procedimentos e políticas de gerenciamento de alterações em vigor para dar suporte à implementação de BYOD?
 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

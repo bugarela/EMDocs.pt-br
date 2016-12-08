@@ -1,10 +1,11 @@
 ---
 title: "Classificação de dados"
-description: 
+description: "Este artigo fornece um conjunto de considerações de design para classificação de dados, que devem ser usadas em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 1c93f74e7e0e4c8591f800954bb60dda59005af8
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 94c02152e553bdeba1bd1568c409d816ac078e9a
 
 
 ---
 
-# Classificação de dados
+# <a name="data-classification"></a>Classificação de dados
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ O Intune permite ao departamento de TI atender às políticas usando políticas 
 
 Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM que melhor atenda aos requisitos de *classificação de dados* de sua organização.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -45,7 +46,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 - Não disponível
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -56,7 +57,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 - A classificação de dados não é executada com o próprio arquivo. Depois que o arquivo estiver localizado no dispositivo móvel, ele poderá ser usado sem restrições
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -66,7 +67,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 - Não disponível
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Vantagens**
 
@@ -82,6 +83,6 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

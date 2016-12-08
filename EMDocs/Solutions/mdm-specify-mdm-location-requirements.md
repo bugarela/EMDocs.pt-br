@@ -1,10 +1,11 @@
 ---
 title: "Especificar os requisitos de local do gerenciamento de dispositivos móveis"
-description: "Requisitos comuns sobre a localização do dispositivo em um cenário de gerenciamento de dispositivo móvel."
+description: "Este artigo oferece uma série de requisitos comuns sobre a localização do dispositivo em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 32fb388ab38399a23193c4d9fffda7c305251624
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: cf9b0a04e00ddf991e0f068144a1993f9fb88527
 
 
 ---
 
-# Especificar os requisitos de local do gerenciamento de dispositivos móveis
+# <a name="specify-your-mobile-device-management-location-requirements"></a>Especificar os requisitos de local do gerenciamento de dispositivos móveis
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -43,6 +44,6 @@ Os requisitos locais são um dos vários fatores que você deve levar em conside
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: "Planejar o aprimoramento da proteção de dispositivos móveis"
-description: "Considerações sobre design para proteger seus dispositivos móveis em um cenário de gerenciamento de dispositivo móvel."
+description: "Este artigo fornece considerações de design para proteger seus dispositivos móveis em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: fe00ace9c2a1fcdba26fd64c583f11f794ee8259
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
 
 
 ---
 
-# Planejar o aprimoramento da proteção de dispositivos móveis
+# <a name="plan-for-enhancing-mobile-devices-protection"></a>Planejar o aprimoramento da proteção de dispositivos móveis
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +32,7 @@ No entanto, há alguns aspectos gerais de segurança no gerenciamento de disposi
 
 ![Principais recursos de segurança para a plataforma do MDM](./media/MDM_Figure_08.png)
 
-## Recursos de segurança em uma solução de MDM
+## <a name="security-capabilities-in-a-mdm-solution"></a>Recursos de segurança em uma solução de MDM
 
 Este diagrama mostra os principais recursos de segurança necessários em qualquer solução de MDM. As áreas principais a serem consideradas são as seguintes:
 
@@ -58,16 +59,16 @@ Este diagrama mostra os principais recursos de segurança necessários em qualqu
 
 As tarefas descritas nas seções a seguir podem ajudar você a entender como necessidades de segurança específicas influenciarão em sua decisão sobre a melhor solução de MDM para seus requisitos de negócios.
 
-## Sobre esta etapa
+## <a name="about-this-step"></a>Sobre esta etapa
 
 Há 12 etapas nesta seção do guia. O tempo total para leitura das seções é de cerca de 36 minutos, ou você pode ir para uma seção específica
 
 - [Reunir requisitos de proteção de dados](mdm-gather-data-protection-requirements.md)
-- [Especificar os requisitos de privacidade](mdm-specify-privacy-requirements.md)
-- [Especificar os requisitos de acesso](mdm-specify-your-access-requirements.md)
-- [Desenvolver os requisitos de resposta a incidentes](mdm-develop-incident-response-requirements.md)
-- [Planejar a criptografia de dados](mdm-data-encryption.md)
-- [Planejar a segregação de dados](mdm-data-segregation.md)
+- [Especificar requisitos de privacidade](mdm-specify-privacy-requirements.md)
+- [Especificar requisitos de acesso](mdm-specify-your-access-requirements.md)
+- [Desenvolver requisitos de resposta a incidente](mdm-develop-incident-response-requirements.md)
+- [Planejar criptografia de dados](mdm-data-encryption.md)
+- [Planejar segregação de dados](mdm-data-segregation.md)
 - [Proteção de dispositivos móveis](mdm-hardening-mobile-devices.md)
 - [Privacidade do cliente](mdm-client-privacy.md)
 - [Classificação de dados](mdm-data-classification.md)
@@ -78,6 +79,6 @@ Há 12 etapas nesta seção do guia. O tempo total para leitura das seções é 
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

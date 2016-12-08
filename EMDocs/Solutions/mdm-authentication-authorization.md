@@ -1,10 +1,11 @@
 ---
 title: "Autenticação e autorização"
-description: 
+description: "Este artigo fornece um conjunto de considerações de design para autenticação e autorização que devem ser usada em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: b1b40aa8b5044b90ab966b2ec050b39e392c1ffa
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
 
 
 ---
 
-# Autenticação e autorização
+# <a name="authentication-and-authorization"></a>Autenticação e autorização
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -44,7 +45,7 @@ Você também pode usar a MFA do Azure AD para exigir a MFA sempre que os usuár
 
 Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM que melhor atende aos requisitos de autenticação e autorização de sua organização.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -56,7 +57,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 - O serviço de nuvem do Azure AD não está incluído na compra de uma assinatura do Intune
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -69,7 +70,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 - O serviço de nuvem do Azure AD não está incluído na compra de uma assinatura do Office 365
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -80,7 +81,7 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 - O serviço de nuvem do Azure AD não está incluído na compra de uma assinatura do Intune
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Vantagens**
 
@@ -97,6 +98,6 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

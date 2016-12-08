@@ -1,8 +1,9 @@
 ---
 title: Reunir os requisitos de monitoramento
-description: 
+description: "Este artigo ajuda a identificar opções de monitoramento do gerenciamento de dispositivo móvel, ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: b1065b6f491c528807fd593b352026669287ae89
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 
 ---
 
-# Reunir os requisitos de monitoramento
+# <a name="gather-monitoring-requirements"></a>Reunir os requisitos de monitoramento
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -36,7 +37,7 @@ Em geral, as soluções de gerenciamento de dispositivos móveis dividem o monit
 - **Registro em log:** captura e armazenamento de informações e status de aplicativos de dispositivo móvel e dispositivos móveis.
 - **Relatórios:** exibição de relatórios ou notificações, inclusive relatórios padrão e personalizáveis que podem ser criados sob demanda e relatórios de status de painel e de resumo automáticos.
 
-## Perguntas de planejamento do monitoramento
+## <a name="monitoring-planning-questions"></a>Perguntas de planejamento do monitoramento
 
 Responda às seguintes perguntas sobre o planejamento do monitoramento de dispositivos:
 
@@ -60,6 +61,6 @@ Responda às seguintes perguntas sobre o planejamento do monitoramento de dispos
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

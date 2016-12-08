@@ -1,10 +1,11 @@
 ---
 title: "Especificação dos requisitos de privacidade"
-description: 
+description: "Este artigo fornece um conjunto de requisitos comuns de privacidade que devem ser usados em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 0909de25a0857e7b30a2b13d820e697fa5fdc773
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
 
 
 ---
 
-# Especificação dos requisitos de privacidade
+# <a name="specify-your-privacy-requirements"></a>Especificação dos requisitos de privacidade
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -56,6 +57,6 @@ Leia a [Política de Privacidade do Microsoft Online Services](http://www.micros
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

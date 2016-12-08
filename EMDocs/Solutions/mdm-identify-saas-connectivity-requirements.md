@@ -1,8 +1,9 @@
 ---
 title: Identificar requisitos de conectividade de SaaS
-description: 
+description: "Este artigo ajuda a identificar os requisitos de conectividade do software como serviço ao planejar a implementação de gerenciamento de dispositivo móvel usando as soluções Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
 
 
 ---
 
-# Identificar requisitos de conectividade de SaaS
+# <a name="identify-saas-connectivity-requirements"></a>Identificar requisitos de conectividade de SaaS
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,11 +32,11 @@ Conforme mostra as listas abaixo, a conexão dos serviços de diretório locais 
 
 ![Visão geral do gerenciamento integrado de identidades](./media/MDM_Figure_15.png)
 
-**Visão geral do gerenciamento integrado de identidades**
+**Visão geral do gerenciamento integrado de identidade**
 
 Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa conseguir determinar como a solução de SaaS precisa se conectar à sua plataforma de gerenciamento local de clientes de sua solução de gerenciamento de dispositivos móveis. As listas abaixo ajudarão você a entender as vantagens e desvantagens de conectar sua infraestrutura local a uma solução de SaaS.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -48,7 +49,7 @@ Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa cons
 
 - Recursos e funcionalidades avançados de conectividade de serviços de diretório exigem o emparelhamento com o Azure Active Directory Premium
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -61,7 +62,7 @@ Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa cons
 
 - Não dá suporte à integração do gerenciamento de aplicativos móveis com outras soluções ou aplicativos de SaaS
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -75,6 +76,6 @@ Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa cons
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

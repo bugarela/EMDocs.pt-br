@@ -1,8 +1,9 @@
 ---
 title: "Identificar as necessidades de integração de infraestrutura da solução SaaS"
-description: 
+description: "Este artigo ajuda a identificar os requisitos de integração de infraestrutura do software como serviço ao planejar e desenvolver um gerenciamento de dispositivo móvel usando o Microsoft Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 329bb692d300aa700e9f84b88c216c7d66952dba
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: c21b0a8c413c4e7299e8026f55a3e43e7f825f82
 
 
 ---
 
-# Identificar as necessidades de integração de infraestrutura da solução SaaS
+# <a name="identify-saas-solution-infrastructure-integration-needs"></a>Identificar as necessidades de integração de infraestrutura da solução SaaS
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -32,13 +33,13 @@ Uma das principais decisões que precisam ser feitas ao considerar o gerenciamen
 
 As decisões tomadas nessas duas áreas afetarão significativamente a implantação geral, a administração e as experiências de usuário final de sua solução de gerenciamento de dispositivos móveis.
 
-## Identidade e conectividade de diretório
+## <a name="identity-and-directory-connectivity"></a>Identidade e conectividade de diretório
 
 A conexão e sincronização do seu diretório local de contas de dispositivo e usuário com a solução de SaaS é realmente a liga que na verdade conecta os usuários, dispositivos móveis, aplicativos móveis e o gerenciamento de dispositivos móveis. Saber quem é um usuário (identidade) e associar a identidade a dispositivos móveis específicos é essencial para gerenciar o acesso aos recursos e aos dados da empresa no dispositivo móvel. Em muitos aspectos, maximizar a forma como essas áreas são conectadas à solução de SaaS determina o valor geral para você e seus usuários de dispositivos móveis.  Conectividade onipresente significa que as pessoas e dispositivos podem usar dispositivos e aplicativos em qualquer lugar, e é essencial que o gerenciamento de identidade de usuário acompanhe as demandas dessa conectividade. Nunca é demais enfatizar que o modo como você gerencia a identidade e autenticação de usuário é fundamental para o sucesso de sua solução de gerenciamento de dispositivos móveis.
 
 A sincronização de serviços de diretório local para a solução de SaaS é outra área fundamental a ser considerada ao definir sua estratégia de gerenciamento de dispositivos móveis. A maioria das organizações prefere manter uma infraestrutura local de diretório de dispositivo e usuário, mas precisa estender essas contas para uma variedade de serviços baseados em nuvem. Isso pode incluir apenas uma solução de gerenciamento de dispositivos móveis baseada em SaaS, mas na maioria dos cenários, as organizações precisam integrar as contas de usuários e dispositivos em vários tipos diferentes de serviços baseados em nuvem. Isso pode incluir aplicativos, dados ou serviços Web de terceiros baseados em nuvem. Manter suas contas de diretório de usuário e dispositivo sincronizadas é a base de uma solução de gerenciamento de identidade bem projetada. Depois de integrar seu diretório local ao diretório na nuvem, você também poderá habilitar o SSO (logon único) para permitir que os usuários entrem em todos os serviços usando suas credenciais locais. O <token>Intune</token> e o Office 365 podem aproveitar essa integração para habilitar o SSO com aplicativos SaaS que a organização talvez queira usar.
 
-### Perguntas sobre identidade e conectividade de diretório
+### <a name="identity-and-directory-connectivity-questions"></a>Perguntas sobre identidade e conectividade de diretório
 
 Como parte do planejamento de ciclo de vida do gerenciamento de SaaS, você deve responder às seguintes perguntas de planejamento sobre gerenciamento de identidade e conectividade de diretório:
 
@@ -53,11 +54,11 @@ Como parte do planejamento de ciclo de vida do gerenciamento de SaaS, você deve
 - Todos os atributos de objeto de diretório são sincronizados com a solução de SaaS? Você precisa sincronizar atributos personalizados de objeto de diretório?
 - Os serviços de diretório locais são hospedados em um único local ou em um agrupamento lógico? Caso contrário, a solução de SaaS dá suporte à sincronização de vários serviços de diretório em vários locais e agrupamentos lógicos?
 
-## Conectando-se com as plataformas existentes de gerenciamento de clientes
+## <a name="connecting-with-existing-client-management-platforms"></a>Conectando-se com as plataformas existentes de gerenciamento de clientes
 
 A maioria das organizações tem uma plataforma existente de gerenciamento local de clientes para gerenciar servidores e computadores desktop. A forma como você integra o gerenciamento de dispositivos móveis neste sistema provavelmente terá um impacto substancial nos custos de infraestrutura de TI, processos de administração de gerenciamento de dispositivos, suporte de inventário e relatórios de dispositivos e a integração total com outros serviços e aplicativos críticos para os negócios. Ao conectar essas duas plataformas, as empresas podem aproveitar as economias de escala de uma única plataforma de gerenciamento unificado.
 
-### Perguntas sobre como se conectar às plataformas existentes de gerenciamento de clientes
+### <a name="connecting-existing-client-management-platforms-questions"></a>Perguntas sobre como se conectar às plataformas existentes de gerenciamento de clientes
 
 Como parte do planejamento de ciclo de vida do gerenciamento de SaaS, você deve responder às seguintes perguntas de planejamento sobre conexão da solução de SaaS com as plataformas existentes de gerenciamento de clientes:
 
@@ -80,6 +81,6 @@ Como parte do planejamento de ciclo de vida do gerenciamento de SaaS, você deve
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

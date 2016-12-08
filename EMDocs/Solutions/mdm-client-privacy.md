@@ -1,10 +1,11 @@
 ---
 title: Privacidade do cliente
-description: 
+description: "Este artigo fornece um conjunto de considerações de design para privacidade do cliente que devem ser usadas em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 8ff27e0a204bbee29aa81ff9555b293a1b11706b
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
 
 
 ---
 
-#Privacidade do cliente
+#<a name="client-privacy"></a>Privacidade do cliente
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -42,7 +43,7 @@ Como o Intune e o Office 365 são serviços baseados em nuvem, talvez os usuári
 
 Privacidade é importante tanto para os usuários quanto para sua organização, e a solução de MDM que você usa deve equilibrar adequadamente as necessidades de privacidade, bem como informar os usuários sobre a política de privacidade e expectativas de sua organização. A tabela a seguir compara as opções para ajudar com requisitos de privacidade em diferentes soluções de MDM, a fim de ajudar você a escolher a opção de MDM que melhor atenda às exigências de privacidade de sua organização.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -52,7 +53,7 @@ Privacidade é importante tanto para os usuários quanto para sua organização,
 
 - Não tem um modelo para uma política de privacidade. Há uma pressuposição de que a sua organização tem uma política de privacidade em vigor e que o Portal da Empresa só anunciará essa política que está armazenada em outro local
 
-## Office 365 com MDM
+## <a name="office-365-with-mdm"></a>Office 365 com MDM
 
 **Vantagens**
 
@@ -62,7 +63,7 @@ Privacidade é importante tanto para os usuários quanto para sua organização,
 
 - Nenhum recurso para publicar declarações de privacidade
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -76,6 +77,6 @@ Privacidade é importante tanto para os usuários quanto para sua organização,
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: "Consideração sobre gerenciamento"
-description: "Considerações sobre gerenciamento para um cenário de BYOD."
+description: "Este artigo fornece um conjunto de considerações de design de gerenciamento que devem ser usadas em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,23 +15,23 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 70d0ddf77b2f73a37ede22833a7a9f659ff6de3e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
 
 
 ---
 
-# Consideração sobre gerenciamento
+# <a name="management-considerations"></a>Consideração sobre gerenciamento
 
 Um domínio de gerenciamento é obrigatório em uma infraestrutura que oferece suporte a um modelo de BYOD. Para dar suporte total às demandas de BYOD, o domínio de gerenciamento deve ser capaz de habilitar a TI a monitorar recursos, fornecer recursos de relatórios, gerenciar recursos de computação e armazenamento, habilitar configuração e automação de dispositivo e gerenciar o provisionamento e a implantação de aplicativos.
 
-## Monitoramento
+## <a name="monitoring"></a>Monitoramento
 
 Uma das funções do domínio de gerenciamento é monitorar as configurações de conformidade, não apenas para os ativos corporativos, mas também dispositivos móveis de propriedade dos usuários. Considerações sobre conformidade devem ser avaliadas de acordo com a de linha de negócios da empresa. Algumas empresas podem permitir que os dados corporativos residam em dispositivos dos usuários apenas se estiverem criptografados. As configurações de segurança devem ser controladas pela TI para aplicar essas políticas.
 
 O nível de gerenciamento de dispositivos dos usuários variará de acordo com a política da empresa e a infraestrutura de BYOD que a empresa adotar. Se a empresa estabelecer que é necessário fornecer recursos de limpeza completa para ter acesso aos recursos da empresa, a TI deve aplicar essa configuração em todos os dispositivos monitorados. A TI também precisa da capacidade de redefinir os dispositivos para os padrões do fabricante, apagando todos os dados e configurações pessoais, se necessário. Use a seção a seguir para determinar as opções de monitoramento que serão necessárias para sua infraestrutura BYOD.
 
-### Opções de monitoramento — vantagens e desvantagens
+### <a name="monitoring-options-advantages-and-disadvantages"></a>Opções de monitoramento — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de monitoramento:
 
@@ -59,7 +60,7 @@ Configurações de conformidade no Configuration Manager permitem à TI gerencia
 
 Usando a limpeza seletiva do Windows, a TI pode proteger os dados corporativos da empresa que serão distribuídos entre dispositivos pessoais ou corporativos. Os desenvolvedores podem criar aplicativos para usar uma política de limpeza seletiva do Windows em dados e protegê-los em um domínio da Internet que pertença à empresa. Para saber mais sobre a Limpeza Seletiva do Windows, confira Windows Selective Wipe for Device Data Management (Limpeza Seletiva do Windows para gerenciamento de dados de dispositivo).
 
-## Relatórios
+## <a name="reporting"></a>Relatórios
 
 Relatar os recursos do dispositivo ou simplesmente compreender como esses dispositivos estão funcionando é fundamental para a TI manter o controle dos dispositivos conhecidos. Os relatórios podem ser usados para entender melhor o ambiente atual. Estas são algumas perguntas que surgirão quando você estiver tentando entender não apenas o ambiente, mas também os recursos de alguns dispositivos móveis:
 
@@ -70,7 +71,7 @@ Relatar os recursos do dispositivo ou simplesmente compreender como esses dispos
 
 Considere o uso de uma solução de gerenciamento que possa fornecer relatórios personalizáveis e inventário de dispositivos. Ao escolher essa opção, você permitirá uma abordagem mais flexível para a TI quando for necessário obter mais informações sobre dispositivos dos usuários. A TI deve poder ter relatórios sobre todos os dispositivos registradas locais e na nuvem. A capacidade de geração de relatórios para o sistema de gerenciamento pode estar localizada local ou na nuvem — ou pode ser uma combinação de ambos, o que é chamado de solução híbrida. Use a tabela a seguir para determinar qual opção de relatório é apropriada para sua empresa.
 
-### Opções de relatório — vantagens e desvantagens
+### <a name="reporting-options-advantages-and-disadvantages"></a>Opções de relatório — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de relatório:
 
@@ -105,7 +106,7 @@ Ao combinar o Microsoft Intune com o System Center 2012 R2, você pode obter rel
 
 Para saber mais sobre os recursos de relatórios do Configuration Manager, confira [Introdução à geração de relatórios no Configuration Manager](https://technet.microsoft.com/library/gg682105.aspx).
 
-## Computação e armazenamento
+## <a name="compute-and-storage"></a>Computação e armazenamento
 
 Depois de novos aplicativos serem desenvolvidos e acessados remotamente por usuários usando seus próprios dispositivos, o desempenho de aplicativos poderá ser prejudicado se a solução não tiver sido bem planejada. Embora este guia de considerações de design não pretenda oferecer uma análise mais profunda sobre considerações de desempenho, é preciso responder perguntas sobre a infraestrutura de gerenciamento:
 
@@ -113,7 +114,7 @@ Depois de novos aplicativos serem desenvolvidos e acessados remotamente por usu�
 - A solução de gerenciamento atual que sua empresa usa pode aumentar os recursos de computação e armazenamento para a plataforma que oferece suporte ao acesso de aplicativos de dispositivos dos usuários de acordo com um conjunto de regras pré-estabelecido?
 Se a solução de gerenciamento estabelecida não for capaz de resolver esses dois requisitos, considere usar uma solução de gerenciamento que possa gerenciar computação e armazenamento abordando os dois requisitos principais mostrados na tabela a seguir.
 
-### Recursos de gerenciamento de computação e armazenamento — vantagens e desvantagens
+### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>Recursos de gerenciamento de computação e armazenamento — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada recurso de gerenciamento de armazenamento:
 
@@ -138,14 +139,14 @@ O System Center 2012 R2 tem a capacidade de usar o pool de recursos e a elastici
 
 Para saber mais sobre recursos de armazenamento do System Center 2012 R2, confira [O que há de novo no VMM no System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx). 
 
-## Automação
+## <a name="automation"></a>Automação
 
 A automação pode ser empregada para corrigir dispositivos fora de conformidade, e a TI pode atribuir diferentes níveis de gravidade de não conformidade. Você deve considerar o uso de automação em diferentes áreas de BYOD. Por exemplo, como automatizar a implantação de novos serviços que serão consumidos pelos dispositivos móveis? E como você deve automatizar o processo de autorização para dispositivos móveis?
 
 Embora você vá ver que todos os subdomínios BYOD apresentados podem aproveitar automação, a responsabilidade de automatizar recursos é do subdomínio de gerenciamento. A automação pode ser integrada no sistema operacional. No entanto, a solução de gerenciamento que a empresa adotará será responsável por estender esses recursos e fornecer maneiras de aliviar tarefas diárias da TI durante o monitoramento e o relatório dos resultados da automação.
 A opção de automação mais avançada no System Center 2012 R2 é o Windows PowerShell. Para saber mais sobre a automação do System Center 2012 R2, confira [System Center Automation with Windows PowerShell](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx) (Automação do System Center com o Windows PowerShell). No entanto, outra opção está disponível, fornecendo uma forma mais simples, mas não muito robusta, de automatizar tarefas: sequência de tarefas. Use a tabela a seguir para avaliar as vantagens e desvantagens de cada opção.
 
-### Opções de automação — vantagens e desvantagens
+### <a name="automation-options-advantages-and-disadvantages"></a>Opções de automação — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de automação:
 
@@ -168,7 +169,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Não passível de script
         - Os recursos estão limitados a algumas tarefas no System Center
 
-## Implantação e provisionamento
+## <a name="deployment-and-provisioning"></a>Implantação e provisionamento
 
 A próxima etapa é entender as considerações para implantação e provisionamento de aplicativos para dispositivos remotos. Dois perguntas importantes devem ser respondidas:
 
@@ -198,6 +199,6 @@ Embora essas sejam duas opções, você pode integrar ambas para oferecer implan
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

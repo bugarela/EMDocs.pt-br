@@ -1,10 +1,11 @@
 ---
 title: "Guia de considerações sobre design para BYOD"
-description: 
+description: "Este artigo fornece uma introdução à adoção de Traga seu próprio dispositivo e visão geral do processo de considerações de design."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 3c88e0a7e82581d6ae6452ae13a44442c63923b6
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
 
 
 ---
 
-# Guia de considerações sobre design para BYOD
+# <a name="byod-design-considerations-guide"></a>Guia de considerações sobre design para BYOD
 
 Com a proliferação de dispositivos usados pelos funcionários, a maioria das empresas enfrenta um grande dilema: como permitir que os usuários usem seus próprios dispositivos, enquanto protegem os dados corporativos que residem nesses dispositivos? As empresas estão mudando do modelo tradicional, em que elas eram as proprietárias e forneciam dispositivos aos seus funcionários, para um modelo em que os funcionários usam seus dispositivos pessoais para algumas das suas tarefas de trabalho. Esse modelo é frequentemente mencionado como [BYOD (traga seu próprio dispositivo)](https://technet.microsoft.com/library/dn645493.aspx). Nesse modelo, os funcionários têm permissão para usar seus dispositivos pessoais para algumas tarefas de trabalho, mas somente se os funcionários permitirem que a empresa gerencie alguns aspectos dos seus dispositivos para garantir a segurança dos dados corporativos. Geralmente, isso significa que os usuários permitem que a empresa aplique políticas personalizadas, execute proteção dos dispositivos ou padronize o sistema operacional estabelecido pela política da empresa. Executivos e tomadores de decisão que lerem o artigo [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) (Considerações do CIO para transformação do estilo de trabalho) da Microsoft também poderão identificar os benefícios de adotar um modelo em que as pessoas possam usar os próprios dispositivos para serem produtivas no trabalho.
 
@@ -34,11 +35,11 @@ Esta discussão será determinada pelos requisitos, recursos e considerações d
 
 Este guia fornece o arquiteto de sistema e o designer de sistema com uma coleção de considerações de design essenciais que precisam ser atendidas antes de projetar uma infraestrutura de BYOD (Bring Your Own Device, traga seu próprio dispositivo), que permite aos funcionários usar seus próprios dispositivos e protege os dados da empresa.
 
-## Público-alvo
+## <a name="intended-audience"></a>Público-alvo
 
 O principal público deste guia é o arquiteto ou o designer de sistema interessado em entender os problemas que precisam ser considerados antes de implementar uma infraestrutura BYOD. Outras pessoas que podem se interessar por este documento incluem implementadores de TI, especialistas em segurança da empresa e especialistas em gerenciamento de dispositivo.</para>
     
-## Finalidade
+## <a name="purpose"></a>Finalidade
   
 A finalidade deste guia é:
 
@@ -62,7 +63,7 @@ Antes de embarcar em um modelo BYOD em um ambiente de produção, os problemas d
 - Fornecer práticas recomendadas de desenvolvimento de aplicativo para dispositivos móveis.
 - Fornecer orientações e práticas recomendadas para componentes de terceiros.
 
-## Definição do problema
+## <a name="problem-definition"></a>Definição do problema
 
 Os seguintes problemas ou desafios normalmente são aqueles encontrados por empresas tentando adotar BYOD:
 
@@ -78,6 +79,6 @@ Organizações com uma grande infraestrutura precisam determinar requisitos ante
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,8 +1,9 @@
 ---
 title: "Opções de registro do dispositivo"
-description: 
+description: "Este artigo fornece diretrizes sobre as opções de registro do dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,14 +15,14 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9b4956f7a4e48bebbbc41fdef050198a06e53525
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
 
 
 ---
 
 
-# Opções de registro do dispositivo
+# <a name="device-enrollment-options"></a>Opções de registro do dispositivo
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -47,6 +48,6 @@ Sua organização pode desejar permitir ambos os cenários de registro, adotando
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

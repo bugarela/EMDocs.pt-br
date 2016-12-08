@@ -1,8 +1,9 @@
 ---
 title: "Opções de gerenciamento de certificados"
-description: 
+description: "Este artigo fornece pontos de decisão sobre como planejar e desenvolver uma infraestrutura de certificados para dar suporte ao provisionamento de certificados com o Microsoft Intune autônomo e híbrido."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,18 +15,18 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: f479997932cd7091677da5097e0d7a418895858f
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
 
 
 ---
 
-# Opções de gerenciamento de certificados
+# <a name="certificate-management-options"></a>Opções de gerenciamento de certificados
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-O uso de gerenciamento de certificados digitais e de perfis de certificado tem o suporte de cenários de implantação do [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) autônomo e do [Intune e do ConfigMgr](https://technet.microsoft.com/library/dn261202.aspx) híbridos. Esses recursos permitem que você implante certificados raiz confiáveis em dispositivos móveis, bem como perfis baseados no protocolo SCEP que instruem os dispositivos móveis a obter certificados adicionais de um servidor NDES em sua organização.
+O uso de gerenciamento de certificados digitais e de perfis de certificado tem o suporte dos cenários de implantação autônomo e [híbrido](https://technet.microsoft.com/library/dn261202.aspx) do [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles). Esses recursos permitem que você implante certificados raiz confiáveis em dispositivos móveis, bem como perfis baseados no protocolo SCEP que instruem os dispositivos móveis a obter certificados adicionais de um servidor NDES em sua organização.
 
 Como o SCEP tem o suporte nativo do iOS, Windows 10 e 8.1, Windows Phone 10 e 8.1 e também tem suporte por meio do aplicativo Portal de Empresa do Microsoft Intune para Android, o uso desse protocolo de registro oferece a vantagem de gerar a chave privada diretamente no dispositivo móvel. A chave privada nunca é gerada, armazenada em cache ou armazenada pelo ConfigMgr ou Intune, o que ajuda a manter o dispositivo móvel seguro.
 
@@ -47,7 +48,7 @@ Dependendo de como você respondeu às perguntas na Tarefa 3, você precisa cons
 
 A lista abaixo ajudará você a entender as vantagens e desvantagens do gerenciamento de perfis de certificados para um cenário de implantação do Intune e do Intune com ConfigMgr híbrido:
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -63,11 +64,11 @@ A lista abaixo ajudará você a entender as vantagens e desvantagens do gerencia
  - Uma Autoridade de Certificação Corporativa
  - O conector de NDES do Intune, que é instalado no servidor que executa o NDES
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 - Não há suporte para perfis de certificado no MDM para Office 365.
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -86,6 +87,6 @@ Para obter mais detalhes sobre as opções de gerenciamento de certificados de d
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

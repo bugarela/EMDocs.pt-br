@@ -1,10 +1,11 @@
 ---
 title: Identificar as necessidades comerciais
-description: "Diretrizes para identificar necessidades comerciais para justificar a adoção do gerenciamento de dispositivo móvel."
+description: "Este artigo fornece diretrizes para identificar necessidades comerciais para justificar a adoção do gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: cd9f30d1474745919e4c0ff251206d8c900dc4c2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
 
 
 ---
 
-# Identificar suas necessidades comerciais
+# <a name="identify-your-business-needs"></a>Identificar suas necessidades comerciais
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -84,6 +85,6 @@ Durante esta tarefa, você deve também avaliar se a empresa tem políticas exis
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

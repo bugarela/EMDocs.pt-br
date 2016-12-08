@@ -1,10 +1,11 @@
 ---
 title: Controle de acesso aos recursos
-description: "Considerações sobre design de controle de acesso para gerenciamento de dispositivo móvel."
+description: "Este artigo fornece um conjunto de considerações de design para controle de acesso que devem ser usadas em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 80a435883f8df7ea7f6dde46e40f80e873ea617e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 782f6dac4a366312ce0a6d04735262908df6fe72
 
 
 ---
 
-# Controle de acesso aos recursos
+# <a name="access-control-to-resources"></a>Controle de acesso aos recursos
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +32,7 @@ Para gerenciar o controle de recursos específicos, primeiro você autentica e a
 
 ![Fluxo de autenticação](./media/MDM_Figure_13.png)
 
-## Fluxo básico de autenticação e autorização
+## <a name="basic-authentication-and-authorization-flow"></a>Fluxo básico de autenticação e autorização
 
 A ACL (Lista de Controle de Acesso) tradicional é bastante limitada e não leva em consideração outros aspectos do estado do usuário, como onde ele está localizado ao tentar acessar este recurso. Se a sua organização precisar incluir mais variáveis antes de conceder acesso a um recurso, você poderá usar o [Controle de Acesso Dinâmico](https://technet.microsoft.com/library/dn408191.aspx), originalmente disponível no Windows Server 2012. O Windows 10 oferece suporte ao atestado de integridade, que ajuda a equipe de TI a controlar o estado de integridade do dispositivo antes de fornecer acesso aos dados. Serviço de atestado de integridade remoto executa uma série de verificações sobre as medidas. Ele valida os pontos de dados relacionados à segurança, incluindo o estado de inicialização (Inicialização Segura, Modo de Depuração etc.) e o estado dos componentes que gerenciam a segurança (BitLocker, o Device Guard etc.). Em seguida, transmite o estado de integridade do dispositivo enviando um blob criptografado de integridade de volta ao dispositivo. Leia [Controlar a integridade de dispositivos baseados no Windows 10](https://technet.microsoft.com/library/mt592023.aspx) para saber mais.
 
@@ -43,7 +44,7 @@ Um recurso também pode ser um aplicativo, o que significa que, para implementar
 
 Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que melhor atende aos requisitos de controle de acesso de sua organização.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -55,7 +56,7 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 - A falta de integração com a atual plataforma de MDM local introduzirá uma interface de gerenciamento adicional para você usar
 - Algumas políticas podem não estar disponíveis para algumas plataformas móveis
  
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -67,7 +68,7 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 - A falta de integração com a atual plataforma de MDM local introduzirá uma interface de gerenciamento adicional para você usar
 - Algumas políticas podem não estar disponíveis para algumas plataformas móveis
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -78,7 +79,7 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 
 - O serviço de nuvem do Azure AD não está incluído na compra da assinatura do Intune
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Vantagens**
 
@@ -92,6 +93,6 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

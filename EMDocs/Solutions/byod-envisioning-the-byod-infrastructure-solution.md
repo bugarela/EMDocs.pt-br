@@ -1,10 +1,11 @@
 ---
 title: "Previsão da solução de infraestrutura BYOD"
-description: 
+description: "Este artigo fornece uma definição de solução para o cenário Traga seu próprio dispositivo com base nas opções feitas durante o processo de criação."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,17 +15,17 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
 
 
 ---
 
-#Previsão da solução de infraestrutura BYOD
+#<a name="envisioning-the-byod-infrastructure-solution"></a>Previsão da solução de infraestrutura BYOD
 
 Depois de definir claramente o problema do BYOD que está tentando resolver, você pode começar a definir uma solução para o problema e os requisitos detalhados para a solução.
 
-## Definição da solução
+## <a name="solution-definition"></a>Definição da solução
 
 Para resolver os problemas identificados anteriormente e ajudar as organizações a incentivar os usuários a levar seus próprios dispositivos para o trabalho e acessar dados corporativos com seus dispositivos, uma empresa deve passar de uma abordagem de TI centrada no dispositivo para uma abordagem de TI centrada em pessoas. As considerações de design neste guia podem ser usadas durante a definição de sua própria solução de infraestrutura BYOD para: 
 
@@ -36,7 +37,7 @@ Para resolver os problemas identificados anteriormente e ajudar as organizaçõe
 - Habilitar serviços de autenticação da empresa, como Multi-Factor Authentication e logon único.
 - Propiciar segurança da informação e atividades de conformidade como atestado de conformidade.
 
-## Requisitos da solução
+## <a name="solution-requirements"></a>Requisitos da solução
 
 Antes de habilitar usuários a levarem seus próprios dispositivos e obterem acesso aos recursos da empresa, os recursos técnicos da infraestrutura existente devem ser revisados. A meta da revisão é compreender se os requisitos da solução para esse novo modelo já estão estabelecidos ou se novas tecnologias devem ser introduzidas para resolver o problema. Primeiro, você deve definir uma série de requisitos para fazer isso, bem como as restrições para o ambiente. Algumas das restrições e requisitos são definidos pelos consumidores de recursos; outros são definidos por seu ambiente, em termos de recursos técnicos, serviços, políticas e processos existentes.
 
@@ -54,6 +55,6 @@ As considerações sobre o domínio do problema do BYOD apresentados neste guia 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
