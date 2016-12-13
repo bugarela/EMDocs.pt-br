@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
@@ -26,7 +25,8 @@ ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte do mesmo setor, os requisitos de negócios reais poderão variar. Você ainda pode aproveitar as práticas recomendadas do setor, mas, em última análise, são as necessidades de negócios da empresa que identificarão os requisitos para a solução de gerenciamento de dispositivos móveis. Para ajudar você a identificar suas necessidades comerciais, responda às seguintes perguntas:
+Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte do mesmo setor, os requisitos de negócios reais poderão variar. Você ainda pode aproveitar as práticas recomendadas do setor, mas, em última análise, são as necessidades de negócios da empresa que identificarão os requisitos para a solução de gerenciamento de dispositivos móveis.
+Para ajudar você a identificar suas necessidades comerciais, responda às seguintes perguntas:
 
 - **Usuários:** um dos principais pontos ao adotar a mobilidade é colocar o usuário no centro da solução de mobilidade e permitir que ele seja mais produtivo, ao mesmo tempo que mantém os dados da empresa seguros e disponíveis. Isso é importante para entender quais são os requisitos do usuário.
     - O usuário poderá trazer seu próprio dispositivo e acessar os recursos da empresa?
@@ -40,7 +40,7 @@ Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte
     - Os usuários precisam apenas do acesso básico a recursos de email (incluindo calendário, contatos e tarefas)?
 
 - **Propriedade do dispositivo:** você deve entender a política de propriedade do dispositivo de sua empresa.
-    - Quem possui o dispositivo móvel? 
+    - Quem possui o dispositivo móvel?
         - O funcionário?
         - A empresa?  
         - Ambos?
@@ -56,7 +56,7 @@ Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte
         - Somente a mais recente?
         - Atual -1 (versão atual e a versão anterior)?
 - **Aplicativo:** como o principal motivo para adotar a mobilidade é aumentar a produtividade, os aplicativos usados pelos funcionários devem poder executar todos os sistemas operacionais de dispositivos móveis usados em sua organização. Esse é um ponto importante a considerar, porque, embora algumas empresas possam fazer com que seus aplicativos mais importantes sejam totalmente portáteis para ser executados em um ambiente móvel, outras podem precisar entender quais opções estão disponíveis que podem ajudá-las a implantar seus aplicativos em dispositivos móveis. Para ajudar a identificar os requisitos de aplicativos individuais, faça as seguintes perguntas.
-    - Os aplicativos exigem acesso à Internet de dispositivos dos usuários? 
+    - Os aplicativos exigem acesso à Internet de dispositivos dos usuários?
     - Os aplicativos coletam informações pessoais do usuário?
         - Nesse caso, os aplicativos informam os usuários sobre questões de privacidade e coleta de dados durante a instalação?
     - Os aplicativos exigem integração com serviços de nuvem?
@@ -68,20 +68,18 @@ Cada empresa terá requisitos diferentes. Mesmo que essas empresas fizerem parte
     - Como você planeja implantar esses aplicativos para dispositivos dos usuários?
     - Quais são as opções de implantação para esses aplicativos?
     - O requisito de instalação varia de acordo com o dispositivo de destino ou é o mesmo?
-    - Que quantidade de espaço em um dispositivo de destino é necessária para instalar cada aplicativo? 
+    - Que quantidade de espaço em um dispositivo de destino é necessária para instalar cada aplicativo?
     - Os aplicativos criptografam os dados antes de transmiti-los por meio da rede a partir dos dispositivos dos usuários para o servidor de aplicativos no back-end?
     - Os aplicativos podem ser remotamente desinstalados através da rede ou precisam ser desinstalado usando consoles os dispositivos?
     - Sua empresa precisa fornecer acesso aos dados de aplicativos SaaS para seus parceiros?
-    - Os aplicativos funcionam em uma rede de baixa latência? 
+    - Os aplicativos funcionam em uma rede de baixa latência?
     - Os aplicativos fornecem recursos de autenticação?
         - Nesse caso, que método de autenticação os aplicativos usam?
 
 Durante esta tarefa, você deve também avaliar se a empresa tem políticas existentes em vigor de gerenciamento e conformidade para dispositivos móveis e como essas políticas podem afetar a seleção da solução de gerenciamento de dispositivos móveis.
 
->[!TIP] 
+>[!TIP]
 > Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. A próxima seção apresentará as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Ao responder a essas perguntas, você poderá selecionar a solução que melhor atende às suas necessidades de negócios.
-
-
 
 
 

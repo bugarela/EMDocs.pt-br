@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
@@ -34,7 +33,7 @@ Com o Windows Server 2012 R2, é possível criptografar os dados em repouso nos 
 
 Se você pensar no armazenamento como um recipiente de conteúdo, é possível obter um ótimo valor ao proteger o consumo desse conteúdo. Vazamento de dados pode ser evitado através da aplicação de diretivas que afetam como o conteúdo que reside no armazenamento que será usado pelo usuário final. O [AD RMS (Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx) pode ser usado para ampliar a estratégia de segurança para sua organização protegendo documentos que usem IRM (Gerenciamento de Direitos de Informação). O AD RMS permite que indivíduos e administradores especifiquem, por meio de políticas de IRM, permissões de acesso a documentos, pastas de trabalho e apresentações. Isso ajuda a evitar que informações confidenciais sejam impressas, encaminhadas ou copiadas por pessoas não autorizadas. Depois que a permissão para um arquivo for restrita usando o IRM, as restrições de acesso e uso são aplicadas, independentemente de onde as informações estão, porque a permissão para um arquivo é armazenada no arquivo em si.
 
-Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arquivo, também será possível usar a [Proteção de Informações do Azure](/information-protection/understand-explore/what-is-information-protection). A Proteção de Informações do Azure pode proteger as informações confidenciais da empresa usando criptografia, identidade e políticas de autorização, a fim de ajudar a proteger arquivos e emails, e funciona em vários dispositivos, como PCs, tablets e telefones. As informações podem ser protegidas tanto em sua organização quanto fora dela, pois essa proteção permanece com os dados, mesmo quando eles saem dos limites da organização. 
+Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arquivo, também será possível usar a [Proteção de Informações do Azure](/information-protection/understand-explore/what-is-information-protection). A Proteção de Informações do Azure pode proteger as informações confidenciais da empresa usando criptografia, identidade e políticas de autorização, a fim de ajudar a proteger arquivos e emails, e funciona em vários dispositivos, como PCs, tablets e telefones. As informações podem ser protegidas tanto em sua organização quanto fora dela, pois essa proteção permanece com os dados, mesmo quando eles saem dos limites da organização.
 
 Outras tecnologias de armazenamento disponíveis no sistema operacional Windows também podem ser usadas para melhorar a proteção geral dos dados, como o BitLocker para criptografia de unidade e o [EFS (Encrypting File System)](https://technet.microsoft.com/library/cc700811.aspx) para criptografia de arquivo. Use a tabela a seguir para ver as vantagens e desvantagens da proteção de armazenamento. Tenha em mente que essas opções não se excluem mutuamente. Em outras palavras, a decisão de design pode concluir que você precisa de todas essas opções em sua solução de infraestrutura BYOD para proteção de armazenamento.
 
@@ -95,7 +94,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
 O diagrama destaca as áreas cruciais nas quais a proteção de dados deve ser considerada para uma infraestrutura de BYOD. Essas áreas são descritas com mais detalhes na seção a seguir.
 
 ### <a name="data-protection-locations-and-considerations"></a>Proteção de dados — locais e considerações
-    
+
 Use a lista abaixo para entender as considerações sobre proteção de dados de acordo com o local dos dados. Os números na lista a seguir correspondem ao diagrama anterior:
 
 - (1) Dados em repouso no data center
@@ -219,7 +218,7 @@ Para impor a Multi-Factor Authentication, as empresas podem usar os recursos int
 
 Para implantar a autorização por aplicativo aos usuários que acessem aplicativos de uma rede interna ou externa, a TI pode aproveitar o Proxy de aplicativo Web. Usando o Proxy de aplicativo Web, a TI pode criar regras específicas para impor a autenticação e autorização em conjunto com o AD FS. A publicação de Proxy de aplicativo Web funciona para qualquer dispositivo do usuário. É possível usar laptops, tablets ou smartphones pessoais. Além disso, os usuários não precisarão instalar software adicional em seus dispositivos para acessarem aplicativos publicados. O Proxy de aplicativo Web funciona como um proxy reverso para todos os aplicativos publicados por meio dele, e como tal, a experiência do usuário é a mesmo de dispositivos dos usuários conectados diretamente aos aplicativos. Para saber mais sobre Proxy de Aplicativo Web, confira [Visão geral de Proxy de Aplicativo Web](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] 
+>[!NOTE]
 > Se você tiver um cenário híbrido e precisar ter uma experiência tranquila de autenticação e autorização do usuário, leia o [Guia de considerações de design de identidade híbrida](http://aka.ms/azhidcg).
 
 ## <a name="policy-and-compliance"></a>Política e conformidade
@@ -227,7 +226,7 @@ Para implantar a autorização por aplicativo aos usuários que acessem aplicati
 Considerações de conformidade e de política devem ser uma prioridade de qualquer estratégia que adote BYOD. Algumas empresas podem ter requisitos de disco rígido que não se ajustem a esse modelo devido a normas de negócios. Uma empresa que esteja migrando para uma estratégia centrada em pessoas deve entender diretivas atuais e como essas diretivas serão afetadas pela adoção de BYOD. Considere os requisitos de classificação de dados e como a TI pode ter controle da classificação de dados, mesmo quando os dados estão em repouso no armazenamento de dispositivo. Ao pensar na classificação de dados, é importante poder classificar os dados enquanto algumas operações (como editar um arquivo) estão ocorrendo.
 
 As políticas devem ser impostas em um local centralizado para habilitar a TI a responder rapidamente no caso de alterações ad hoc que afetem todos os usuários. Além disso, considere recursos de auditoria robustos para dispositivos móveis. Se ocorrer uma falha, é essencial que a TI possa controlar qual política foi infringida, quem a infringiu e quando isso ocorreu.
-    
+
 ### <a name="policy-and-compliancecapabilities-and-considerations"></a>Política e conformidade — recursos e considerações
 
 Use a lista a seguir para entender as considerações de política e recursos de conformidade:

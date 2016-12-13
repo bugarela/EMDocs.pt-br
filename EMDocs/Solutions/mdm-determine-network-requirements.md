@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
@@ -56,7 +55,7 @@ A maioria das soluções de gerenciamento de dispositivo móveis fornece a prote
 - Quando um dispositivo móvel precisar ser desconectado do seu sistema de email, como os dados de email serão excluídos do dispositivo móvel?
 - Os administradores e usuários também precisarão da capacidade de excluir dados de email ou a conexão ao sistema de email?
 - Como a confirmação de exclusão de dados de email será verificada ou confirmada?
-- Se você estiver usando um sistema de email local e baseado em nuvem, como eles são integrados à solução de gerenciamento de dispositivos móveis? 
+- Se você estiver usando um sistema de email local e baseado em nuvem, como eles são integrados à solução de gerenciamento de dispositivos móveis?
 - Os perfis de email ou as políticas de acesso gerenciado são administrados do mesmo modo ou de modo diferente da perspectiva de TI? A experiência de conexão de email do usuário é igual ou diferente, dependendo de onde sua caixa de correio está hospedada?
 
 ## <a name="network-connectivity-management"></a>Gerenciamento de conectividade de rede
@@ -72,7 +71,7 @@ Os dispositivos móveis geralmente se conectam a redes e recursos corporativos u
 ### <a name="network-connectivity-management-planning-questions"></a>Perguntas de planejamento de gerenciamento de conectividade de rede
 
 Responda às seguintes perguntas de planejamento sobre o gerenciamento de conectividade de rede:
- 
+
 - Que tipo de plataforma de VPN você implantou em sua rede local?
 - A plataforma de VPN tem o suporte ou a capacidade de ser integrada à solução de gerenciamento de dispositivos móveis?
 - Se a plataforma de VPN já está integrada ou tem o suporte de uma solução existente de gerenciamento de dispositivos não móveis – a solução de gerenciamento de dispositivos móveis é integrada a ambos os sistemas?

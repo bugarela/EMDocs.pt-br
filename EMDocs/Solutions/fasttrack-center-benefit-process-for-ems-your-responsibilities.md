@@ -2,16 +2,15 @@
 title: Suas responsabilidades
 description: "Responsabilidades do cliente ao usar o Benefício do FastTrack Center"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation

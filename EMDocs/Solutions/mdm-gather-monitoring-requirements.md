@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
@@ -28,7 +27,7 @@ ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 Monitorar e capturar informações de status e eventos para dispositivos móveis é essencial para garantir que os usuários e dispositivos estejam em conformidade com suas políticas corporativas e estratégia de segurança. Isso é especialmente importante para as organizações que precisam estar em conformidade com as normas regulamentares governamentais e diretrizes de conformidade do setor.
 
-Os relatórios também podem fornecer informações valiosas sobre software, hardware e licenças de software em sua organização para ajudar no gerenciamento de inventário. 
+Os relatórios também podem fornecer informações valiosas sobre software, hardware e licenças de software em sua organização para ajudar no gerenciamento de inventário.
 
 Lembre-se da importância da privacidade do usuário ao estabelecer diretrizes de monitoramento e de relatórios, especialmente quando for possível para os usuários registrarem dispositivos pessoais na solução de gerenciamento de dispositivos móveis de sua organização. Sua organização não deve ser capaz de capturar, monitorar, relatar nem compartilhar qualquer atividade nem informação pessoal.
 
@@ -55,7 +54,7 @@ Responda às seguintes perguntas sobre o planejamento do monitoramento de dispos
 - Você precisará de relatórios personalizados e sob demanda?
 - Depois que o registro de um dispositivo é cancelado, eventos de inventário e relatório específicos devem ser capturados?
 - Depois que o registro de um dispositivo é cancelado, os eventos de inventário e relatório herdados devem ser arquivados/mantidos?
- 
+
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
 

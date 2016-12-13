@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
@@ -29,7 +28,7 @@ ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
 
 O registro de dispositivos no Microsoft Intune, seja autônomo ou conectado ao System Center 2012 R2 Configuration Manager (ConfigMgr), exige a preparação do serviço para os dispositivos. O registro de dispositivos móveis no MDM para Office 365 também exige a ativação do MDM, definição das configurações básicas e inclusão de cada usuário em uma [política de segurança](https://technet.microsoft.com/library/ms.o365.cc.newdevicepolicy.aspx), sendo que cada usuário deverá responder a uma mensagem de registro na próxima vez que entrar no Office 365 em seu dispositivo móvel. Eles devem concluir as etapas de ativação e registro em cada dispositivo móvel que usarão para acessar os emails e documentos do Office 365.
 
-O Intune autônomo precisa ser configurado para definir a solução de Autoridade de Gerenciamento de Dispositivos Móveis, que pode ser uma infraestrutura do Intune ou do ConfigMgr local. Isso significa basicamente “qual plataforma de gerenciamento você deseja usar para gerenciar dispositivos registrados pelo Intune – Intune *ou* ConfigMgr?”” É *muito importante* entender o [impacto de escolher a melhor opção](/Intune/deploy-use/enroll-devices-in-microsoft-intune) para a sua organização, já que a solução de gerenciamento não pode ser facilmente alterada depois de escolhida. Se precisar alterar essa configuração posteriormente, você precisará entrar em contato com o Suporte da Microsoft para obter assistência. Para locatários do Office 365, você pode designar e alterar com mais facilidade a autoridade de MDM entre o MDM para Office 365 e o Intune. Você pode alternar facilmente a autoridade de gerenciamento no nível do usuário alterando a atribuição de licença de um usuário. 
+O Intune autônomo precisa ser configurado para definir a solução de Autoridade de Gerenciamento de Dispositivos Móveis, que pode ser uma infraestrutura do Intune ou do ConfigMgr local. Isso significa basicamente “qual plataforma de gerenciamento você deseja usar para gerenciar dispositivos registrados pelo Intune – Intune *ou* ConfigMgr?”” É *muito importante* entender o [impacto de escolher a melhor opção](/Intune/deploy-use/enroll-devices-in-microsoft-intune) para a sua organização, já que a solução de gerenciamento não pode ser facilmente alterada depois de escolhida. Se precisar alterar essa configuração posteriormente, você precisará entrar em contato com o Suporte da Microsoft para obter assistência. Para locatários do Office 365, você pode designar e alterar com mais facilidade a autoridade de MDM entre o MDM para Office 365 e o Intune. Você pode alternar facilmente a autoridade de gerenciamento no nível do usuário alterando a atribuição de licença de um usuário.
 
 Para a maioria das organizações que já está usando o ConfigMgr para gerenciar PCs, servidores e outros dispositivos, conectar a solução local ao Intune e gerenciar dispositivos com o ConfigMgr geralmente é a melhor opção. Para atribuir a autoridade de gerenciamento de dispositivo móvel ao ConfigMgr, você precisará criar uma [assinatura do Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) e selecionar a opção para permitir que o ConfigMgr gerencie a assinatura do Intune e os dispositivos registrados pelo Intune. A assinatura do Intune também pode ser criada [dentro do console do ConfigMgr](https://technet.microsoft.com/library/jj884158.aspx).
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
@@ -47,7 +46,7 @@ Os produtos, as tecnologias e os serviços da Microsoft para uma solução de in
 - Serviços de Federação do Active Directory (AD FS)
 - Controle de Acesso Dinâmico
 - Serviço Microsoft Rights Management
-- Azure Information Protection 
+- Azure Information Protection
 - Criptografia SMB
 - Logon Único (SSO)
 - Pastas de trabalho
@@ -79,8 +78,6 @@ As seções a seguir descrevem o processo de design, mas, conforme mencionado em
 O restante do documento aborda considerações de design e os produtos, tecnologias e serviços listados na tabela anterior. Quando vários produtos, tecnologias e serviços Microsoft podem ser usados para tratar as considerações de design diferentes, são abordadas os seus prós e contras.
 
 O design de infraestrutura para compatibilidade com a BYOD reúne as respostas às perguntas que foram apresentadas anteriormente neste artigo, bem como os recursos e as opções de tecnologia que foram disponibilizadas para você. O design discutido neste documento usa tecnologia baseada em Microsoft. No entanto, as opções e considerações de design podem ser aplicadas a qualquer infraestrutura usada para adotar o modelo BYOD.
-
-
 
 
 

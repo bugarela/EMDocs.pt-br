@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
@@ -40,7 +39,7 @@ As listas abaixo relacionam as vantagens e desvantagens do gerenciamento de rede
 
 **Vantagens**
 
-- Dá suporte aos perfis de VPN e sem fio em todos os principais sistemas operacionais de dispositivos móveis (Android, iOS, Windows 10, Windows 8.x e Windows Phone) 
+- Dá suporte aos perfis de VPN e sem fio em todos os principais sistemas operacionais de dispositivos móveis (Android, iOS, Windows 10, Windows 8.x e Windows Phone)
 - Dá suporte a tipos de conexão VPN líderes do setor, incluindo Cisco, Juniper, Dell SonicWall, Checkpoint e outros
 - Perfis de VPN e sem fio podem ser integrados a perfis de certificado SCEP para aumentar a segurança
 - Dá suporte à configuração de perfis de VPN e sem fio personalizados para diferentes tipos de usuários, dispositivos, sistemas operacionais de dispositivos ou grupos e funções de usuários
@@ -65,7 +64,7 @@ Não há suporte para perfis de Wi-Fi e de VPN no MDM para Office 365.
 
 **Desvantagens**
 
-- Para dar suporte a perfis de VPN, você precisará implantar e manter uma infraestrutura de VPN local 
+- Para dar suporte a perfis de VPN, você precisará implantar e manter uma infraestrutura de VPN local
 - Permissões de segurança específicas devem ser concedidas para gerenciar [perfis de Wi-Fi](https://technet.microsoft.com/library/dn408646.aspx) e [perfis de VPN](https://technet.microsoft.com/library/dn408643.aspx) no ConfigMgr.
 
 Explore os detalhes sobre as opções de gerenciamento de configuração de email do dispositivo móvel examinando o seguinte:

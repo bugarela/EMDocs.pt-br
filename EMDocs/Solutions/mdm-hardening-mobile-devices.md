@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
@@ -26,7 +25,7 @@ ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Ao criar uma linha de base de configuração para dispositivos móveis para proteger seus recursos de acordo com suas necessidades de negócios, certifique-se de que você está conciliando a usabilidade e a segurança. Um modelo de proteção muito estrita pode causar problemas de usabilidade e acesso para seus funcionários, o que contraria o objetivo de ajudar os usuários a serem produtivos acessando os recursos da empresa com seus dispositivos. 
+Ao criar uma linha de base de configuração para dispositivos móveis para proteger seus recursos de acordo com suas necessidades de negócios, certifique-se de que você está conciliando a usabilidade e a segurança. Um modelo de proteção muito estrita pode causar problemas de usabilidade e acesso para seus funcionários, o que contraria o objetivo de ajudar os usuários a serem produtivos acessando os recursos da empresa com seus dispositivos.
 
 Além disso, tenha em mente que nem todas as políticas de segurança estão disponíveis para todas as plataformas de dispositivo móvel. Talvez seja necessário conciliar as prioridades para permitir as plataformas de dispositivos móveis em sua organização e os requisitos de conformidade de segurança para a proteção dos dispositivos.
 Uma maneira de abordar a proteção do dispositivo móvel é ter diferentes camadas de segurança. As configurações que estão disponíveis para cada camada também podem variar, dependendo da solução de MDM. A figura abaixo mostra um exemplo de como essa abordagem em camadas pode ser configurada.
@@ -91,8 +90,8 @@ A proteção da plataforma de dispositivo móvel desempenha um papel importante 
 
 - Se a sua empresa não tiver uma atual infraestrutura local do ConfigMgr, ela precisará de recursos para planejar, instalar e configurar o ConfigMgr antes da integração
 
->[!TIP] 
-> Leia mais sobre as configurações do gerenciamento de dispositivo móvel que podem ser definidas em uma política de segurança de dispositivo móvel do Microsoft Intune em [Configurações da política de gerenciamento de dispositivo móvel para o Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP]
+> Leia mais sobre as configurações do gerenciamento de dispositivo móvel que podem ser definidas em uma política de segurança de dispositivo móvel do Microsoft Intune em [Configurações da política de gerenciamento de dispositivo móvel para o Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).
 
 
 

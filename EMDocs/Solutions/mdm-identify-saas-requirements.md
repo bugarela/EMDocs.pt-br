@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
@@ -39,7 +38,7 @@ Antes de tomar decisões sobre como você usará uma solução de SaaS para gere
 ## <a name="cloud-types"></a>Tipos de nuvem
 
 Soluções de SaaS *multilocatárias* são normalmente chamadas de infraestruturas de nuvem “pública”. Isso ocorre quando a arquitetura de software do serviço está localizada em uma única instância, mas atende a vários locatários ou organizações. A solução foi projetada para fornecer a cada locatário um compartilhamento reservado de seus serviços, como o gerenciamento de usuário ou dispositivo, configuração e suporte de dados. As contas e os serviços de locatário são separados virtualmente, com cada locatário acessando a infraestrutura da plataforma em instâncias separadas. As soluções de SaaS multilocatárias normalmente também oferecem uma economia de custo obtida do compartilhamento da infraestrutura e da distribuição dos custos indiretos entre vários locatários. A maioria das plataformas de gerenciamento de dispositivos móveis é oferecida em uma infraestrutura de plataforma SaaS multilocatária.
-                
+
 Serviços *privados* ou de nuvem dedicados são instâncias de soluções de SaaS operadas para uma única organização ou locatário. Eles podem ser serviços de nuvem privada hospedados pela organização ou serviços de nuvem privada hospedados por um provedor terceiro. As soluções de nuvem privada geralmente oferecem mais oportunidades para personalização, tanto na área de segurança quanto na área de serviços. Algumas soluções de SaaS dedicadas oferecem serviços de gerenciamento de dispositivos móveis como parte de opções mais amplas de locatário de nuvem privada.
 
 As soluções *híbridas* de SaaS podem oferecer uma combinação de infraestruturas multilocatárias e de nuvem privada, ou uma combinação de infraestruturas hospedadas (multilocatárias ou privadas) e locais na nuvem. Uma infraestrutura híbrida também pode incluir o uso de uma solução de SaaS de nuvem externa para entregar determinados tipos de serviços (como aplicativos), mas aproveitando os recursos internos para outros tipos de serviços. A maioria das soluções de SaaS oferece a capacidade de dar suporte a uma configuração de nuvem híbrida, mas a profundidade e abrangência da integração às plataformas locais ou outras plataformas de nuvem hospedadas podem variar significativamente.
@@ -92,7 +91,7 @@ Como parte do planejamento do ciclo de vida de gerenciamento de SaaS, convém re
 Como a infraestrutura de SaaS é baseada em nuvem e hospedada em vários datacenters, a resiliência costuma estar sujeita a menos instabilidade ou interrupções do que os tradicionais serviços hospedados localmente. Os hosts de serviço de vários locais oferecem proteção contra interrupções baseadas em geografia e interrupções de serviço usando a infraestrutura de failover e processos para replicar os dados em vários nós do datacenter. Dependendo da solução de SaaS, o acesso ao serviço pode ou não permanecer na área geográfica original durante um failover.
 
 ### <a name="resiliency-questions"></a>Perguntas sobre resiliência
- 
+
 Como parte do planejamento do ciclo de vida de gerenciamento de SaaS, convém responder às seguintes perguntas de planejamento sobre resiliência de nuvem:
 
 - No caso de failover primário da solução de SaaS, como os serviços de gerenciamento de dispositivos móveis serão afetados?

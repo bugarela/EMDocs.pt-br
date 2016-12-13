@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
@@ -27,7 +26,7 @@ ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Enquanto os usuários remotos e locais podem ser mais produtivos acessando os recursos da empresa em seus dispositivos móveis, permitir que eles façam isso também aumenta as ameaças de segurança que você precisará reduzir para ajudar a proteger os dados de sua empresa e manter a privacidade do usuário. Sua empresa pode ter requisitos específicos sobre como conciliar essas necessidades. As regras de conformidade podem variar dependendo do setor no qual sua empresa opera, por exemplo, o que pode levar a diferentes decisões sobre design.
- 
+
 No entanto, há alguns aspectos gerais de segurança no gerenciamento de dispositivos móveis para explorar e estar em conformidade, independentemente do setor. Eles são mostrados na figura abaixo.
 
 ![Principais recursos de segurança para a plataforma do MDM](./media/MDM_Figure_08.png)
@@ -74,8 +73,6 @@ Há 12 etapas nesta seção do guia. O tempo total para leitura das seções é 
 - [Classificação de dados](mdm-data-classification.md)
 - [Autenticação e autorização](mdm-authentication-authorization.md)
 - [Controle de acesso aos recursos](mdm-access-control-resources.md)
-
-
 
 
 

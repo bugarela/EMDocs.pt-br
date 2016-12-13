@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
@@ -39,7 +38,7 @@ O registro do dispositivo móvel em soluções de gerenciamento de dispositivos 
 
 - Registro gerenciado pelo administrador
 - Autorregistro do usuário/proprietário
- 
+
 O registro gerenciado pelo administrador oferece uma experiência de registro gerenciada centralmente e normalmente é centralizado no registro em massa de vários dispositivos usando uma única conta de diretório. Isso será útil se você precisar registrar vários dispositivos de propriedade da empresa em sua solução de gerenciamento de dispositivos móveis.
 
 Com o autorregistro, o usuário/proprietário do dispositivo registra seu dispositivo na solução de gerenciamento de dispositivos móveis. Isso é normalmente usado em cenários BYOD (“traga seu próprio dispositivo”), embora ele também possa ser usado em cenários em que a empresa possui o dispositivo. Esse tipo de registro normalmente usa um modelo de registro “baseado em push”, em que os dispositivos são disparados automaticamente para se registrarem na solução de gerenciamento de dispositivos móveis quando o usuário tenta se conectar à rede corporativa ou ao recurso de rede no dispositivo. Os usuários às vezes também podem optar por registrar seus dispositivos antes de se conectarem à rede ou aos recursos de uma organização.

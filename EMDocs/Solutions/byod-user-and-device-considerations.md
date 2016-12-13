@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
@@ -55,7 +54,7 @@ Os perfis de usuário propostos neste guia são:
     - Acesso a computadores usando Área de Trabalho Remota
     - Acesso a outros computadores locais
 
-Você precisará determinar qual perfil de usuário é mais adequado para a sua solução de infraestrutura BYOD. Você pode considerar o estabelecimento de perfis de vários usuários de acordo com suas necessidades de trabalho. Idealmente, a tecnologia usada para implementar a solução de infraestrutura BYOD deve ser capaz de acomodar todos os perfis de usuário, pois os requisitos podem variar de acordo com cada pessoa. 
+Você precisará determinar qual perfil de usuário é mais adequado para a sua solução de infraestrutura BYOD. Você pode considerar o estabelecimento de perfis de vários usuários de acordo com suas necessidades de trabalho. Idealmente, a tecnologia usada para implementar a solução de infraestrutura BYOD deve ser capaz de acomodar todos os perfis de usuário, pois os requisitos podem variar de acordo com cada pessoa.
 
 ## <a name="devices"></a>Dispositivos
 
@@ -204,11 +203,10 @@ Use a lista abaixo para entender as vantagens e desvantagens das opções de seg
     - Desvantagens
         - Requer o IPsec para implementação usando [NAP (Proteção de Acesso à Rede) da Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), o que pode ser um problema em um cenário de BYOD que exija suporte para "qualquer dispositivo".
 
-> [!NOTE] 
+> [!NOTE]
 > Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, confira [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 O local da rede desempenha uma função importante para considerações de usuário e dispositivo. Você pode aproveitar o controle de acesso de vários fatores no AD FS para habilitar políticas de autorização por aplicativo, em que é possível permitir ou negar acesso com base em usuário, dispositivo e local de rede. Confira [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) (Gerenciar risco com controle de acesso de vários fatores) para obter mais informações sobre como configurar um ambiente para validar esse recurso.
-
 
 
 

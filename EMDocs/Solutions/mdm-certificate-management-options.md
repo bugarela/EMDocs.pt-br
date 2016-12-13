@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
@@ -44,7 +43,7 @@ A figura abaixo mostra como o Intune e o ConfigMgr usam o NDES para fornecer o p
 6. O NDES envia uma solicitação de emissão de certificado à AC e envia o certificado para a função NDES.
 7. A função do NDES envia o certificado para o dispositivo.
 
-Dependendo de como você respondeu às perguntas na Tarefa 3, você precisa conseguir determinar como deseja que os certificados sejam gerenciados na solução de gerenciamento de dispositivos móveis. Atualmente, o MDM for Office 365 não oferece suporte ao gerenciamento de perfis de certificado para dispositivos móveis. 
+Dependendo de como você respondeu às perguntas na Tarefa 3, você precisa conseguir determinar como deseja que os certificados sejam gerenciados na solução de gerenciamento de dispositivos móveis. Atualmente, o MDM for Office 365 não oferece suporte ao gerenciamento de perfis de certificado para dispositivos móveis.
 
 A lista abaixo ajudará você a entender as vantagens e desvantagens do gerenciamento de perfis de certificados para um cenário de implantação do Intune e do Intune com ConfigMgr híbrido:
 
@@ -77,7 +76,7 @@ A lista abaixo ajudará você a entender as vantagens e desvantagens do gerencia
 
 **Desvantagens**
 
-- Para usar perfis de certificado, deve existir alguma infraestrutura local. 
+- Para usar perfis de certificado, deve existir alguma infraestrutura local.
 - Você deve integrar a seguinte infraestrutura local com o Intune:
  - Um servidor que executa o Serviço de Registro de Dispositivo de Rede
  - Uma Autoridade de Certificação Corporativa

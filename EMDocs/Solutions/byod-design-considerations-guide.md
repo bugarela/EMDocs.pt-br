@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
@@ -38,26 +37,26 @@ Este guia fornece o arquiteto de sistema e o designer de sistema com uma coleç�
 ## <a name="intended-audience"></a>Público-alvo
 
 O principal público deste guia é o arquiteto ou o designer de sistema interessado em entender os problemas que precisam ser considerados antes de implementar uma infraestrutura BYOD. Outras pessoas que podem se interessar por este documento incluem implementadores de TI, especialistas em segurança da empresa e especialistas em gerenciamento de dispositivo.</para>
-    
+
 ## <a name="purpose"></a>Finalidade
-  
+
 A finalidade deste guia é:
 
 1. Fornecer ao arquiteto ou designer de sistema um conjunto de problemas e perguntas a serem respondidas. As respostas a essas perguntas podem servir como os requisitos para um design de infraestrutura BYOD.
-2. Fornecer ao arquiteto ou designer de sistema um conjunto de opções de design que podem ser avaliadas e escolhidas com base em requisitos identificados. 
+2. Fornecer ao arquiteto ou designer de sistema um conjunto de opções de design que podem ser avaliadas e escolhidas com base em requisitos identificados.
 
 Embora as perguntas possam ser usadas com qualquer fornecedor, exemplos das opções disponíveis se concentrarão em recursos do Windows Server 2012 R2, do System Center 2012 R2 e do Windows Intune.
 
 Além disso, este guia inclui:
 
-- Considerações de design de fornecedor independente para adaptar uma infraestrutura para habilitar o modelo BYOD. 
+- Considerações de design de fornecedor independente para adaptar uma infraestrutura para habilitar o modelo BYOD.
 - Considerações de design para usuários, dispositivos, plataformas de gerenciamento, aplicativos e acesso e proteção de dados.
 
 Antes de embarcar em um modelo BYOD em um ambiente de produção, os problemas de segurança, disponibilidade, desempenho e escalabilidade precisam ser considerados nas áreas de rede, armazenamento, cálculo e identidade. Há uma tendência a desejar adotar BYOD antes de haver uma análise concreta do ambiente atual e do que precisa ser feito para permitir que os usuários trabalhem de qualquer dispositivo, em qualquer lugar, com segurança.
 
 *Não* é a finalidade deste guia:
 
-- Fornecer uma linha de base do desempenho para os componentes de infraestrutura de um modelo BYOD. 
+- Fornecer uma linha de base do desempenho para os componentes de infraestrutura de um modelo BYOD.
 - Fornecer ajustes de desempenho e práticas recomendadas para os componentes da infraestrutura de BYOD.
 - Fornecer diretrizes de desenvolvimento de aplicativos para dispositivos móveis.
 - Fornecer práticas recomendadas de desenvolvimento de aplicativo para dispositivos móveis.
@@ -75,7 +74,6 @@ Os seguintes problemas ou desafios normalmente são aqueles encontrados por empr
 Organizações com uma grande infraestrutura precisam determinar requisitos antes de passarem de gerenciar os dispositivos elas mesmas — o que presume que a TI tem controle total dos dispositivos — para um modelo em que a TI deve supor que ela tem menos controle dos dispositivos e, ao mesmo tempo, precisa para atender às necessidades dos usuários para acessar dados corporativos. Isso geralmente é chamado de mudança de TI centrada em dispositivo para TI centrada em pessoas. As mesmas considerações e requisitos devem também ser cuidadosamente planejados para aplicativos novos e existentes ou para levar os aplicativos existentes para um ambiente em nuvem. A Figura 1 inclui um diagrama conceitual de domínio do problema do BYOD e as áreas que serão abordadas neste guia.
 
 ![Domínio do problema](./media/BYOD_Figure1.png)
-
 
 
 

@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
@@ -52,7 +51,7 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você precisa deter
 **Desvantagens**
 
 - Interface de gerenciamento adicional para o provisionamento de dispositivos móveis (somente) se for usada uma plataforma de gerenciamento local para dispositivos não móveis
-- Políticas separadas de segurança e de conformidade do dispositivo para o serviço baseado em nuvem e a plataforma de gerenciamento local 
+- Políticas separadas de segurança e de conformidade do dispositivo para o serviço baseado em nuvem e a plataforma de gerenciamento local
 
 ## <a name="mdm-for-office-365"></a>MDM para o Office 365
 

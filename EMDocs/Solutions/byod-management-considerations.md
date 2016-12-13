@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
@@ -110,7 +109,7 @@ Para saber mais sobre os recursos de relatórios do Configuration Manager, confi
 
 Depois de novos aplicativos serem desenvolvidos e acessados remotamente por usuários usando seus próprios dispositivos, o desempenho de aplicativos poderá ser prejudicado se a solução não tiver sido bem planejada. Embora este guia de considerações de design não pretenda oferecer uma análise mais profunda sobre considerações de desempenho, é preciso responder perguntas sobre a infraestrutura de gerenciamento:
 
-- A solução de gerenciamento atual que a empresa usa é capaz de gerenciar o armazenamento e recursos para a plataforma que ofereçam suporte aos aplicativos acessados de dispositivos dos usuários de computadores? 
+- A solução de gerenciamento atual que a empresa usa é capaz de gerenciar o armazenamento e recursos para a plataforma que ofereçam suporte aos aplicativos acessados de dispositivos dos usuários de computadores?
 - A solução de gerenciamento atual que sua empresa usa pode aumentar os recursos de computação e armazenamento para a plataforma que oferece suporte ao acesso de aplicativos de dispositivos dos usuários de acordo com um conjunto de regras pré-estabelecido?
 Se a solução de gerenciamento estabelecida não for capaz de resolver esses dois requisitos, considere usar uma solução de gerenciamento que possa gerenciar computação e armazenamento abordando os dois requisitos principais mostrados na tabela a seguir.
 
@@ -137,7 +136,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada recurso de 
 
 O System Center 2012 R2 tem a capacidade de usar o pool de recursos e a elasticidade para gerenciar o armazenamento e computação. O System Center 2012 R2 também integra o armazenamento com a otimização de diferenciação discos para reduzir os requisitos de armazenamento, permitindo que uma grande porcentagem de dados de disco seja compartilhada entre vários discos virtuais, otimizando os custos de armazenamento. Servidores virtualizados usando o System Center 2012 R2 e que serão consumidos por aplicativos usados por usuários remotos podem aproveitar essa tecnologia.
 
-Para saber mais sobre recursos de armazenamento do System Center 2012 R2, confira [O que há de novo no VMM no System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx). 
+Para saber mais sobre recursos de armazenamento do System Center 2012 R2, confira [O que há de novo no VMM no System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx).
 
 ## <a name="automation"></a>Automação
 
@@ -182,10 +181,10 @@ Um desafio nesta área é poder gerenciar plataformas diferentes e preservar a u
 
 Para gerenciamento centralizado local, você pode usar o Gerenciador de Configurações. Usando essa opção, a TI pode aproveitar o recurso Registro Enterprise para registrar os dispositivos com o servidor do Gerenciador de Configurações da empresa. Para obter mais informações sobre como gerenciar dispositivos usando o Configuration Manager, confira [Gerenciar Dispositivos Móveis com o Configuration Manager e o Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
-Para gerenciar outras plataformas que não sejam dispositivos baseados em Windows, você pode aproveitar o serviço de nuvem Microsoft Intune. O Portal da empresa Microsoft Intune pode ser usado para registrar, gerenciar e instalar aplicativos licenciados. Os usuários podem ter acesso fácil a aplicativos e instalá-los em seus dispositivos. 
+Para gerenciar outras plataformas que não sejam dispositivos baseados em Windows, você pode aproveitar o serviço de nuvem Microsoft Intune. O Portal da empresa Microsoft Intune pode ser usado para registrar, gerenciar e instalar aplicativos licenciados. Os usuários podem ter acesso fácil a aplicativos e instalá-los em seus dispositivos.
 
->[!TIP] 
->Para saber mais sobre o Microsoft Intune, consulte a [página do Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune). 
+>[!TIP]
+>Para saber mais sobre o Microsoft Intune, consulte a [página do Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune).
 
 Embora essas sejam duas opções, você pode integrar ambas para oferecer implantação e provisionamento de aplicativo de um único local. Use a tabela a seguir para identificar qual opção se ajusta ao seu projeto de BYOD.
 
@@ -195,7 +194,6 @@ Embora essas sejam duas opções, você pode integrar ambas para oferecer implan
 | Implantar e provisionar aplicativos para dispositivos localizados fora da empresa.   | Microsoft Intune                                       |
 | Implantar e provisionar aplicativos para dispositivos não Windows.                   | Microsoft Intune                                       |
 | Implante e provisione aplicativos em dispositivos localizados apenas no local, implante e provisione aplicativos em dispositivos localizados fora da empresa ou implante e provisione aplicativos em dispositivos não baseados em Windows.       | Microsoft Intune integrado ao Configuration Manager
-                                                                    
 
 
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
@@ -26,9 +25,9 @@ ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Antes que você possa proteger adequadamente os dados de sua empresa, é necessário identificar quem são seus usuários e, em seguida, você poderá verificar que eles estão autorizados a acessar o recurso solicitado. As organizações que já têm serviços locais do Active Directory devem aproveitá-los para autenticar e autorizar usuários móveis. Todas as soluções de gerenciamento de dispositivos móveis da Microsoft podem usar uma infraestrutura atual do Active Directory para fazer isso. 
+Antes que você possa proteger adequadamente os dados de sua empresa, é necessário identificar quem são seus usuários e, em seguida, você poderá verificar que eles estão autorizados a acessar o recurso solicitado. As organizações que já têm serviços locais do Active Directory devem aproveitá-los para autenticar e autorizar usuários móveis. Todas as soluções de gerenciamento de dispositivos móveis da Microsoft podem usar uma infraestrutura atual do Active Directory para fazer isso.
 
-Outro ponto de decisão para a autenticação e autorização é o local onde estarão os serviços de diretório. Embora a maioria das organizações tenha serviços locais do Active Directory, algumas organizações podem querer estender seus serviços locais de diretório com um serviço de diretório baseado em nuvem, como o [Azure AD](http://azure.microsoft.com/documentation/articles/active-directory-whatis/) 
+Outro ponto de decisão para a autenticação e autorização é o local onde estarão os serviços de diretório. Embora a maioria das organizações tenha serviços locais do Active Directory, algumas organizações podem querer estender seus serviços locais de diretório com um serviço de diretório baseado em nuvem, como o [Azure AD](http://azure.microsoft.com/documentation/articles/active-directory-whatis/)
 
 O ConfigMgr permite a integração com o [Microsoft Passport for Work](https://technet.microsoft.com/library/mt488797.aspx), que é um método de entrada alternativo que usa o Active Directory ou uma conta do Azure Active Directory para substituir uma senha, um cartão inteligente ou um cartão inteligente virtual em dispositivos que executam o Windows 10. Para um cenário híbrido, a integração dos dois diretórios é uma boa alternativa para aproveitar os recursos do Azure AD, como os seguintes:
 
@@ -37,9 +36,9 @@ O ConfigMgr permite a integração com o [Microsoft Passport for Work](https://t
 - **Redefinição de senha com write-back**: a redefinição de senha de autoatendimento pode fazer write-back para diretórios locais.
 
 Leia mais sobre as diferentes opções e recursos no [Azure Active Directory](https://msdn.microsoft.com/library/azure/dn532272.aspx).
-Exigir dois tipos de autenticação (autenticação multifator ou MFA) é outra estratégia a ser incluído ao planejar uma solução de gerenciamento de dispositivo móvel. O Intune pode [integrar serviços de diretório à MFA (autenticação multifator)](https://technet.microsoft.com/library/dn889751.aspx), o que adiciona outra camada de segurança ao processo de autenticação. 
+Exigir dois tipos de autenticação (autenticação multifator ou MFA) é outra estratégia a ser incluído ao planejar uma solução de gerenciamento de dispositivo móvel. O Intune pode [integrar serviços de diretório à MFA (autenticação multifator)](https://technet.microsoft.com/library/dn889751.aspx), o que adiciona outra camada de segurança ao processo de autenticação.
 
-Se sua organização tiver uma infraestrutura de TI local que inclui um domínio do Active Directory com ADFS (Serviços de Federação do Active Directory), você poderá configurar a MFA em seu servidor de federação e habilitar a MFA para registro no Intune. Se você configurar a MFA no servidor de federação, mas não habilitar a MFA para registro no Intune, os usuários precisarão usar a MFA sempre que acessarem os recursos corporativos de algum dispositivo. 
+Se sua organização tiver uma infraestrutura de TI local que inclui um domínio do Active Directory com ADFS (Serviços de Federação do Active Directory), você poderá configurar a MFA em seu servidor de federação e habilitar a MFA para registro no Intune. Se você configurar a MFA no servidor de federação, mas não habilitar a MFA para registro no Intune, os usuários precisarão usar a MFA sempre que acessarem os recursos corporativos de algum dispositivo.
 
 Você também pode usar a MFA do Azure AD para exigir a MFA sempre que os usuários acessarem os recursos corporativos, habilitados de acordo com o usuário. A MFA do Azure AD é um serviço de nuvem que não exige qualquer infraestrutura de TI local.
 
@@ -94,7 +93,6 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 **Desvantagens**
 
 - Não disponível para clientes que não estão adotando uma solução baseada em nuvem
-
 
 
 

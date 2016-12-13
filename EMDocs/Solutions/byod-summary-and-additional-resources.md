@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 423c1de5-db20-4327-8c3b-a39b830cb58b
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: ae5b9b0953988820d7c9517292c9a4a56382c6e7
@@ -24,7 +23,7 @@ ms.openlocfilehash: ae5b9b0953988820d7c9517292c9a4a56382c6e7
 # <a name="byod-summary-and-additional-resources"></a>Resumo e recursos adicionais do BYOD
 
 Depois de identificar os requisitos e restrições no seu ambiente e avaliar cada uma das considerações de design detalhadas neste documento, você pode criar o design de infraestrutura BYOD que melhor atenda às suas necessidades específicas. Em seguida, pode implantar o design de infraestrutura BYOD em um ambiente de teste, testá-lo e implantá-lo em produção.
- 
+
 É recomendável examinar e familiarizar-se com os seguintes recursos para o domínio do problema do BYOD.
 
 ## <a name="additional-resources"></a>Recursos adicionais
@@ -35,8 +34,6 @@ Para soluções relacionadas ao cenário BYOD, consulte:
 - [Noções básicas sobre BYOD: como torná-lo realidade](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-2-Understanding-BYOD-How-to-Make-it-Happen)
 - [Considerações sobre BYOD e design](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-3-BYOD-and-Design-Considerations)
 - [Guia de considerações de design do gerenciamento de dispositivo móvel](http://aka.ms/mdmdcg)
-
-
 
 
 
