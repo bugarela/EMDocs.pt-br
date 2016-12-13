@@ -1,26 +1,26 @@
 ---
 title: "Opções de gerenciamento de conectividade de rede"
-description: 
+description: "Este artigo fornece diretrizes sobre as opções de gerenciamento de conectividade de rede ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 32b586bde6be834a5b0d16cb9b46e7da23beb216
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
 
 
 ---
 
-# Opções de gerenciamento de conectividade de rede
+# <a name="network-connectivity-management-options"></a>Opções de gerenciamento de conectividade de rede
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,11 +35,11 @@ Suas respostas às perguntas na Tarefa 3 podem ajudá-lo a determinar como você
 
 As listas abaixo relacionam as vantagens e desvantagens do gerenciamento de redes sem fio e de VPN usando o Intune autônomo e o Intune com o ConfigMgr híbridos.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
-- Dá suporte aos perfis de VPN e sem fio em todos os principais sistemas operacionais de dispositivos móveis (Android, iOS, Windows 10, Windows 8.x e Windows Phone) 
+- Dá suporte aos perfis de VPN e sem fio em todos os principais sistemas operacionais de dispositivos móveis (Android, iOS, Windows 10, Windows 8.x e Windows Phone)
 - Dá suporte a tipos de conexão VPN líderes do setor, incluindo Cisco, Juniper, Dell SonicWall, Checkpoint e outros
 - Perfis de VPN e sem fio podem ser integrados a perfis de certificado SCEP para aumentar a segurança
 - Dá suporte à configuração de perfis de VPN e sem fio personalizados para diferentes tipos de usuários, dispositivos, sistemas operacionais de dispositivos ou grupos e funções de usuários
@@ -51,11 +51,11 @@ As listas abaixo relacionam as vantagens e desvantagens do gerenciamento de rede
 
 - Para dar suporte a perfis de VPN, você precisará implantar e manter uma infraestrutura de VPN local
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 Não há suporte para perfis de Wi-Fi e de VPN no MDM para Office 365.
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -64,7 +64,7 @@ Não há suporte para perfis de Wi-Fi e de VPN no MDM para Office 365.
 
 **Desvantagens**
 
-- Para dar suporte a perfis de VPN, você precisará implantar e manter uma infraestrutura de VPN local 
+- Para dar suporte a perfis de VPN, você precisará implantar e manter uma infraestrutura de VPN local
 - Permissões de segurança específicas devem ser concedidas para gerenciar [perfis de Wi-Fi](https://technet.microsoft.com/library/dn408646.aspx) e [perfis de VPN](https://technet.microsoft.com/library/dn408643.aspx) no ConfigMgr.
 
 Explore os detalhes sobre as opções de gerenciamento de configuração de email do dispositivo móvel examinando o seguinte:
@@ -74,6 +74,6 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

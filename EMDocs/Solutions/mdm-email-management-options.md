@@ -1,26 +1,26 @@
 ---
 title: "Opções de gerenciamento de email"
-description: 
+description: "Este artigo fornece diretrizes sobre as opções de gerenciamento de email existentes ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: ac2c64b54883204f0051250c23f7a6b085e67ebe
 
 
 ---
 
-# Opções de gerenciamento de email
+# <a name="email-management-options"></a>Opções de gerenciamento de email
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +29,7 @@ O principal motivo para implementar uma solução de gerenciamento de dispositiv
 
 Você segue um processo semelhante para configurar as opções de gerenciamento de email no Intune, bem como em implantações híbridas do Intune e do ConfigMgr. A principal diferença é que você pode implementar opções mais avançadas de gerenciamento de email do que no MDM para o Office 365. Por exemplo, com o Intune autônomo, é possível configurar o acesso a email condicional para permitir o acesso a caixas de correio hospedadas no Exchange Online e no Exchange no Local, bem como configurar perfis de email personalizados. O Intune habilita esses recursos usando políticas de configuração e conformidade.  As implantações híbridas do Intune e do ConfigMgr também dão suporte ao acesso a email condicional, mas somente para caixas de correio hospedadas no Exchange Online.
 
-No cenário mostrado abaixo na Figura 6, o usuário registrou seu dispositivo no Intune e agora está tentando acessar seu email corporativo usando o Office 365 ou o Exchange local. Com base nas configurações definidas pelo administrador de TI em sua empresa, o Intune executa um processo de verificação de política. Neste cenário, o acesso do usuário será concedido se o dispositivo for criptografado, uma senha for definida e o dispositivo não tiver sido desbloqueado nem modificado. Se um usuário tentar acessar o email corporativo e o dispositivo não estiver registrado ou não for compatível com base nas configurações definidas pelo administrador de TI, o usuário receberá um email explicando o motivo pelo qual o acesso foi bloqueado, junto com as etapas para resolver o problema. 
+No cenário mostrado abaixo na Figura 6, o usuário registrou seu dispositivo no Intune e agora está tentando acessar seu email corporativo usando o Office 365 ou o Exchange local. Com base nas configurações definidas pelo administrador de TI em sua empresa, o Intune executa um processo de verificação de política. Neste cenário, o acesso do usuário será concedido se o dispositivo for criptografado, uma senha for definida e o dispositivo não tiver sido desbloqueado nem modificado. Se um usuário tentar acessar o email corporativo e o dispositivo não estiver registrado ou não for compatível com base nas configurações definidas pelo administrador de TI, o usuário receberá um email explicando o motivo pelo qual o acesso foi bloqueado, junto com as etapas para resolver o problema.
 
 ![Acesso condicional](./media/MDM_Figure_06.png)
 
@@ -37,7 +37,7 @@ No cenário mostrado abaixo na Figura 6, o usuário registrou seu dispositivo no
 
 Suas respostas às perguntas na Etapa 1 podem ajudar a determinar como você deseja que os dispositivos sejam gerenciados na solução de gerenciamento de dispositivos móveis. A lista abaixo relaciona as vantagens e desvantagens do gerenciamento de email para cada solução de MDM.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -51,7 +51,7 @@ Suas respostas às perguntas na Etapa 1 podem ajudar a determinar como você des
 
 - Não há suporte para perfis de email para dispositivos móveis baseados no Android
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -61,10 +61,10 @@ Suas respostas às perguntas na Etapa 1 podem ajudar a determinar como você des
 
 **Desvantagens**
 
-- Não há suporte para algumas opções avançadas de gerenciamento de email 
+- Não há suporte para algumas opções avançadas de gerenciamento de email
 - Não há suporte para a implantação de perfis de email (exceto iOS)
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -88,6 +88,6 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

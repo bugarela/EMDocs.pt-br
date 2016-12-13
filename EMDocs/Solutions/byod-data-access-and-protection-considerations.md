@@ -1,31 +1,31 @@
 ---
 title: "Considerações de acesso e proteção de dados"
-description: "Considerações sobre design para proteção e acesso a dados em um cenário de BYOD."
+description: "Este artigo fornece um conjunto de considerações de design para acesso e proteção a dados em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: e7411890405267eaea2e32d686052472b88edad2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
 
 
 ---
 
-# Considerações de acesso e proteção de dados
+# <a name="data-access-and-protection-considerations"></a>Considerações de acesso e proteção de dados
 
 Perda de dados confidenciais é um risco de operação para qualquer empresa e, com o surgimento de BYOD, as informações residem em mais locais do que nunca. Isso resulta em um cenário de mias ameaças e mais riscos que devem ser reduzidos corretamente. Devido a uma variedade de regulamentos legislativos, corporativos e do setor que controlam a proteção de dados confidenciais, a proteção de dados pode ser um processo complexo. É importante levar esses requisitos legais, políticas corporativas internas e regulamentos do setor em conta.
 Como parte da estratégia de infraestrutura de BYOD, é essencial que, depois que as políticas e classificações de dados tiverem sido definidas, os dados sejam fisicamente localizados, colocados em níveis de classificação adequados e tenham as configurações de segurança apropriadas. A TI precisa de uma maneira de validar as identidades dos usuários e pode desejar aplicar condições adicionais sobre os tipos de dispositivos que podem acessar as informações e os aplicativos fornecidos pela empresa.
 
-## Armazenamento
+## <a name="storage"></a>Armazenamento
 
 Como os dados serão armazenados em dispositivos dos usuários pode afetar diretamente como você escolhe abordar o acesso e a proteção de dados para BYOD. A criptografia de dados deve ser considerada e os dispositivos devem permitir à TI controlar quando a criptografia de dados é ativada e para quais tipos de dados. As empresas devem examinar suas políticas e regulamentos para entender quais tipos de dados podem sair do datacenter e ficar em repouso no armazenamento de dispositivos remotos. Criptografia de dados em repouso no armazenamento do datacenter é fundamental. Se a sua empresa ainda não estiver executando essa tarefa, ela deve ser considerada como parte da estratégia de uma infraestrutura de BYOD. Idealmente, os dados devem ser criptografados em todo o caminho.
 
@@ -33,11 +33,11 @@ Com o Windows Server 2012 R2, é possível criptografar os dados em repouso nos 
 
 Se você pensar no armazenamento como um recipiente de conteúdo, é possível obter um ótimo valor ao proteger o consumo desse conteúdo. Vazamento de dados pode ser evitado através da aplicação de diretivas que afetam como o conteúdo que reside no armazenamento que será usado pelo usuário final. O [AD RMS (Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx) pode ser usado para ampliar a estratégia de segurança para sua organização protegendo documentos que usem IRM (Gerenciamento de Direitos de Informação). O AD RMS permite que indivíduos e administradores especifiquem, por meio de políticas de IRM, permissões de acesso a documentos, pastas de trabalho e apresentações. Isso ajuda a evitar que informações confidenciais sejam impressas, encaminhadas ou copiadas por pessoas não autorizadas. Depois que a permissão para um arquivo for restrita usando o IRM, as restrições de acesso e uso são aplicadas, independentemente de onde as informações estão, porque a permissão para um arquivo é armazenada no arquivo em si.
 
-Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arquivo, também será possível usar a [Proteção de Informações do Azure](/information-protection/understand-explore/what-is-information-protection). A Proteção de Informações do Azure pode proteger as informações confidenciais da empresa usando criptografia, identidade e políticas de autorização, a fim de ajudar a proteger arquivos e emails, e funciona em vários dispositivos, como PCs, tablets e telefones. As informações podem ser protegidas tanto em sua organização quanto fora dela, pois essa proteção permanece com os dados, mesmo quando eles saem dos limites da organização. 
+Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arquivo, também será possível usar a [Proteção de Informações do Azure](/information-protection/understand-explore/what-is-information-protection). A Proteção de Informações do Azure pode proteger as informações confidenciais da empresa usando criptografia, identidade e políticas de autorização, a fim de ajudar a proteger arquivos e emails, e funciona em vários dispositivos, como PCs, tablets e telefones. As informações podem ser protegidas tanto em sua organização quanto fora dela, pois essa proteção permanece com os dados, mesmo quando eles saem dos limites da organização.
 
 Outras tecnologias de armazenamento disponíveis no sistema operacional Windows também podem ser usadas para melhorar a proteção geral dos dados, como o BitLocker para criptografia de unidade e o [EFS (Encrypting File System)](https://technet.microsoft.com/library/cc700811.aspx) para criptografia de arquivo. Use a tabela a seguir para ver as vantagens e desvantagens da proteção de armazenamento. Tenha em mente que essas opções não se excluem mutuamente. Em outras palavras, a decisão de design pode concluir que você precisa de todas essas opções em sua solução de infraestrutura BYOD para proteção de armazenamento.
 
-### Opções de proteção de armazenamento — vantagens e desvantagens
+### <a name="storage-protection-options-advantages-and-disadvantages"></a>Opções de proteção de armazenamento — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de proteção de armazenamento:
 
@@ -85,7 +85,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Não restringe a cópia do conteúdo usando programas de captura de tela de terceiros
         - Não impede que o conteúdo seja perdido ou corrompido devido às ações de vírus do computador
 
-## Rede
+## <a name="network"></a>Rede
 
 É essencial considerar os fatores envolvidos em permitir que os usuários usem seus dispositivos e que os dados sejam protegidos em todo o caminho entre o datacenter (local) ou nuvem e os dispositivos dos usuários. Esses fatores são destacados na figura abaixo:
 
@@ -93,8 +93,8 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
 
 O diagrama destaca as áreas cruciais nas quais a proteção de dados deve ser considerada para uma infraestrutura de BYOD. Essas áreas são descritas com mais detalhes na seção a seguir.
 
-### Proteção de dados — locais e considerações
-    
+### <a name="data-protection-locations-and-considerations"></a>Proteção de dados — locais e considerações
+
 Use a lista abaixo para entender as considerações sobre proteção de dados de acordo com o local dos dados. Os números na lista a seguir correspondem ao diagrama anterior:
 
 - (1) Dados em repouso no data center
@@ -121,7 +121,7 @@ O Windows Server 2012 R2 permite o uso de [HTTPS](https://msdn.microsoft.com/lib
 
 Use a próxima seção para avaliar a opção de proteção de rede que melhor atende às suas necessidades de design para comunicação de servidor back-end.
 
-### Opções de proteção de rede — vantagens e desvantagens
+### <a name="network-protection-options-advantages-and-disadvantages"></a>Opções de proteção de rede — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de proteção de rede:
 
@@ -150,13 +150,13 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
     - Desvantagem
         - Funciona apenas para o Windows 8 e posteriores para computadores cliente e Windows Server 2012 e posteriores para computadores de servidor
 
-## Diretório
+## <a name="directory"></a>Diretório
 
 Atributos de usuário devem ser armazenados no diretório, permitindo à TI facilmente consultar informações do usuário, como funções e grupos. Você também deve considerar como a relação entre usuários e dispositivos será controlada. Cada dispositivo desconhecido que se torne conhecido ou gerenciável pela TI também deve ter um registro no banco de dados de gerenciamento ou no diretório que permita à TI auditar o dispositivo.
 
 Em ambientes híbridos em que haverá diferentes repositórios de autenticação, as empresas devem considerar como habilitar usuários a autenticar usando a mesma credencial, independentemente de onde eles e os aplicativos estejam localizados. Considere usar os Serviços de Federação do Active Directory (AD FS) se desejar centralizar a autenticação local, em vez de replicar a pasta com o provedor de serviço de nuvem Use a próxima seção para avaliar as opções de diretório para uma infraestrutura BYOD.
 
-### Opções de diretório — vantagens e desvantagens
+### <a name="directory-options-advantages-and-disadvantages"></a>Opções de diretório — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de proteção de diretório:
 
@@ -204,7 +204,7 @@ Ambientes híbridos que exigem que os usuários tenham conectividade com serviç
 
 Ao usar o Serviço de Registro de Dispositivo no Windows 8.1, um certificado é instalado em um dispositivo do usuário e um registro de dispositivo é criado no AD DS com o número de impressão digital do certificado. Esse link entre o dispositivo e o usuário permite que a TI controle os dispositivos que estão sendo registrados por cada usuário. Esse recurso não exige uma PKI corporativa. O registro de dispositivos também está disponível no Azure AD para Windows 10. Leia [Introdução ao registro de dispositivo do Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/) para obter mais informações sobre o Registro do dispositivo usando o Azure AD e Windows 10.
 
-## Autenticação e autorização
+## <a name="authentication-and-authorization"></a>Autenticação e autorização
 
 A decisão de permitir que os usuários acessem aplicativos e dados em seus dispositivos deve garantir que os usuários sejam identificados em um processo de autenticação confiável e também que os usuários estejam autorizados a usar os recursos solicitados. As empresas devem analisar suas políticas de autenticação e autorização atuais e considerar as perguntas a seguir:
 
@@ -218,16 +218,16 @@ Para impor a Multi-Factor Authentication, as empresas podem usar os recursos int
 
 Para implantar a autorização por aplicativo aos usuários que acessem aplicativos de uma rede interna ou externa, a TI pode aproveitar o Proxy de aplicativo Web. Usando o Proxy de aplicativo Web, a TI pode criar regras específicas para impor a autenticação e autorização em conjunto com o AD FS. A publicação de Proxy de aplicativo Web funciona para qualquer dispositivo do usuário. É possível usar laptops, tablets ou smartphones pessoais. Além disso, os usuários não precisarão instalar software adicional em seus dispositivos para acessarem aplicativos publicados. O Proxy de aplicativo Web funciona como um proxy reverso para todos os aplicativos publicados por meio dele, e como tal, a experiência do usuário é a mesmo de dispositivos dos usuários conectados diretamente aos aplicativos. Para saber mais sobre Proxy de Aplicativo Web, confira [Visão geral de Proxy de Aplicativo Web](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] 
+>[!NOTE]
 > Se você tiver um cenário híbrido e precisar ter uma experiência tranquila de autenticação e autorização do usuário, leia o [Guia de considerações de design de identidade híbrida](http://aka.ms/azhidcg).
 
-## Política e conformidade
+## <a name="policy-and-compliance"></a>Política e conformidade
 
 Considerações de conformidade e de política devem ser uma prioridade de qualquer estratégia que adote BYOD. Algumas empresas podem ter requisitos de disco rígido que não se ajustem a esse modelo devido a normas de negócios. Uma empresa que esteja migrando para uma estratégia centrada em pessoas deve entender diretivas atuais e como essas diretivas serão afetadas pela adoção de BYOD. Considere os requisitos de classificação de dados e como a TI pode ter controle da classificação de dados, mesmo quando os dados estão em repouso no armazenamento de dispositivo. Ao pensar na classificação de dados, é importante poder classificar os dados enquanto algumas operações (como editar um arquivo) estão ocorrendo.
 
 As políticas devem ser impostas em um local centralizado para habilitar a TI a responder rapidamente no caso de alterações ad hoc que afetem todos os usuários. Além disso, considere recursos de auditoria robustos para dispositivos móveis. Se ocorrer uma falha, é essencial que a TI possa controlar qual política foi infringida, quem a infringiu e quando isso ocorreu.
-    
-### Política e conformidade — recursos e considerações
+
+### <a name="policy-and-compliancecapabilities-and-considerations"></a>Política e conformidade — recursos e considerações
 
 Use a lista a seguir para entender as considerações de política e recursos de conformidade:
 
@@ -251,6 +251,6 @@ O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita �
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

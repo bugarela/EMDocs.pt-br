@@ -1,26 +1,26 @@
 ---
 title: "Opções de gerenciamento de aplicativos"
-description: 
+description: "Este artigo explica os recursos do MAM (Gerenciamento de Aplicativo Móvel) no Intune autônomo ou híbrido, para que os clientes possam proteger dados corporativos em dispositivos pessoais (BYOD) e da empresa."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1f77eba2-8e27-4e08-b2f2-e71e3d776cf4
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 2236a337c57c7fede4aed6830ab99d4ee7df3c9b
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 58270148fda3f3b3bb407055abff962ae86f1a14
 
 
 ---
 
-# Opções de gerenciamento de aplicativos
+# <a name="application-management-options"></a>Opções de gerenciamento de aplicativos
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +31,7 @@ Conforme mostra a figura abaixo, se você já tiver uma solução de MDM ativa, 
 
 ![Visão geral da separação do gerenciamento de aplicativos para dispositivos móveis usando políticas de MAM do Intune](./media/Intune_without_enrollment.png)
 
-**Visão geral da separação do gerenciamento de aplicativos para dispositivos móveis usando políticas de MAM do Intune**
+**Visão geral da separação de gerenciamento de aplicativos para dispositivos móveis usando políticas de MAM do Intune**
 
 Os recursos de MAM do Intune não são uma substituição para soluções completas de MDM. O protocolo MDM é necessário para cenários de gerenciamento abrangente de dispositivos, como VPN, Wi-Fi, gerenciamento de certificados, implantação de aplicativos e definição de configurações de segurança no nível do dispositivo.
 
@@ -39,9 +39,7 @@ Para implantações híbridas com o ConfigMgr e o Intune, é possível usar pol�
 
 Dependendo de como você respondeu às perguntas na Etapa 1, você deverá ser capaz de determinar como você quer gerenciar os dispositivos na solução de gerenciamento de dispositivos móveis. A lista abaixo mostra as vantagens e desvantagens de cada opção de gerenciamento de aplicativo.
 
-## Intune (autônomo)
-
-**Vantagens**
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 - Oferece suporte ao gerenciamento de aplicativos em dispositivos registrados no Intune, em dispositivos registrados em outras soluções de gerenciamento ou em dispositivos não registrados em qualquer solução de gerenciamento
 - Isola os dados da empresa dos dados pessoais do consumidor dentro de aplicativos habilitados para o Intune. Isso inclui aplicativos do Office Mobile, aplicativos de terceiros que adotaram o SDK do Intune ou aplicativos de linha de negócios abrangidos pelo Intune
@@ -49,17 +47,13 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você deverá ser c
 - Políticas de prevenção de perda de dados importantes, como PIN por aplicativo, controles de salvar como e compartilhamento de dados gerenciados entre aplicativos.
 - Suporte para esses recursos no Microsoft Word, Excel, PowerPoint, Outlook, OneNote e OneDrive for Business
 - Gerencie aplicativos iOS comprados por meio do Programa de Compra por Volume para Empresas da Apple
-- Com suporte em dispositivos Android e iOS
+- Com suporte em dispositivos Android, iOS e Windows 10 por meio de seu recurso interno [Proteção de Informações do Windows](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
-**Desvantagens**
-
-- Não tem suporte em dispositivos com Windows Phone.
-
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 - Atualmente não há suporte
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -74,6 +68,6 @@ Explore os detalhes sobre as opções de gerenciamento de aplicativos móveis re
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

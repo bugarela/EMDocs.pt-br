@@ -1,34 +1,34 @@
 ---
 title: Determinar os requisitos de rede
-description: 
+description: "Este artigo ajuda os clientes a determinar os requisitos de rede ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 1373a466207feae97da2298f995c06015da743eb
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
 
 
 ---
 
-# Determinar os requisitos de rede
+# <a name="determine-network-requirements"></a>Determinar os requisitos de rede
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Habilitar o acesso seguro e gerenciado para uma ampla variedade de recursos corporativos por dispositivos móveis é um recurso importante de uma solução de gerenciamento de dispositivos móveis. Embora esses recursos normalmente sejam localizados em redes locais, é mais comum agora que os recursos sejam hospedados além de serviços Web baseados em nuvem e redes externas.</para><para>Como os dispositivos móveis se conectam a plataformas de email corporativo, redes virtuais privadas (VPNs) e redes sem fio (WiFi) corporativas, todos desempenham uma função importante em manter dados corporativos e outros recursos protegidos de acesso não autorizado. Igualmente importante é tornar fácil e conveniente para os usuários de dispositivos móveis terem acesso seguro a estes recursos para evitar que eles encontrem um método mais conveniente, mas não seguro de armazenar e acessar os recursos.</para></content>
+Habilitar o acesso seguro e gerenciado para uma ampla variedade de recursos corporativos por dispositivos móveis é um recurso importante de uma solução de gerenciamento de dispositivos móveis. Embora esses recursos normalmente sejam localizados em redes locais, é mais comum agora que sejam hospedados em serviços Web baseados em nuvem e redes externas.</para><para>Como os dispositivos móveis se conectam a plataformas de email corporativas, VPNs (Redes Virtuais Privadas) e redes sem fio (WiFi) corporativas, todos desempenham uma função importante em manter dados corporativos e outros recursos protegidos de acesso não autorizado. Igualmente importante é tornar fácil e conveniente para os usuários de dispositivos móveis o acesso seguro a esses recursos para evitar que encontrem um método mais conveniente, mas não seguro, de armazenar ou acessar recursos.</para></content>
 
 
-## Gerenciamento de email
+## <a name="email-management"></a>Gerenciamento de email
 O email corporativo normalmente é o principal recurso de dados que a maioria dos usuários precisa acessar em uma rede corporativa, seja de um dispositivo móvel pessoal ou de propriedade da empresa. O acesso a email normalmente também é a conexão que dispara o registro do dispositivo móvel inicial. Ser capaz de gerenciar o acesso a email para dispositivos móveis em sua solução existente de gerenciamento de dispositivos não móveis e na solução de gerenciamento de dispositivos móveis ajuda a evitar falhas de cobertura do dispositivo e aumenta a proteção para os dados armazenados nos servidores de email.
 
 A maioria das soluções de gerenciamento de dispositivo móveis fornece a proteção de acesso a email usando um ou os dois seguintes recursos:
@@ -36,7 +36,7 @@ A maioria das soluções de gerenciamento de dispositivo móveis fornece a prote
 - **Perfis de email:** ao configurar e implantar perfis de email, os administradores podem configurar automaticamente dispositivos móveis com informações apropriadas do servidor de email para que os usuários se conectem às suas caixas de correio de email. Isso ajuda os usuários a se conectarem ao servidor de email correto sem ter de lembrar os nomes corretos do ponto de extremidade do servidor de email nem os endereços de rede. Além disso, ao remover um perfil de email, os administradores podem remover email de dispositivos como parte do processo de apagamento seletivo ou redefinição do dispositivo. O gerenciamento de perfis de email pode ser um recurso na solução de gerenciamento de dispositivos não móveis ou pode ser integrado a uma solução de gerenciamento de dispositivos móveis.
 - **Acesso a email condicional:** o acesso a email condicional, ou acesso a email “gerenciado”, normalmente se concentra na segurança e conformidade para acessar o email em um dispositivo móvel, em vez de a qual ponto de extremidade o dispositivo móvel se conecta. Com o acesso a email condicional, uma política de conformidade é definida e atribuída a usuários ou dispositivos individuais ou a grupos de usuários e/ou dispositivos. A política descreve os pré-requisitos que devem estar em vigor antes que um dispositivo móvel possa se conectar a um recurso de email; por exemplo, pode ser necessário um PIN no dispositivo. A política é normalmente imposta quando o dispositivo é registrado pela primeira vez, mas permanece em vigor e ativa desde que o dispositivo móvel esteja registrado no sistema de gerenciamento de dispositivos móveis.
 
-###Perguntas de planejamento de gerenciamento de email
+###<a name="email-management-planning-questions"></a>Perguntas de planejamento de gerenciamento de email
 
  Responda às seguintes perguntas de planejamento sobre o gerenciamento de email:
 
@@ -55,10 +55,10 @@ A maioria das soluções de gerenciamento de dispositivo móveis fornece a prote
 - Quando um dispositivo móvel precisar ser desconectado do seu sistema de email, como os dados de email serão excluídos do dispositivo móvel?
 - Os administradores e usuários também precisarão da capacidade de excluir dados de email ou a conexão ao sistema de email?
 - Como a confirmação de exclusão de dados de email será verificada ou confirmada?
-- Se você estiver usando um sistema de email local e baseado em nuvem, como eles são integrados à solução de gerenciamento de dispositivos móveis? 
+- Se você estiver usando um sistema de email local e baseado em nuvem, como eles são integrados à solução de gerenciamento de dispositivos móveis?
 - Os perfis de email ou as políticas de acesso gerenciado são administrados do mesmo modo ou de modo diferente da perspectiva de TI? A experiência de conexão de email do usuário é igual ou diferente, dependendo de onde sua caixa de correio está hospedada?
 
-## Gerenciamento de conectividade de rede
+## <a name="network-connectivity-management"></a>Gerenciamento de conectividade de rede
 
 Os dispositivos móveis geralmente se conectam a redes e recursos corporativos usando as seguintes tecnologias de acesso:
 
@@ -68,10 +68,10 @@ Os dispositivos móveis geralmente se conectam a redes e recursos corporativos u
 >[!NOTE]
 >É possível ter outros recursos baseados na Web, como o SharePoint, que aproveitam o acesso seguro via SSL (Secure Socket Layer) ou TLS (Transport Layer Security). Certifique-se de que entendeu como os dispositivos móveis acessarão esses recursos ou os recursos com métodos de acesso seguro ou VPN separados.
 
-### Perguntas de planejamento de gerenciamento de conectividade de rede
+### <a name="network-connectivity-management-planning-questions"></a>Perguntas de planejamento de gerenciamento de conectividade de rede
 
 Responda às seguintes perguntas de planejamento sobre o gerenciamento de conectividade de rede:
- 
+
 - Que tipo de plataforma de VPN você implantou em sua rede local?
 - A plataforma de VPN tem o suporte ou a capacidade de ser integrada à solução de gerenciamento de dispositivos móveis?
 - Se a plataforma de VPN já está integrada ou tem o suporte de uma solução existente de gerenciamento de dispositivos não móveis – a solução de gerenciamento de dispositivos móveis é integrada a ambos os sistemas?
@@ -87,16 +87,16 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de conect
  - Você precisa fornecer diferentes definições de segurança ou configuração de rede sem fio para diferentes tipos de usuários, dispositivos, sistemas operacionais de dispositivos ou grupos e funções de usuários?
  - Você precisará da capacidade de importar ou exportar políticas de conexão de segurança ou configuração sem fio e/ou de VPN?
 
-## Gerenciamento de certificados
+## <a name="certificate-management"></a>Gerenciamento de certificados
 
-Certificados digitais, sejam autoassinados ou emitidos por CAs (Autoridades de Certificação) de terceiros, podem ser usados para autenticar dispositivos móveis em conexões de rede ou em recursos de rede específicos. Para simplificar o gerenciamento de certificados digitais, os administradores normalmente gerenciam os certificados usando perfis de certificados. Isso permite um método uniforme e centralizado para gerenciar certificados, incluindo como eles são criados, emitidos e renovados. Isso também ajuda os usuários se conectarem a recursos corporativos sem a necessidade de solicitar e instalar certificados manualmente ou usando um processo de segurança não aprovado.</para><para>No entanto, usar certificados para esse tipo de autenticação geralmente requer requisitos de infraestrutura local adicionais. Isso pode incluir todos ou alguns dos seguintes componentes de rede, dependendo do nível de integração com suporte da solução de gerenciamento de dispositivos móveis:
+Certificados digitais, sejam autoassinados ou emitidos por CAs (Autoridades de Certificação) de terceiros, podem ser usados para autenticar dispositivos móveis em conexões de rede ou em recursos de rede específicos. Para simplificar o gerenciamento de certificados digitais, os administradores normalmente gerenciam os certificados usando perfis de certificados. Isso permite um método uniforme e centralizado para gerenciar certificados, incluindo como eles são criados, emitidos e renovados. Isso também ajuda os usuários se conectarem a recursos corporativos sem precisar solicitar e instalar certificados manualmente ou usando um processo de segurança não aprovado.</para><para>No entanto, o uso de certificados para esse tipo de autenticação geralmente requer requisitos adicionais de infraestrutura local. Isso pode incluir todos ou alguns dos seguintes componentes de rede, dependendo do nível de integração com suporte da solução de gerenciamento de dispositivos móveis:
 
 - **Serviços de diretório:** serviços de diretório, como o Active Directory da Microsoft, geralmente são necessários para conectar com segurança e gerenciar todos os outros componentes de rede.
 - **Servidor de AC (autoridade de certificação):** se você estiver emitindo certificados autoassinados para a sua organização, você precisará de uma autoridade de certificação para criar, emitir, gerenciar e renovar os certificados digitais.
 - **Servidor NDES (Serviço de Registro de Dispositivo de Rede):** este servidor permite que o software e os dispositivos móveis obtenham certificados com base no protocolo SCEP.
 - **Servidor proxy:** dependendo de sua configuração de rede local, você poderá precisar de um servidor proxy que permita que dispositivos móveis recebam certificados usando uma conexão de Internet e sem se conectar diretamente à sua rede corporativa interna.
 
-### Questões de planejamento de gerenciamento de certificado
+### <a name="certificate-management-planning-questions"></a>Questões de planejamento de gerenciamento de certificado
 
 Responda às seguintes perguntas de planejamento sobre o gerenciamento de certificado:
 
@@ -112,6 +112,6 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de certif
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,26 +1,26 @@
 ---
 title: Requisitos de aplicativo
-description: "Requisitos comuns ao implantar aplicativos em um cenário de BYOD."
+description: "Este artigo fornece um conjunto de requisitos comuns de design para implantação de aplicativo que deve ser usado em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: afca333ad60c623e0355e4a6423238c72287c950
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
 
 
 ---
 
-# Requisitos de aplicativo
+# <a name="app-requirements"></a>Requisitos de aplicativo
 
 Cada organização usa uma variedade de recursos técnicos para permitir que a equipe de trabalho realize suas tarefas de forma otimizada e, na maioria das vezes, a principal ferramenta é um aplicativo. Esses recursos poderiam ser combinados em uma abordagem de várias plataformas em que tecnologias diferentes são usadas para atingir uma meta determinada ou criando um aplicativo personalizado capaz de executar uma tarefa ou automatizar certos processos. É importante considerar os aplicativos ao criar a estratégia de BYOD. Os usuários usarão diferentes formatos para consumir esses aplicativos; portanto, você precisa considerar a variedade de recursos a que esses aplicativos devem ter suporte. A figura abaixo mostra como usuários e dispositivos usam aplicativos para consumir dados e as considerações para cada componente do subdomínio de aplicativos.
 
@@ -28,7 +28,7 @@ Cada organização usa uma variedade de recursos técnicos para permitir que a e
 
 A seção a seguir contém perguntas sobre os requisitos de aplicativo que você precisará responder para formular os requisitos para o design da sua solução.
 
-## Perguntas a fazer
+## <a name="questions-to-ask"></a>Perguntas a fazer
 
 os requisitos de aplicativo são categorizados em seis áreas:
 
@@ -40,7 +40,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - Segurança
 
 
-### Experiência
+### <a name="experience"></a>Experiência
 
 - Você planeja preservar a mesma experiência de usuário, independentemente dos dispositivos nos quais os aplicativos serão executados?
 - Os aplicativos exigem acesso à Internet de dispositivos dos usuários?
@@ -55,7 +55,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - Os aplicativos possuem alguma integração com redes sociais?
 
 
-### Plataforma
+### <a name="platform"></a>Plataforma
 
 - Que tipo de plataforma de back-end é necessário para a executar esses aplicativos?
 - Você prevê um aumento na atividade com a adoção de BYOD que exigirá a atualização da plataforma de back-end para os aplicativos que planeja permitir que os usuários remotos usem?
@@ -63,7 +63,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - A plataforma oferecerá suporte a esses aplicativos totalmente local ou haverá ainda servidores localizados na nuvem?
 
 
-### Implantação
+### <a name="deployment"></a>Implantação
 
 - Você sabe quais aplicativos estarão disponíveis para os usuários de BYOD?
 - Como você planeja implantar esses aplicativos para dispositivos dos usuários?
@@ -75,7 +75,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
     - Nesse caso, que autoridade de certificação será usada (pública ou privada)?
 - Os usuários precisam estar fisicamente conectados à rede corporativa para executarem a instalação ou é possível instalar o aplicativo através da Internet?
 
-### Armazenamento
+### <a name="storage"></a>Armazenamento
 
 - Que quantidade de espaço em um dispositivo de destino é necessária para instalar cada aplicativo?
 - Os aplicativos criptografam os dados localizados no armazenamento do dispositivo?
@@ -85,7 +85,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - Os dados consumidos pelos aplicativos estão localizados no armazenamento local, na nuvem ou em ambos?
 - Os dados são consumidos por aplicativos criptografados no armazenamento do data center ou na nuvem?
 
-### Rede
+### <a name="network"></a>Rede
 
 - Quais são os requisitos de rede para os aplicativos que você planeja implantar para usuários de BYOD?
 - Os aplicativos criptografam os dados antes de transmiti-los por meio da rede a partir dos dispositivos dos usuários para o servidor de aplicativos no back-end?
@@ -95,7 +95,7 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - Os aplicativos funcionam em uma rede de baixa latência?
 - Os aplicativos podem ser remotamente desinstalados através da rede ou precisam ser desinstalado usando consoles os dispositivos?
 
-### Segurança 
+### <a name="security"></a>Segurança 
 
 - Os aplicativos são desenvolvidos com algum método de desenvolvimento de segurança?
 - Os aplicativos fornecem recursos de autenticação?
@@ -120,7 +120,6 @@ os requisitos de aplicativo são categorizados em seis áreas:
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

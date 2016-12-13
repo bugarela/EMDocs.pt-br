@@ -1,32 +1,32 @@
 ---
 title: "Considerações sobre design"
-description: "Considerações de design de produtos e tecnologias em um cenário de BYOD."
+description: "Este artigo fornece um conjunto de considerações de design para produtos e tecnologias, em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: c78024f38da8660a9c8e4e9813890110f49107be
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
 
 
 ---
 
-# Considerações sobre design
+# <a name="design-considerations"></a>Considerações sobre design
 
 Com um entendimento dos requisitos detalhados em Previsão da solução de infraestrutura BYOD, neste documento, você pode selecionar os produtos e tecnologias apropriados para implementar os requisitos para o design de infraestrutura BYOD. A tabela a seguir lista os produtos, tecnologias e serviços Microsoft que podem ser usados para implementar uma solução de infraestrutura BYOD.
 
 Os produtos, as tecnologias e os serviços da Microsoft para uma solução de infraestrutura BYOD que serão mencionados neste guia são:
 
-## Usuário e dispositivo
+## <a name="user-and-device"></a>Usuário e dispositivo
 
 - Windows Server 2012 R2
 - Windows 10
@@ -37,7 +37,7 @@ Os produtos, as tecnologias e os serviços da Microsoft para uma solução de in
 - Portal da Empresa
 - Protocolo HTTPS
 
-## Proteção e acesso a dados
+## <a name="data-access-and-protection"></a>Proteção e acesso a dados
 
 - Windows Server 2012 R2
 - Os Serviços de Domínio Active Directory (AD DS)
@@ -46,13 +46,13 @@ Os produtos, as tecnologias e os serviços da Microsoft para uma solução de in
 - Serviços de Federação do Active Directory (AD FS)
 - Controle de Acesso Dinâmico
 - Serviço Microsoft Rights Management
-- Azure Information Protection 
+- Azure Information Protection
 - Criptografia SMB
 - Logon Único (SSO)
 - Pastas de trabalho
 - WAP (Proxy de Aplicativo Web)
 
-## Gerenciamento
+## <a name="management"></a>Gerenciamento
 
 - Microsoft Intune
 - Políticas de gerenciamento de dispositivo
@@ -62,7 +62,7 @@ Os produtos, as tecnologias e os serviços da Microsoft para uma solução de in
 - Relatórios e gerenciamento de uso do ponto de distribuição
 - System Center 2012 R2 Configuration Manager
 
-## Aplicativos
+## <a name="apps"></a>Aplicativos
 
 - Proxy de Aplicativo Web
 - VPN de gatilho automático
@@ -81,8 +81,6 @@ O design de infraestrutura para compatibilidade com a BYOD reúne as respostas �
 
 
 
-
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 
