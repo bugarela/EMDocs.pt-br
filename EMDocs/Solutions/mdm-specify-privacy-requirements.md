@@ -1,39 +1,39 @@
 ---
 title: "Especificação dos requisitos de privacidade"
-description: 
+description: "Este artigo fornece um conjunto de requisitos comuns de privacidade que devem ser usados em um cenário de gerenciamento de dispositivo móvel."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 0909de25a0857e7b30a2b13d820e697fa5fdc773
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
 
 
 ---
 
-# Especificação dos requisitos de privacidade
+# <a name="specify-your-privacy-requirements"></a>Especificação dos requisitos de privacidade
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-Na etapa anterior, você definiu as tarefas de gerenciamento de dispositivos, incluindo gerenciamento de distribuição de conteúdo e gerenciamento de dispositivos. Nesta tarefa, o objetivo é definir os requisitos de privacidade para o conteúdo da empresa que residirá no dispositivo móvel. 
+Na etapa anterior, você definiu as tarefas de gerenciamento de dispositivos, incluindo gerenciamento de distribuição de conteúdo e gerenciamento de dispositivos. Nesta tarefa, o objetivo é definir os requisitos de privacidade para o conteúdo da empresa que residirá no dispositivo móvel.
 
->[!TIP] 
+>[!TIP]
 > Leia a solução Gerenciamento simplificado de dispositivos móveis e computadores em um ambiente híbrido para saber mais sobre a distribuição de conteúdo para dispositivos móveis.
 
-Os requisitos de privacidade e conformidade de uma organização variam de acordo com o setor, regulamentos aplicáveis e tipo de negócio. Por exemplo, talvez você queira que a sua solução de MDM permita executar inventários básicos de hardware, inventários de software, coleções de arquivo e distribuição de software em dispositivos móveis. O inventário de hardware e a distribuição de software geralmente têm suporte por padrão. 
+Os requisitos de privacidade e conformidade de uma organização variam de acordo com o setor, regulamentos aplicáveis e tipo de negócio. Por exemplo, talvez você queira que a sua solução de MDM permita executar inventários básicos de hardware, inventários de software, coleções de arquivo e distribuição de software em dispositivos móveis. O inventário de hardware e a distribuição de software geralmente têm suporte por padrão.
 
-Tenha em mente de que as questões de privacidade que se aplicam aos computadores cliente em relação ao inventário e distribuição de software também se aplicam aos dispositivos móveis. 
+Tenha em mente de que as questões de privacidade que se aplicam aos computadores cliente em relação ao inventário e distribuição de software também se aplicam aos dispositivos móveis.
 
 Antes de escolher uma solução de gerenciamento de dispositivos móveis, considere seus requisitos exclusivos de privacidade. Considere o seguinte exemplo:
 
@@ -41,7 +41,7 @@ Antes de escolher uma solução de gerenciamento de dispositivos móveis, consid
     - Você precisa fornecer aos usuários a política de privacidade de sua empresa, e o que ela deve incluir?
         - Em caso afirmativo, a solução de MDM inclui a capacidade de fornecer facilmente uma política de privacidade aos usuários?
     - A solução de MDM armazena informações ou dados de dispositivo móvel do usuário na nuvem?
-        - Em caso afirmativo, como privacidade do usuário é mantida na nuvem? 
+        - Em caso afirmativo, como privacidade do usuário é mantida na nuvem?
 - Quem tem acesso aos dados?
 - Como a privacidade dos dados é mantida?
 - Classificação e conformidade dos dados: é importante definir o que constitui os dados da empresa e como eles serão protegidos. Ter políticas e mecanismos em vigor para classificar os dados deve fazer parte do plano para garantir a privacidade ao gerenciar dispositivos móveis.
@@ -56,6 +56,6 @@ Leia a [Política de Privacidade do Microsoft Online Services](http://www.micros
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

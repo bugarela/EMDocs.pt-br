@@ -1,27 +1,27 @@
 ---
 title: "Considerações sobre aplicativo"
-description: "Considerações sobre design de aplicativos em um cenário de BYOD."
+description: "Este artigo fornece um conjunto de considerações de design para aplicativos que devem ser usadas em um cenário Traga seu próprio dispositivo."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 09044a31ace0ea1409599abcc70dba857e45a8af
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
 
 
 ---
 
 
-# Considerações sobre aplicativo
+# <a name="app-considerations"></a>Considerações sobre aplicativo
 
 Considerações sobre aplicativo para BYOD podem variar de acordo com recursos, restrições e metas da empresa. As empresas devem avaliar seus aplicativos atuais, as tecnologias usados para desenvolver aplicativos, os requisitos para os aplicativos executados em qualquer dispositivo e quais aplicativos é essencial que os usuários possam acessar de qualquer local. Embora os aplicativos modernos não usem recursos de modo tão intensivo quanto os aplicativos baseados em Windows para fins de provisionamento e implantação, ainda há um custo associado ao seu desenvolvimento e manutenção.
 
@@ -34,14 +34,14 @@ Há padrões para aplicativos desenvolvidos especificamente para cenários BYOD,
 
 Para saber mais sobre as considerações gerais ao criar aplicativos móveis, leia [10 considerações ao criar aplicativos móveis para negócios](https://www.microsoft.com/en-gb/developers/articles/week01jan14/10-considerations-when-creating-mobile-apps-for-business).
 
-## Experiência
+## <a name="experience"></a>Experiência
 
 Para fornecer uma melhor experiência do usuário com base na plataforma em que os aplicativos serão executados e na estratégia de implantação, a empresa deve identificar quais aplicativos deve ser publicados e como. Se for identificado que há um ambiente heterogêneo e alguns dispositivos receberão suporte da empresa, uma estratégia seria publicar aplicativos através do portal da empresa. Por fim, decisões de negócios conduzirão as considerações para a experiência do usuário. A empresa está disposta a desenvolver aplicativos que forneçam a mesma experiência independentemente da plataforma? Ou a empresa fornecerá treinamento aos usuários para usar esses aplicativos em plataformas diferentes sem ter a mesma experiência?
 Considere o custo e o retorno sobre o investimento para cada caso mencionado no parágrafo anterior. Pode ser viável consolidar todos os aplicativos em uma página de portal da web principal que forneça a mesma experiência, mas os aplicativos se comportem de modo diferente de acordo com a plataforma.
 
 Considerando que aplicativos para usuários remotos devem executar em mais de uma plataforma, ser o mais leve possível e exigir acesso mínimo a dispositivos dos usuários, você deve restringir suas opções a aplicativos baseados na web e aplicativos modernos. A seção ajudará você a determinar qual experiência de aplicativo deve ser usada para sua solução.
 
-### Opções de experiência de aplicativo — vantagens e desvantagens
+### <a name="app-experience-options-advantages-and-disadvantages"></a>Opções de experiência de aplicativo — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de experiência no aplicativo:
 
@@ -70,7 +70,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Pode exigir que os desenvolvedores aumentam seu conhecimento para desenvolver aplicativos usando esse novo formato.
 
 
-### Requisitos do aplicativo — considerações
+### <a name="app-requirements-considerations"></a>Requisitos do aplicativo — considerações
 
 Avalie os aplicativos que serão ajustados para serem usados por usuários remotos em seus dispositivos e certifique-se de que esses requisitos sejam apresentados aos usuários. Veja abaixo uma lista de requisitos de aplicativo e considerações sobre cada requisito:
 
@@ -92,13 +92,13 @@ Avalie os aplicativos que serão ajustados para serem usados por usuários remot
 
 Para melhorar a experiência do usuário, você também deve classificar todos os aplicativos de acordo com os padrões da equipe de desenvolvimento para reduzir a necessidade de os usuários percorrerem centenas de aplicativos.
 
-## Plataforma
+## <a name="platform"></a>Plataforma
 
 Ao lidar com a experiência do usuário, é normal avaliar plataformas diferentes e determinar a qual sua empresa deseja dar suporte. Muitas vezes, permitir que os usuários usem seus próprios dispositivos significa ter um ecossistema heterogêneo, e a TI talvez não esteja pronta para dar suporte a um ecossistema assim.
 
 Cada plataforma tem diferentes requisitos de assinatura e publicação de aplicativos, o que afeta diretamente os recursos de TI, pois a TI precisa avaliar todo o ciclo de vida para os aplicativos executados em uma plataforma específica. Você também precisará acessar os requisitos de plataforma de aplicativos para uma solução de infraestrutura BYOD. A seção a seguir inclui considerações importantes sobre requisitos de plataforma do aplicativo.
 
-### Requisitos da plataforma do aplicativo — considerações
+### <a name="app-platform-requirements-considerations"></a>Requisitos da plataforma do aplicativo — considerações
 
 Veja abaixo uma lista de requisitos de plataforma do aplicativo e considerações sobre cada requisito:
 
@@ -127,11 +127,11 @@ Aplicativos de link profundo podem reduzir a sobrecarga administrativa redirecio
 
 As respostas irão variar de acordo com o estado atual da estratégia de implantação da empresa e como ele precisa evoluir no caso de o uso da Windows Store ser escolhido. Lembre-se de que a Windows Store é um sistema de distribuição digital e é a plataforma de distribuição principal para aplicativos modernos no Windows 10, Windows 8.1, Windows 8 e Windows RT. No entanto, é possível usar a Windows Store para listar os aplicativos de área de trabalho certificados para execução em dispositivos baseados em Windows 8. Para saber mais sobre aplicativos sideload, confira [Experimente: Sideload de aplicativos da Windows Store](https://technet.microsoft.com/windows/jj874388.aspx).
 
-## Implantação
+## <a name="deployment"></a>Implantação
 
 Para lidar com as considerações sobre aplicativos que serão implantados para os usuários, é necessário entender os requisitos relacionados ao acesso corporativo. Cenários de implantação incluem os aplicativos que precisam estar sempre conectados aos recursos da empresa, embora os usuários não precisem ter acesso a outros recursos corporativos ou não precisam de acesso completo a todos os recursos corporativos enquanto dentro da rede corporativa. Verifique as opções de implantação para cada aplicativo e avalie qual método é preferido para sua empresa. A seção a seguir inclui as opções de implantação mais comuns que podem ser usadas como parte de uma linha de base de decisão.
 
-### Opções de implantação — vantagens e desvantagens
+### <a name="deployment-options-advantages-and-disadvantages"></a>Opções de implantação — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de implantação:
 
@@ -163,7 +163,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Normalmente exige uma assinatura do serviço de nuvem.
         - A integração com a solução de implantação local pode variar de acordo com o serviço de nuvem.
 
-### Requisitos para implantação do aplicativo — considerações
+### <a name="app-deployment-requirements-considerations"></a>Requisitos para implantação do aplicativo — considerações
 
 Você também precisará acessar requisitos para implantação de aplicativos para uma solução de infraestrutura BYOD. A lista a seguir inclui algumas considerações importantes sobre a implantação de aplicativo:
 
@@ -185,7 +185,7 @@ A atualização do aplicativo também deve ser incluída nas considerações de 
 
 Se sua empresa estiver adotando Windows Phone e desejar permitir que os usuários usem aplicativos LOB para essa plataforma, deve começar com Noções básicas sobre o processo de registro de aplicativo. As empresas devem seguir algumas etapas para estabelecer uma conta da empresa, cadastrar os dispositivos e distribuir os aplicativos a seus dispositivos registrados. Para saber mais sobre a implantação de aplicativos do Windows Phone, confira [Company app distribution for Windows Phone](https://msdn.microsoft.com/library/windowsphone/develop/jj206943(v=vs.105).aspx) (Distribuição do aplicativo corporativo para Windows Phone).
 
-## Armazenamento e rede
+## <a name="storage-and-network"></a>Armazenamento e rede
 
 Considerações de aplicativos de armazenamento e rede podem ter um impacto em servidores de aplicativos e dispositivos. As perguntas a seguir surgirão quando você começar a considerar esses dois componentes principais para aplicativos:
 
@@ -196,7 +196,7 @@ Considerações de aplicativos de armazenamento e rede podem ter um impacto em s
 
 A seção a seguir inclui considerações importantes para os requisitos de armazenamento e rede do aplicativo.
 
-### Requisitos de armazenamento e rede de aplicativos — considerações
+### <a name="app-storage-and-network-requirementsconsiderations"></a>Requisitos de armazenamento e rede de aplicativos — considerações
 
 Use a lista a seguir para entender as vantagens e desvantagens de cada armazenamento de aplicativo, além de requisitos e considerações de rede:
 
@@ -231,7 +231,7 @@ Para saber mais sobre VDI no Windows Server 2012 R2, confira [Novidades sobre Se
 
 A decisão de qual aplicativo de implantação e experiência serão usados para seu design de infraestrutura BYOD deve ser equilibrada com o custo total de propriedade (TCO). Para entender melhor o TCO para adoção de VDI, recomendamos que você leia [Análise do TCO para VDI para ambientes de trabalho de escritório](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html).
 
-## Segurança 
+## <a name="security"></a>Segurança 
 
 Considere o uso de um ciclo de vida de desenvolvimento de segurança para todos os aplicativos que serão consumidos por usuários que estão usando seus próprios dispositivos. A segurança deve ser incorporada em todas as fases do processo de desenvolvimento e todas as possíveis ameaças devem ser levadas em consideração. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) e outras estratégias de segurança podem ser incorporadas ao ciclo de vida de desenvolvimento usando o [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/security/sdl/process/requirements.aspx) (Ciclo de vida de desenvolvimento de segurança). Como a infraestrutura atual será integrada à estratégia geral de segurança para BYOD é uma consideração importante. O ambiente atual é capaz de fornecer uma base segura para aplicativos? A empresa precisa adquirir soluções de terceiros seguras para mitigar qualquer vulnerabilidade potencial criada por essa nova adoção?
 
@@ -239,6 +239,6 @@ Considerações de segurança são importantes para os aplicativos que serão co
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

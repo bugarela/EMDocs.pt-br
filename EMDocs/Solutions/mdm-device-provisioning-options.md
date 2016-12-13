@@ -1,26 +1,26 @@
 ---
 title: "Opções de provisionamento de dispositivo"
-description: 
+description: "Este artigo fornece diretrizes sobre as opções de provisionamento de dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
 
 
 ---
 
-# Opções de provisionamento de dispositivo
+# <a name="device-provisioning-options"></a>Opções de provisionamento de dispositivo
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -39,7 +39,7 @@ Quando um usuário pode usar e registrar seus próprios dispositivos, isso aumen
 
 Dependendo de como você respondeu às perguntas na Etapa 1, você precisa determinar como deseja que os dispositivos sejam gerenciados na solução de gerenciamento de dispositivos móveis. A lista abaixo mostra as vantagens e desvantagens de cada opção de provisionamento.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -51,9 +51,9 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você precisa deter
 **Desvantagens**
 
 - Interface de gerenciamento adicional para o provisionamento de dispositivos móveis (somente) se for usada uma plataforma de gerenciamento local para dispositivos não móveis
-- Políticas separadas de segurança e de conformidade do dispositivo para o serviço baseado em nuvem e a plataforma de gerenciamento local 
+- Políticas separadas de segurança e de conformidade do dispositivo para o serviço baseado em nuvem e a plataforma de gerenciamento local
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -67,7 +67,7 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você precisa deter
 - Políticas separadas de segurança e de conformidade do dispositivo para o serviço baseado em nuvem e a plataforma de gerenciamento local
 - Opções menos avançadas de provisionamento de dispositivos
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -84,6 +84,6 @@ Para obter mais detalhes sobre as opções de registro e provisionamento de disp
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

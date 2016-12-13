@@ -1,26 +1,26 @@
 ---
 title: "Opções de gerenciamento de dispositivo"
-description: 
+description: "Este artigo fornece diretrizes sobre as opções de gerenciamento de dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 93e88e3b36f2f247978981d2af381d30c6d79f5b
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3e930a5a9a39b15a4ce39c5cfa1e37038917f842
 
 
 ---
 
-# Opções de gerenciamento de dispositivo
+# <a name="device-management-options"></a>Opções de gerenciamento de dispositivo
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -42,7 +42,7 @@ O gerenciamento de dispositivos móveis com o Intune e o ConfigMgr gira em torno
 
 Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você deseja que os dispositivos sejam registrados na solução de gerenciamento de dispositivos móveis. A lista abaixo ajudará você a entender as vantagens e desvantagens de cada cenário de gerenciamento.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -62,7 +62,7 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
 
 - Requisitos e custos de licenciamento adicionais para os dispositivos de registro de contas de usuário no serviço do Intune
 
-## MDM para o Office 365
+## <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -82,7 +82,7 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
  - Estendendo os dados corporativos com segurança à aplicativos de linha de negócios para dispositivos móveis
  - Navegadores gerenciados ou outros aplicativos de exibição de conteúdo
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -98,6 +98,6 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

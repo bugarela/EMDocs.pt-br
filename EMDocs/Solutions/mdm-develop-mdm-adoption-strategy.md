@@ -1,39 +1,39 @@
 ---
 title: "Desenvolver sua estratégia de adoção de gerenciamento de dispositivos móveis"
-description: "Considerações sobre design para adotar o gerenciamento de dispositivo móvel."
+description: "Este artigo fornece uma série de considerações de design para a adoção do gerenciamento de dispositivo móvel em sua organização."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 2ff57e80fd68a58a78d4a626036416f95966dab5
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 
 ---
 
-# Desenvolver sua estratégia de adoção de gerenciamento de dispositivos móveis
+# <a name="develop-your-mobile-device-management-adoption-strategy"></a>Desenvolver sua estratégia de adoção de gerenciamento de dispositivos móveis
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Nesta tarefa, você desenvolverá a estratégia de adoção de gerenciamento de dispositivos móveis que atenderá aos requisitos de negócios identificados nas Tarefas 1 e 2. 
+Nesta tarefa, você desenvolverá a estratégia de adoção de gerenciamento de dispositivos móveis que atenderá aos requisitos de negócios identificados nas Tarefas 1 e 2.
 
-## Propriedade do dispositivo
+## <a name="device-ownership"></a>Propriedade do dispositivo
 
 Depois de examinar a atual política e estratégia de sua organização para gerenciar dispositivos, você deve ter uma lista de cenários que a sua organização pretende implementar. A seção a seguir ajudará você a entender as vantagens e desvantagens de cada cenário:
 
-## O funcionário possui o dispositivo (BYOD)
+## <a name="employee-owns-the-device-byod"></a>O funcionário possui o dispositivo (BYOD)
 
-**Vantagens** 
+**Vantagens**
 
 - Sua empresa não precisa comprar dispositivos móveis para os funcionários
 - Geralmente permite que os funcionários sejam mais produtivos, já que eles usarão o dispositivo móvel de sua preferência
@@ -45,9 +45,9 @@ Depois de examinar a atual política e estratégia de sua organização para ger
 - Aumenta a probabilidade de vazamento de dados, especialmente quando não existem controles de segurança apropriados
 - Capacidade de gerenciamento limitado devido às restrições de privacidade
 
-## Dispositivo de propriedade da empresa
+## <a name="company-owned-device"></a>Dispositivo de propriedade da empresa
 
-**Vantagens** 
+**Vantagens**
 
 - Funcionalidade de gerenciamento completo, incluindo controles de proteção e segurança de dispositivo
 - Mais controle sobre os dispositivos móveis
@@ -61,11 +61,11 @@ Depois de examinar a atual política e estratégia de sua organização para ger
 
 Em alguns cenários, as organizações adotarão os dois modelos: BYOD e dispositivos de propriedade da empresa. Nesse caso, a plataforma de gerenciamento de dispositivos deve ter a capacidade de gerenciar várias plataformas e integrá-las à atual infraestrutura local. Se a sua organização se encaixar nesse cenário, verifique se as políticas de segurança podem cobrir os dois modelos com relação à conformidade. Requisitos diferentes podem ser aplicados para cada modelo, e sua solução de gerenciamento de dispositivo móvel deve ser capaz de lidar com ambos, permitindo ao mesmo tempo que o departamento de TI mantenha o controle.
 
-## Plataformas de dispositivos móveis com suporte
+## <a name="supported-mobile-device-platforms"></a>Plataformas de dispositivos móveis com suporte
 
 A decisão tomada em relação à propriedade do dispositivo ajudará você a identificar para quais plataformas de dispositivos móveis você dará suporte. A solução de gerenciamento de dispositivos móveis que você escolher terá de acomodar essa decisão. Em um cenário de plataforma única de dispositivo móvel, a escolha da plataforma não será tão relevante quanto no cenário de várias plataformas. Use a seção a seguir para ajudar com a escolha da solução de gerenciamento de dispositivos móveis para um cenário com várias plataformas:
 
-### Intune (autônomo)
+### <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -73,14 +73,14 @@ A decisão tomada em relação à propriedade do dispositivo ajudará você a id
 - Dá suporte ao provisionamento de todos os principais sistemas operacionais de dispositivos móveis (Android, iOS, Windows 8, Windows 10 e Windows Phone)
 - Permite gerenciar qualquer dispositivo móvel em qualquer local
 - Opções mais avançadas de gerenciamento para dispositivos móveis
-- [Gerenciamento de aplicativos móveis](http://blogs.technet.com/b/microsoftintune/archive/2015/06/18/now-available-intune-mobile-application-management-and-conditional-access-for-outlook.aspx)
+- [Gerenciamento de aplicativo móvel](http://blogs.technet.com/b/microsoftintune/archive/2015/06/18/now-available-intune-mobile-application-management-and-conditional-access-for-outlook.aspx)
 
 **Desvantagens**
 
 - A falta de integração com a atual solução de gerenciamento de dispositivos localizada localmente introduzirá uma interface de gerenciamento adicional para você usar
 - As políticas criadas com a solução de MDM local não são replicadas para o serviço de nuvem
 
-### MDM para o Office 365
+### <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -93,26 +93,26 @@ A decisão tomada em relação à propriedade do dispositivo ajudará você a id
 - Conjunto limitado de recursos (veja a observação após esta tabela) para gerenciar os dispositivos móveis
 - A falta de integração com a atual solução de gerenciamento de dispositivos localizada localmente introduzirá uma interface de gerenciamento adicional para você usar
 
-### Híbrido (Intune com ConfigMgr)
+### <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
 - Integração nativa entre o Intune e o ConfigMgr
 - Permite usar um console centralizado para implantar políticas e gerenciar PCs, servidores e dispositivos móveis locais
 
-**Desvantagens** 
+**Desvantagens**
 
 - Requer etapas adicionais de configuração para conectar o Intune e o ConfigMgr
 - Se a organização não tiver uma infraestrutura atual local do ConfigMgr, será necessário planejar, instalar e configurar essa plataforma antes da integração
 
 Se você precisar gerenciar apenas o acesso ao email de trabalho, calendário, contatos e tarefas em dispositivos móveis, saiba mais sobre os [recursos de gerenciamento de dispositivos do Exchange ActiveSync disponíveis no Office 365](https://technet.microsoft.com/library/dn792010.aspx#tasks).
 
-## Requisitos de aplicativo
+## <a name="application-requirements"></a>Requisitos de aplicativo
 
 Com base nos requisitos definidos na Tarefa 1, você pode escolher a solução de gerenciamento de dispositivos móveis que melhor se adapta à sua organização. Use a tabela abaixo para comparar as opções de MDM, bem como as vantagens e desvantagens de cada opção:
 
 
-### Intune (autônomo)
+### <a name="intune-standalone"></a>Intune (autônomo)
 
 **Vantagens**
 
@@ -127,11 +127,11 @@ Com base nos requisitos definidos na Tarefa 1, você pode escolher a solução d
 
 **Desvantagens**
 
-- Não tem integração com soluções de gerenciamento de dispositivo locais, o que introduz uma interface de gerenciamento adicional para você usar ao gerenciar dispositivos móveis se você tiver uma solução local. 
+- Não tem integração com soluções de gerenciamento de dispositivo locais, o que introduz uma interface de gerenciamento adicional para você usar ao gerenciar dispositivos móveis se você tiver uma solução local.
 - As políticas criadas com uma plataforma de MDM local não são replicadas para o serviço de nuvem, o que exige dois conjuntos de políticas de gerenciamento e conformidade (se você tiver uma solução de MDM local)
 
 
-### MDM para o Office 365
+### <a name="mdm-for-office-365"></a>MDM para o Office 365
 
 **Vantagens**
 
@@ -144,7 +144,7 @@ Com base nos requisitos definidos na Tarefa 1, você pode escolher a solução d
 - Nenhuma capacidade de implantar aplicativos e aplicar recursos de gerenciamento de aplicativos móveis
 
 
-### Híbrido (Intune com ConfigMgr)
+### <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -162,17 +162,15 @@ Com base nos requisitos definidos na Tarefa 1, você pode escolher a solução d
 - Sem a integração com o Intune, o ConfigMgr tem uma solução de gerenciamento de dispositivo móvel limitada com base em plataformas de dispositivos móveis com suporte. Leia Determinar como gerenciar dispositivos móveis no Configuration Manager para saber mais.
 
 
-## Requisitos de acompanhamento
+## <a name="track-requirements"></a>Requisitos de acompanhamento
 
 Entender o comportamento do usuário e conseguir identificar sua localização são fatores importantes para incluir em sua estratégia de gerenciamento de dispositivos móveis. A forma como os dispositivos serão acompanhados varia de acordo com suas necessidades e requisitos de negócios.  Diferentes recursos de acompanhamento estão disponíveis em cada sistema operacional móvel; portanto, as plataformas de dispositivos móveis que você escolher para dar suporte afetarão suas opções. Por exemplo, os requisitos de conformidade podem influenciá-lo a priorizar a adoção de plataformas de dispositivos móveis que permitam acompanhar o local do usuário e usar o isolamento geográfico.
 
->[!TIP] 
-> O isolamento geográfico permite monitorar a localização geográfica de um dispositivo móvel e habilitar/desabilitar os recursos de dispositivo e de rede com base nesse local. Por exemplo, o suporte ao Windows 8.1 permite que um aplicativo defina uma região geográfica e faça com que o sistema alerte o aplicativo quando o dispositivo estiver em execução ou entre ou saia dessa área. Para saber mais sobre esse recurso no Windows 8.1, leia [Isolamento geográfico, do início ao fim (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
+>[!TIP]
+> O isolamento geográfico permite monitorar a localização geográfica de um dispositivo móvel e habilitar/desabilitar os recursos de dispositivo e de rede com base nesse local. Por exemplo, o suporte ao Windows 8.1 permite que um aplicativo defina uma região geográfica e faça com que o sistema alerte o aplicativo quando o dispositivo estiver em execução ou entre ou saia dessa área. Para saber mais sobre esse recurso no Windows 8.1, leia [Isolamento geográfico, do início ao fim (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).
 
 
 
-
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 
