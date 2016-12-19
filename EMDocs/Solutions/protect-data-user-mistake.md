@@ -26,7 +26,7 @@ Embora a transição para a mobilidade e a nuvem tenha aumentado consideravelmen
 
 Os recursos de controle de dados que protegem dados corporativos contra erros do usuário e impedem a perda de dados são etapas importantes para proteção dos recursos, ao mesmo tempo que permitem aos usuários serem produtivos.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
 
 O EMS (Enterprise Mobility + Security) permite que a TI obtenha mais visibilidade das atividades dos usuários, dispositivos e dados no local e na nuvem.  Com o EMS, a TI pode proteger dados corporativos contra erros do usuário com imposição e controles mais rígidos.  A TI será capaz de monitorar a detecção de riscos usando análises e relatórios avançados sobre usuários, tráfego de upload/download, padrões de uso e transações de aplicativos descobertos.
 

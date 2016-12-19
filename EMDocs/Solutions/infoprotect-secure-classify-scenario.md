@@ -25,7 +25,7 @@ Atualmente, o compartilhamento de informações acontece em vários dispositivos
 
 Continue lendo para saber mais sobre como o Enterprise Mobility + Security ajuda a lidar com esse cenário.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
  
 O EMS (Enterprise Mobility + Security) é a única solução de nuvem abrangente que protege dados corporativos no próprio dispositivo e além dele, com quatro camadas de proteção de identidades, dispositivos, aplicativos e dados. O EMS ajuda a resolver um dos principais desafios do mundo concentrado em dispositivos móveis e na nuvem – como fornecer dados seguros para funcionários em trânsito. Com o EMS, você permitirá que seus funcionários colaborem com segurança dentro e fora da sua organização. O EMS permite que os administradores de TI tirem proveito da Proteção de Informações do Azure para ajudar a proteger dados corporativos no nível do arquivo. Usando essa capacidade, eles podem ter certeza de que os dados estarão sempre protegidos, independentemente de onde estão armazenados, com quem são compartilhados e se estão em repouso ou em trânsito. 
 

@@ -26,7 +26,7 @@ A identidade não é algo secundário, mas a principal parte de uma força de tr
 
 Esse novo mundo introduz desafios e ameaças avançadas que não podem ser atenuadas com ferramentas tradicionais. Não faz sentido proteger apenas sua rede enquanto o novo limite é o usuário. A chave para ser produtivo e estar protegido nesse ambiente é uma robusta solução de identidade.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
 O EMS (Enterprise Mobility + Security) é a única solução de nuvem abrangente que protege nativamente dados corporativos no próprio dispositivo e além dele, com quatro camadas de proteção de identidades, dispositivos, aplicativos e dados. O EMS ajuda a enfrentar um dos principais desafios no mundo dos dispositivos móveis e da nuvem — como fornecer uma única identidade que funcione em ativos na nuvem e no local e manter a produtividade máxima dos usuários.
 
 ### <a name="access-to-single-sign-on-applications"></a>Acesso a aplicativos de logon único

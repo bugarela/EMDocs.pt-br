@@ -22,7 +22,7 @@ ms.openlocfilehash: b0dd2c797fb6b33e10ef62fa74bb4c646e89bede
 # <a name="protect-on-premises-company-data-with-intune"></a>Proteger dados locais da empresa com o Intune
 Sozinhos, os firewalls não podem fornecer um limite de segurança corporativa adequado. Hoje, os limites de segurança devem incluir o usuário final e como ele acessa, usa e compartilha os dados da empresa. Seja no trabalho com smartphones, tablets ou laptops, os operadores de informação esperam acesso irrestrito aos recursos, em qualquer lugar, em qualquer dispositivo e sempre que necessário. Habilitar recursos de proteção e acesso para usuários pode ser um desafio para os administradores de TI, que também precisam assegurar a proteção dos dados da empresa. Com o Enterprise Mobility + Security (EMS), será possível manter os funcionários produtivos com seus aplicativos e dispositivos favoritos e os dados locais da empresa em segurança. Continue lendo para saber como.
 
-## <a name="how-can-enterprise-mobility-security-ems-help-you"></a>Como o EMS (Enterprise Mobility + Security) pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-ems-help-you"></a>Como o EMS (Enterprise Mobility + Security) pode ajudar você?
 O EMS (Enterprise Mobility + Security) é a única solução de nuvem abrangente que protege nativamente dados corporativos no próprio dispositivo e além dele, com quatro camadas de proteção de identidades, dispositivos, aplicativos e dados. Com o EMS, os funcionários terão acesso seguro e contínuo ao email corporativo e a documentos, ao passo que o TI estará confiante de que os dados da empresa estão protegidos.
 
 ## <a name="recommended-solution"></a>Solução recomendada

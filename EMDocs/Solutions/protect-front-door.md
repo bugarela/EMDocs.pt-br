@@ -27,7 +27,7 @@ As soluções tradicionais de segurança costumavam ser o suficiente para proteg
 Em mais de 63% das violações de dados, os invasores obtêm acesso à rede corporativa por meio de credenciais de usuário roubadas, padrão ou fracas.  A segurança controlada pela Identidade da Microsoft se concentra credenciais do usuário, fechando a porta para roubo de credenciais gerenciando e protegendo suas identidades, incluindo suas identidades privilegiadas e não privilegiadas.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
 
 A abordagem de segurança do EMS (Enterprise Mobility + Security) começa com uma identidade comum protegida para proteger o acesso a todos os recursos corporativos locais e na nuvem, com o [acesso condicional](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/) baseado em riscos. Usando essa abordagem, a TI pode proteger os recursos da empresa na porta da frente com avançados e inovadores acessos condicionais baseados em risco. O EMS fornece uma identidade comum protegida para acesso a milhares de aplicativos, o que ajuda a TI a gerenciar e proteger identidades com privilégios.
 
