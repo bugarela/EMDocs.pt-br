@@ -3,6 +3,7 @@ title: Use o acesso condicional com o Intune e Exchange Server locais
 description: "Implante o Exchange local com a solução do Intune."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: d5771b3b16e26eb909d507641eec46285e328ed6
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: da523effdbc8efc61c6ea7406f7672e10097473b
 
 
 ---
@@ -79,6 +80,6 @@ Depois de implantar uma solução para proteger email corporativo e dados de ema
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
