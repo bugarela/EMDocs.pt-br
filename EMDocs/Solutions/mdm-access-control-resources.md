@@ -78,7 +78,7 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 
 - O serviço de nuvem do Azure AD não está incluído na compra da assinatura do Intune
 
-## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
+## <a name="enterprise-mobility--security"></a>Enterprise Mobility + Security
 
 **Vantagens**
 
