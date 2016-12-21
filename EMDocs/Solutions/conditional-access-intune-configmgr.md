@@ -3,6 +3,7 @@ title: Usar o acesso condicional com o Intune e Configuration Manager
 description: "Implante o Intune com a solução do Configuration Manager."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 4d7d429b4c6ede6197501f4035903f23cbe2ade3
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: c80c3b4aedd25c573b3f0fd9b78bd511981cec0f
 
 
 ---
@@ -87,6 +88,6 @@ Se seu ambiente incluir o Exchange Online e o Exchange local, você poderá ler 
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

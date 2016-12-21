@@ -29,7 +29,7 @@ O compartilhamento de dados é algo inevitável para as empresas e os usuários 
 
 Nesse contexto, um cenário comum nas empresas é ter projetos em que elas precisam permitir que os funcionários colaborem internamente entre silos de dados e externamente com fornecedores terceirizados e, ao mesmo tempo, alinhar protocolos de segurança com os negócios, bem como influenciar o comportamento do usuário final nos processos de proteção e classificação de dados. 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
 
 O EMS (Enterprise Mobility + Security) é a única solução de nuvem abrangente que protege nativamente dados corporativos no próprio dispositivo e além dele, com quatro camadas de proteção de identidades, dispositivos, aplicativos e dados. O EMS ajuda a resolver um dos principais desafios do mundo concentrado em dispositivos móveis e na nuvem – como entregar emails seguros para funcionários em trânsito. Com o EMS, você permitirá que seus funcionários colaborem com segurança dentro e fora da sua organização. O EMS permite que os administradores de TI aproveitem o modelo de política do [Azure Rights Management](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) para uso de email. Os direitos de uso são anexados à mensagem em si para que a proteção ocorra online e offline, bem como dentro e fora do firewall da organização.
 

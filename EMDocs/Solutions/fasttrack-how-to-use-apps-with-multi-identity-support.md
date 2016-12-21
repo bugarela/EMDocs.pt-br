@@ -2,25 +2,25 @@
 title: "Como usar aplicativos com suporte para várias identidades"
 description: "Como usar aplicativos com suporte para várias identidades"
 keywords: 
-author: craigcaseyMSFT
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 586ecd93-b097-42a0-9229-bcf3b781021c
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
-ms.openlocfilehash: 491616d76dc6616a2abe059b699448bec0e06e75
+ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
+ms.openlocfilehash: 597e1e4bf5d910a3339c8239efafda29b1463652
 
 
 ---
 
-# Como usar aplicativos com suporte para várias identidades
+# <a name="how-to-use-apps-with-multi-identity-support"></a>Como usar aplicativos com suporte para várias identidades
 
 Neste cenário, estamos usando o Microsoft Word como exemplo. Você pode aplicar estas mesmas etapas para outros aplicativos incluídos no Office 365.
 1.  Abra o aplicativo **Word** em seu dispositivo. Neste exemplo, estamos usando um dispositivo iOS.
@@ -46,11 +46,11 @@ Neste cenário, estamos usando o Microsoft Word como exemplo. Você pode aplicar
 
   ![Captura de tela mostrando que o usuário conseguiu colar o texto no Facebook.](./media/ft-multiID-6-copyText.png)
 
-### Quer saber mais?
+### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

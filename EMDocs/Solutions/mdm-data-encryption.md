@@ -3,6 +3,7 @@ title: Desenvolver seus requisitos de criptografia de dados
 description: "Este tópico tem criptografia de dados de considerações design em dispositivos móveis. Este tópico faz parte de um conjunto maior de artigos sobre Considerações de Design de Gerenciamento de Dispositivos Móveis."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,8 +15,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 4f892c4b9269b40ee4931aef4baf499e08b5f5c5
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 9d6194247048242509f4306e34fc805bc0b41466
 
 
 ---
@@ -83,6 +84,6 @@ Para saber mais sobre como combinar os recursos do Intune e do ConfigMgr para au
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

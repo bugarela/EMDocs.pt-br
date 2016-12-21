@@ -3,6 +3,7 @@ title: "Experiência do usuário final para acesso condicional em dispositivos A
 description: "A experiência do usuário final de registrar um dispositivo Android."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 8cf46358bb945c711b62dc7b05fcb8267c911782
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
 
 
 ---
@@ -107,6 +108,6 @@ A experiência do usuário final é um pouco diferente em outros dispositivos m�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

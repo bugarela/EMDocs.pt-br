@@ -1,26 +1,27 @@
 ---
-title: Programa FastTrack para Enterprise Mobility
+title: "Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)"
 description: Um programa para ajudar clientes qualificados a planejar e implantar o Intune e o Azure Active Directory Premium
 keywords: 
-author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
-ms.openlocfilehash: db7cdab6b183fba8b429858a5e4fe189bd059d6f
+ms.sourcegitcommit: f6e0986ce867f1167e202c95535cca778ad30434
+ms.openlocfilehash: 8ca47fecd7d8cde512587ee01801290a0cb62bfb
 
 
 ---
 
-# Programa FastTrack para Enterprise Mobility
-Você utiliza o Benefício do FastTrack Center do EMS (Enterprise Mobility + Security) quando compra no mínimo 150 licenças para o EMS ou qualquer um de seus serviços de nuvem individuais em um plano qualificado. Então, você trabalha com especialistas da Microsoft para avaliar, corrigir, habilitar e conduzir o uso desses serviços. Esses especialistas também fornecem diretrizes de migração. 
+# <a name="fasttrack-center-benefit-for-enterprise-mobility--security-ems"></a>Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)
+Você utiliza o Benefício do FastTrack Center do EMS (Enterprise Mobility + Security) quando compra no mínimo 150 licenças para o EMS ou qualquer um de seus serviços de nuvem individuais em um plano qualificado. Então, você trabalha com especialistas da Microsoft para avaliar, corrigir, habilitar e conduzir o uso desses serviços. Esses especialistas também fornecem diretrizes de migração.
 
 Para saber mais sobre planos e serviços qualificados, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
@@ -28,8 +29,6 @@ Para aprender sobre o processo do FastTrack Center e quem é responsável pelo q
 
 
 
-
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO3-->
 
 

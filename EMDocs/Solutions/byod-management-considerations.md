@@ -30,7 +30,7 @@ Uma das funções do domínio de gerenciamento é monitorar as configurações d
 
 O nível de gerenciamento de dispositivos dos usuários variará de acordo com a política da empresa e a infraestrutura de BYOD que a empresa adotar. Se a empresa estabelecer que é necessário fornecer recursos de limpeza completa para ter acesso aos recursos da empresa, a TI deve aplicar essa configuração em todos os dispositivos monitorados. A TI também precisa da capacidade de redefinir os dispositivos para os padrões do fabricante, apagando todos os dados e configurações pessoais, se necessário. Use a seção a seguir para determinar as opções de monitoramento que serão necessárias para sua infraestrutura BYOD.
 
-### <a name="monitoring-options-advantages-and-disadvantages"></a>Opções de monitoramento — vantagens e desvantagens
+### <a name="monitoring-options--advantages-and-disadvantages"></a>Opções de monitoramento — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de monitoramento:
 
@@ -70,7 +70,7 @@ Relatar os recursos do dispositivo ou simplesmente compreender como esses dispos
 
 Considere o uso de uma solução de gerenciamento que possa fornecer relatórios personalizáveis e inventário de dispositivos. Ao escolher essa opção, você permitirá uma abordagem mais flexível para a TI quando for necessário obter mais informações sobre dispositivos dos usuários. A TI deve poder ter relatórios sobre todos os dispositivos registradas locais e na nuvem. A capacidade de geração de relatórios para o sistema de gerenciamento pode estar localizada local ou na nuvem — ou pode ser uma combinação de ambos, o que é chamado de solução híbrida. Use a tabela a seguir para determinar qual opção de relatório é apropriada para sua empresa.
 
-### <a name="reporting-options-advantages-and-disadvantages"></a>Opções de relatório — vantagens e desvantagens
+### <a name="reporting-options--advantages-and-disadvantages"></a>Opções de relatório — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de relatório:
 
@@ -113,7 +113,7 @@ Depois de novos aplicativos serem desenvolvidos e acessados remotamente por usu�
 - A solução de gerenciamento atual que sua empresa usa pode aumentar os recursos de computação e armazenamento para a plataforma que oferece suporte ao acesso de aplicativos de dispositivos dos usuários de acordo com um conjunto de regras pré-estabelecido?
 Se a solução de gerenciamento estabelecida não for capaz de resolver esses dois requisitos, considere usar uma solução de gerenciamento que possa gerenciar computação e armazenamento abordando os dois requisitos principais mostrados na tabela a seguir.
 
-### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>Recursos de gerenciamento de computação e armazenamento — vantagens e desvantagens
+### <a name="compute-and-storage-management-capabilities--advantages-and-disadvantages"></a>Recursos de gerenciamento de computação e armazenamento — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada recurso de gerenciamento de armazenamento:
 
@@ -145,7 +145,7 @@ A automação pode ser empregada para corrigir dispositivos fora de conformidade
 Embora você vá ver que todos os subdomínios BYOD apresentados podem aproveitar automação, a responsabilidade de automatizar recursos é do subdomínio de gerenciamento. A automação pode ser integrada no sistema operacional. No entanto, a solução de gerenciamento que a empresa adotará será responsável por estender esses recursos e fornecer maneiras de aliviar tarefas diárias da TI durante o monitoramento e o relatório dos resultados da automação.
 A opção de automação mais avançada no System Center 2012 R2 é o Windows PowerShell. Para saber mais sobre a automação do System Center 2012 R2, confira [System Center Automation with Windows PowerShell](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx) (Automação do System Center com o Windows PowerShell). No entanto, outra opção está disponível, fornecendo uma forma mais simples, mas não muito robusta, de automatizar tarefas: sequência de tarefas. Use a tabela a seguir para avaliar as vantagens e desvantagens de cada opção.
 
-### <a name="automation-options-advantages-and-disadvantages"></a>Opções de automação — vantagens e desvantagens
+### <a name="automation-options--advantages-and-disadvantages"></a>Opções de automação — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de automação:
 

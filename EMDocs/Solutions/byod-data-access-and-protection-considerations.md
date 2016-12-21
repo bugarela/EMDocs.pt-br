@@ -37,7 +37,7 @@ Se sua empresa quiser usar uma solução baseada em nuvem para proteção de arq
 
 Outras tecnologias de armazenamento disponíveis no sistema operacional Windows também podem ser usadas para melhorar a proteção geral dos dados, como o BitLocker para criptografia de unidade e o [EFS (Encrypting File System)](https://technet.microsoft.com/library/cc700811.aspx) para criptografia de arquivo. Use a tabela a seguir para ver as vantagens e desvantagens da proteção de armazenamento. Tenha em mente que essas opções não se excluem mutuamente. Em outras palavras, a decisão de design pode concluir que você precisa de todas essas opções em sua solução de infraestrutura BYOD para proteção de armazenamento.
 
-### <a name="storage-protection-options-advantages-and-disadvantages"></a>Opções de proteção de armazenamento — vantagens e desvantagens
+### <a name="storage-protection-options--advantages-and-disadvantages"></a>Opções de proteção de armazenamento — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de proteção de armazenamento:
 
@@ -93,7 +93,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
 
 O diagrama destaca as áreas cruciais nas quais a proteção de dados deve ser considerada para uma infraestrutura de BYOD. Essas áreas são descritas com mais detalhes na seção a seguir.
 
-### <a name="data-protection-locations-and-considerations"></a>Proteção de dados — locais e considerações
+### <a name="data-protection--locations-and-considerations"></a>Proteção de dados — locais e considerações
 
 Use a lista abaixo para entender as considerações sobre proteção de dados de acordo com o local dos dados. Os números na lista a seguir correspondem ao diagrama anterior:
 
@@ -121,7 +121,7 @@ O Windows Server 2012 R2 permite o uso de [HTTPS](https://msdn.microsoft.com/lib
 
 Use a próxima seção para avaliar a opção de proteção de rede que melhor atende às suas necessidades de design para comunicação de servidor back-end.
 
-### <a name="network-protection-options-advantages-and-disadvantages"></a>Opções de proteção de rede — vantagens e desvantagens
+### <a name="network-protection-options--advantages-and-disadvantages"></a>Opções de proteção de rede — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de proteção de rede:
 
@@ -156,7 +156,7 @@ Atributos de usuário devem ser armazenados no diretório, permitindo à TI faci
 
 Em ambientes híbridos em que haverá diferentes repositórios de autenticação, as empresas devem considerar como habilitar usuários a autenticar usando a mesma credencial, independentemente de onde eles e os aplicativos estejam localizados. Considere usar os Serviços de Federação do Active Directory (AD FS) se desejar centralizar a autenticação local, em vez de replicar a pasta com o provedor de serviço de nuvem Use a próxima seção para avaliar as opções de diretório para uma infraestrutura BYOD.
 
-### <a name="directory-options-advantages-and-disadvantages"></a>Opções de diretório — vantagens e desvantagens
+### <a name="directory-options--advantages-and-disadvantages"></a>Opções de diretório — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de proteção de diretório:
 

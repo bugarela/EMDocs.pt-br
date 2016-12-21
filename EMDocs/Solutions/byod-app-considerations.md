@@ -41,7 +41,7 @@ Considere o custo e o retorno sobre o investimento para cada caso mencionado no 
 
 Considerando que aplicativos para usuários remotos devem executar em mais de uma plataforma, ser o mais leve possível e exigir acesso mínimo a dispositivos dos usuários, você deve restringir suas opções a aplicativos baseados na web e aplicativos modernos. A seção ajudará você a determinar qual experiência de aplicativo deve ser usada para sua solução.
 
-### <a name="app-experience-options-advantages-and-disadvantages"></a>Opções de experiência de aplicativo — vantagens e desvantagens
+### <a name="app-experience-options--advantages-and-disadvantages"></a>Opções de experiência de aplicativo — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de experiência no aplicativo:
 
@@ -70,7 +70,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Pode exigir que os desenvolvedores aumentam seu conhecimento para desenvolver aplicativos usando esse novo formato.
 
 
-### <a name="app-requirements-considerations"></a>Requisitos do aplicativo — considerações
+### <a name="app-requirements--considerations"></a>Requisitos do aplicativo — considerações
 
 Avalie os aplicativos que serão ajustados para serem usados por usuários remotos em seus dispositivos e certifique-se de que esses requisitos sejam apresentados aos usuários. Veja abaixo uma lista de requisitos de aplicativo e considerações sobre cada requisito:
 
@@ -98,7 +98,7 @@ Ao lidar com a experiência do usuário, é normal avaliar plataformas diferente
 
 Cada plataforma tem diferentes requisitos de assinatura e publicação de aplicativos, o que afeta diretamente os recursos de TI, pois a TI precisa avaliar todo o ciclo de vida para os aplicativos executados em uma plataforma específica. Você também precisará acessar os requisitos de plataforma de aplicativos para uma solução de infraestrutura BYOD. A seção a seguir inclui considerações importantes sobre requisitos de plataforma do aplicativo.
 
-### <a name="app-platform-requirements-considerations"></a>Requisitos da plataforma do aplicativo — considerações
+### <a name="app-platform-requirements--considerations"></a>Requisitos da plataforma do aplicativo — considerações
 
 Veja abaixo uma lista de requisitos de plataforma do aplicativo e considerações sobre cada requisito:
 
@@ -131,7 +131,7 @@ As respostas irão variar de acordo com o estado atual da estratégia de implant
 
 Para lidar com as considerações sobre aplicativos que serão implantados para os usuários, é necessário entender os requisitos relacionados ao acesso corporativo. Cenários de implantação incluem os aplicativos que precisam estar sempre conectados aos recursos da empresa, embora os usuários não precisem ter acesso a outros recursos corporativos ou não precisam de acesso completo a todos os recursos corporativos enquanto dentro da rede corporativa. Verifique as opções de implantação para cada aplicativo e avalie qual método é preferido para sua empresa. A seção a seguir inclui as opções de implantação mais comuns que podem ser usadas como parte de uma linha de base de decisão.
 
-### <a name="deployment-options-advantages-and-disadvantages"></a>Opções de implantação — vantagens e desvantagens
+### <a name="deployment-options--advantages-and-disadvantages"></a>Opções de implantação — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens de cada opção de implantação:
 
@@ -163,7 +163,7 @@ Use a lista abaixo para entender as vantagens e desvantagens de cada opção de 
         - Normalmente exige uma assinatura do serviço de nuvem.
         - A integração com a solução de implantação local pode variar de acordo com o serviço de nuvem.
 
-### <a name="app-deployment-requirements-considerations"></a>Requisitos para implantação do aplicativo — considerações
+### <a name="app-deployment-requirements--considerations"></a>Requisitos para implantação do aplicativo — considerações
 
 Você também precisará acessar requisitos para implantação de aplicativos para uma solução de infraestrutura BYOD. A lista a seguir inclui algumas considerações importantes sobre a implantação de aplicativo:
 

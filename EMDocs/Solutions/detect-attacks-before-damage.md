@@ -26,7 +26,7 @@ Uma postura de segurança forte requer um sistema de detecção avançado em vig
 Um sistema de detecção de alta segurança deve revelar atividades suspeitas e identificar ameaças com visibilidade profunda e análise de comportamento contínua. Isso permite que a TI tome medidas imediatas contra ataques detectados e simplifique a recuperação com suporte robusto.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
 O Microsoft Enterprise Mobility + Security permite que a TI identifique invasores na organização usando análise comportamental inovadora e tecnologias de detecção de anomalias, local e na nuvem.  Ele poderá ajudar a TI a detectar ataques maliciosos conhecidos e vulnerabilidades de segurança em seus sistemas.
 
 ## <a name="recommended-solution"></a>Solução recomendada

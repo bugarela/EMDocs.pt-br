@@ -70,7 +70,7 @@ Considere ter um link entre o dispositivo e o usuário armazenado em um local ce
 - Abordagem 3 (1+2): Registro e instalação de um agente de gerenciamento no dispositivo de cada usuário.
 
 
-### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>Opções de dispositivo desconhecidas a conhecidas — vantagens e desvantagens
+### <a name="unknown-to-known-device-options--advantages-and-disadvantages"></a>Opções de dispositivo desconhecidas a conhecidas — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens das opções de dispositivo desconhecidas a conhecidas:
 
@@ -117,7 +117,7 @@ O acesso à rede corporativa da perspectiva do usuário e do dispositivo deve se
 
 Se sua empresa tiver recursos na nuvem pública que estarão acessíveis pela Internet em dispositivos dos usuários, deve considerar como será tratado o tráfego. Considere o uso de criptografia enquanto os dados estão em trânsito de dispositivos dos usuários para o provedor de nuvem. Quando os usuários acessarem recursos internos, você também deve usar a criptografia de dados.
 
-### <a name="network-connectivity-options-advantages-and-disadvantages"></a>Opções de conectividade de rede — vantagens e desvantagens
+### <a name="network-connectivity-options--advantages-and-disadvantages"></a>Opções de conectividade de rede — vantagens e desvantagens
 
 Use a lista abaixo para entender as vantagens e desvantagens das opções de conectividade:
 
