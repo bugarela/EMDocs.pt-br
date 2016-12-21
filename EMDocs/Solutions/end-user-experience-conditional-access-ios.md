@@ -3,6 +3,7 @@ title: "Experiência do usuário final para acesso condicional em dispositivos i
 description: "A experiência do usuário final de registrar um dispositivo iOS."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 5c438da3a343997439aab333430537f919626590
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 400c1dc2af8d38c4ac61402691131aaf724e1499
 
 
 ---
@@ -95,6 +96,6 @@ A experiência do usuário final é um pouco diferente em outros dispositivos m�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

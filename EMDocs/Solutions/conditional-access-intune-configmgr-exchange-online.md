@@ -3,6 +3,7 @@ title: Acesso condicional - Exchange Online, Intune, Configuration Manager
 description: "Use o Gerenciador de Configuração, o Exchange Online e o Intune para gerenciar o acesso ao email e proteger dados de email em dispositivos móveis."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 241c2b5bd124e463160971f431266a1c13c66f99
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 197e7912d9fb03d5b9533a3f8aa384b2070faaae
 
 
 ---
@@ -150,6 +151,6 @@ Depois de implantar uma solução para proteger email corporativo e dados de ema
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

@@ -16,6 +16,7 @@
 ### [Acompanhar o uso de dados compartilhados e responder a violações de dados](infoprotect-track-usage-scenario.md)
 ## [Produtividade móvel gerenciada](protect-office365-data-with-intune.md)
 ### [Proteger dados da empresa no Office 365 com o Intune](protect-office365-data-with-intune.md)
+### [Proteger dados locais da empresa com o Intune](protect-on-premises-data-with-intune.md)
 ## [Guias de Design e Arquitetura](byod-design-considerations-guide.md)
 ### [Guia de Design para BYOD](byod-design-considerations-guide.md)
 #### [Previsão da solução de infraestrutura](byod-envisioning-the-byod-infrastructure-solution.md)
@@ -27,10 +28,10 @@
 ##### [Usuário e dispositivo](byod-user-and-device-considerations.md)
 ##### [Acesso a dados e proteções](byod-data-access-and-protection-considerations.md)
 ##### [Gerenciamento](byod-management-considerations.md)
-##### [Aplicativos](byod-app-considerations.md)
+##### [Apps](byod-app-considerations.md)
 ### [Guia de Design do Gerenciamento de Dispositivo Móvel](mdm-design-considerations-guide.md)
 #### [Etapa 1: Identificar requisitos](mdm-step-1-identify-your-mobile-device-management-requirements.md)
-##### [Identificar necessidades comerciais](mdm-identify-business-needs.md)
+##### [Identificar as necessidades comerciais](mdm-identify-business-needs.md)
 ##### [Especificar requisitos do local](mdm-specify-mdm-location-requirements.md)
 ##### [Desenvolver estratégia de adoção](mdm-develop-mdm-adoption-strategy.md)
 #### [Etapa 2: Planejar MDM](mdm-step-2-plan-for-mobile-device-management.md)
@@ -92,8 +93,8 @@
 #### [Fases de migração e integração](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 #### [Suas responsabilidades](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-### [Como configurar o seu método preferencial de verificação de segurança adicional](fasttrack-how-to-enroll-in-mfa.md)
-### [Como gerenciar a sua própria senha](fasttrack-how-to-manage-your-password.md)
+### [Como configurar seu método preferencial de verificação de segurança adicional](fasttrack-how-to-enroll-in-mfa.md)
+### [Como gerenciar sua própria senha](fasttrack-how-to-manage-your-password.md)
 ### [Instruções de registro do usuário final no Intune para administradores de TI](fasttrack-intune-enduser-enrollment-instructions.md)
 ### [Como usar aplicativos com suporte para várias identidades](fasttrack-how-to-use-apps-with-multi-identity-support.md)
 ### [Como usar aplicativos móveis gerenciados pela sua organização](fasttrack-how-to-work-with-managed-apps.md)
@@ -102,6 +103,6 @@
 ## [Perguntas Frequentes do Suporte do EMS](ems-support-faq.md)
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 
