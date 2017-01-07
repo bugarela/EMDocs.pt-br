@@ -14,8 +14,8 @@ ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
 translationtype: Human Translation
-ms.sourcegitcommit: 168d6d559aa17bbe0b8e912a53cbd384a3dc48a3
-ms.openlocfilehash: b0dd2c797fb6b33e10ef62fa74bb4c646e89bede
+ms.sourcegitcommit: b5acf1041ff91a68443464a9fe196b179c6668a6
+ms.openlocfilehash: 8b2c453c18f1569ac1fe94bb7c1e3e8c568d28ec
 
 
 ---
@@ -133,12 +133,9 @@ Ao conceder aos usuários acesso a recursos corporativos por meio de VPN, Wi-Fi 
 -   iOS (8.0 e posterior)
 -   Mac OS X (10.9 e posterior)
 -   Android (4.0 e posterior e Android for Work)
--   Windows 10 (Desktop e Mobile) e posterior
-
-É possível usar somente um **Perfil de Certificado SCEP** para dispositivos executados nestas plataformas:
-
 -   Windows 8.1 (e posterior)
 -   Windows Phone (8.1 e posterior)
+-   Windows 10 (Desktop e Mobile) e posterior
 
 Embora seja necessária uma Autoridade de Certificação Corporativa (AC) para realizar qualquer autenticação baseada em certificado para a empresa, há outros pré-requisitos que devem ser atendidos antes de usar certificados SCEP ou .PFX para proteger o acesso aos recursos da empresa.
 
@@ -158,6 +155,6 @@ Ao [implantar perfis de certificado](https://docs.microsoft.com/intune/deploy-us
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

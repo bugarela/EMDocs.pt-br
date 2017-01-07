@@ -2,9 +2,9 @@
 title: "Experiência do usuário final para acesso condicional em dispositivos Android"
 description: "A experiência do usuário final de registrar um dispositivo Android."
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
 
 
 ---
 
-# Android
+# <a name="android"></a>Android
 
 O processo de registro e as telas que o usuário vê serão um pouco diferentes dependendo da versão do sistema operacional em execução no dispositivo do usuário final. Este tópico descreve a experiência do usuário final para registrar dispositivos Android.
 
-## Registro
+## <a name="enrolling"></a>Registro
 
 1.  Ao tentar acessar o email, o usuário primeiro recebe um email de quarentena semelhante a este exemplo:
 
@@ -86,7 +86,7 @@ Se o usuário seguir essas etapas para registrar e ficar compatível e ainda nã
 
 3.  Ligue para o suporte técnico.
 
-## Problemas e soluções
+## <a name="issues-and-solutions"></a>Problemas e soluções
 Por padrão, a cada 8 horas os dispositivos são verificados para verificar se eles ainda são compatíveis. Se um dispositivo que era anteriormente compatível for considerado incompatível (por exemplo, devido a uma política de conformidade ter sido adicionada ou alterada), o usuário pode seguir estas etapas para restaurar a conformidade do dispositivo:
 
 1.  O usuário recebe a notificação por email ou em seu dispositivo que este é incompatível. Neste momento, o dispositivo está em quarentena no Exchange.
@@ -103,11 +103,11 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 
 5.  Se o problema estiver corrigido, o usuário clica em **Continuar** para concluir o processo. O acesso ao email deverá ficar disponível novamente dentro de alguns minutos.
 
-### Onde ir daqui
+### <a name="where-to-go-from-here"></a>Onde ir daqui
 A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final do [iOS](end-user-experience-conditional-access-ios.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
