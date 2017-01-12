@@ -14,8 +14,8 @@ ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: d4cc34daa08f3db2508c08b51ca70651cf832015
+ms.sourcegitcommit: 59e06bc9534edf816618e2644d5870f549f32742
+ms.openlocfilehash: aece953566d06fa2b8d97cdb82866ab02df97f13
 
 
 ---
@@ -37,7 +37,7 @@ O diagrama a seguir descreve as fases de integração de alto nível do Benefíc
 
 Eis aqui como o processo funciona:
 
-- A Microsoft tentará entrar em contato com você para oferecer assistência de integração após sua compra de licenças para um serviço qualificado. Você também pode solicitar assistência do [FastTrack Center](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização. Para solicitar assistência, entre no [FastTrack Center](http://fasttrack.microsoft.com/) com sua conta corporativa ou de estudante, vá até o painel, expanda **Precisa de ajuda?** à esquerda da tela e siga os prompts para concluir a solicitação. Uma vez iniciado o suporte de integração, vamos definir uma agenda de reuniões online.
+- A Microsoft tentará entrar em contato com você para oferecer assistência de integração após sua compra de licenças para um serviço qualificado. Você também pode solicitar assistência do [FastTrack Center](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização. Para solicitar assistência, entre no [FastTrack Center](http://fasttrack.microsoft.com/) com sua conta corporativa ou de estudante, acesse o painel, expanda o link **Precisa de Ajuda?** no canto inferior direito da página e siga os prompts para concluir a solicitação. Uma vez iniciado o suporte de integração, vamos definir uma agenda de reuniões online.
 
 -   A equipe de Integração da Microsoft ajudará você primeiro com os principais recursos (comuns a todos os Microsoft Online Services) e depois ajudará a realizar a integração de cada serviço qualificado.
 
@@ -57,6 +57,6 @@ Todo o suporte à integração será fornecido remotamente por funcionários da 
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

@@ -2,28 +2,27 @@
 title: "Como usar aplicativos móveis que sua organização gerencia"
 description: "Como usar aplicativos móveis gerenciados pela sua organização"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: f9464790624d94d89c43aae3db35f58ffae6da01
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: c426653ebb7848a86fdb7a884cd88d01bd8601ee
 
 
 ---
 
-# Como usar aplicativos móveis gerenciados pela sua organização
+# <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>Como usar aplicativos móveis gerenciados pela sua organização
 
-## Acessando o OneDrive em um dispositivo iOS
+## <a name="accessing-onedrive-on-an-ios-device"></a>Acessando o OneDrive em um dispositivo iOS
 
 Esta seção usa o OneDrive for Business como exemplo para demonstrar como a experiência do usuário pode mudar ligeiramente em um aplicativo gerenciado pelo Intune.
 
@@ -51,7 +50,7 @@ Esta seção usa o OneDrive for Business como exemplo para demonstrar como a exp
 > [!NOTE]
 > Quando você altera uma política implantada, as alterações serão aplicadas da próxima vez que abrir o aplicativo.
 
-## Acessando o OneDrive em um dispositivo Android
+## <a name="accessing-onedrive-on-an-android-device"></a>Acessando o OneDrive em um dispositivo Android
 Esta seção usa o OneDrive for Business como exemplo para demonstrar como a experiência do usuário pode mudar ligeiramente em um aplicativo gerenciado pelo Intune.
 1.  Inicie o aplicativo **OneDrive for Business** para abrir a página de logon.
 > [!NOTE]
@@ -77,11 +76,11 @@ Esta seção usa o OneDrive for Business como exemplo para demonstrar como a exp
   ![Captura de tela solicitando que o usuário do Android defina um PIN para o aplicativo](./media/ft-useMngdApps-9-setNewPIN.png)
 8.  Depois que o PIN for definido e confirmado, você poderá continuar usando o **OneDrive for Business**, agora gerenciado por políticas de aplicativo.
 
-### Quer saber mais?
+### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 
