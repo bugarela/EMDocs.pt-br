@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 8c40e178b70bd6fb3110174edd4ad7bfabadc53e
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
 
 
 ---
 
-# Usar o acesso condicional com o Microsoft Intune
+# <a name="use-conditional-access-with-microsoft-intune"></a>Usar o acesso condicional com o Microsoft Intune
 Essa solução permite usar o acesso condicional no Intune para ajudar a proteger emails e outros serviços de acordo com as condições especificadas.
 
 Confira [Restringir o acesso a email e serviços do O365 com o Microsoft Intune](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) para saber mais sobre como usar o recurso de acesso condicional com o Intune.
@@ -28,7 +28,7 @@ Confira [Restringir o acesso a email e serviços do O365 com o Microsoft Intune]
 > [!TIP]
 > Obtenha uma cópia baixável deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
 
-## Antes de começar
+## <a name="before-you-begin"></a>Antes de começar
 Você pode controlar o acesso ao Exchange Online e ao Exchange local nos seguintes aplicativos de email:
 
 -   O aplicativo interno para Android 4.0 e posterior, Samsung Knox 4.0 Standard e posterior
@@ -43,7 +43,7 @@ Você pode controlar o acesso ao Exchange Online e ao Exchange local nos seguint
 
 Antes de começar a usar o acesso condicional, certifique-se de que você tenha os requisitos corretos definidos:
 
-## Para o Exchange Online
+## <a name="for-exchange-online"></a>Para o Exchange Online
 O Acesso condicional ao Exchange Online dá suporte a dispositivos que executam:
 
 -   Windows 8.1 e posterior (quando registrado no Intune)
@@ -71,7 +71,7 @@ O AAD DRS será ativado automaticamente para clientes do Intune e do Office 365.
 
     Agora você está pronto para aprender a [implantar o Exchange Online com o Intune](conditional-access-intune-exchange-online.md).
 
-## Para o Exchange Server local
+## <a name="for-exchange-server-on-premises"></a>Para o Exchange Server local
 O acesso condicional ao Exchange local é compatível com:
 
 -   Windows 8 e posterior (quando registrado no Intune)
@@ -100,6 +100,6 @@ Além disso:
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

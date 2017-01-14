@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 197e7912d9fb03d5b9533a3f8aa384b2070faaae
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 47f4298d833bcc910f769046ec018f270e75d246
 
 
 ---
 
-# Implantar o Exchange Online com o Microsoft Intune e o Configuration Manager
+# <a name="deploy-exchange-online-with-microsoft-intune-and-configuration-manager"></a>Implantar o Exchange Online com o Microsoft Intune e o Configuration Manager
 Agora que você leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents.md), está pronto para prosseguir com a implantação de uma solução.
 
 Se já estiver usando o System Center Configuration Manager e o Exchange Online, você pode incorporar o Intune para gerenciar o acesso ao email e proteger os dados de email em dispositivos móveis. O processo de alto nível para implementar esta solução é o seguinte:
@@ -31,7 +31,7 @@ Se já estiver usando o System Center Configuration Manager e o Exchange Online,
 
 -   Outra opção é configurar o conector do Exchange Server para Exchange Online. Este conector é necessário apenas para fins de relatório. Ele não é necessário para habilitar o acesso condicional.
 
-## Fluxo de controle de acesso condicional para o Exchange Online
+## <a name="conditional-access-control-flow-for-exchange-online"></a>Fluxo de controle de acesso condicional para o Exchange Online
 Este diagrama mostra o fluxo de controle para clientes que tentam acessar o email no Exchange Online. A e B podem ser realizados antes da imposição de acesso condicional.
 
 ![Diagrama de fluxo de controle de acesso condicional no Configuration Manager com o Intune e o Exchange Online](./media/ProtectEmail/Hybrid-Exchange-Online-CA-architecture.png)
@@ -44,7 +44,7 @@ Este diagrama mostra o fluxo de controle para clientes que tentam acessar o emai
 
 -   Exchange Online: impõe o acesso ao email com base no estado do dispositivo
 
-## Antes de começar
+## <a name="before-you-begin"></a>Antes de começar
 Verifique se seu ambiente inclui esses requisitos para implementação dessa solução.
 
 -   Instale e atribua os serviços do Exchange a um [certificado digital válido ](https://technet.microsoft.com/library/dd351044.aspx) adquirido de uma autoridade de certificação pública confiável.
@@ -83,10 +83,10 @@ Verifique se seu ambiente inclui esses requisitos para implementação dessa sol
 
     Remove-ActiveSyncDevice
 
-## Etapas de Implantação
+## <a name="deployment-steps"></a>Etapas de Implantação
 Siga estas etapas para implantar a solução do Exchange Online:
 
-### Etapa 1: criar políticas de conformidade e implantá-las para os usuários.
+### <a name="step-1-create-compliance-policies-and-deploy-to-users"></a>Etapa 1: criar políticas de conformidade e implantá-las para os usuários.
 As políticas de conformidade definem regras e configurações com que um dispositivo deve manter a conformidade para ser considerado compatível pelas políticas de acesso condicional. Siga as etapas em [Políticas de conformidade no Configuration Manager](https://technet.microsoft.com/library/mt131417.aspx) para criar políticas de conformidade.
 
 Se você desejar poder remover todos os email corporativo de um dispositivo iOS depois que ele não fizer mais parte da sua empresa, será necessário criar e implantar um perfil de email e, em seguida, definir a política de conformidade que especifica que perfis de email são gerenciados pelo Intune. Você deve implantar o perfil de email para o mesmo conjunto de usuários-alvos desta política de conformidade.
@@ -97,13 +97,13 @@ Se você especificar essa política de conformidade, um usuário que já tenha c
 
 Depois que a política de conformidade for criada, selecione o nome da política de conformidade na lista e clique em **Implantar**.
 
-### Etapa 2: configurar a política de acesso condicional.
+### <a name="step-2-configure-conditional-access-policy"></a>Etapa 2: configurar a política de acesso condicional.
 Decida primeiro como e quando você deseja impor o acesso condicional e os funcionários que serão afetados. Em seguida, siga as etapas em [Acesso Condicional para Email do Exchange no Configuration Manager](https://technet.microsoft.com/library/mt131421.aspx) para habilitar a política de acesso condicional para o Exchange Online.
 
 > [!NOTE]
 > A política de acesso condicional deve ser configurada no console do Intune. As etapas começam acessando o console do Intune por meio do Configuration Manager. Se solicitado, faça logon usando as mesmas credenciais que foram usadas para configurar o conector entre o Intune e o Configuration Manager.
 
-### Etapa 3: (*opcional*) instalar e configurar um conector do Exchange Server.
+### <a name="step-3-optional-install-and-configure-an-exchange-server-connector"></a>Etapa 3: (*opcional*) instalar e configurar um conector do Exchange Server.
 O Configuration Manager dá suporte apenas a um conector em uma organização do Exchange.
 
 > [!IMPORTANT]
@@ -111,14 +111,14 @@ O Configuration Manager dá suporte apenas a um conector em uma organização do
 
 Siga as etapas em [Como gerenciar dispositivos móveis usando o Configuration Manager e o Exchange](https://technet.microsoft.com/library/gg682001.aspx) para instalar e configurar o conector do Exchange Server.
 
-## Etapas de Verificação
+## <a name="verification-steps"></a>Etapas de Verificação
 Se você configurou o conector do Exchange Server opcional para esta solução, poderá usar a Ferramenta de Log de Rastreamento do Configuration Manager para abrir o arquivo EasDisc.log (localizado na pasta Microsoft Configuration Manager/Logs em que você instalou o Configuration Manager). Procure no arquivo de log por "Exchange Connector" para encontrar informações sobre se o Exchange Connector está em execução e quantos dispositivos estão conectados.
 
 ![Captura de tela que mostra o arquivo EasDisc.log aberto na Ferramenta de Log de Rastreamento do Configuration Manager](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
 A Ferramenta de Log de Rastreamento do Configuration Manager está incluída no [Kit de Ferramentas do System Center 2012 R2 Configuration Manager](https://www.microsoft.com/download/details.aspx?id=50012).
 
-## Relatórios
+## <a name="reporting"></a>Relatórios
 Se tiver configurado o conector do Exchange Server opcional, você poderá usar o conector console do Configuration Manager para exibir informações específicas sobre os dispositivos que foram descobertos pelo Exchange Connector. Para os dispositivos nos quais o acesso condicional é imposto, você pode exibir o status atual de cada dispositivo, a última vez que o dispositivo esteve conectado ao Exchange Server e assim por diante.
 
 No console do Configuration Manager, clique em **Ativos e Conformidade** e em **Dispositivos**. Você pode exibir o status atual de cada dispositivo (Em quarentena ou Permitido) na coluna **Estado de Acesso ao Exchange** . Adicione esta coluna se ela ainda não for exibida clicando na área de barra de título da coluna. Você também pode exibir o último momento de sincronização bem-sucedida para cada dispositivo, conforme relatado pelo Exchange, adicionando a coluna **Momento da última sincronização bem-sucedida com o Exchange Server** .
@@ -143,14 +143,14 @@ O exemplo a seguir mostra o status da implantação da política de configuraç�
 
 ![Captura de tela que mostra o status de implantação da política de configuração](./media/ProtectEmail/Hybrid-Reports-Deployment-Status.png)
 
-### Latência
+### <a name="latency"></a>Latência
 Dispositivos que usam autenticação moderna têm acesso condicional aplicado imediatamente. Para dispositivos que se conectam por meio do protocolo EAS, pode haver um tempo de atraso de até seis horas para que acesso condicional seja imposto, com base na configuração padrão. Durante esse período, um dispositivo pode ser considerado compatível.
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
