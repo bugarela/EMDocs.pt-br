@@ -1,27 +1,26 @@
 ---
 title: "Como registrar-se na autenticação multifator"
-description: "Como configurar seu método preferencial de verificação de segurança adicional"
+description: "Como configurar o método preferencial de verificação de segurança adicional"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 4c8f2d3dbe72a4bf3d948f074b55b6ba4b936522
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: b7164b33bf9d4bdb7584de9cbb78711e922a10c4
 
 
 ---
 
-# Como configurar seu método preferencial de verificação de segurança adicional
+# <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>Como configurar seu método preferencial de verificação de segurança adicional
 
 
 
@@ -37,9 +36,9 @@ Ao utilizar o processo de registro, você será capaz de especificar seu método
 |Método|Descrição|
 |------------|----------------------------------|
 |[Chamada de Telefone Celular](#mobile-phone-(text-or-call))|Faz uma chamada de voz automática para o número de telefone de autenticação. O usuário atende a chamada e pressiona # no teclado numérico do telefone para autenticar. Este número de telefone não será sincronizado ao Active Directory local.|
-|[Mensagem de Texto via Celular](#mobile-phone-(text-or-call))|Envia uma mensagem de texto que contém um código de verificação para o usuário. É solicitado que o usuário responda à mensagem de texto com o código de verificação ou que insira o código de verificação na interface de entrada.|
+|[Mensagem de Texto de Celular](#mobile-phone-(text-or-call))|Envia uma mensagem de texto que contém um código de verificação para o usuário. É solicitado que o usuário responda à mensagem de texto com o código de verificação ou que insira o código de verificação na interface de entrada.|
 |[Chamada de Telefone Comercial](#office-phone-call)|faz uma chamada de voz automática para o usuário. O usuário atende a chamada e pressiona # no teclado numérico do telefone para autenticar.|
-|[Aplicativos Móveis](#mobile-application)|Envia uma notificação para o aplicativo móvel Microsoft Authenticator no smartphone ou tablet do usuário. O usuário toca em Verificar no aplicativo para autenticar. Como alternativa, o aplicativo também pode ser usado como um token OTP para autenticação offline. O usuário insere o token na tela de entrada para autenticar.|
+|[Aplicativo Móvel](#mobile-application)|Envia uma notificação para o aplicativo móvel Microsoft Authenticator no smartphone ou tablet do usuário. O usuário toca em Verificar no aplicativo para autenticar. Como alternativa, o aplicativo também pode ser usado como um token OTP para autenticação offline. O usuário insere o token na tela de entrada para autenticar.|
 
 _O aplicativo Microsoft Authenticator pode operar em dois modos diferentes para fornecer a segurança adicional que um serviço de autenticação multifator pode proporcionar. Eles são os seguintes:_
 
@@ -48,7 +47,7 @@ _O aplicativo Microsoft Authenticator pode operar em dois modos diferentes para 
 
 O aplicativo Microsoft Authenticator está disponível para [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) e [IOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458).
 
-## Telefone Celular (Texto ou Chamada)
+## <a name="mobile-phone-text-or-call"></a>Telefone Celular (Texto ou Chamada)
 Se quiser usar seu telefone celular como método de contato primário, será possível usar as etapas a seguir. Será fornecido um passo a passo de como configurar a autenticação multifator para usar o telefone celular para uma chamada ou texto como método de contato.
 
 1. Em **Etapa 1: como devemos contatá-lo?**, selecione **Telefone de autenticação**.
@@ -74,7 +73,7 @@ São permitidos espaços, mas não caracteres de pontuação. Por exemplo, 55544
 10. Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
 11. Clique em **Concluído**.
 
-## Chamada de Telefone Comercial
+## <a name="office-phone-call"></a>Chamada de Telefone Comercial
 Esta seção deste documento o orientará durante a configuração da Autenticação Multifator do Azure para usar seu Telefone Comercial como método de contato primário.
 1. Selecione Telefone Comercial na lista suspensa.
 
@@ -89,7 +88,7 @@ Esta seção deste documento o orientará durante a configuração da Autentica�
   ![Captura de tela solicitando que o usuário insira a senha de aplicativo](./media/ft-enrollMFA-7-pastePW.png)
 9.  Clique em **Concluído**.
 
-## Aplicativo Móvel
+## <a name="mobile-application"></a>Aplicativo Móvel
 Esta seção deste artigo o orientará durante a configuração da Autenticação Multifator do Azure para usar seu aplicativo móvel como método de contato primário.
 
 O aplicativo Microsoft Authenticator está disponível para Windows Phone, Android e iOS.
@@ -117,11 +116,11 @@ O aplicativo Microsoft Authenticator está disponível para Windows Phone, Andro
   ![Captura de tela solicitando que o usuário insira a senha de aplicativo](./media/ft-enrollMFA-11-securityVerification.png)
 12. Clique em **Concluído**.
 
-### Quer saber mais?
+### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

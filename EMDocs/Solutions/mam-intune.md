@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 05/12/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 2efaf8b6298cabd640f141675b5cefe3f77aaae7
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
 
 
 ---
 
-# Usar Políticas de Gerenciamento de Aplicativos Móveis no Intune
+# <a name="use-mobile-app-management-policies-in-intune"></a>Usar Políticas de Gerenciamento de Aplicativos Móveis no Intune
 Um dos motivos principais pelos quais muitas empresas usam o Microsoft Intune é implantar aplicativos que os usuários precisam para realizar seu trabalho. Antes de implantar aplicativos, você precisará [tornar seus dispositivos gerenciados](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
 Por exemplo, se sua empresa usa o Microsoft Word, há versões disponíveis para Windows, iOS, Android e outros. O desafio que você como um administrador de TI enfrenta é gerenciar a variedade de aplicativos disponíveis, em muitas plataformas diferentes de computador e de dispositivo com o objetivo de permitir que os usuários façam seu trabalho e, simultaneamente, garantir a segurança dos seus dados corporativos.
@@ -40,8 +40,8 @@ Para aplicar restrições a um aplicativo, o aplicativo deve incorporar o SDK (S
 
 - **Usar um aplicativo gerenciado por política** – tem o SDK interno do aplicativo. Para adicionar este tipo de aplicativo, especifique um link para o aplicativo de uma loja de aplicativos, como a iTunes Store ou o Google Play. Nenhum processamento adicional é necessário para este tipo de aplicativo. Para ver a lista completa de aplicativos da Microsoft com suporte, vá para a galeria de aplicativos móveis do Microsoft Intune na página de [parceiros de aplicativos do Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners). Clique no aplicativo para ver os cenários e plataformas com suporte e se o aplicativo dá suporte a várias identidades ou não.
 - **Usar um aplicativo "encapsulado"** – aplicativos que são empacotados novamente para incluir o SDK do aplicativo usando a Ferramenta de Encapsulamento de Aplicativos do Microsoft Intune. Normalmente, essa ferramenta é usada para processar aplicativos da empresa criados internamente. Ele não pode ser usado para processar aplicativos que foram baixados da loja de aplicativos. Consulte:
-  - [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de disposição de aplicativos do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
-  - [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Encapsulamento de Aplicativos do Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+  - [Preparar aplicativos iOS para o gerenciamento de aplicativo móvel com a Ferramenta de Disposição do Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+  - [Preparar aplicativos Android para gerenciamento de aplicativos móveis com a Ferramenta de Encapsulamento de Aplicativos do Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
 Alguns aplicativos gerenciados, como o aplicativo do Outlook para iOS e Android, dão suporte a **multi-identidade**. Isso significa que Intune aplica as configurações de gerenciamento somente a dados ou contas corporativas no aplicativo.
 
@@ -52,7 +52,7 @@ Por exemplo, usando o aplicativo do Outlook:
 
 Word, Excel e PowerPoint também dão suporte a várias identidades, exceto as restrições de política que se aplicam somente ao gerenciar e editar dados de identificação empresarial de um serviço, como OneDrive ou SharePoint.
 
-## Criar e implantar um aplicativo no Intune com uma política de gerenciamento de aplicativos móveis
+## <a name="create-and-deploy-an-app-in-intune-with-a-mobile-app-management-policy"></a>Criar e implantar um aplicativo no Intune com uma política de gerenciamento de aplicativos móveis
 
 - Etapa 1: obter o link para um aplicativo gerenciado por política ou criar um aplicativo encapsulado.
 - Etapa 2: publicar o aplicativo em seu espaço de armazenamento de nuvem.
@@ -60,17 +60,17 @@ Word, Excel e PowerPoint também dão suporte a várias identidades, exceto as r
 - Etapa 4: implantar o aplicativo, selecionando a opção para associar o aplicativo a uma política de gerenciamento de aplicativos móveis.
 - Etapa 5: monitorar a implantação do aplicativo.
 
-### Etapa 1: obter o link para um aplicativo gerenciado por política ou criar um aplicativo encapsulado
+### <a name="step-1-obtain-the-link-to-a-policy-managed-app-or-create-a-wrapped-app"></a>Etapa 1: obter o link para um aplicativo gerenciado por política ou criar um aplicativo encapsulado
 - **Para obter um link para um aplicativo gerenciado por política** - na Windows Store, encontre e anote a URL do aplicativo gerenciado por política que você deseja implantar.
 Por exemplo, a URL do aplicativo do Microsoft Word para iPad é [https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8](https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8)
 - **Para criar um aplicativo encapsulado**: use as informações nos tópicos [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição do Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) e [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição do Aplicativo do Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) para criar um aplicativo encapsulado. A ferramenta cria um aplicativo processado que será usado quando você publica o aplicativo no espaço de armazenamento de nuvem.
 
-### Etapa 2: Carregar o aplicativo em seu espaço de armazenamento de nuvem
+### <a name="step-2-upload-the-app-to-your-cloud-storage-space"></a>Etapa 2: Carregar o aplicativo em seu espaço de armazenamento de nuvem
 Quando você publica um aplicativo gerenciado, os procedimentos diferem se você estiver publicando um aplicativo gerenciado por política ou um aplicativo que foi processado usando a ferramenta de disposição de aplicativos do Microsoft Intune para iOS.
 
 Veja [Adicionar aplicativos para dispositivos móveis no Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app) para obter as etapas completas necessárias para carregar um aplicativo em seu espaço de armazenamento de nuvem.
 
-### Etapa 3: criar uma política de gerenciamento de aplicativos móveis
+### <a name="step-3-create-a-mobile-app-management-policy"></a>Etapa 3: criar uma política de gerenciamento de aplicativos móveis
 O portal do Azure é o console de administração recomendado para criar políticas de MAM. O portal do Azure dá suporte aos seguintes cenários MAM:
 - Dispositivos registrados no Intune
 - Dispositivos gerenciados por uma solução MDM terceirizada
@@ -81,14 +81,14 @@ Veja [Criar e implantar políticas de gerenciamento de aplicativo móvel com o M
 Se no momento você estiver usando o console de administração do Intune para gerenciar seus dispositivos, poderá criar uma política MAM que dê suporte a aplicativos para dispositivos registrados no Intune usando o [Console de administração do Intune](https://docs.microsoft.com/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console#-step-3-create-a-mobile-application-management-policy).
 
 
-### Etapa 4: implantar o aplicativo, selecionando a opção para associar o aplicativo a uma política de gerenciamento de aplicativos móveis
+### <a name="step-4-deploy-the-app-selecting-the-option-to-associate-the-app-with-a-mobile-application-management-policy"></a>Etapa 4: implantar o aplicativo, selecionando a opção para associar o aplicativo a uma política de gerenciamento de aplicativos móveis
 Se você estiver usando o portal do Azure, [implante a política de MAM para usuários](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune#deploy-a-policy-to-users).
 
 Se você estiver usando o portal do Intune, [implante o aplicativo](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app), garantindo que você selecione a política de gerenciamento de aplicativo móvel na página de Gerenciamento de Aplicativo Móvel para associar a política ao aplicativo.
 
 Se o dispositivo tiver o registro no Intune desfeito, as políticas não serão removidas dos aplicativos. Quaisquer aplicativos que tiverem políticas aplicadas manterão as configurações de política, mesmo depois de ser desinstalado e reinstalado.
 
-#### O que fazer quando um aplicativo já está implantado em dispositivos
+#### <a name="what-to-do-when-an-app-is-already-deployed-on-devices"></a>O que fazer quando um aplicativo já está implantado em dispositivos
 
 Pode haver situações em que você implantar um aplicativo e um dos usuários ou dispositivos de destino já tem uma versão não gerenciada do aplicativo instalada, por exemplo, o usuário instalou o Microsoft Word da loja de aplicativos.
 
@@ -97,7 +97,7 @@ Nesse caso, você deve pedir ao usuário para desinstalar manualmente a versão 
 No entanto, para dispositivos que executam o iOS 9 e versões posteriores, o Intune automaticamente solicitará ao usuário permissão para assumir o gerenciamento do aplicativo existente. Se eles concordarem, o aplicativo será gerenciado pelo Intune e qualquer política de MAM associada ao aplicativo também será aplicada.
 
 
-### Etapa 5: monitorar a implantação do aplicativo com a política de MAM
+### <a name="step-5-monitor-the-app-deployment-with-mam-policy"></a>Etapa 5: monitorar a implantação do aplicativo com a política de MAM
 Use os procedimentos a seguir para monitorar a implantação do aplicativo por meio do console do Intune e resolver conflitos de política.
 
 1. No [console de administração do Microsoft Intune](https://manage.microsoft.com/), clique em **Grupos**.
@@ -112,12 +112,12 @@ Use os procedimentos a seguir para monitorar a implantação do aplicativo por m
 > [!NOTE]
 > Você pode saber mais informações gerais sobre monitoramento de aplicativos por meio do [portal do Azure](https://docs.microsoft.com/intune/deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune) ou usando o [console do Intune](https://docs.microsoft.com/intune/deploy-use/monitor-apps-in-microsoft-intune).
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 
 Depois de criar e implantar um aplicativo associado a uma política de MAM, você pode saber mais sobre o [experiência do usuário final de MAM](end-user-experience-mam.md). Isso ajudará a se preparar para problemas que possam surgir.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

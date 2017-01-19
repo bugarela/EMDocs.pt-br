@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
 
 
 ---
 
-# Proteger emails e anexos contra vazamento de dados
+# <a name="protect-email-and-attachments-from-data-leakage"></a>Proteger emails e anexos contra vazamento de dados
 [Protegendo emails e documentos corporativos](protect-corporate-email-documents.md) descreveu como você pode ter certeza de que apenas dispositivos compatíveis possam acessar emails corporativos. No entanto, o conteúdo de email e anexos de email não são protegidos apenas protegendo o acesso. O conteúdo pode ser copiado, movido, salvo em um local diferente ou compartilhado com outro usuário. O EMS resolve esse problema usando as políticas MAM (gerenciamento de aplicativo móvel).
 
 Aplicativos gerenciados são aplicativos implantados pelo administrador de TI que estão de acordo com os requisitos de segurança da empresa. Com esses aplicativos, a TI tem controle direto sobre implantação, gerenciamento contínuo, como inventário ou atualizações, e apagamento seletivo de aplicativos e seus dados associados. Além disso, por meio de um conjunto de políticas MAM (gerenciamento de aplicativo móvel), o Intune permite modificar a funcionalidade de aplicativos e restringir o compartilhamento de dados, como:
@@ -49,7 +49,7 @@ Com a [Proteção de Informações do Azure](https://docs.microsoft.com/informat
 
     -   Detectar conteúdo confidencial e alertar o remetente para aplicar as regras de proteção antes de enviar o email.
 
-## Componentes de aplicativo gerenciados
+## <a name="managed-app-components"></a>Componentes de aplicativo gerenciados
 
 -   O **Microsoft Intune** é onde você configura as políticas, associa as políticas ao aplicativo ou usa a ferramenta de disposição de aplicativo para habilitar um aplicativo interno a usar políticas de gerenciamento de aplicativo móvel.
 
@@ -57,21 +57,21 @@ Com a [Proteção de Informações do Azure](https://docs.microsoft.com/informat
 
 ![Gráfico que mostra como as políticas para aplicativos gerenciados são tratadas por meio do portal da empresa e do Microsoft Intune](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
 
-## A experiência de administração de TI:
+## <a name="the-it-admin-experience"></a>A experiência de administração de TI:
 Seu administrador de TI cria as políticas de gerenciamento de aplicativo móvel, associa a política ao aplicativo e a implanta para usuários ou dispositivos. Quando o aplicativo gerenciado é instalado no dispositivo, as restrições de aplicativo entram em vigor. Criar e implantar aplicativos gerenciados envolvem pouco ou nenhum esforço adicional:
 
 -   Há aplicativos existentes que já têm o SDK do aplicativo que permite aplicar restrições ao aplicativo. Eles não exigem qualquer outro processamento, apenas adicionar um link que aponte para uma loja de aplicativos, como iTunes ou Google Play. Leia [este](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) artigo para ver a lista de aplicativos gerenciados.
 
 -   Se você quiser gerenciar aplicativos criados internamente, é possível reempacotar os aplicativos com a ferramenta de disposição de texto do aplicativo Microsoft Intune. A ferramenta reempacota o aplicativo, o que permite aplicar restrições ao aplicativo.
 
-## A experiência do usuário final
+## <a name="the-end-user-experience"></a>A experiência do usuário final
 Os usuários finais podem instalar aplicativos gerenciados e usá-los para fazer seu trabalho. Eles só poderão mover ou compartilhar dados entre aplicativos gerenciados. Qualquer tentativa de mover dados para fora do ecossistema do aplicativo gerenciado será bloqueada.
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você sabe como [proteger emails e documentos corporativos](protect-corporate-email-documents.md), bem como anexos de email, é possível aprender a [implementar uma solução que proteja o email corporativo](implement-solution.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

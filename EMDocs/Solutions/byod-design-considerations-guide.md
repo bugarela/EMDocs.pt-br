@@ -5,7 +5,7 @@ keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 11/28/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,15 @@ ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
+ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
+ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
 
 
 ---
 
 # <a name="byod-design-considerations-guide"></a>Guia de considerações sobre design para BYOD
 
-Com a proliferação de dispositivos usados pelos funcionários, a maioria das empresas enfrenta um grande dilema: como permitir que os usuários usem seus próprios dispositivos, enquanto protegem os dados corporativos que residem nesses dispositivos? As empresas estão mudando do modelo tradicional, em que elas eram as proprietárias e forneciam dispositivos aos seus funcionários, para um modelo em que os funcionários usam seus dispositivos pessoais para algumas das suas tarefas de trabalho. Esse modelo é frequentemente mencionado como [BYOD (traga seu próprio dispositivo)](https://technet.microsoft.com/library/dn645493.aspx). Nesse modelo, os funcionários têm permissão para usar seus dispositivos pessoais para algumas tarefas de trabalho, mas somente se os funcionários permitirem que a empresa gerencie alguns aspectos dos seus dispositivos para garantir a segurança dos dados corporativos. Geralmente, isso significa que os usuários permitem que a empresa aplique políticas personalizadas, execute proteção dos dispositivos ou padronize o sistema operacional estabelecido pela política da empresa. Executivos e tomadores de decisão que lerem o artigo [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) (Considerações do CIO para transformação do estilo de trabalho) da Microsoft também poderão identificar os benefícios de adotar um modelo em que as pessoas possam usar os próprios dispositivos para serem produtivas no trabalho.
+Com a proliferação de dispositivos usados pelos funcionários, a maioria das empresas enfrenta um grande dilema: como permitir que os usuários usem seus próprios dispositivos, enquanto protegem os dados corporativos que residem nesses dispositivos? As empresas estão mudando do modelo tradicional, em que elas eram as proprietárias e forneciam dispositivos aos seus funcionários, para um modelo em que os funcionários usam seus dispositivos pessoais para algumas das suas tarefas de trabalho. Esse modelo é frequentemente mencionado como [BYOD (traga seu próprio dispositivo)](https://technet.microsoft.com/library/dn645493.aspx). Nesse modelo, os funcionários têm permissão para usar seus dispositivos pessoais para algumas tarefas de trabalho, mas somente se os funcionários permitirem que a empresa gerencie alguns aspectos dos seus dispositivos para garantir a segurança dos dados corporativos. Geralmente, isso significa que os usuários permitem que a empresa aplique políticas personalizadas, execute proteção dos dispositivos ou padronize o sistema operacional estabelecido pela política da empresa. Executivos e tomadores de decisão que lerem o artigo [CIO considerations for workstyle transformation](http://download.microsoft.com/documents/uk/enterprise/it-trends/Considerations_for_a_Workstyle_Transformation.pdf) (Considerações do CIO para transformação do estilo de trabalho) da Microsoft também poderão identificar os benefícios de adotar um modelo em que as pessoas possam usar os próprios dispositivos para serem produtivas no trabalho.
 
 Embora a proteção de acesso a dados seja um dos principais desafios do BYOD, outros desafios exigem abordar o problema com uma abordagem mais abrangente:
 
@@ -77,6 +77,6 @@ Organizações com uma grande infraestrutura precisam determinar requisitos ante
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Jan17_HO1-->
 
 
