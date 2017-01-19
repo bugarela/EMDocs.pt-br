@@ -2,9 +2,9 @@
 title: "Experiência do usuário final para acesso condicional em dispositivos Windows Phone"
 description: "A experiência do usuário final de registrar um Windows Phone."
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 501a38f97d2ed63fbf0d654d8c4156a0888f0094
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: e498fd2a1efea2ef6416185c5ce63223004805c6
 
 
 ---
 
-# Windows Phone
+# <a name="windows-phone"></a>Windows Phone
 
 O processo de registro e as telas que o usuário vê serão um pouco diferentes dependendo da versão do sistema operacional em execução no dispositivo do usuário final.  Este tópico descreve a experiência do usuário final para registrar dispositivos Windows Phone.
 
-## Registro
+## <a name="enrolling"></a>Registro
 
 1.  Se um usuário já estiver registrado no Intune e for compatível, ele não verá nenhuma diferença em dispositivos do Windows: o acesso aos emails continuará normalmente. Os usuários ainda não registrados no Intune receberão um email de quarentena semelhante a este exemplo:
 
@@ -82,7 +82,7 @@ Se o usuário seguir essas etapas para registrar e ficar compatível e ainda nã
 
 -   Ligue para o suporte técnico.
 
-## Problemas e soluções
+## <a name="issues-and-solutions"></a>Problemas e soluções
 Por padrão, a cada 8 horas os dispositivos são verificados para verificar se eles ainda são compatíveis. Se um dispositivo que era anteriormente compatível for considerado incompatível (por exemplo, devido a uma política de conformidade ter sido adicionada ou alterada), o usuário pode seguir estas etapas para restaurar a conformidade do dispositivo:
 
 1.  O usuário recebe a notificação por email ou em seu dispositivo que este é incompatível. Neste momento, o dispositivo está em quarentena no Exchange.
@@ -97,11 +97,11 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 
 5.  Se o problema estiver corrigido, o usuário clica em **Continuar** para concluir o processo. O acesso ao email deverá ficar disponível novamente dentro de alguns minutos.
 
-### Onde ir daqui
+### <a name="where-to-go-from-here"></a>Onde ir daqui
 A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

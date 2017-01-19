@@ -14,8 +14,8 @@ ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f6e0986ce867f1167e202c95535cca778ad30434
-ms.openlocfilehash: 8ca47fecd7d8cde512587ee01801290a0cb62bfb
+ms.sourcegitcommit: 46a7ebaf91f4bc10026b0ddc5c5a383c1b8633c7
+ms.openlocfilehash: f611ba88fb26ab113125912beb1a8d0c40160f47
 
 
 ---
@@ -27,8 +27,10 @@ Para saber mais sobre planos e serviços qualificados, veja [Planos e Serviços 
 
 Para aprender sobre o processo do FastTrack Center e quem é responsável pelo quê, veja [Processo de benefício do FastTrack Center para Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
+Para baixar um arquivo .zip que contém os emails e os guias "Como" do Enterprise Mobility + Security que podem ser personalizados com o logotipo da empresa para promover a adoção do EMS em sua organização, consulte [FastTrack for EMS How To Guides & Emails to Customize](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) (FastTrack para emails e guias "Como" a serem personalizados).
 
 
-<!--HONumber=Nov16_HO3-->
+
+<!--HONumber=Jan17_HO1-->
 
 

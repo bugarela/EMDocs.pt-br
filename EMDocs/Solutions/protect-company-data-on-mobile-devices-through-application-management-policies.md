@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 05/12/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: dcf178146e9145f7526368763a8c1452327d939a
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
 
 
 ---
 
-# Proteger os dados da empresa em dispositivos móveis por meio de políticas de gerenciamento de aplicativo
+# <a name="protect-company-data-on-mobile-devices-through-app-management-policies"></a>Proteger os dados da empresa em dispositivos móveis por meio de políticas de gerenciamento de aplicativo
 Proteger os dados da empresa é extremamente importante e é uma tarefa de cada vez mais desafiadora, conforme mais funcionários usam seus dispositivos móveis para acessar recursos da empresa, incluindo emails e anexos de email. Como administrador de TI, você deseja garantir que os dados da empresa permaneçam protegidos mesmo quando os dispositivos móveis não estiverem no local físico da empresa.
 
 Este guia se concentra na habilitação de aplicativos gerenciados como ele se aplica às duas implantações do MDM do Intune:
@@ -35,7 +35,7 @@ Este documento se concentra na criação dessas políticas de MAM quando o dispo
 > [!TIP]
 > Baixe uma cópia deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
 
-## Introdução
+## <a name="introduction"></a>Introdução
 Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas que os tornam compatíveis com os requisitos de segurança da sua empresa. Você tem duas opções para gerenciar aplicativos móveis:
 - **A funcionalidade padrão**, como Apple Managed Open In, que protege os dados da empresa controlando os aplicativos que têm permissão para abrir certos documentos e anexos de email
 - **O SDK de Aplicativo do Intune**, que permite limitar a funcionalidade e restringir o compartilhamento de dados para todos os aplicativos que têm o SDK de Aplicativo do Intune habilitado. Alguns dos principais recursos do SDK de Aplicativo do Intune é que ele permite:
@@ -46,7 +46,7 @@ Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas qu
 
   Confira [Visão geral do SDK de aplicativo do Intune](https://docs.microsoft.com/intune/develop/intune-app-sdk) para obter uma descrição de todos os recursos do SDK.
 
-## Antes de começar
+## <a name="before-you-begin"></a>Antes de começar
 - **Saiba mais sobre a implantação de aplicativos usando o Microsoft Intune:**  [aprenda sobre](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) os conceitos básicos da implantação de aplicativos do Intune.
 
 - **Avalie a implementação desejada:** com todas as opções diferentes de design e configuração para gerenciar dispositivos móveis, é difícil determinar qual combinação melhor atende às necessidades da sua empresa. O [Guia de considerações de design do Gerenciamento de dispositivo móvel](https://docs.microsoft.com/enterprise-mobility/Solutions/mdm-design-considerations-guide) ajuda você a entender os requisitos de design de gerenciamento de dispositivo móvel e detalha uma série de etapas e tarefas que você pode seguir para criar a solução mais adequada às necessidades de negócios e tecnologia da sua empresa.
@@ -59,8 +59,8 @@ Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas qu
 - **Saiba mais sobre os aplicativos da Microsoft que você pode usar com políticas de MAM:** a página de [parceiros de aplicativos Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) contém as informações mais recentes sobre aplicativos da Microsoft e de outras empresas que você pode usar com as políticas de gerenciamento de aplicativos móveis.
 
   Use a Ferramenta de encapsulamento de aplicativos do Microsoft Intune para mudar o comportamento de aplicativos internamente e configurar as funcionalidades do aplicativo sem mudar seu código. Veja os tópicos a seguir para obter informações mais específicas:
- - [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de disposição de aplicativos do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
- - [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Encapsulamento de Aplicativos do Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparar aplicativos iOS para o gerenciamento de aplicativo móvel com a Ferramenta de Disposição do Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparar aplicativos Android para gerenciamento de aplicativos móveis com a Ferramenta de Encapsulamento de Aplicativos do Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
 - **Entender como os conflitos da política são resolvidos:** quando houver um conflito de política de gerenciamento de aplicativo móvel na primeira implantação para o usuário ou dispositivo, o valor da configuração específica em conflito será removido da política implantada para o aplicativo e ele usará um valor de conflito interno (**mais restritivo** é o padrão).
 
@@ -70,11 +70,11 @@ Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas qu
   - Se já tiver sido implantada uma política para o dispositivo, as configurações de política existentes não serão substituídas.
   - Se nenhuma política tiver sido implantada no dispositivo e duas configurações conflitantes forem implantadas, a configuração padrão integrada no dispositivo será usada.
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você está familiarizado com o processo geral de MAM, está pronto para [usar políticas de gerenciamento de aplicativos móveis no Intune](mam-intune.md) ou [usar políticas de gerenciamento de aplicativos móveis no Configuration Manager](mam-configmgr.md). Ou você pode ler sobre a [experiência do usuário final de políticas de MAM](end-user-experience-mam.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

@@ -7,21 +7,21 @@ manager: swadhwa
 ms.date: 11/10/2016
 ms.topic: solution
 ms.prod: 
-ms.service: ems
+ms.service: active-directory
 ms.technology: 
 ms.assetid: 9938ab0e-19b8-49a2-91b5-61d69eb3dc01
 ms.reviewer: mhamerof
 ms.suite: ems
-ms.custom: active-directory,advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
+ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 experiment_id: jeffgilb-length-20161110
 translationtype: Human Translation
-ms.sourcegitcommit: a9842cdd0ba10372e2085c5cb392936b7950be77
-ms.openlocfilehash: 30270d5789a53a0c242c7d9ac2d04b78e37a973e
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 7f82e8b0644765fc8cc14024cd65ef99733f1ecb
 
 
 ---
 
-# Começar a usar o Enterprise Mobility + Security
+# <a name="start-using-enterprise-mobility--security"></a>Começar a usar o Enterprise Mobility + Security
 
 Organizações que estão passando pelo processo de transformação digital precisam se proteger contra novas ameaças e desafios, enquanto o setor de TI lida com demandas contínuas de aumentar a eficiência e fazer mais com menos. Além disso, em um mundo que prioriza soluções móveis e em nuvem, os usuários esperam ser produtivos em qualquer lugar, usando qualquer dispositivo. Com o EMS, você tem soluções holísticas para ajudá-lo a:
 
@@ -32,19 +32,19 @@ Organizações que estão passando pelo processo de transformação digital prec
 
 Continue lendo para saber mais sobre como o EMS capacita o setor de TI a fornecer produtividade com segurança e sem limites, do jeito que as pessoas adoram. Esses cenários de exemplo ajudarão você a começar a usar o EMS enquanto faz a transição do local para a nuvem, aproveitar a segurança e a proteção na nuvem e, por fim, fornecer um serviço de TI completo da nuvem.
 
-## Transição do local para a nuvem
+## <a name="transition-from-on-premises-to-the-cloud"></a>Transição do local para a nuvem
 O EMS é composto por muitos serviços e funcionalidades que você pode usar dependendo das necessidades da sua empresa e conforme se familiarizar mais com tais recursos.
 
-### Estabelecer a identidade do Azure AD
+### <a name="establish-azure-ad-identity"></a>Estabelecer a identidade do Azure AD
 Tudo começa com identidade de nuvem, de modo que a primeira coisa que você precisará fazer para começar é estabelecer a presença de sua organização no [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). Use o gráfico de segurança e plataforma da Microsoft para proteger suas identidades, aplicativos de nuvem e o ambiente local conta ameaças avançadas.
 
 Você pode fazer isso completamente na nuvem ou pode [sincronizar seus objetos atuais do Windows Server Active Directory com o Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) para aproveitar seus investimentos atuais em gerenciamento de identidade local.
 
 
-### Proteger a sua organização na porta de entrada
+### <a name="protect-your-organization-at-the-front-door"></a>Proteger a sua organização na porta de entrada
 As soluções tradicionais de segurança costumavam ser o suficiente para proteger seus negócios. Mas isso foi antes do crescimento do setor de mobilidade, que criou um cenário mais amplo de ataques, e da transição para a nuvem, que torna mais complexas as interações de funcionários com outros usuários, dispositivos, aplicativos e dados. Agora, para realmente proteger seus negócios, você precisa [adotar uma abordagem de segurança mais holística e inovadora](https://docs.microsoft.com/enterprise-mobility-security/solutions/protect-front-door), que possa proteger, detectar e responder a ameaças de todos os tipos, seja localmente ou na nuvem.
 
-### Começar a gerenciar dispositivos
+### <a name="start-managing-devices"></a>Começar a gerenciar dispositivos
 A maioria dos funcionários de informações é móvel hoje em dia, tornando a produtividade em dispositivos móveis fundamental para sermos competitivos. Esses funcionários precisam de acesso contínuo a todos os aplicativos e dados corporativos, a qualquer momento, independentemente de onde estiverem. Você precisa garantir que os dados corporativos estejam seguros e os custos administrativos sejam baixos. O setor de TI precisa gerenciar a complexidade dos dispositivos na empresa, que vão do CYOD (escolha seu dispositivo), com dispositivos empresariais, ao BYOD (traga seu próprio dispositivo), com dispositivos pessoais usados no trabalho.
 
 **Emita dispositivos de propriedade corporativa**. O Intune oferece soluções de gerenciamento e provisionamento em massa para ajudá-lo a [emitir dispositivos de propriedade corporativa](https://docs.microsoft.com/intune/deploy-use/manage-corporate-owned-devices) em sua organização que estejam integrados com as principais plataformas de gerenciamento de dispositivos corporativos no mercado atualmente, incluindo o Programa de Registro de Dispositivos da Apple e a plataforma de segurança móvel do Samsung KNOX. A criação centralizada das configurações de dispositivo com o Intune torna o provisionamento de dispositivos corporativos algo que pode ser altamente automatizado.
@@ -61,7 +61,7 @@ Praticamente todos têm um telefone pessoal hoje em dia, então por que colocar 
 
 Após implantar o Windows 10, você também precisará [determinar a melhor forma de gerenciar computadores Windows 10](https://docs.microsoft.com/intune/get-started/choose-how-to-manage-devices) usando o Intune para atender às suas necessidades de negócios e de produtividade do usuário final. Você tem duas opções: registrar o computador Windows 10 como um dispositivo móvel ou instalar o cliente de software do Intune para gerenciar o dispositivo como um computador.
 
-### Gerenciar e proteger dados da empresa
+### <a name="manage-and-protect-company-data"></a>Gerenciar e proteger dados da empresa
 Atualmente, a maioria dos profissionais que trabalham com informações o fazem de maneira móvel e ser produtivo em dispositivos móveis e fundamental para sermos competitivos. Esses funcionários precisam de acesso contínuo a todos os aplicativos e dados corporativos, a qualquer momento e onde estiverem e o EMS facilita fazer isso, seja localmente ou na nuvem.
 
 **Proteja dados da empresa locais**. A maioria das estratégias de mobilidade empresarial começam com um plano para habilitar o acesso seguro a email para funcionários que têm dispositivos móveis na Internet, mas você também precisa ser capaz de [acessar de forma segura dados locais da empresa](https://docs.microsoft.com/enterprise-mobility-security/solutions/conditional-access-intune-exchange) que estão sendo acessados por dispositivos móveis. Por exemplo, muitas organizações ainda têm servidores de aplicativos e dados locais, como o Microsoft Exchange, hospedados em sua rede corporativa. O Intune e o EMS (Microsoft Enterprise Mobility + Security) fornecem uma solução de acesso condicional integrada exclusivamente para o Exchange Server, que garante que nenhum aplicativo móvel poderá acessar o email até que o dispositivo seja registrado no Intune, tudo sem implantar outro computador do gateway na borda da sua rede corporativa!
@@ -72,10 +72,10 @@ Além do email, o Intune dá suporte à habilitação do acesso a aplicativos m�
 
 **Proteja o acesso ao Office 365 e proteja dados em dispositivos não gerenciados**. Uma prática de implantação comum do Office 365 é exigir que os dispositivos sejam registrados no gerenciamento, mas nem sempre isso é necessário. Se o usuário simplesmente precisar acessar documentos e o email corporativo, o que normalmente é o caso para dispositivos pessoais, você pode simplesmente usar os aplicativos móveis do Office ([aos quais você aplicou políticas de restrição de aplicativos](https://docs.microsoft.com/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)) e ignorar completamente o registro do dispositivo.
 
-## Aproveitar a proteção e a segurança de nuvem
+## <a name="leverage-cloud-security-and-protection"></a>Aproveitar a proteção e a segurança de nuvem
 O EMS fornece uma solução de segurança baseada em identidades que oferece uma abordagem holística para os desafios de segurança nesta era que prioriza dispositivos móveis e a nuvem. Com o EMS, você pode não apenas proteger dados organizacionais compartilhados, mas também identificar violações de segurança antes que elas possam causar danos.
 
-### Compartilhar dados com segurança
+### <a name="securely-share-data"></a>Compartilhar dados com segurança
 Atualmente, o compartilhamento de informações acontece em vários dispositivos e entre fronteiras organizacionais. As empresas enfrentam o desafio de identificar quais dados precisam de proteção e quais não precisam. Para lidar com esse desafio, você pode [classificar, rotular e proteger dados confidenciais](https://docs.microsoft.com/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario) com o [Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection) para garantir que dados corporativos críticos não sejam comprometidos, enquanto habilita os usuários a compartilharem com segurança o que é importante para eles fazerem seu trabalho.
 
 A Proteção de Informações do Azure permite que as organizações classifiquem, rotulem e protejam dados no momento da criação ou modificação. Com a Proteção de Informações do Azure, os usuários podem:
@@ -83,16 +83,16 @@ A Proteção de Informações do Azure permite que as organizações classifique
 - proteger dados usando criptografia, autenticação e direitos de uso
 - Possibilitar uma experiência intuitiva e não intrusiva para os usuários finais
 
-### Identificar e proteger contra ameaças
+### <a name="identify-and-protect-against-threats"></a>Identificar e proteger contra ameaças
 <!-- Detect advanced threats on-premises and in the cloud (ATA, Azure AD, Cloud App Security) -->
 Conforme mais organizações passam a adotar a postura de presumir que há violações, o EMS ajuda a identificar invasores em sua organização usando inovadoras tecnologias de análise comportamental e detecção de anomalias – localmente com o [Microsoft Advanced Threat Analytics](http://www.microsoft.com/ata) e na nuvem com o [Azure Active Directory](http://www.microsoft.com/identity) e o [Cloud App Security](http://www.microsoft.com/cloudappsecurity). Nossa inteligência de ameaças é aprimorada com o Microsoft Intelligent Security Graph, baseado em vastos conjuntos de dados e em aprendizado de máquina na nuvem.
 
 O Advanced Threat Analytics aprende continuamente aprende com o comportamento dos usuários, dispositivos e recursos e se ajusta para refletir as alterações em sua empresa em rápida evolução. Conforme as táticas se tornam mais sofisticadas, o Advanced Threat Analytics usa análise comportamental para ajudá-lo a se adaptar e responder.
 
-## Serviço completo de TI na nuvem
+## <a name="full-service-it-from-the-cloud"></a>Serviço completo de TI na nuvem
 Conforme as organizações concluem sua transformação digital, o serviço completo de TI na nuvem se tornará costumeiro. Empresas com implementações de nuvem maduras tirarão proveito dos recursos fornecidos pelo EMS para habilitar cenários de proteção de dados e identidade de ponta a ponta e de longo prazo.
 
-### Gerenciamento de identidades da contratação à aposentadoria
+### <a name="identity-management-from-hire-to-retire"></a>Gerenciamento de identidades da contratação à aposentadoria
 A Microsoft vem protegendo identidades baseadas em nuvem por mais de uma década, e com o Azure Active Directory, a Microsoft está disponibilizando esses mesmos sistemas de proteção para clientes corporativos, a fim de garantir a responsabilidade do usuário e do administrador com melhor segurança e governança.
 
 **Milhares de aplicativos, uma identidade**. Obtenha logon único para milhares de aplicativos na nuvem e acesso a aplicativos Web que você executa localmente com o Azure Active Directory Premium. Projetadas para serem fáceis de usar, as ferramentas de gerenciamento do Azure Active Directory permitem a colaboração e fornecem proteção de identidade holística e controle de acesso adaptável.
@@ -116,7 +116,7 @@ Além disso, as regras de acesso condicional do Azure AD permitem que os cliente
 - Acesso condicional baseado em local do Azure AD
 - Acesso condicional baseado em dispositivo do Azure AD
 
-### Proteger arquivos compartilhados e aplicativos SaaS com políticas e acompanhamento
+### <a name="protect-shared-files-and-saas-apps-with-policies-and-tracking"></a>Proteger arquivos compartilhados e aplicativos SaaS com políticas e acompanhamento
 O EMS integra perfeitamente a proteção avançada de dados da empresa ao ritmo dos seus negócios para facilitar a proteção de informações da empresa contra perdas de dados acidentais ou propositais.
 
 **Compartilhe dados confidenciais interna e externamente**. Embora muitas violações de dados se devam a ataques cibernéticos, os especialistas concordam que muitas resultam do erro humano, que são os momentos de deslize que ocorrem quando os funcionários inadvertidamente vazam dados corporativos confidenciais. [Com os protocolos certos de prevenção contra perda de dados e de informações de segurança estabelecidos](https://docs.microsoft.com/enterprise-mobility-security/solutions/share-sensitive-data), quase todos esses tipos de violação podem ser evitados.
@@ -137,7 +137,7 @@ Você utiliza rótulos da Proteção de Informações do Azure para aplicar clas
 
 O Cloud App Security fornece uma visibilidade profunda das atividades de dados e dos usuários, para que você possa [proteger sua empresa quando os usuários tomam más decisões](https://docs.microsoft.com/enterprise-mobility-security/solutions/protect-data-user-mistake) quando trabalham com os dados importantes da empresa. Além disso, você obtém visibilidade e controles para aplicativos de nuvem, incluindo o Office 365. Com a Proteção de Informações do Azure, reunimos a classificação e a rotulação com a proteção de dados persistentes para habilitar o compartilhamento de arquivos seguro, interna e externamente.
 
-### Saiba mais
+### <a name="learn-more"></a>Saiba mais
 
 [Visite a página do Microsoft Enterprise Mobility + Security](http://go.microsoft.com/fwlink/?LinkId=816837)
 
@@ -147,6 +147,6 @@ O Cloud App Security fornece uma visibilidade profunda das atividades de dados e
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

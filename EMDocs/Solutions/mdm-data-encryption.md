@@ -6,22 +6,21 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 9d6194247048242509f4306e34fc805bc0b41466
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: a7382ec71d94d0b08cc4c89e8dbe90bcd1a4c1d7
 
 
 ---
 
-# Criptografia de dados
+# <a name="data-encryption"></a>Criptografia de dados
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -30,35 +29,35 @@ Agora que você respondeu às perguntas na Tarefa 1 sobre os requisitos de cript
 
 ![Disco de dispositivo móvel](./media/MDM_Figure_09.png)
 
-## Diferentes níveis de criptografia
+## <a name="different-levels-of-encryption"></a>Diferentes níveis de criptografia
 
-Você pode usar a criptografia completa de disco ou a criptografia baseada nos dados manipulados por um aplicativo. O [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) permite que você imponha políticas que executarão a criptografia de arquivos em dispositivos móveis. Embora alguns dispositivos móveis, como os dispositivos com Windows 8, sejam criptografados automaticamente, outros apenas criptografam dados se outra opção for habilitada. Por exemplo, para dispositivos com iOS, a criptografia ocorre automaticamente somente depois que você definir a configuração para exigir uma senha no dispositivo. 
+Você pode usar a criptografia completa de disco ou a criptografia baseada nos dados manipulados por um aplicativo. O [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) permite que você imponha políticas que executarão a criptografia de arquivos em dispositivos móveis. Embora alguns dispositivos móveis, como os dispositivos com Windows 8, sejam criptografados automaticamente, outros apenas criptografam dados se outra opção for habilitada. Por exemplo, para dispositivos com iOS, a criptografia ocorre automaticamente somente depois que você definir a configuração para exigir uma senha no dispositivo.
 
 O Windows 10 Mobile usa criptografia no dispositivo, com base na tecnologia BitLocker, para criptografar todo o armazenamento interno, incluindo o sistema operacional e as partições de armazenamento de dados. O usuário pode ativar a criptografia no dispositivo, ou o departamento de TI pode ativar e aplicar a criptografia para dispositivos gerenciados pela empresa por meio de ferramentas de MDM. Quando a criptografia do dispositivo é ativada, todos os dados armazenados no telefone são criptografados automaticamente. Um dispositivo com Windows 10 Mobile com criptografia ativada ajuda a proteger a confidencialidade dos dados armazenados em caso de perda ou roubo do dispositivo. Leia o Guia de segurança do Windows 10 Mobile para saber mais.
 
->[!TIP] 
+>[!TIP]
 > Para saber mais sobre os dispositivos móveis que podem ter a criptografia habilitada usando o ConfigMgr, leia [Configurações de conformidade para dispositivos móveis no Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
-Para aplicativos associados a uma política de gerenciamento de aplicativos móveis do Intune, a criptografia é fornecida pela Microsoft. Os dados são criptografados de forma síncrona durante operações de E/S de arquivos, de acordo com a configuração na política de gerenciamento de aplicativos móveis. Nos dispositivos com Android, os aplicativos gerenciados usam a criptografia AES-128 no modo CBC (Encadeamento de Blocos de Criptografia) usando as bibliotecas de criptografia da plataforma, que não são certificadas pelo FIPS 140-2. 
+Para aplicativos associados a uma política de gerenciamento de aplicativos móveis do Intune, a criptografia é fornecida pela Microsoft. Os dados são criptografados de forma síncrona durante operações de E/S de arquivos, de acordo com a configuração na política de gerenciamento de aplicativos móveis. Nos dispositivos com Android, os aplicativos gerenciados usam a criptografia AES-128 no modo CBC (Encadeamento de Blocos de Criptografia) usando as bibliotecas de criptografia da plataforma, que não são certificadas pelo FIPS 140-2.
 
-Essa opção permite que você especifique que todos os dados associados a um determinado aplicativo sejam criptografados, incluindo dados armazenados em mídia externa, como cartões SD. A mesma funcionalidade também está disponível com o [MDM para Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx). 
+Essa opção permite que você especifique que todos os dados associados a um determinado aplicativo sejam criptografados, incluindo dados armazenados em mídia externa, como cartões SD. A mesma funcionalidade também está disponível com o [MDM para Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx).
 
-Serviços de armazenamento de nuvem pública, como o OneDrive for Business, também podem ser integrados ao Intune Autônomo e ao [System Center 2012 R2 Configuration Manager SP1](https://technet.microsoft.com/library/mt131422.aspx). É possível implantar o aplicativo OneDrive para Empresas no dispositivo do usuário para que, em seguida, todos os documentos da conta do OneDrive para Empresas do usuário sejam criptografados. 
+Serviços de armazenamento de nuvem pública, como o OneDrive for Business, também podem ser integrados ao Intune Autônomo e ao [System Center 2012 R2 Configuration Manager SP1](https://technet.microsoft.com/library/mt131422.aspx). É possível implantar o aplicativo OneDrive para Empresas no dispositivo do usuário para que, em seguida, todos os documentos da conta do OneDrive para Empresas do usuário sejam criptografados.
 
-A maioria das soluções de MDM usa o SSL para proteger dados em trânsito, portanto, você apenas precisa decidir se usará uma PKI existente para emitir certificados ou se usará uma AC (autoridade de certificação) de um fornecedor terceiro. A vantagem de usar uma AC de terceiros é que os usuários que usam seus próprios dispositivos para acessar os recursos da empresa confiarão automaticamente em uma CA pública bem reconhecida. 
+A maioria das soluções de MDM usa o SSL para proteger dados em trânsito, portanto, você apenas precisa decidir se usará uma PKI existente para emitir certificados ou se usará uma AC (autoridade de certificação) de um fornecedor terceiro. A vantagem de usar uma AC de terceiros é que os usuários que usam seus próprios dispositivos para acessar os recursos da empresa confiarão automaticamente em uma CA pública bem reconhecida.
 
-## Intune (autônomo)
+## <a name="intune-standalone"></a>Intune (autônomo)
 
-**Vantagens** 
+**Vantagens**
 
 - Criptografar dados associados a aplicativos controlados pela política de gerenciamento do Intune
 
-**Desvantagens** 
+**Desvantagens**
 
 - Não inclui a criptografia nativa para o armazenamento de dispositivo móvel
 - A falta de integração com a atual plataforma de MDM local significa uma interface de gerenciamento adicional para você usar
 
-## MDM para Office 365
+## <a name="mdm-of-office-365"></a>MDM para Office 365
 
 **Vantagens**
 
@@ -68,7 +67,7 @@ A maioria das soluções de MDM usa o SSL para proteger dados em trânsito, port
 
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
 
-## Híbrido (Intune com ConfigMgr)
+## <a name="hybrid-intune-with-configmgr"></a>Híbrido (Intune com ConfigMgr)
 
 **Vantagens**
 
@@ -84,6 +83,6 @@ Para saber mais sobre como combinar os recursos do Intune e do ConfigMgr para au
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

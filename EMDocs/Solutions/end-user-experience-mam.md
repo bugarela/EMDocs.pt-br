@@ -2,9 +2,9 @@
 title: "Experiência do usuário final de MAM"
 description: "Experiência do usuário final das políticas de gerenciamento de aplicativo móvel."
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 05/12/2016
 ms.topic: article
 ms.prod: 
@@ -14,13 +14,13 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: a968afb8deb875d12281b4c3bd6448a962dab870
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 0367aea637810515742a344ac707f4e5272d29b1
 
 
 ---
 
-# Experiência do usuário final das políticas de gerenciamento de aplicativo móvel
+# <a name="end-user-experience-of-mobile-app-management-policies"></a>Experiência do usuário final das políticas de gerenciamento de aplicativo móvel
 As políticas de MAM são aplicadas somente quando os aplicativos são usados no contexto de trabalho. Leia os cenários de exemplo a seguir para ajudar a instruir seus usuários para que eles compreendam como os aplicativos gerenciados funcionam.
 
 Esta seção fornece exemplos das seguintes experiências do usuário final:
@@ -31,10 +31,10 @@ Esta seção fornece exemplos das seguintes experiências do usuário final:
 Para obter informações sobre outras experiências específicas do usuário final, veja os seguintes artigos:
 
 - [Usando aplicativos com suporte a várias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
-- [Gerenciar contas de usuário](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
+- [Gerenciando contas de usuário](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
 - [Exibindo arquivos de mídia com o aplicativo de compartilhamento do Rights Management](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
 
-## Cenário: acessando o OneDrive em um dispositivo iOS
+## <a name="scenario-accessing-onedrive-on-an-ios-device"></a>Cenário: acessando o OneDrive em um dispositivo iOS
 
 1. O usuário inicia o aplicativo **OneDrive** para abrir a página de entrada.
 > [!NOTE]
@@ -49,7 +49,7 @@ Para obter informações sobre outras experiências específicas do usuário fin
 > [!NOTE]
 > Quando você altera uma política implantada, as alterações são aplicadas da próxima vez que você abrir o aplicativo.
 
-## Cenário: acessando o OneDrive em um dispositivo Android
+## <a name="scenario-accessing-onedrive-on-an-android-device"></a>Cenário: acessando o OneDrive em um dispositivo Android
 1. O usuário inicia o aplicativo **OneDrive** para abrir a página de entrada.
 > [!NOTE]
 > Em um dispositivo pessoal, normalmente o usuário final deve baixar o aplicativo. Se o dispositivo for gerenciado por uma solução MDM, você pode implantar o aplicativo no dispositivo.
@@ -62,11 +62,11 @@ Para obter informações sobre outras experiências específicas do usuário fin
 
 4.  Depois que o PIN for definido e confirmado, o usuário poderá continuar usando o **OneDrive**, agora gerenciado por políticas de aplicativo.
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 Há outras experiências do usuário final que você pode ler, incluindo [Usando aplicativos com suporte a várias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Gerenciando contas de usuário](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) e [Exibindo arquivos de mídia com o aplicativo de compartilhamento Rights Management](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
