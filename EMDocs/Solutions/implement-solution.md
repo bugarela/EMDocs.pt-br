@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,16 @@ ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: 7df900a8224c847eed28ad22cdaffbd6b424c4c8
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
 
 
 ---
 
-# Implementação de sua solução para proteger o email e os anexos
+# <a name="implementing-your-solution-for-protecting-email-and-attachments"></a>Implementação de sua solução para proteger o email e os anexos
 Este artigo ajuda você a se preparar e implementar uma solução para proteger o conteúdo de email e os anexos da empresa.
 
-## O que você deve considerar ao planejar sua implementação:
+## <a name="what-you-should-consider-when-planning-your-implementation"></a>O que você deve considerar ao planejar sua implementação:
 
 -   **Suporte à plataforma do dispositivo**: você também deve considerar se deseja permitir acesso a email em plataformas que não tenham suporte no Intune. O gerenciamento de dispositivos móveis do Intune dá suporte aos seguintes sistemas operacionais:
 
@@ -77,12 +77,12 @@ Este artigo ajuda você a se preparar e implementar uma solução para proteger 
 
     -   Serviços de federação de terceiros, como o Ping, também devem funcionar. Recomenda-se testar antes da implementação.
 
-## Implementação local
+## <a name="on-premises-implementation"></a>Implementação local
 Se você tiver uma implementação existente do System Center Configuration Manager, Active Directory e/ou do Exchange Server, pode estender a infraestrutura existente com integração com Intune, Azure AD e Office 365. Usando essa implementação híbrida, você pode fornecer uma experiência de gerenciamento consistente entre vários dispositivos locais e na nuvem. O Intune e o Configuration Manager oferecem um conjunto similar de recursos para permitir o acesso restrito de email com base no estado do dispositivo.
 
 Para implementações de Exchange Online Dedicado, se você pode aproveitar a nuvem com base a solução descrita anteriormente ou a implementação híbrida depende de como é a sua implementação atual. Converse com sua equipe de conta para determinar o que a sua implementação envolverá.
 
-## Operações e resposta de incidência
+## <a name="operations-and-incidence-response"></a>Operações e resposta de incidência
 Depois de implementar a solução, será preciso gerenciar o ambiente e identificar possíveis riscos à segurança. O Intune e o Azure AD têm recursos de monitoramento e relatórios que podem ajudar a monitorar e a responder rapidamente no caso de um incidente de segurança.
 
 Aqui estão alguns dos recursos de relatório:
@@ -91,7 +91,7 @@ Aqui estão alguns dos recursos de relatório:
 
 -   O Azure AD tem auditoria e registro em log de atividades. Você pode monitorar itens como alterações de senha e gerenciamento de usuários. O Azure Active Directory Premium inclui alertas e relatórios de segurança de anomalia avançados. Esses alertas são baseados em relatórios com base em aprendizado de máquina detalhados mostrando atividade de logon, padrões de acesso inconsistentes e áreas de ameaças em potencial.
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 Para obter instruções passo a passo sobre como implantar uma solução para proteger o conteúdo de email e anexos da empresa, consulte um destes tópicos, dependendo de seu ambiente específico:
 
 - [Usar o acesso condicional com o Microsoft Intune](conditional-access-intune.md)
@@ -99,6 +99,6 @@ Para obter instruções passo a passo sobre como implantar uma solução para pr
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
