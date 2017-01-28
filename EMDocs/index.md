@@ -3,6 +3,7 @@ layout: HubPage
 title: "Documentação do Enterprise Mobility + Security | Microsoft Docs"
 description: "Documentação técnica do Microsoft Enterprise Mobility + Security"
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
+hide_bc: true
 translationtype: Human Translation
 ms.sourcegitcommit: 43bf23ec5a695e83da7d559153ae7ba0bd342f85
 ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
