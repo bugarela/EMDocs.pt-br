@@ -1,9 +1,9 @@
 ---
-title: "Acompanhar o uso de dados compartilhados e responder a violações de dados | Azure Rights Management"
+title: "Acompanhar o uso de dados compartilhados e responder a violações de dados | Microsoft Docs"
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para controlar o uso de dados compartilhados e responder a violações de dados, aproveitando os recursos do Azure Rights Management."
 author: yuridio
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: c2004b77928386ed46d947b96b69c1cb85d2e6fb
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: cca39a029b31f619a49b605ed28ab73a58e5c73b
 
 
 
@@ -75,6 +75,6 @@ Também há cenários em que você responde a um incidente de segurança. Por ex
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

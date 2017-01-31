@@ -1,10 +1,10 @@
 ---
-title: "Proteger dados usando classificação, rotulagem e proteção | Proteção de Informações do Azure"
+title: "Proteger dados usando classificação, rotulação e proteção | Microsoft Docs"
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para classificar, rotular e proteger dados tirando proveito dos recursos da Proteção de Informações do Microsoft Azure."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,21 +13,21 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 21e63bcbff30443152d9359a7a284dc9e4e4190f
-ms.openlocfilehash: fa48af13aac6e66fa111ac4c2156e0a23005028e
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 88359b6542ce8524095af2b7ce1df4674b655b82
 
 
 ---
 
-# <a name="secure-data-using-classification-labeling-and-protection"></a>Proteger dados usando classificação, rotulação e proteção 
+# <a name="secure-data-using-classification-labeling-and-protection"></a>Proteger dados usando classificação, rotulação e proteção
 
 Atualmente, o compartilhamento de informações acontece em vários dispositivos e entre fronteiras organizacionais.  É fundamental garantir que dados corporativos críticos não sejam comprometidos nesse processo, enquanto permite que os usuários possam compartilhar com segurança o que é importante para que possam executar seus trabalhos. Com as tendências como a terceirização, você precisa compartilhar dados confidenciais da empresa com contratados e fornecedores. Como nem todos os conteúdos precisam da mesma proteção, as empresas enfrentam o desafio de identificar quais dados precisam de proteção e quais não precisam.
 
 Continue lendo para saber mais sobre como o Enterprise Mobility + Security ajuda a lidar com esse cenário.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
- 
-O EMS (Enterprise Mobility + Security) é a única solução de nuvem abrangente que protege dados corporativos no próprio dispositivo e além dele, com quatro camadas de proteção de identidades, dispositivos, aplicativos e dados. O EMS ajuda a resolver um dos principais desafios do mundo concentrado em dispositivos móveis e na nuvem – como fornecer dados seguros para funcionários em trânsito. Com o EMS, você permitirá que seus funcionários colaborem com segurança dentro e fora da sua organização. O EMS permite que os administradores de TI tirem proveito da Proteção de Informações do Azure para ajudar a proteger dados corporativos no nível do arquivo. Usando essa capacidade, eles podem ter certeza de que os dados estarão sempre protegidos, independentemente de onde estão armazenados, com quem são compartilhados e se estão em repouso ou em trânsito. 
+
+O EMS (Enterprise Mobility + Security) é a única solução de nuvem abrangente que protege dados corporativos no próprio dispositivo e além dele, com quatro camadas de proteção de identidades, dispositivos, aplicativos e dados. O EMS ajuda a resolver um dos principais desafios do mundo concentrado em dispositivos móveis e na nuvem – como fornecer dados seguros para funcionários em trânsito. Com o EMS, você permitirá que seus funcionários colaborem com segurança dentro e fora da sua organização. O EMS permite que os administradores de TI tirem proveito da Proteção de Informações do Azure para ajudar a proteger dados corporativos no nível do arquivo. Usando essa capacidade, eles podem ter certeza de que os dados estarão sempre protegidos, independentemente de onde estão armazenados, com quem são compartilhados e se estão em repouso ou em trânsito.
 
 ## <a name="recommended-solution"></a>Solução recomendada
 
@@ -72,23 +72,23 @@ Ao planejar a implementação de rótulos e políticas de proteção de informa�
 
 - Classifique os dados com base na confidencialidade
 - Comece pelos dados mais confidenciais
-- A TI pode definir regras automáticas; os usuários podem complementá-las 
+- A TI pode definir regras automáticas; os usuários podem complementá-las
 - Associe ações como marcas visuais e proteção
 
 O diagrama a seguir tem um exemplo de como isso poderia ser implementado:
 
 ![Classificação](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Embora a Proteção de Informações do Azure tenha rótulos padrão, você também pode [personalizar](/information-protection/deploy-use/configure-policy-new-label.md) e criar seus próprios rótulos ou rótulos secundários que os usuários veem na barra da Proteção de Informações. 
+Embora a Proteção de Informações do Azure tenha rótulos padrão, você também pode [personalizar](/information-protection/deploy-use/configure-policy-new-label.md) e criar seus próprios rótulos ou rótulos secundários que os usuários veem na barra da Proteção de Informações.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Rótulos são metadados gravados em documentos. Os rótulos são em texto não criptografado para que outros sistemas, como um mecanismo de DLP, possam lê-los.
 
 No exemplo a seguir, você pode ver rótulos secundários personalizados que foram criados sob o rótulos **Segredo**:
 
 ![Rótulo](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-Depois de definir como usará os rótulos (padrão ou personalizados), [configure um rótulo para aplicar a proteção do Rights Management](/information-protection/deploy-use/configure-policy-new-label.md). 
+Depois de definir como usará os rótulos (padrão ou personalizados), [configure um rótulo para aplicar a proteção do Rights Management](/information-protection/deploy-use/configure-policy-new-label.md).
 
 ### <a name="step-3-implement-content-based-automatic-classification"></a>Etapa 3: Implementar a classificação automática baseada no conteúdo
 
@@ -111,6 +111,6 @@ Leia [Informações sobre as condições internas](/information-protection/deplo
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

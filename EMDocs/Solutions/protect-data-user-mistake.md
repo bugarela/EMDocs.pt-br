@@ -1,10 +1,10 @@
 ---
-title: "Proteger dados contra erros do usuário | Proteção de Informações do Azure Active Directory"
+title: "Proteger dados contra erros do usuário | Microsoft Docs"
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para proteger dados corporativos contra os erros do usuário e impedir a perda de dados aproveitando os recursos Cloud App Security e Proteção de Informações do Azure."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: cloud-app-security
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: 669042461511939695717de1d5d22c14c071923c
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 3fddd5487061b4090be32f70ac202e9c8ba45719
 
 
 ---
@@ -116,6 +116,6 @@ Quando configura condições para um rótulo, você pode atribuir automaticament
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

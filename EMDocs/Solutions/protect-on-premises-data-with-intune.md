@@ -1,10 +1,10 @@
 ---
-title: Proteger dados locais da empresa com o Microsoft Intune | Microsoft Docs
+title: Proteger dados locais com o Microsoft Intune | Microsoft Docs
 description: "Com o Enterprise Mobility + Security (EMS), será possível manter os funcionários produtivos com seus aplicativos e dispositivos favoritos e os dados locais da empresa em segurança."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
 translationtype: Human Translation
-ms.sourcegitcommit: b5acf1041ff91a68443464a9fe196b179c6668a6
-ms.openlocfilehash: 8b2c453c18f1569ac1fe94bb7c1e3e8c568d28ec
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 64c859600ba74da47d70a9c58bc261dec4411513
 
 
 ---
@@ -155,6 +155,6 @@ Ao [implantar perfis de certificado](https://docs.microsoft.com/intune/deploy-us
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

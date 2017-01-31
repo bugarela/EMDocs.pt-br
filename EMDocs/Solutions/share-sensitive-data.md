@@ -1,10 +1,10 @@
 ---
-title: "Compartilhar dados confidenciais interna e externamente | Proteção de Informações do Azure"
+title: Compartilhar dados confidenciais interna e externamente | Microsoft Docs
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para compartilhar dados confidenciais interna e externamente aproveitando os recursos da Proteção de Informações do Microsoft Azure."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: d76fa5c4857b12e2eb91de9fb3217ba78ea6a11f
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
 
 
 ---
@@ -23,11 +23,11 @@ ms.openlocfilehash: d76fa5c4857b12e2eb91de9fb3217ba78ea6a11f
 
 Embora muitas violações de dados se devam a ataques cibernéticos, os especialistas concordam que muitas resultam do erro humano, que são os momentos de deslize que ocorrem quando os funcionários inadvertidamente vazam dados corporativos confidenciais. Com os protocolos certos de prevenção contra perda de dados e informações de segurança estabelecidos, quase todos esses tipos de violação podem ser evitados.
 
-O compartilhamento de dados é algo inevitável para as empresas e os usuários e, embora isso seja necessário, ele também cria um dos maiores desafios do setor, que é: como permitir o compartilhamento de dados entre diferentes dispositivos e, ao mesmo tempo, reduzir o vazamento de dados compartilhados com outras pessoas? O panorama de ameaças é ainda mais amplo quando você precisa compartilhar dados confidenciais com fontes externas, como parceiros, clientes e outros participantes. 
+O compartilhamento de dados é algo inevitável para as empresas e os usuários e, embora isso seja necessário, ele também cria um dos maiores desafios do setor, que é: como permitir o compartilhamento de dados entre diferentes dispositivos e, ao mesmo tempo, reduzir o vazamento de dados compartilhados com outras pessoas? O panorama de ameaças é ainda mais amplo quando você precisa compartilhar dados confidenciais com fontes externas, como parceiros, clientes e outros participantes.
 
 ![Diagrama](./media/share-sensitive-data/share-sensitive-data-fig1.png)
 
-Nesse contexto, um cenário comum nas empresas é ter projetos em que elas precisam permitir que os funcionários colaborem internamente entre silos de dados e externamente com fornecedores terceirizados e, ao mesmo tempo, alinhar protocolos de segurança com os negócios, bem como influenciar o comportamento do usuário final nos processos de proteção e classificação de dados. 
+Nesse contexto, um cenário comum nas empresas é ter projetos em que elas precisam permitir que os funcionários colaborem internamente entre silos de dados e externamente com fornecedores terceirizados e, ao mesmo tempo, alinhar protocolos de segurança com os negócios, bem como influenciar o comportamento do usuário final nos processos de proteção e classificação de dados.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Como o Enterprise Mobility + Security pode ajudar você?
 
@@ -49,7 +49,7 @@ Alguns dos recursos disponíveis com essas soluções são descritos abaixo:
 
 Para configurar o Exchange Online para suportar o Azure RMS, é necessário configurar o gerenciamento de direitos de informação (IRM) para o Exchange Online. Siga estas etapas para implementar essa solução:
 
-1. Integração ao Exchange: 
+1. Integração ao Exchange:
     - Exchange Online: habilitar o Exchange Online para usar o Azure RMS
     - Exchange no local: implantar o conector do Azure Rights Management
 2. Enviar um documento do Office protegido usando o Exchange
@@ -60,7 +60,7 @@ As empresas precisam permitir que os funcionários colaborem internamente entre 
 
 ### <a name="step-1-integration-with-exchange"></a>Etapa 1: Integração ao Exchange
 
-A proteção do Rights Management é aplicada aos emails com um modelo de política do Azure Rights Management em uma mensagem de email. A primeira etapa para permitir essa integração varia de acordo com a localização do Exchange: na nuvem (Exchange Online) ou no local. 
+A proteção do Rights Management é aplicada aos emails com um modelo de política do Azure Rights Management em uma mensagem de email. A primeira etapa para permitir essa integração varia de acordo com a localização do Exchange: na nuvem (Exchange Online) ou no local.
 
 #### <a name="enable-rights-management-integration-with-exchange-online"></a>Habilitar a integração do Rights Management ao Exchange Online
 
@@ -92,11 +92,11 @@ Na parte superior dessa janela, é preciso digitar o email do usuário de destin
 
 ![Email](./media/share-sensitive-data/share-sensitive-data-fig5.png)
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Assista à apresentação [Collaborate securely using Azure Information Protection](https://myignite.microsoft.com/videos/49947) (Colaborar com segurança usando a Proteção de Informações do Azure) no Microsoft Ignite para obter mais informações sobre esse cenário.
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

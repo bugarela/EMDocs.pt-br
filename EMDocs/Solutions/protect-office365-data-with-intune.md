@@ -1,10 +1,10 @@
 ---
-title: Proteger dados da empresa no Office 365 com o Microsoft Intune | Microsoft Docs
+title: Proteger dados da empresa no Office 365 | Microsoft Docs
 description: "Juntos, o EMS e o Office 365 oferecem uma solução gerenciada completa de produtividade móvel que proporciona aos seus usuários o padrão de ouro de produtividade e à sua equipe de TI controles de dados profundamente integrados."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 1/18/2017
+ms.date: 1/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6f7b68c5be373752eaf272a05023e611e6ac5e5d
-ms.openlocfilehash: e81e3d5bdfdaf464de5c72aa6d87aa8d802674a5
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
 
 
 ---
@@ -145,6 +145,6 @@ Depois de iniciado, o dispositivo iniciará imediatamente o processo de apagamen
 
 
 
-<!--HONumber=Jan17_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 
