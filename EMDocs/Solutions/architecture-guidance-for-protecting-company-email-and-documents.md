@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 66732b444e6a449256a7929324d7b26e3e814f15
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
 
 
 ---
 
-# Diretrizes de arquitetura para proteger documentos e email da empresa
+# <a name="architecture-guidance-for-protecting-company-email-and-documents"></a>Diretrizes de arquitetura para proteger documentos e email da empresa
 Este tópico começa com uma visão geral de como você pode fornecer proteção de dados para sua empresa enquanto garante que a experiência do usuário final seja simples e não afete a produtividade. Em seguida, nos concentraremos especificamente em como você pode ajudar a fornecer acesso seguro ao seu email corporativo e ajudar a proteger dados da empresa e anexos de email usando a solução Microsoft Enterprise Mobility + Security.
 
 Esta seção discute a arquitetura para proteger emails e documentos da empresa. Consulte [Saiba mais sobre como implantar uma solução para proteger emails e documentos da empresa](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) para obter orientações sobre como implantar uma solução.
@@ -46,7 +46,7 @@ Considere o seguinte:
 
 Uma vez que os usuários finais querem fazer trabalho para a empresa usando seus próprios dispositivos pessoais e que o email é o aplicativo acessado com mais frequência, a primeira etapa para sua TI é certificar-se de que os usuários finais possam acessar o email corporativo em seus dispositivos com a garantia de que os dados confidenciais no email não sejam comprometidos.
 
-## Visão geral
+## <a name="overview"></a>Visão geral
 A Microsoft oferece o EMS (Enterprise Mobility + Security), uma solução abrangente para gerenciamento de dispositivos móveis, identidade, gerenciamento de aplicativos e proteção de dados. O EMS fornece um modelo de segurança em camadas que permite ao departamento de TI gerenciar o acesso a email, dados e aplicativos corporativos de praticamente qualquer dispositivo.
 
 O EMS é composto pelos seguintes serviços de nuvem:
@@ -65,7 +65,7 @@ Aplicativos gerenciados pelo Intune incluem aplicativos móveis do Office, que s
 
 Quando os funcionários se movem ou alteram trabalhos, ou perdem o dispositivo, o EMS fornece a opção de apagar remota e seletivamente os dados corporativos do dispositivo. Isso pode ser feito pelo usuário final ou pelo administrador de TI.
 
-## Como o EMS pode ajudar a proteger seus dados
+## <a name="how-ems-can-help-protect-your-data"></a>Como o EMS pode ajudar a proteger seus dados
 O modelo de segurança de quatro camadas para identidade, dispositivos, aplicativos e dados é focado em garantir que os recursos da empresa sejam acessados pelo usuário pretendido, em um dispositivo que atenda a um conjunto de políticas de conformidade configurado por você e dentro dos limites dos aplicativos gerenciados.
 
 ![Gráfico mostrando o modelo de segurança em quatro camadas para identidade, dispositivos, aplicativos e dados](./media/ProtectEmail/Protecting_your_data.png)
@@ -78,7 +78,7 @@ A terceira camada é a **camada de gerenciamento de aplicativo** com o ecossiste
 
 A *Proteção de Informações do Azure (antigo Azure RMS)* conclui o modelo de segurança, protegendo os dados no nível de arquivo. As políticas de segurança aplicadas aos dados viajam com os dados, ajudam a manter os dados protegidos em trânsito e em repouso, independentemente do dispositivo usado para acesso. Essa é a **camada de dados** do modelo de segurança.
 
-## Onde ir daqui
+## <a name="where-to-go-from-here"></a>Onde ir daqui
 - [Assista](https://www.youtube.com/watch?v=ltcZvm4VOFU) a este vídeo para aprender como inscrever-se para uma conta de avaliação e começar.
 
 - Leia o [Guia de considerações de design de gerenciamento de dispositivo móvel](mdm-design-considerations-guide.md) para entender melhor os requisitos de design do gerenciamento de dispositivo móvel.
@@ -94,12 +94,12 @@ Além disso, se você quiser saber mais sobre o EMS e Azure Active Directory, po
 
 - [Como o Active Directory do Azure ajuda a gerenciar identidades](/active-directory/active-directory-administer)
 
-- [O que é o Azure Information Protection?](/information-protection/understand-explore/what-is-azure-rms)
+- [O que é a Proteção de Informações do Azure?](/information-protection/understand-explore/what-is-azure-rms)
 
 - [Como os aplicativos dão suporte à Proteção de Informações do Azure](/information-protection/understand-explore/applications-support)
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: Proteger na porta da frente | Azure Active Directory Identity Protection
+title: Proteger na porta da frente | Microsoft Docs
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para proteger a identidade para acesso seguro aos recursos da empresa, aproveitando os recursos Microsoft Azure Active Directory Identity Protection e Azure Active Directory Privileged Identity Management."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: c61f68b5922373ffe5509ddb80a158d6a9757ff1
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 7912b13666c9b08af0c6d962fe1ea592335ca73d
 
 
 ---
@@ -130,6 +130,6 @@ Neste painel, você pode ver a atividade atual, como [alertas de segurança](htt
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: Proteger dados da empresa sem gerenciar dispositivos com o Intune | Microsoft Docs
+title: Proteger dados da empresa sem gerenciar dispositivos | Microsoft Docs
 description: "O EMS oferece funcionalidades inovadoras de proteção contra perda de dados com o Microsoft Intune. Com ele, é possível proteger dados da empresa e manter a experiência excelente do usuário com os aplicativos do Office 365 com os quais os funcionários já estão acostumados, sem a necessidade de gerenciar seus dispositivos."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/15/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: b46877f3-cf32-4919-ba63-4df55cd2af32
 ms.reviewer: vlpetros
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 83e901c3f5d9e6e35aea989de146e59ddc3354ef
-ms.openlocfilehash: 19d2c610417667aec3346ac7d25d2bac95c7d8ba
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 5a0eef972374efefff886ab9dbf7b6a7e4f7aab7
 
 
 ---
@@ -96,6 +96,6 @@ Quando o usuário final toca no link *Comece agora mesmo* no email, o navegador 
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

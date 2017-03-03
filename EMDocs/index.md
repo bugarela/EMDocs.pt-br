@@ -3,6 +3,7 @@ layout: HubPage
 title: "Documentação do Enterprise Mobility + Security | Microsoft Docs"
 description: "Documentação técnica do Microsoft Enterprise Mobility + Security"
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
+hide_bc: true
 translationtype: Human Translation
 ms.sourcegitcommit: 43bf23ec5a695e83da7d559153ae7ba0bd342f85
 ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
@@ -340,7 +341,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
+                                                        <img data-scaleimage="images/ems_solutions-5.svg" alt="EMS Support FAQ" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -377,6 +378,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
             </li>
         </ul>
     </div>
+
 
 
 <!--HONumber=Jan17_HO2-->

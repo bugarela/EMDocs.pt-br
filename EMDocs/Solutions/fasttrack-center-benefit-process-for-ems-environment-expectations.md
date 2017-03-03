@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 11/07/2016
+ms.date: 02/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 999947648cdf98b94312dfd2e700cc8d74011a99
-ms.openlocfilehash: ac5783c0343f1e92dbf6d5f0352ae22591fb7def
+ms.sourcegitcommit: 608f2a8de302f2d36b4a70fe631cc231963e41f8
+ms.openlocfilehash: 18be543bd0b3442d6f623cba4c5260e93b42d2b8
 
 
 ---
@@ -33,6 +33,8 @@ A tabela a seguir mostra o que é esperado do seu ambiente de origem existente p
 |Integração de núcleo|Florestas do Active Directory com o nível funcional de floresta definido como Windows Server 2008 ou superior, com a seguinte configuração de floresta:<br /><br />-   Floresta única do Active Directory<br />-   Várias florestas do Active Directory </br></br>**Observação**: para todas as configurações com várias florestas, a implantação do AD FS (Serviços de Federação do Active Directory) está fora do escopo do Benefício do FastTrack Center.|
 |Integração do Azure AD Premium|O Active Directory local e seu ambiente foram preparados para o Azure AD Premium, que inclui a correção dos problemas identificados que poderiam impedir a integração com o Azure AD e os recursos do Azure AD Premium.|
 |Intune, somente em nuvem ou integrado ao System Center Configuration Manager, integração|Para gerenciamento de dispositivos com o Configuration Manager 2012 R2 ou posterior, conectado ao Intune, os administradores de TI precisam seguir a [Lista de verificação do administrador: configurando o Configuration Manager para gerenciar dispositivos móveis usando o Microsoft Intune](https://technet.microsoft.com/library/jj943763.aspx).</br></br> **Observação**: o benefício de serviço não inclui assistência para configurar ou atualizar o Configuration Manager para os requisitos mínimos necessários para a integração do Microsoft Intune com o Configuration Manager.</br></br>Para implantação de perfil de Wi-Fi e VPN, os administradores de TI precisam ter autoridade de certificação existente, infraestruturas de Wi-Fi e VPN já em funcionamento nos ambientes de produção.</br></br> **Observação**: o benefício do serviço não inclui assistência para instalação ou configuração de autoridades de certificação, infraestruturas de Wi-Fi ou VPN. |
+|Experiência de administração do Intune no Azure | Em dezembro de 2016, Microsoft Intune [anunciou](https://blogs.technet.microsoft.com/enterprisemobility/2016/12/07/public-preview-of-intune-on-azure/) a visualização pública da sua nova experiência de admin do Intune no Portal do Azure (portal.azure.com), conhecida como Intune no Azure.<br><br>Durante o período de visualização pública, será fornecido suporte de integração para o Intune no Azure apenas como um melhor esforço. O suporte à integração total continuará para o console administrativo existente (manage.microsoft.com).<br><br>O FastTrack dará suporte total ao Intune na experiência do Azure quando ele for disponibilizado mais tarde, ainda este ano.
+
 
 **Quer saber mais?**
 
@@ -40,6 +42,6 @@ A tabela a seguir mostra o que é esperado do seu ambiente de origem existente p
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Jan17_HO3-->
 
 
