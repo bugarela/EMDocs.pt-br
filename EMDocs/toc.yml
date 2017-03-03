@@ -16,9 +16,9 @@
       href: /azure/active-directory/
       homepage: /azure/active-directory
       items:
-        - name: "Atual" 
-          href: /active-directory/adal/ 
-          homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory 
+        - name: "Atual"
+          href: /active-directory/adal/
+          homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
         - name: "ADAL v3"
           href: /active-directory/adal/v3/
           homepage: /active-directory/adal/v3/microsoft.identitymodel.clients.activedirectory
@@ -46,7 +46,7 @@
           homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
         - name: "Implantar e usar"
           href: /advanced-threat-analytics/deploy-use/
-          homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
+          homepage: /advanced-threat-analytics/deployuse/configure-port-mirroring
         - name: "Solucionar problemas"
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
@@ -72,12 +72,15 @@
           href: /intune/troubleshoot/
           homepage: /intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
         - name: "Introdução"
-          href: /intune/get-started/get-started
-          homepage: /intune/get-started/what-s-new-in-microsoft-intune
+          href: /intune/get-started/
+          homepage: /intune/get-started/get-started
         - name: "Desenvolver e personalizar aplicativos"
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
- 
+        - name: "Novidades"
+          href: /intune/whats-new/
+          homepage: /intune/whats-new/whats-new-in-microsoft-intune
+
 
     - name: "Azure Information Protection"
       href: /information-protection/

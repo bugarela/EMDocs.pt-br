@@ -1,25 +1,25 @@
 ---
-title: "Sua assinatura paga do Microsoft Intune ou Enterprise Mobility pode incluir uma licença para usar determinados software baixáveis | Microsoft Intune"
+title: Software para download do Enterprise Mobility | Microsoft Docs
 description: 
 keywords: 
 author: NathBarn
 ms.author: nathbarn
-manager: jeffgilb
-ms.date: 06/08/2016
+manager: angrobe
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: d78ac8d2d569b95b32650266fa64a0232bdeacbd
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
 
 ---
 
 # <a name="your-paid-microsoft-intune-or-enterprise-mobility-subscription-might-include-a-license-to-use-certain-downloadable-software"></a>Sua assinatura paga do Microsoft Intune ou Enterprise Mobility pode incluir uma licença para usar determinados software baixáveis
 
-O software a seguir pode ser incluído em sua assinatura paga do Microsoft Online Services.  Você pode confirmar em qual software está licenciado examinando os termos do contrato.
+Sua assinatura paga do Microsoft Intune ou Enterprise Mobility pode incluir uma licença para usar determinados software baixáveis. Você pode confirmar em qual software está licenciado examinando os termos do contrato.
 
 | **Serviço da Microsoft**    | **Software local**           |
 | ------------- |-------------|
@@ -40,6 +40,6 @@ Se você, em vez disso, inscrever-se para uma avaliação, você poderá obter v
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 
