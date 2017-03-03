@@ -5,8 +5,9 @@ description: "Documentação técnica do Microsoft Enterprise Mobility + Securit
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 hide_bc: true
 translationtype: Human Translation
-ms.sourcegitcommit: 43bf23ec5a695e83da7d559153ae7ba0bd342f85
-ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
+ms.sourcegitcommit: e1a57fc7a7fa30eac753b93dd1366eaa8e7c3a72
+ms.openlocfilehash: 504d49e556bf698e924fc8641ceb588ad5f12357
+ms.lasthandoff: 02/13/2017
 
 ---
 <div id="main" class="v2">
@@ -61,7 +62,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Proteção de Informações + Segurança</h3>
+                                                <h3>Segurança e proteção de informações</h3>
                                                 <p>
                                                     <a href="/information-protection/"> Proteção de Informações do Azure </a>
                                                 </p>
@@ -88,7 +89,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_identity-access-mgmt-1.svg" alt="Azure Active Directory" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -107,7 +108,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_identity-access-mgmt-2.svg" alt="Multi-factor Authentication" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -126,7 +127,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_identity-access-mgmt-3.svg" alt="Microsoft Identity Manager" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -150,7 +151,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_device-app-mgmt-1.svg" alt="Microsoft Intune" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -169,12 +170,12 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_device-app-mgmt-2.svg" alt="System Center Configuration Manager" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>System Center Configuration Manager</h3>
-                                                    <p>Gerenciar PCs, Macs e servidores UNIX/Linux com dispositivos baseados em nuvem</p>
+                                                    <p>Gerenciar PCs, servidores e dispositivos móveis, como iPhones e dispositivos Android com infraestrutura local e baseada em nuvem</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -193,7 +194,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_info-protection-security-1.svg" alt="Azure Information Protection" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -212,7 +213,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_info-protection-security-2.svg" alt="Advanced Threat Analytics" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -231,7 +232,7 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_info-protection-security-3.svg" alt="Cloud App Security" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -254,23 +255,18 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                         <a href="#SolutionsPanel1"></a>
                         <ul id="SolutionsPanel1" class="cardsC">
                             <li>
-                                <div class="container">
-                                    <p>Cenários de exemplo que ajudarão a entender o que está incluído no Enterprise Mobility + Security (EMS) e como resolver problemas comuns de negócios com ele. Você também pode encontrar informações sobre o benefício do FastTrack Center para EMS e obter respostas para perguntas sobre o suporte do EMS frequentes aqui.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/learn-about-ems">
+                                <a href="/enterprise-mobility-security/solutions/protect-office365-data-with-intune">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-1.svg" alt="Learn about EMS" />
+                                                        <img src="/media/hubs/ems/ems_solutions-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Saiba mais sobre o EMS</h3>
-                                                    <p>Saiba como o EMS fornece soluções de mobilidade e segurança flexíveis e abrangentes que permitem sua transição para a mobilidade e para a nuvem.</p>
+                                                    <h3>Produtividade móvel gerenciada</h3>
+                                                    <p>Saiba como proteger os dados de empresa no Office 365 com o Intune, proteger dados locais da empresa com o Intune e proteger os dados da empresa (sem o gerenciamento de dispositivos) com o Intune.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -278,18 +274,18 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                 </a>
                             </li>
                             <li>
-                                <a href="/enterprise-mobility-security/solutions/ems-get-started">
+                                <a href="/enterprise-mobility-security/solutions/thousands-apps-one-identity">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-2.svg" alt="Start using EMS" />
+                                                        <img src="/media/hubs/ems/ems_solutions-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Comece usar o EMS</h3>
-                                                    <p>Comece com o EMS e cenários baseados em identidades que ajudam os usuários a permanecerem seguros e produtivos em seus aplicativos e dispositivos favoritos.</p>
+                                                    <h3>Gerenciamento de identidade e acesso</h3>
+                                                    <p>Saiba como o Azure Active Directory torna os usuários mais produtivos fornecendo a eles uma identidade comum para usuários de aplicativos de SaaS que acessam recursos na nuvem e locais.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -297,18 +293,18 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                 </a>
                             </li>
                             <li>
-                                <a href="/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">
+                                <a href="/enterprise-mobility-security/solutions/protect-front-door">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-3.svg" alt="Get on the FastTrack" />
+                                                        <img src="/media/hubs/ems/ems_solutions-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Obter no FastTrack</h3>
-                                                    <p>Se você tiver adquirido no mínimo 150 licenças para EMS, você poderá trabalhar com especialistas da Microsoft para se familiarizar rapidamente com o EMS.</p>
+                                                    <h3>Segurança controlada por identidade</h3>
+                                                    <p>Adotar uma abordagem de segurança mais holística e inovadora para proteger, detectar e responder a ameaças de todos os tipos no local e na nuvem.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -316,56 +312,18 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                                 </a>
                             </li>
                             <li>
-                                <a href="/enterprise-mobility-security/solutions/byod-design-considerations-guide">
+                                <a href="/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-4.svg" alt="Design and Architecture Guides" />
+                                                        <img src="/media/hubs/ems/ems_solutions-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Guias de design e arquitetura</h3>
-                                                    <p>Obtenha conselhos de especialistas sobre as perguntas e as próximas etapas para implementar tudo, desde BYOD até proteção de dados da empresa.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://channel9.msdn.com/Tags/emm">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-5.svg" alt="EMS Support FAQ" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Assista aos vídeos no Channel 9</h3>
-                                                    <p>Exiba os vídeos mais recentes lançados online.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/ems-support-faq">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Perguntas frequentes de suporte do EMS</h3>
-                                                    <p>Obtenha respostas rápidas sobre pré-vendas, cobrança, assinatura e o suporte técnico do EMS.</p>
+                                                    <h3>Proteção de Informações</h3>
+                                                    <p>Saiba como proteger dados usando classificação, rotulação e proteção, compartilhar dados confidenciais interna e externamente, acompanhar o uso de dados compartilhados e responder a violação de dados.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -376,11 +334,63 @@ ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="#more">Mais recursos</a>
+                <ul id="more">
+                    <li>
+                        <a href="#more-all"></a>
+                        <ul id="more-all" class="cardsFTitle">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="/media/common/i_blog.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://blogs.technet.microsoft.com/enterprisemobility/">Leia o blog do Enterprise Mobility and Security</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="/media/common/i_benefits.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="http://fasttrack.microsoft.com/ems">Mais de&150; licenças? Aproveite seus benefícios do FastTrack</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="/media/common/i_video.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://channel9.msdn.com/Tags/emm">Assista aos vídeos no Channel 9</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
         </ul>
     </div>
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
