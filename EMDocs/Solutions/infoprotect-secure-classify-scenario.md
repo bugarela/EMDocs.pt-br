@@ -4,7 +4,7 @@ description: "Um cenário que descreve como o Enterprise Mobility + Security pod
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 01/23/17
+ms.date: 02/21/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,8 +13,9 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 88359b6542ce8524095af2b7ce1df4674b655b82
+ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
+ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -60,7 +61,7 @@ As empresas precisam identificar quais dados precisam de proteção e quais não
 
 ### <a name="step-1-preparing-for-document-protection-and-content-classification"></a>Etapa 1: Preparar-se para a proteção de documentos e a classificação de conteúdo
 
-Antes de implementar essa solução, examine o [requisitos para a Proteção de Informações do Azure](/information-protection/get-started/requirements.md) e garantir que o Azure Rights Management esteja ativado. Se estiver ativado, você verá a tela a seguir no Portal do Azure:
+Antes de implementar essa solução, examine o [requisitos para a Proteção de Informações do Azure](/information-protection/get-started/requirements) e garantir que o Azure Rights Management esteja ativado. Se estiver ativado, você verá a tela a seguir no Portal do Azure:
 
 ![Portal do Azure](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig2.png)
 
@@ -79,7 +80,7 @@ O diagrama a seguir tem um exemplo de como isso poderia ser implementado:
 
 ![Classificação](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Embora a Proteção de Informações do Azure tenha rótulos padrão, você também pode [personalizar](/information-protection/deploy-use/configure-policy-new-label.md) e criar seus próprios rótulos ou rótulos secundários que os usuários veem na barra da Proteção de Informações.
+Embora a Proteção de Informações do Azure tenha rótulos padrão, você também pode [personalizar](/information-protection/deploy-use/configure-policy-new-label) e criar seus próprios rótulos ou rótulos secundários que os usuários veem na barra da Proteção de Informações.
 
 > [!IMPORTANT]
 > Rótulos são metadados gravados em documentos. Os rótulos são em texto não criptografado para que outros sistemas, como um mecanismo de DLP, possam lê-los.
@@ -88,13 +89,13 @@ No exemplo a seguir, você pode ver rótulos secundários personalizados que for
 
 ![Rótulo](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-Depois de definir como usará os rótulos (padrão ou personalizados), [configure um rótulo para aplicar a proteção do Rights Management](/information-protection/deploy-use/configure-policy-new-label.md).
+Depois de definir como usará os rótulos (padrão ou personalizados), [configure um rótulo para aplicar a proteção do Rights Management](/information-protection/deploy-use/configure-policy-new-label).
 
 ### <a name="step-3-implement-content-based-automatic-classification"></a>Etapa 3: Implementar a classificação automática baseada no conteúdo
 
 Com a Proteção de Informações do Azure, controles de proteção e classificação de dados são integrados ao Office e a outros aplicativos comuns. Essa integração oferece opções simples de um clique para proteger os dados com que os usuários estão trabalhando. No portal do Azure, você pode aplicar padrões predefinidos, como "Números de cartão de crédito" ou "Número do seguro social dos EUA", como uma condição para classificação automática. Como alternativa, você pode usar padrões de texto e expressões regulares para definir uma cadeia de caracteres ou padrão personalizado.
 
-Quando configura condições para um rótulo, você pode atribuir automaticamente um rótulo a um documento/email ou pode solicitar que os usuários selecionem o rótulo que você recomenda. Leia [Como configurar condições para classificação automática e recomendada da Proteção de Informações do Azure](/information-protection/deploy-use/configure-policy-classification.md) para obter mais informações sobre como fazer essa configuração.
+Quando configura condições para um rótulo, você pode atribuir automaticamente um rótulo a um documento/email ou pode solicitar que os usuários selecionem o rótulo que você recomenda. Leia [Como configurar condições para classificação automática e recomendada da Proteção de Informações do Azure](/information-protection/deploy-use/configure-policy-classification) para obter mais informações sobre como fazer essa configuração.
 
 
 ### <a name="step-4-configure-conditions-for-automatic-and-recommended-classification"></a>Etapa 4: Configurar condições para classificação automática e recomendada
@@ -107,10 +108,5 @@ As políticas podem ser definidas por administradores de TI para aplicar automat
 - SSN (Número do Seguro Social dos EUA)
 - IBAN (Número de Conta Bancária Internacional)
 
-Leia [Informações sobre as condições internas](/information-protection/deploy-use/configure-policy-classification.md#information-about-the-built-in-conditions) para obter mais detalhes sobre esse tipo de implementação.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
+Leia [Informações sobre as condições internas](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions) para obter mais detalhes sobre esse tipo de implementação.
 
