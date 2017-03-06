@@ -18,7 +18,7 @@
 ## [Produtividade móvel gerenciada]()
 ### [Proteger dados da empresa no Office 365 com o Intune](protect-office365-data-with-intune.md)
 ### [Proteger dados locais da empresa com o Intune](protect-on-premises-data-with-intune.md)
-### [Protect company data without managing devices with Intune](protect-company-data-without-managing-devices.md) (Proteger dados da empresa sem gerenciar dispositivos com o Intune)
+### [Proteger dados da empresa sem gerenciar dispositivos com o Intune](protect-company-data-without-managing-devices.md)
 ### [Habilite BYOD (Traga seu próprio dispositivo) com o Intune](enable-byod.md)
 ## [Guias de Design e Arquitetura]()
 ### [Guia de Design para BYOD](byod-design-considerations-guide.md)
