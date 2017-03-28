@@ -5,9 +5,9 @@ description: "Documentação técnica do Microsoft Enterprise Mobility + Securit
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 hide_bc: true
 translationtype: Human Translation
-ms.sourcegitcommit: e1a57fc7a7fa30eac753b93dd1366eaa8e7c3a72
-ms.openlocfilehash: 504d49e556bf698e924fc8641ceb588ad5f12357
-ms.lasthandoff: 02/13/2017
+ms.sourcegitcommit: 524272bb9454816c10ceddbb0eb56a4a27491889
+ms.openlocfilehash: ce56224ca38b3889650dcb0e008bf6f1b5aedee6
+ms.lasthandoff: 03/27/2017
 
 ---
 <div id="main" class="v2">
@@ -18,70 +18,8 @@ ms.lasthandoff: 02/13/2017
                 <a href="#products">Produtos + serviços</a>
                 <ul id="products">
                     <li>
-                        <a  data-default="true" href="#all">Todos</a>
-                        <ul id="all" class="cardsW">
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Gerenciamento de identidade e acesso</h3>
-                                                <p>
-                                                    <a href="/azure/active-directory/index">Azure Active Directory</a>
-                                                </p>
-                                                <p>
-                                                    <a href="/azure/multi-factor-authentication/index"> Autenticação Multifator </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/microsoft-identity-manager/"> Microsoft Identity Manager </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Gerenciamento de dispositivos e aplicativos</h3>
-                                                <p>
-                                                    <a href="/intune/"> Microsoft Intune </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/sccm/"> System Center Configuration Manager </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Segurança e proteção de informações</h3>
-                                                <p>
-                                                    <a href="/information-protection/"> Proteção de Informações do Azure </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/advanced-threat-analytics/"> Advanced Threat Analytics </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/cloud-app-security/"> Cloud App Security </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#identity">Gerenciamento de Identidade e Acesso</a>
-                        <ul id="identity" class="cardsC">
+                        <a href="#products-all"></a>
+                        <ul id="products-all" class="cardsC">
                             <li>
                                 <a href="/azure/active-directory/index">
                                     <div class="cardSize">
@@ -101,49 +39,6 @@ ms.lasthandoff: 02/13/2017
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/azure/multi-factor-authentication/index">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-2.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Autenticação Multifator</h3>
-                                                    <p>Proteger o acesso aos seus dados e aplicativos com um nível extra de autenticação</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/microsoft-identity-manager/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft Identity Manager</h3>
-                                                    <p>Gerenciar identidades com fluxo de trabalho automatizado, autoatendimento e muito mais</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#management">Gerenciamento de dispositivos e aplicativos</a>
-                        <ul id="management" class="cardsC">
                             <li>
                                 <a href="/intune/">
                                     <div class="cardSize">
@@ -175,18 +70,32 @@ ms.lasthandoff: 02/13/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>System Center Configuration Manager</h3>
-                                                    <p>Gerenciar PCs, servidores e dispositivos móveis, como iPhones e dispositivos Android com infraestrutura local e baseada em nuvem</p>
+                                                    <p>Gerenciar PCs, servidores e dispositivos móveis, como iPhones e dispositivos Android com infraestrutura local e baseada em nuvem </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#security">Segurança e Proteção de Informações</a>
-                        <ul id="security" class="cardsC">
+                            <li>
+                                <a href="/cloud-app-security/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Cloud App Security</h3>
+                                                    <p>Ganhe visibilidade profunda, controles abrangentes e segurança aprimorada do SaaS</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                             <li>
                                 <a href="/information-protection/">
                                     <div class="cardSize">
@@ -200,6 +109,25 @@ ms.lasthandoff: 02/13/2017
                                                 <div class="cardText">
                                                     <h3>Azure Information Protection</h3>
                                                     <p>Classificar dados no momento da criação ou atualização com base na origem, no contexto e no conteúdo</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/azure/multi-factor-authentication/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Autenticação Multifator</h3>
+                                                    <p>Proteger o acesso aos seus dados e aplicativos com um nível extra de autenticação</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -226,18 +154,18 @@ ms.lasthandoff: 02/13/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="/cloud-app-security/">
+                                <a href="/microsoft-identity-manager/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Cloud App Security</h3>
-                                                    <p>Ganhe visibilidade profunda, controles abrangentes e segurança aprimorada do SaaS</p>
+                                                    <h3>Microsoft Identity Manager</h3>
+                                                    <p>Gerenciar identidades com fluxo de trabalho automatizado, autoatendimento e muito mais</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -366,7 +294,7 @@ ms.lasthandoff: 02/13/2017
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3><a href="http://fasttrack.microsoft.com/ems">Mais de&150; licenças? Aproveite seus benefícios do FastTrack</a></h3>
+                                                <h3><a href="http://fasttrack.microsoft.com/ems">Mais de 150 licenças? Aproveite seus benefícios do FastTrack</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -391,6 +319,7 @@ ms.lasthandoff: 02/13/2017
                         </ul>
                     </li>
                 </ul>
+            </li>
         </ul>
     </div>
-
+</div>
