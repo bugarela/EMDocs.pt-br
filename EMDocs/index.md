@@ -107,7 +107,7 @@ ms.lasthandoff: 03/27/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Azure Information Protection</h3>
+                                                    <h3>Proteção de Informações do Azure</h3>
                                                     <p>Classificar dados no momento da criação ou atualização com base na origem, no contexto e no conteúdo</p>
                                                 </div>
                                             </div>
@@ -126,7 +126,7 @@ ms.lasthandoff: 03/27/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Autenticação Multifator</h3>
+                                                    <h3>Microsoft Azure Multi-Factor Authentication</h3>
                                                     <p>Proteger o acesso aos seus dados e aplicativos com um nível extra de autenticação</p>
                                                 </div>
                                             </div>
