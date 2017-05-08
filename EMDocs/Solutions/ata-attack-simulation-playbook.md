@@ -12,9 +12,10 @@ ms.technology: techgroup-identity
 ms.assetid: da5eda7c-29bb-429f-9366-72495667c010
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: cff5b87f6c5d0b9aa987631fefe5bf74e3a43862
 ms.openlocfilehash: 41672ccdbd2c868add70e423b7dbc8048713259b
+ms.contentlocale: pt-br
 ms.lasthandoff: 03/14/2017
 
 
@@ -236,7 +237,7 @@ Um exemplo de como o resultado desse comando é mostrado na imagem a seguir:
 O invasor agora tem todos os usuários e grupos e sabe quais usuários pertencerão ao grupo altamente privilegiado de *Admins. do domínio*. Em um cenário do mundo real, a probabilidade de que o ataque continuará a escalonar e tentará obter os Administradores Corporativos é muito alta, já que não há nenhum limite de segurança entre *Administradores Corporativos* e *Admins. do domínio*.
 
 > [!IMPORTANT]
-> Para obter mais informações sobre limites de segurança entre florestas e domínios, administradores de empresa e Admins. do domínio e outros privilégios de "nível&0;", consulte [Protegendo material de referência com acesso privilegiado](http://www.aka.ms/tier0).
+> Para obter mais informações sobre limites de segurança entre florestas e domínios, administradores de empresa e Admins. do domínio e outros privilégios de "nível 0", consulte [Protegendo material de referência com acesso privilegiado](http://www.aka.ms/tier0).
 
 Para obter a lista de membros do grupo *administradores corporativos* em seu laboratório, execute o seguinte comando *PC vítima*:
 
@@ -330,7 +331,7 @@ O invasor usou esse [pensamento gráfico](https://blogs.technet.microsoft.com/jo
 
 Agora é hora de usar o *RonHD* para realizar o movimento lateral, usando o ataque [Overpass-the-Hash](). Se o invasor estiver em um ambiente que não desabilitou WDigest, será o fim do jogo, pois eles tem a senha em texto sem formatação.  Mas, para os propósitos deste laboratório, a suposição é que você não sabe/têm acesso à senha em texto sem formatação.
 
-Usando uma técnica chamada Overpass-the-Hash você pode levar o NTLM hash e usá-lo para obter um tíquete de concessão de tíquete (TGT) via o Kerberos\Active Directory.  Com um TGT você pode disfarçar o Ron**HD e acessar qualquer recurso do domínio ao qual*RonHD* tenha acesso.  
+Usando uma técnica chamada Overpass-the-Hash você pode levar o NTLM hash e usá-lo para obter um tíquete de concessão de tíquete (TGT) via o Kerberos\Active Directory.  Com um TGT você pode disfarçar o Ron**HD e acessar qualquer recurso do domínio ao qual* RonHD* tenha acesso.  
 
 Copie o NTLM hash *de RonHD* do pc-vítima.txt, coletado anteriormente (da "Ação: despejo de credenciais do PC vítima"). Em seguida, vá para o *PC vítima*, acesse o local em que *mimikatz* está armazenado no sistema de arquivos e execute os seguintes comandos:
 
@@ -406,7 +407,7 @@ Um exemplo de como o resultado desse comando é mostrado na imagem a seguir:
 
 ![privilégio de mimikatz](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig27.png) 
 
-Verifique se os tíquetes *NuckC@krbtgt-CONTOSO.LOCAL* foram importados com êxito, conforme ilustrado no exemplo acima.
+Verifique se os tíquetes  *NuckC@krbtgt-CONTOSO.LOCAL*  foram importados com êxito, conforme ilustrado no exemplo acima.
 
 eext você deve validar que as permissões de privilégios estão na sessão de prompt de comando. Para fazer isso, execute o seguinte no mesmo prompt de comandos com privilégios elevados:
 
