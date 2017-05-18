@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de requisitos comuns para desenvol
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -45,9 +47,4 @@ Ao projetar sua solução de MDM, lembre-se de responder às seguintes perguntas
 - Quando um dispositivo móvel estiver comprometido e você precisar impedir que esse dispositivo distribua aplicativos maliciosos para a rede corporativa, a solução de MDM permite impor políticas que possam rapidamente conter o dispositivo comprometido?
 - A solução de MDM permite planejar possíveis ataques a fim de poder tomar medidas proativas para resolver problemas?
 - A solução de MDM permite identificar quando um arquivo está infectado com malware, usando um console de gerenciamento?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de considerações de design para 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -92,9 +94,4 @@ A proteção da plataforma de dispositivo móvel desempenha um papel importante 
 
 >[!TIP]
 > Leia mais sobre as configurações do gerenciamento de dispositivo móvel que podem ser definidas em uma política de segurança de dispositivo móvel do Microsoft Intune em [Configurações da política de gerenciamento de dispositivo móvel para o Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

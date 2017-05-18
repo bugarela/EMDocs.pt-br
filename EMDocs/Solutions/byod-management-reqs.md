@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de requisitos comuns de design de 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -97,9 +99,4 @@ As perguntas sobre requisitos de gerenciamento são categorizadas em sete áreas
 - Os dispositivos pessoais são registrados com a empresa pela TI ou são registrados pessoalmente?
 - Haverá um plano em vigor para permitir que os usuários provisionem serviços usando seus próprios dispositivos?
     - Nesse caso, o sistema de gerenciamento nativamente permite aos usuários executar esta operação em seus dispositivos?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

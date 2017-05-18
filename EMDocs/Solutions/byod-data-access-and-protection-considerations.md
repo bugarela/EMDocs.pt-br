@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de considerações de design para 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -248,9 +250,4 @@ A aplicação de dados governança em servidores de arquivos para controlar quem
 Ao aproveitar os recursos de Controle de Acesso Dinâmico, você pode identificar dados usando classificação automática e manual dos arquivos. Por exemplo, você pode marcar os dados nos servidores de arquivos em toda a organização. Também é possível controlar o acesso a arquivos aplicando políticas de rede de segurança que usem políticas de acesso centrais. O Controle de Acesso Dinâmico também aproveita a proteção RMS (Rights Management Services, serviços de gerenciamento de direitos) usando criptografia RMS automática para documentos confidenciais. Por exemplo, você pode configurar o RMS para criptografar todos os documentos que contenham informações sobre HIPAA (Health Insurance Portability e Accountability Act, lei de portabilidade e responsabilidade de plano de saúde). Para investigação forense e auditoria, você pode aproveitar as políticas de auditoria centrais para relatórios de conformidade e análise forense. Você pode identificar quem acessou informações altamente confidenciais.
 
 O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita à TI os recursos mostrados na tabela anterior. Para saber mais sobre o Controle de Acesso Dinâmico, confira [Controle de Acesso Dinâmico: visão geral de cenários](https://technet.microsoft.com/library/hh831717.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

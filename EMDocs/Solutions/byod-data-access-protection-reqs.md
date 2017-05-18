@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de requisitos comuns de acesso e p
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -91,9 +93,4 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
     - Nesse caso, como essas normas conduzem as políticas de acesso de dados atuais para recursos locais?
 - Sua empresa tem políticas em vigor para [MDM (Gerenciamento de Dispositivo Móvel)](mdm-design-considerations-guide.md) e [MAM (Gerenciamento de Aplicativo Móvel)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - Sua empresa tem políticas estabelecidas para confiscação de dispositivo no caso de litígio judicial ou investigação criminal?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

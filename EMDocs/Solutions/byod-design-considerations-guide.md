@@ -4,8 +4,8 @@ description: "Este artigo fornece uma introdução à adoção de Traga seu pró
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 01/04/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
 ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
+ms.contentlocale: pt-br
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -74,9 +76,4 @@ Os seguintes problemas ou desafios normalmente são aqueles encontrados por empr
 Organizações com uma grande infraestrutura precisam determinar requisitos antes de passarem de gerenciar os dispositivos elas mesmas — o que presume que a TI tem controle total dos dispositivos — para um modelo em que a TI deve supor que ela tem menos controle dos dispositivos e, ao mesmo tempo, precisa para atender às necessidades dos usuários para acessar dados corporativos. Isso geralmente é chamado de mudança de TI centrada em dispositivo para TI centrada em pessoas. As mesmas considerações e requisitos devem também ser cuidadosamente planejados para aplicativos novos e existentes ou para levar os aplicativos existentes para um ambiente em nuvem. A Figura 1 inclui um diagrama conceitual de domínio do problema do BYOD e as áreas que serão abordadas neste guia.
 
 ![Domínio do problema](./media/BYOD_Figure1.png)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

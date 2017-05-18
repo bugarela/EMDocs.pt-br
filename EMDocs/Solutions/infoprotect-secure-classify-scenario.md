@@ -3,8 +3,8 @@ title: "Proteger dados usando classificação, rotulação e proteção | Micros
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para classificar, rotular e proteger dados tirando proveito dos recursos da Proteção de Informações do Microsoft Azure."
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/17
+manager: mbaldwin
+ms.date: 05/18/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -12,9 +12,10 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
 ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
+ms.contentlocale: pt-br
 ms.lasthandoff: 02/22/2017
 
 
