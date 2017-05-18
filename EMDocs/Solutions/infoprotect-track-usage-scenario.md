@@ -2,8 +2,8 @@
 title: "Acompanhar o uso de dados compartilhados e responder a violações de dados | Microsoft Docs"
 description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para controlar o uso de dados compartilhados e responder a violações de dados, aproveitando os recursos do Azure Rights Management."
 author: yuridio
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -11,9 +11,11 @@ ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: cca39a029b31f619a49b605ed28ab73a58e5c73b
+ms.contentlocale: pt-br
+ms.lasthandoff: 01/24/2017
 
 
 
@@ -72,9 +74,4 @@ Também há cenários em que você responde a um incidente de segurança. Por ex
 ![Gráfico mostrando o formulário Revogar Acesso que permite revogar o acesso a um documento.](./media/infoprotect-track-usage-scenario/infoprotect-track-usage-scenario-fig5.png)
 
 É possível habilitar a opção de notificar os destinatários de que o acesso ao documento foi revogado e você pode incluir uma mensagem com a explicação de por que o documento foi revogado.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

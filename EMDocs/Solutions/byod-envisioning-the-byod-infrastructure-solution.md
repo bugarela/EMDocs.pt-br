@@ -4,8 +4,8 @@ description: "Este artigo fornece uma definição de solução para o cenário T
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -50,9 +52,4 @@ As considerações sobre o domínio do problema do BYOD apresentados neste guia 
 - [Requisitos de acesso e proteção de dados](byod-data-access-protection-reqs.md)
 - [Requisitos de gerenciamento](byod-management-reqs.md)
 - [Requisitos de aplicativos](byod-app-reqs.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

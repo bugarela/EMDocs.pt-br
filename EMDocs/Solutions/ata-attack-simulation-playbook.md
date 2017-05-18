@@ -4,7 +4,7 @@ description: "Este guia ajudará os clientes a aprenderem sobre roubo de credenc
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 03/13/2017
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: advanced-threat-analytics

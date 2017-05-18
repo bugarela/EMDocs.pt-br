@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de considerações de design para 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -78,9 +80,4 @@ As seções a seguir descrevem o processo de design, mas, conforme mencionado em
 O restante do documento aborda considerações de design e os produtos, tecnologias e serviços listados na tabela anterior. Quando vários produtos, tecnologias e serviços Microsoft podem ser usados para tratar as considerações de design diferentes, são abordadas os seus prós e contras.
 
 O design de infraestrutura para compatibilidade com a BYOD reúne as respostas às perguntas que foram apresentadas anteriormente neste artigo, bem como os recursos e as opções de tecnologia que foram disponibilizadas para você. O design discutido neste documento usa tecnologia baseada em Microsoft. No entanto, as opções e considerações de design podem ser aplicadas a qualquer infraestrutura usada para adotar o modelo BYOD.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

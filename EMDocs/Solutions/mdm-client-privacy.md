@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de considerações de design para 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -72,9 +74,4 @@ Privacidade é importante tanto para os usuários quanto para sua organização,
 **Desvantagens**
 
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

@@ -4,8 +4,8 @@ description: "Este artigo fornece um conjunto de requisitos comuns de privacidad
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -53,9 +55,4 @@ Antes de escolher uma solução de gerenciamento de dispositivos móveis, consid
         - Em caso afirmativo, enumere esses requisitos antes de selecionar sua plataforma de gerenciamento de dispositivo móvel.
 
 Leia a [Política de Privacidade do Microsoft Online Services](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) para entender melhor como os serviços do Microsoft Cloud, incluindo o Intune, manterão a privacidade do usuário
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
