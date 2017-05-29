@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -69,9 +71,4 @@ Os usuários finais podem instalar aplicativos gerenciados e usá-los para fazer
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você sabe como [proteger emails e documentos corporativos](protect-corporate-email-documents.md), bem como anexos de email, é possível aprender a [implementar uma solução que proteja o email corporativo](implement-solution.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

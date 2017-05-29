@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 446078327ee3fe309dc6dea33db315b79fa38cae
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 9778ccfc6a2c7583e0659c76e7ada91711517243
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -184,9 +186,4 @@ Um dispositivo é bloqueado assim que é descoberto pelo conector do Exchange. A
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
-
-
-
-<!--HONumber=Dec16_HO4-->
-
 

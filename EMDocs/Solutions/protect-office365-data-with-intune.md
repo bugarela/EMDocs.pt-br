@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -82,9 +84,9 @@ Veja o que acontece quando um usuário tenta acessar seu email usando um disposi
 O Intune também pode, facilmente, [proteger o acesso ao SharePoint Online](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune) usando o acesso condicional. Assim como para proteger o acesso ao email, você precisará configurar duas políticas que devem ser cumpridas para habilitar o acesso: uma política de conformidade do dispositivo para garantir que as políticas da empresa estejam sendo seguidas no dispositivo e uma política de acesso condicional que define as condições que devem ser atendidas para acessar o serviço.
 
 Quando um usuário tenta usar um dispositivo não gerenciado para se conectar ao serviço do SharePoint Online protegido pelas políticas de acesso condicional do Intune, o seguinte acontece:
-1.  O usuário tem o acesso negado para recursos do SharePoint Online e recebe uma mensagem para fortalecer a segurança, bem como links para registrar seus dispositivos no gerenciamento do Intune.
-2.  Seguindo os links fornecidos pela mensagem de acesso negado, o usuário registra seu dispositivo.
-3.  Após o dispositivo ser registrado e avaliado como compatível com as políticas da empresa, o acesso completo aos dados do SharePoint Online é restaurado.
+1.    O usuário tem o acesso negado para recursos do SharePoint Online e recebe uma mensagem para fortalecer a segurança, bem como links para registrar seus dispositivos no gerenciamento do Intune.
+2.    Seguindo os links fornecidos pela mensagem de acesso negado, o usuário registra seu dispositivo.
+3.    Após o dispositivo ser registrado e avaliado como compatível com as políticas da empresa, o acesso completo aos dados do SharePoint Online é restaurado.
 
 ![Imagens mostrando como o acesso condicional funciona para o SharePoint Online](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig2.png)
 
@@ -103,9 +105,9 @@ Como administrador, você define [configurações de política de aplicativo de 
 
 As capturas de tela a seguir mostram algumas maneiras de proteger um aplicativo usando políticas de MAM do Intune. Neste exemplo, um PIN é necessário para acessar o aplicativo (uma configuração de acesso) e os dados da empresa são protegidos impedindo que informações da empresa sejam colados em aplicativos não gerenciados (configuração de realocação de dados):
 
-1.  Na primeira vez em que o aplicativo gerenciado (Yammer para iOS, neste exemplo) for iniciado, o usuário será solicitado a criar um PIN para acessar o aplicativo. Em seguida, ele precisará inserir o PIN sempre que o aplicativo for iniciado.
-2.  O usuário pode copiar dados da empresa, como conversas do Yammer e colá-lo em outros aplicativos gerenciados.
-3.  No entanto, quando o usuário tentar colar esse conteúdo em uma mensagem de texto (ou em qualquer outro aplicativo não gerenciado), a função de colar não estará disponível.  
+1.    Na primeira vez em que o aplicativo gerenciado (Yammer para iOS, neste exemplo) for iniciado, o usuário será solicitado a criar um PIN para acessar o aplicativo. Em seguida, ele precisará inserir o PIN sempre que o aplicativo for iniciado.
+2.    O usuário pode copiar dados da empresa, como conversas do Yammer e colá-lo em outros aplicativos gerenciados.
+3.    No entanto, quando o usuário tentar colar esse conteúdo em uma mensagem de texto (ou em qualquer outro aplicativo não gerenciado), a função de colar não estará disponível.  
 
 ![Imagens mostrando como as políticas de MAM funcionam](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig3.png)
 
@@ -121,9 +123,9 @@ Funciona da seguinte forma: os dados da empresa são criptografados automaticame
 [As definições de política de configuração de WIP](https://docs.microsoft.com/intune/deploy-use/microsoft-intune-policy-reference#windows-configuration-policies) permitem que você defina níveis diferentes de controle e auditoria no console do administrador do Intune. Os níveis de proteção de dados variam de **Silencioso** (atividade de log de WIP somente) a **Bloquear**, que impede completamente que os usuários compartilhem qualquer conteúdo de aplicativos protegidos. **Substituir** é uma configuração intermediária que permite que os usuários compartilhem dados da empresa com aplicativos não protegidos com um aviso, mas também registra todas as ações para análise posterior.
 
 É assim que as políticas de WIP do Intune podem ajudar a proteger dados da empresa em dispositivos Windows 10 gerenciados:
-1.  Uma nova política de WIP é criada e implantada para os usuários do console do administrador do Intune.
-2.  Neste exemplo, as informações do AppLocker para o Microsoft Word são usadas para adicionar o Word 2016 à lista de aplicativos permitidos, o nível de restrição de política está definido como Substituir e a política é implantada para usuários.
-3.  Um usuário tenta colar dados da empresa copiados de um documento do Word 2016 protegido para uma nova instância desprotegida do Bloco de Notas. Imediatamente, ele será solicitado a confirmar que essa mudança de configuração de trabalho para pessoal é planejada e que a ação será monitorada.
+1.    Uma nova política de WIP é criada e implantada para os usuários do console do administrador do Intune.
+2.    Neste exemplo, as informações do AppLocker para o Microsoft Word são usadas para adicionar o Word 2016 à lista de aplicativos permitidos, o nível de restrição de política está definido como Substituir e a política é implantada para usuários.
+3.    Um usuário tenta colar dados da empresa copiados de um documento do Word 2016 protegido para uma nova instância desprotegida do Bloco de Notas. Imediatamente, ele será solicitado a confirmar que essa mudança de configuração de trabalho para pessoal é planejada e que a ação será monitorada.
 
 ![Imagens mostrando como as políticas de WIP funcionam](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig5.png)
 
@@ -142,9 +144,4 @@ Depois de iniciado, o dispositivo iniciará imediatamente o processo de apagamen
 [Começar a usar o Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

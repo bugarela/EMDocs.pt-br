@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: 0367aea637810515742a344ac707f4e5272d29b1
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 001a2de2d35f218258180fff31b7923ee5c79acd
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -45,7 +47,7 @@ Para obter informações sobre outras experiências específicas do usuário fin
   Depois que as credenciais são autenticadas com êxito pelo Azure AD, as políticas de MAM são aplicadas.
 3. O usuário é solicitado a definir um **PIN** para o aplicativo (se você tiver configurado a política para isso).
 
-4.  Quando o PIN é definido e confirmado, o usuário pode acessar os arquivos em seu **OneDrive for Business**.
+4.    Quando o PIN é definido e confirmado, o usuário pode acessar os arquivos em seu **OneDrive for Business**.
 > [!NOTE]
 > Quando você altera uma política implantada, as alterações são aplicadas da próxima vez que você abrir o aplicativo.
 
@@ -54,19 +56,14 @@ Para obter informações sobre outras experiências específicas do usuário fin
 > [!NOTE]
 > Em um dispositivo pessoal, normalmente o usuário final deve baixar o aplicativo. Se o dispositivo for gerenciado por uma solução MDM, você pode implantar o aplicativo no dispositivo.
 
-2.  O usuário digita seu nome de usuário da conta de trabalho e é redirecionado para a página de **Autenticação do O365** para inserir as credenciais de trabalho.
+2.    O usuário digita seu nome de usuário da conta de trabalho e é redirecionado para a página de **Autenticação do O365** para inserir as credenciais de trabalho.
 
   Depois que as credenciais são autenticadas com êxito pelo Azure AD, as políticas de MAM são aplicadas.
 
-3.  O aplicativo **OneDrive** é iniciado automaticamente e o usuário é solicitado a definir um **PIN**, desde que as configurações de política tenham sido definidas para exigir um **PIN** para acessar o aplicativo **OneDrive**.
+3.    O aplicativo **OneDrive** é iniciado automaticamente e o usuário é solicitado a definir um **PIN**, desde que as configurações de política tenham sido definidas para exigir um **PIN** para acessar o aplicativo **OneDrive**.
 
-4.  Depois que o PIN for definido e confirmado, o usuário poderá continuar usando o **OneDrive**, agora gerenciado por políticas de aplicativo.
+4.    Depois que o PIN for definido e confirmado, o usuário poderá continuar usando o **OneDrive**, agora gerenciado por políticas de aplicativo.
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Há outras experiências do usuário final que você pode ler, incluindo [Usando aplicativos com suporte a várias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Gerenciando contas de usuário](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) e [Exibindo arquivos de mídia com o aplicativo de compartilhamento Rights Management](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 
