@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: c8183efa009da5215149afdb9b94d4166b1c8030
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 3ba92f5fa1b625757e08998bab3c09a813400727
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -51,9 +53,4 @@ Eis o que você pode esperar quando a integração for concluída:
     -   sincronizadas do Active Directory com a ferramenta Azure AD Connect. Essa opção é voltada para clientes com a configuração de uma única floresta do Active Directory.
 
     -   Federadas com o AD FS (Serviços de Federação do Active Directory) 2.0 do Windows Server 2012 R2 ou posterior do seu Active Directory local.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

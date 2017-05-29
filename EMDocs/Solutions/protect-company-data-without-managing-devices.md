@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: b46877f3-cf32-4919-ba63-4df55cd2af32
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 5a0eef972374efefff886ab9dbf7b6a7e4f7aab7
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -93,9 +95,4 @@ Quando o usuário final toca no link *Comece agora mesmo* no email, o navegador 
 [Começar a usar o Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

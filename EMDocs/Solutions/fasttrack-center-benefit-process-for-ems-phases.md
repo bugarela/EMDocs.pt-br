@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
-ms.openlocfilehash: 50389fcdfc8f8dd9d2c565b60990449b442d90aa
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 0c404c758f66fba9ded4672fad904ba3987958b5
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -58,7 +60,7 @@ Antes de iniciar a fase Habilitar, verificaremos em conjunto os resultados das a
 ## <a name="enable-phase"></a>Fase Habilitar
 Quando todas as atividades de correção estiverem concluídas, o projeto mudará para a configuração da infraestrutura básica para consumo do serviço e para o provisionamento de cada serviço de nuvem do EMS.
 
-**Habilitar fase – Principais recursos**
+**Habilitar fase - Principais recursos**
 
 A integração de núcleo envolve o provisionamento de serviços e a integração de locatário e identidade. Também inclui etapas para fornecer uma base para a integração de serviços online, como o Azure AD Premium e o Intune.
 
@@ -160,9 +162,4 @@ A Microsoft também fornece a você diretrizes de como chegar a uma adoção bem
 **Quer saber mais?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

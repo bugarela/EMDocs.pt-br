@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: 677fde4eb3c0bf95fab971acbd2f42c3571d24e8
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 96e31a0915b9fc95ac305181f85f2b8ebbc07d4b
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -56,9 +58,4 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 |Proteção de Informações do Microsoft Azure (E3 e E5)|Limitado</br>Somente Plano de Sucesso e solicitar ajuda por meio da equipe Obter Ajuda|
 |Microsoft Advanced Threat Analytics|Limitado</br>Somente Plano de Sucesso e solicitar ajuda por meio da equipe Obter Ajuda|
 |Microsoft Cloud App Security|Limitado</br>Somente Plano de Sucesso e solicitar ajuda por meio da equipe Obter Ajuda|
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

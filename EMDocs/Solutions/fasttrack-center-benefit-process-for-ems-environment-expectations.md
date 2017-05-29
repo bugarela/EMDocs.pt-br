@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 608f2a8de302f2d36b4a70fe631cc231963e41f8
-ms.openlocfilehash: 18be543bd0b3442d6f623cba4c5260e93b42d2b8
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 6c871d792424f5066328d26892c27c3883605a06
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -39,9 +41,4 @@ A tabela a seguir mostra o que é esperado do seu ambiente de origem existente p
 **Quer saber mais?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO3-->
-
 

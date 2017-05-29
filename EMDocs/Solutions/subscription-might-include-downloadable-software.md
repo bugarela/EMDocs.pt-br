@@ -11,9 +11,11 @@ ms.prod:
 ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/29/2017
 
 ---
 
@@ -25,8 +27,8 @@ Sua assinatura paga do Microsoft Intune ou Enterprise Mobility pode incluir uma 
 | ------------- |-------------|
 |Enterprise Mobility Suite |    Advanced Threat Analytics |
 |Enterprise Mobility Suite |    Microsoft Identity Manager |
-|Microsoft Intune | System Center Configuration Manager |
-|Azure Active Directory Premium |   Microsoft Identity Manager |
+|Microsoft Intune |    System Center Configuration Manager |
+|Azure Active Directory Premium |    Microsoft Identity Manager |
 
 O local para baixar o software acima dependerá do método com o qual você adquiriu o Microsoft Online Service.
 
@@ -37,9 +39,4 @@ Se você tiver adquirido diretamente com um cartão de crédito ou por meio de u
 Se você não tiver certeza para qual software você está qualificado, entre em contato com seu gerente de conta ou parceiro ou vá para os [suporte do Microsoft Online Services](https://technet.microsoft.com/en-us/dn932057.aspx).
 
 Se você, em vez disso, inscrever-se para uma avaliação, você poderá obter versões de avaliação desses visitando o [Centro de Avaliação do TechNet](https://www.microsoft.com/evalcenter/try).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
