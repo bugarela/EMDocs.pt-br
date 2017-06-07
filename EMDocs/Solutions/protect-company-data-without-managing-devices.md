@@ -4,7 +4,7 @@ description: "O EMS oferece funcionalidades inovadoras de proteção contra perd
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 01/23/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
