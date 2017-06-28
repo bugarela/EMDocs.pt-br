@@ -80,7 +80,7 @@ Esta seção deste documento o orientará durante a configuração da Autentica�
 1. Selecione Telefone Comercial na lista suspensa.
 
   ![Capturas de tela mostrando que o usuário deseja ser contatado pelo telefone comercial](./media/ft-enrollMFA-6-officePhone.png)
-2.    Especifique seu país na lista suspensa e insira seu número de telefone comercial.
+2.    Especifique seu país/região na lista suspensa e insira seu número de telefone comercial.
 3.    Clique em **Entrar em contato comigo**. Isso iniciará uma chamada para o seu telefone comercial. Verifique se está próximo ao seu telefone.
 4.    Clique em **Avançar**.
 5.    Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
@@ -110,7 +110,7 @@ O aplicativo Microsoft Authenticator está disponível para Windows Phone, Andro
   ![Captura de tela solicitando ao usuário que verifique o código enviado para seu telefone](./media/ft-enrollMFA-10-verifyActivation.png)
 6.    Clique em **Fechar**. Neste ponto, sua verificação deve ser bem-sucedida.
 7.    Agora, é recomendável que você insira seu número de telefone celular caso você perca o acesso ao seu aplicativo móvel.
-8.    Especifique seu país na lista suspensa e insira o número de telefone celular na caixa ao lado do país. Clique em **Avançar**.
+8.    Especifique seu país/região na lista suspensa e insira o número de telefone celular na caixa ao lado do país/região.  Clique em **Avançar**.
 9.    Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
 10.    Se você estiver usando esses aplicativos, copie a senha de aplicativo fornecida.
 11.    Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
