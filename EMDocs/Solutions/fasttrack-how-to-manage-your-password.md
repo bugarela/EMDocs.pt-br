@@ -33,7 +33,7 @@ A maneira mais rápida para se registrar para redefinição de senha é ir até 
 2.    Digite seu nome de usuário e senha.
 3.    Escolha uma opção na qual se registrar clicando **configurar agora**. Nesse caso, farei uma demonstração registrando meu **telefone de autenticação**.
 ![Captura de tela mostrando blahblah](./media/ft-mngPW-1-setup.png)
-4.    Selecione o código de seu país na lista suspensa e insira seu número de telefone completo com código de área.
+4.    Selecione o código de seu país/região na lista suspensa e insira seu número de telefone completo com código de área.
 ![Captura de tela mostrando como selecionar um código de país. ](./media/ft-mngPW-2-enterNumber.png)![Captura de tela mostrando onde digitar um número de telefone.](./media/ft-mngPW-3-enterNumber2.png)
 5.    Selecione uma das opções **enviar texto** ou **telefonar**. Nesse caso, selecionarei **enviar texto**, que enviará um código de 6 dígitos para meu telefone. Aguarde até que o código chegue em seu telefone.
 ![Captura de tela mostrando um código de seis dígitos enviado a um telefone.](./media/ft-mngPW-4-textCode.png)
