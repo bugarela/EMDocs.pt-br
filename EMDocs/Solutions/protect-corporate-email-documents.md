@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
+ms.contentlocale: pt-br
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -120,9 +122,4 @@ Quando o dispositivo é avaliado como registro e em conformidade, a sincronizaç
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você sabe como proteger emails e documentos corporativos, pode ler sobre como [proteger anexos de email](protect-email-attachments.md). Ou, se você estiver pronto, saiba mais sobre [como implementar uma solução para proteger seu email corporativo](implement-solution.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
+ms.contentlocale: pt-br
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -115,9 +117,4 @@ Use os procedimentos a seguir para monitorar a implantação do aplicativo por m
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 
 Depois de criar e implantar um aplicativo associado a uma política de MAM, você pode saber mais sobre o [experiência do usuário final de MAM](end-user-experience-mam.md). Isso ajudará a se preparar para problemas que possam surgir.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

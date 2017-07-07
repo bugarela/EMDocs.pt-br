@@ -13,10 +13,11 @@ ms.technology:
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: c3b2ab326254602425d5f8149e5d456e578b989c
 ms.openlocfilehash: 395ed9dafde409d2357bfe7f72283bb7eff24820
-ms.lasthandoff: 04/26/2017
+ms.contentlocale: pt-br
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,16 +43,16 @@ Essas etapas de registro são para dispositivos Samsung Knox Android e dispositi
 Se receber um erro ao tentar registrar seu dispositivo no Intune, consulte [Enviar erros de registro ao administrador de TI](https://technet.microsoft.com/en-US/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
 
 Antes ou após o registro, você poderá ser solicitado a escolher uma categoria que melhor descreva como você usa o dispositivo. O administrador de TI usa essa categoria para ajudar a determinar quais aplicativos você terá acesso.
-1.    Instale o aplicativo gratuito Portal da Empresa do Microsoft Intune em seu dispositivo na [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
-2.    Abra o aplicativo Portal da Empresa do Microsoft Intune.
-3.    Na tela de **Boas-vindas** do Portal da Empresa, toque em **Entrar** e entre com sua conta corporativa ou de estudante.
+1.  Instale o aplicativo gratuito Portal da Empresa do Microsoft Intune em seu dispositivo na [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
+2.  Abra o aplicativo Portal da Empresa do Microsoft Intune.
+3.  Na tela de **Boas-vindas** do Portal da Empresa, toque em **Entrar** e entre com sua conta corporativa ou de estudante.
 
   ![Captura de tela mostrando a tela de entrada do Portal da Empresa do Intune em um dispositivo Android](./media/ft-userEnrollAndroid-1-signUp.png)
 
-4.    Se o seu administrador de TI tiver configurado os termos e condições da empresa, toque em **ACEITAR** para aceitar os termos.
+4.  Se o seu administrador de TI tiver configurado os termos e condições da empresa, toque em **ACEITAR** para aceitar os termos.
 
   ![Captura de tela pedindo que o usuário aceite os termos e condições em um dispositivo Android](./media/ft-userEnrollAndroid-2-accept.png)
-5.    Se estiver usando um dispositivo Android 6.0 ou posterior, siga esta etapa. Caso contrário, vá para a próxima etapa.
+5.  Se estiver usando um dispositivo Android 6.0 ou posterior, siga esta etapa. Caso contrário, vá para a próxima etapa.
 
   Se o administrador de TI tiver configurado algumas políticas, você poderá ver uma ou as duas mensagens a seguir:
 
@@ -63,28 +64,28 @@ Antes ou após o registro, você poderá ser solicitado a escolher uma categoria
         ![Captura de tela pedindo ao usuário que permita que o portal gerencie as chamadas telefônicas em um dispositivo Android](./media/ft-userEnrollAndroid-4-manageCalls.png)
 
   Se você tocar em **RECUSAR**, as mensagens serão exibidas novamente na próxima vez que você entrar no aplicativo do Portal da Empresa, mas você pode desativar mensagens futuras tocando na caixa de seleção **Nunca Perguntar Novamente**. Se você decidir posteriormente permitir o acesso, acesse **Configurações > Aplicativos > Portal da Empresa > Permissões > Telefone** e ative a permissão.
-6.    Conecte-se no aplicativo Portal da Empresa, usando sua conta e senha corporativa ou de estudante e, em seguida, toque em **Entrar**.
+6.  Conecte-se no aplicativo Portal da Empresa, usando sua conta e senha corporativa ou de estudante e, em seguida, toque em **Entrar**.
 
   ![Captura de tela pedindo que o usuário entre no portal da empresa em um dispositivo Android](./media/ft-userEnrollAndroid-5-signIn.png)
-7.    Na tela Configuração de Acesso da Empresa, toque em **INICIAR**.
+7.  Na tela Configuração de Acesso da Empresa, toque em **INICIAR**.
 
   ![Captura de tela mostrando a página Configuração de Acesso da Empresa em um dispositivo Android](./media/ft-userEnrollAndroid-6-beginSetup.png)
-8.    Leia sobre o que você pode fazer quando registra seu dispositivo e, em seguida, toque em **CONTINUAR**.
+8.  Leia sobre o que você pode fazer quando registra seu dispositivo e, em seguida, toque em **CONTINUAR**.
 
   ![Captura de tela mostrando informações sobre por que você deve registrar um dispositivo Android](./media/ft-userEnrollAndroid-7-whyEnroll.png)
-9.    Consulte a lista do que o administrador de TI pode ou não ver em seu dispositivo registrado e toque em **CONTINUAR**.
+9.  Consulte a lista do que o administrador de TI pode ou não ver em seu dispositivo registrado e toque em **CONTINUAR**.
 
   ![Captura de tela mostrando a política de privacidade em um dispositivo Android](./media/ft-userEnrollAndroid-8-privacy.png)
-10.    Examine algumas das coisas que você pode ver depois que tocar em Registrar. Quando terminar a leitura, toque em **REGISTRAR**.
+10. Examine algumas das coisas que você pode ver depois que tocar em Registrar. Quando terminar a leitura, toque em **REGISTRAR**.
 
   ![Captura de tela mostrando as próximas etapas de registro em um dispositivo Android](./media/ft-userEnrollAndroid-9-whatNext.png)
-11.    Na tela Ativar administrador do dispositivo, clique em **ATIVAR**.
+11. Na tela Ativar administrador do dispositivo, clique em **ATIVAR**.
 
   ![Captura de tela solicitando que o usuário ative o administrador do dispositivo em um dispositivo Android](./media/ft-userEnrollAndroid-10-activateAdmin.png)
-12.    Siga os prompts para inserir um PIN ou senha. Se já tiver configurado um PIN ou senha neste dispositivo, você não verá esta tela ou será solicitado a inserir um novo PIN ou senha.
+12. Siga os prompts para inserir um PIN ou senha. Se já tiver configurado um PIN ou senha neste dispositivo, você não verá esta tela ou será solicitado a inserir um novo PIN ou senha.
 
   ![Captura de tela solicitando que o usuário insira seu PIN em um dispositivo Android](./media/ft-userEnrollAndroid-11-enterPIN.png)
-13.    Siga as instruções abaixo que corresponde ao tipo de dispositivo que você está usando (Android nativo ou Samsung Knox). Se não tiver um dispositivo Samsung Knox, siga as instruções para o Android nativo. Para determinar se você tem um dispositivo Samsung Knox, vá até **Configurações > Sobre o telefone**. Se você não vir a palavra "Knox" listada, terá um dispositivo Android nativo.
+13. Siga as instruções abaixo que corresponde ao tipo de dispositivo que você está usando (Android nativo ou Samsung Knox). Se não tiver um dispositivo Samsung Knox, siga as instruções para o Android nativo. Para determinar se você tem um dispositivo Samsung Knox, vá até **Configurações > Sobre o telefone**. Se você não vir a palavra "Knox" listada, terá um dispositivo Android nativo.
  - Dispositivo nativo (que não é Samsung Knox): na tela **Nome do certificado**, toque em **OK** para aceitar o certificado padrão.
 
         ![Screenshot prompting the user to accept the default certificate on a native Android device](./media/ft-userEnrollAndroid-12-android.png)
@@ -95,53 +96,53 @@ Antes ou após o registro, você poderá ser solicitado a escolher uma categoria
  Você verá a seguinte mensagem na tela enquanto o Intune registra seu dispositivo.
 
   ![Captura de tela mostrando que um dispositivo Android está sendo registrado](./media/ft-userEnrollAndroid-14-enrollingDevice.png)
-14.     Na tela **Configuração de Acesso da Empresa**, toque em **CONTINUAR**. Se o administrador de TI configurar requisitos de segurança adicionais, como a necessidade de definir uma senha, siga as instruções na tela e toque em **CONTINUAR** quando retornar à tela Configuração de Acesso da Empresa.
+14.  Na tela **Configuração de Acesso da Empresa**, toque em **CONTINUAR**. Se o administrador de TI configurar requisitos de segurança adicionais, como a necessidade de definir uma senha, siga as instruções na tela e toque em **CONTINUAR** quando retornar à tela Configuração de Acesso da Empresa.
 
   ![Captura de tela mostrando que o dispositivo Android é compatível e solicitando que o usuário continue](./media/ft-userEnrollAndroid-15-coAccessSetup.png)
-15.    Toque em **CONCLUÍDO**.
+15. Toque em **CONCLUÍDO**.
 
   ![Captura de tela mostrando que a configuração de acesso da empresa está concluída em um dispositivo Android](./media/ft-userEnrollAndroid-16-SetupComplete.png)
-16.    O dispositivo agora está registrado no Intune, e você é levado de volta ao aplicativo Portal da Empresa.
-17.    Antes de instalar aplicativos corporativos, acesse **Configurações > Segurança** e ative **Fontes Desconhecidas**. Se não ativar essa opção antes de tentar instalar os aplicativos, você verá a mensagem "Instalação bloqueada". Por motivos de segurança, seu telefone está definido para bloquear as instalações de aplicativos obtidos de fontes desconhecidas." Você pode tocar em **Configurações** na caixa de diálogo de erro para ir para a opção **Fontes Desconhecidas**.
+16. O dispositivo agora está registrado no Intune, e você é levado de volta ao aplicativo Portal da Empresa.
+17. Antes de instalar aplicativos corporativos, acesse **Configurações > Segurança** e ative **Fontes Desconhecidas**. Se não ativar essa opção antes de tentar instalar os aplicativos, você verá a mensagem "Instalação bloqueada". Por motivos de segurança, seu telefone está definido para bloquear as instalações de aplicativos obtidos de fontes desconhecidas." Você pode tocar em **Configurações** na caixa de diálogo de erro para ir para a opção **Fontes Desconhecidas**.
 
 ## <a name="enroll-your-ios-device-in-intune"></a>Registrar seu dispositivo iOS no Intune
 Use estas instruções para registrar seu dispositivo iOS no Intune. Para obter mais informações sobre o registro, consulte [O que acontece quando instalo o aplicativo Portal da Empresa e registro meu dispositivo no Intune?](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_what_happ_enroll). Se receber um erro ao tentar registrar seu dispositivo no Intune, consulte [Enviar erros de registro ao administrador de TI](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_error_enrolling_tbl).
 
 Antes ou após o registro, você poderá ser solicitado a escolher uma categoria que melhor descreva como você usa o dispositivo. O administrador de TI usa essa categoria para ajudar a determinar quais aplicativos você terá acesso.
-1.    Instale o aplicativo gratuito Portal da Empresa do Microsoft Intune em seu dispositivo na App Store.
-2.    Abra o aplicativo Portal da Empresa do Microsoft Intune.
-3.    Na tela de **Boas-vindas** do Portal da Empresa, toque em **Entrar** e entre com sua conta corporativa ou de estudante.
+1.  Instale o aplicativo gratuito Portal da Empresa do Microsoft Intune em seu dispositivo na App Store.
+2.  Abra o aplicativo Portal da Empresa do Microsoft Intune.
+3.  Na tela de **Boas-vindas** do Portal da Empresa, toque em **Entrar** e entre com sua conta corporativa ou de estudante.
 
   ![Captura de tela mostrando a tela de entrada do Portal da Empresa do Intune em um dispositivo iOS](./media/ft-userEnrollIOS-1-signUp.png)
-4.    Se o seu administrador de TI tiver configurado os termos e condições da empresa, toque em **Aceitar** para aceitar os termos.
-5.    Na tela Configuração de Acesso da Empresa, toque em **Iniciar**.
+4.  Se o seu administrador de TI tiver configurado os termos e condições da empresa, toque em **Aceitar** para aceitar os termos.
+5.  Na tela Configuração de Acesso da Empresa, toque em **Iniciar**.
 
   ![Captura de tela solicitando que o usuário inicie o processo de registro em um dispositivo iOS](./media/ft-userEnrollIOS-2-coAccessSetup.png)
-6.    Leia sobre o que você pode fazer quando registra seu dispositivo e, em seguida, toque em **Continuar**.
+6.  Leia sobre o que você pode fazer quando registra seu dispositivo e, em seguida, toque em **Continuar**.
 
   ![Captura de tela mostrando informações sobre por que você deve registrar um dispositivo iOS](./media/ft-userEnrollIOS-3-whyEnroll.png)
-7.    Consulte a lista do que o administrador de TI pode ou não ver em seu dispositivo registrado e toque em **Continuar**.
+7.  Consulte a lista do que o administrador de TI pode ou não ver em seu dispositivo registrado e toque em **Continuar**.
 
   ![Captura de tela mostrando a política de privacidade em um dispositivo iOS](./media/ft-userEnrollIOS-4-privacy.png)
-8.    Examine algumas das coisas que você pode ver depois que tocar em Registrar. Quando terminar a leitura, toque em **Registrar**.
+8.  Examine algumas das coisas que você pode ver depois que tocar em Registrar. Quando terminar a leitura, toque em **Registrar**.
 
   ![Captura de tela mostrando as próximas etapas de registro em um dispositivo iOS](./media/ft-userEnrollIOS-5-whatNext.png)
-9.    Na tela Instalar Perfil, toque em **Instalar** e insira sua senha, se solicitado.
+9.  Na tela Instalar Perfil, toque em **Instalar** e insira sua senha, se solicitado.
 
   ![Captura de tela solicitando que o usuário instale o perfil de gerenciamento para um dispositivo iOS](./media/ft-userEnrollIOS-6-installProfile.png)
-10.    Toque em **Instalar**.
+10. Toque em **Instalar**.
 
   ![Captura de tela pedindo que o usuário toque no botão Instalar para instalar o perfil em um dispositivo iOS](./media/ft-userEnrollIOS-7-tapInstall.png)
-11.    Toque em **Instalar** para indicar que você leu o aviso.
+11. Toque em **Instalar** para indicar que você leu o aviso.
 
   ![Captura de tela pedindo que o usuário indique que leu o aviso de gerenciamento de perfil em um dispositivo iOS](./media/ft-userEnrollIOS-8-readWarning.png)
-12.    Toque em **Confiar**.
+12. Toque em **Confiar**.
 
   ![Captura de tela pedindo que o usuário confirme a origem do perfil em um dispositivo iOS](./media/ft-userEnrollIOS-9-tapTrust.png)
-13.    Quando a tela for alterada para mostrar que o perfil terminou de instalar, toque em **Concluído**. Uma mensagem "Registrando dispositivo" é exibida na tela.
+13. Quando a tela for alterada para mostrar que o perfil terminou de instalar, toque em **Concluído**. Uma mensagem "Registrando dispositivo" é exibida na tela.
 
   ![Captura de tela mostrando que o perfil está instalado em um dispositivo iOS](./media/ft-userEnrollIOS-10-profileInstalled.png)
-14.    Quando uma mensagem for exibida perguntando se você deseja abrir a página no Portal da Empresa, toque em **Abrir**.
+14. Quando uma mensagem for exibida perguntando se você deseja abrir a página no Portal da Empresa, toque em **Abrir**.
 
   ![Captura de tela pedindo que o usuário abra a página no Portal da Empresa em um dispositivo iOS](./media/ft-userEnrollIOS-11-openPage.png)
 - Na tela Configuração de Acesso da Empresa, toque em **Continuar**. Se o administrador de TI configurar requisitos de segurança adicionais, como a necessidade de definir uma senha, siga as instruções na tela até atender a todos os requisitos de conformidade e toque em **Continuar** quando retornar à tela Configuração de Acesso da Empresa.
@@ -154,14 +155,14 @@ Antes ou após o registro, você poderá ser solicitado a escolher uma categoria
 O dispositivo agora está registrado no Intune, e você é levado de volta ao aplicativo Portal da Empresa.
 
 ## <a name="enroll-your-mac-os-x-device-in-intune"></a>Registrar seu dispositivo Mac OS X no Intune
-1.    Usando um navegador Safari, abra o [site do Portal da Empresa](https://portal.manage.microsoft.com/), e toque na barra de notificação.
-2.    Toque em **Este dispositivo não está registrado ou o Portal da Empresa não pode identificá-lo**.
+1.  Usando um navegador Safari, abra o [site do Portal da Empresa](https://portal.manage.microsoft.com/), e toque na barra de notificação.
+2.  Toque em **Este dispositivo não está registrado ou o Portal da Empresa não pode identificá-lo**.
 
   ![Captura de tela mostrando que o Portal da Empresa não pode identificar um dispositivo Mac OS X](./media/ft-userEnrollMacOSx-1-enrollBegin.png)
-3.    Toque **Instalar** para registrar seu dispositivo.
+3.  Toque **Instalar** para registrar seu dispositivo.
 
   ![Captura de tela solicitando que o usuário registre o dispositivo Mac OS X](./media/ft-userEnrollMacOSx-2-enrollDevice.png)
-4.    Na caixa de diálogo Instalar o Perfil de Gerenciamento, toque em **Instalar**. Se uma caixa de diálogo for exibida solicitando que você insira suas credenciais, digite seu nome de usuário e senha e, em seguida, toque em **Continuar > Instalar**.
+4.  Na caixa de diálogo Instalar o Perfil de Gerenciamento, toque em **Instalar**. Se uma caixa de diálogo for exibida solicitando que você insira suas credenciais, digite seu nome de usuário e senha e, em seguida, toque em **Continuar > Instalar**.
 
   ![Captura de tela solicitando que o usuário instale o perfil de gerenciamento em um dispositivo Mac OS X](./media/ft-userEnrollMacOSx-3-installProfile.png)
 

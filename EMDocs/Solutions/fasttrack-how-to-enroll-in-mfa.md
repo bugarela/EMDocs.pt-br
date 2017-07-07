@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 66be84d00e73f98217abfb2537bb52ebac94727a
 ms.openlocfilehash: 7120b4ce41e0f9560bdecb3a98da0bd02171fabb
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -55,12 +55,12 @@ Se desejar usar o telefone celular (para mensagens de texto ou chamadas) como o 
 1. Em **Etapa 1: como devemos contatá-lo?**, selecione **Telefone de autenticação**.
 
   ![Capturas de tela mostrando que o usuário deseja ser contatado por telefone](./media/ft-enrollMFA-2-securityVerification.png)
-2.    No **país ou região**, selecione um valor na lista suspensa. Um valor padrão já pode ser exibido.
-3.    Na caixa ao lado do **país ou região**, digite o número de telefone celular. Inclua o código de área.
+2.  No **país ou região**, selecione um valor na lista suspensa. Um valor padrão já pode ser exibido.
+3.  Na caixa ao lado do **país ou região**, digite o número de telefone celular. Inclua o código de área.
 São permitidos espaços, mas não caracteres de pontuação. Por exemplo, 5554445555 e 555 444 5555 são permitidos, mas 555-444-5555 e (555) 444 5555 não são permitidos.
-4.    Selecione o modo que preferir utilizar com seu celular: Texto ou Chamada.
-5.    Clique em **Avançar**.
-6.    Clique no botão **Verificar Agora**. Isso iniciará uma chamada ou um texto para seu celular. Certifique-se de que seu telefone esteja com você. Dependendo do modo selecionado, Texto ou Chamada, sua resposta será diferente.
+4.  Selecione o modo que preferir utilizar com seu celular: Texto ou Chamada.
+5.  Clique em **Avançar**.
+6.  Clique no botão **Verificar Agora**. Isso iniciará uma chamada ou um texto para seu celular. Certifique-se de que seu telefone esteja com você. Dependendo do modo selecionado, Texto ou Chamada, sua resposta será diferente.
  - Caso tenha selecionado o modo de texto, você receberá um código de seis dígitos por mensagem de texto. Digite esse código na caixa exibida no navegador.
 
         ![Screenshot asking user to enter the code that was texted to them](./media/ft-enrollMFA-3-textCode.png)
@@ -68,27 +68,27 @@ São permitidos espaços, mas não caracteres de pontuação. Por exemplo, 55544
 
         ![Screenshot prompting user to answer their phone to continue enrollment process](./media/ft-enrollMFA-4-phoneCode.png)
 7. Clique em **Avançar**.
-8.    Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
+8.  Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
 9. Se você estiver usando esses aplicativos, **copie** a senha de aplicativo fornecida.
 
   ![Captura de tela solicitando que o usuário insira a senha de aplicativo](./media/ft-enrollMFA-5-copyPW.png)
-10.    Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
-11.    Clique em **Concluído**.
+10. Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
+11. Clique em **Concluído**.
 
 ## <a name="office-phone-call"></a>Chamada de Telefone Comercial
 Esta seção deste documento o orientará durante a configuração da Autenticação Multifator do Azure para usar seu Telefone Comercial como método de contato primário.
 1. Selecione Telefone Comercial na lista suspensa.
 
   ![Capturas de tela mostrando que o usuário deseja ser contatado pelo telefone comercial](./media/ft-enrollMFA-6-officePhone.png)
-2.    Especifique seu país/região na lista suspensa e insira seu número de telefone comercial.
-3.    Clique em **Entrar em contato comigo**. Isso iniciará uma chamada para o seu telefone comercial. Verifique se está próximo ao seu telefone.
-4.    Clique em **Avançar**.
-5.    Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
-7.    Se você estiver usando esses aplicativos, copie a senha de aplicativo fornecida.
-8.    Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
+2.  Especifique seu país/região na lista suspensa e insira seu número de telefone comercial.
+3.  Clique em **Entrar em contato comigo**. Isso iniciará uma chamada para o seu telefone comercial. Verifique se está próximo ao seu telefone.
+4.  Clique em **Avançar**.
+5.  Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
+7.  Se você estiver usando esses aplicativos, copie a senha de aplicativo fornecida.
+8.  Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
 
   ![Captura de tela solicitando que o usuário insira a senha de aplicativo](./media/ft-enrollMFA-7-pastePW.png)
-9.    Clique em **Concluído**.
+9.  Clique em **Concluído**.
 
 ## <a name="mobile-application"></a>Aplicativo Móvel
 Esta seção deste artigo o orientará durante a configuração da Autenticação Multifator do Azure para usar seu aplicativo móvel como método de contato primário.
@@ -98,25 +98,25 @@ O aplicativo Microsoft Authenticator está disponível para Windows Phone, Andro
 1. Selecione **Aplicativo Móvel** na lista suspensa.
 
   ![Capturas de tela mostrando que o usuário deseja ser contatado pelo aplicativo móvel](./media/ft-enrollMFA-8-mobileApp.png)
-2.    Selecione Notificação ou senha de Uso único e clique em **Configurar**.
-3.    No telefone que tem o aplicativo Microsoft Authenticator instalado, inicie o aplicativo e clique em **digitalizar código de barras**.
+2.  Selecione Notificação ou senha de Uso único e clique em **Configurar**.
+3.  No telefone que tem o aplicativo Microsoft Authenticator instalado, inicie o aplicativo e clique em **digitalizar código de barras**.
 
   ![Captura de tela solicitando que o usuário selecione a opção de digitalização de código de barras](./media/ft-enrollMFA-9-scanBarcode.png)
-4.    Digitalize a imagem do código de barras que acompanha a tela configurar aplicativo móvel. Clique em **Concluído** para fechar a tela de código de barras. Se não for possível digitalizar o código de barras, você poderá inserir as informações manualmente.
+4.  Digitalize a imagem do código de barras que acompanha a tela configurar aplicativo móvel. Clique em **Concluído** para fechar a tela de código de barras. Se não for possível digitalizar o código de barras, você poderá inserir as informações manualmente.
 
   ![Captura de tela solicitando ao usuário que digitalize o código de barras que aparece no aplicativo móvel](./media/ft-enrollMFA-9-scanBarcode2.png)
-5.    No telefone, ele começará a ativação. Depois de concluída, clique em **Entrar em contato comigo**. Isso enviará uma notificação ou um código de verificação para seu telefone. Clique em **Verificar**.
+5.  No telefone, ele começará a ativação. Depois de concluída, clique em **Entrar em contato comigo**. Isso enviará uma notificação ou um código de verificação para seu telefone. Clique em **Verificar**.
 
   ![Captura de tela solicitando ao usuário que verifique o código enviado para seu telefone](./media/ft-enrollMFA-10-verifyActivation.png)
-6.    Clique em **Fechar**. Neste ponto, sua verificação deve ser bem-sucedida.
-7.    Agora, é recomendável que você insira seu número de telefone celular caso você perca o acesso ao seu aplicativo móvel.
-8.    Especifique seu país/região na lista suspensa e insira o número de telefone celular na caixa ao lado do país/região.  Clique em **Avançar**.
-9.    Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
-10.    Se você estiver usando esses aplicativos, copie a senha de aplicativo fornecida.
-11.    Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
+6.  Clique em **Fechar**. Neste ponto, sua verificação deve ser bem-sucedida.
+7.  Agora, é recomendável que você insira seu número de telefone celular caso você perca o acesso ao seu aplicativo móvel.
+8.  Especifique seu país/região na lista suspensa e insira o número de telefone celular na caixa ao lado do país/região.  Clique em **Avançar**.
+9.  Neste ponto, você configurou seu método de contato e agora é o momento de configurar senhas de aplicativo para aplicativos que não são navegador, como o Outlook 2010 ou posterior. Caso não use esses aplicativos, clique em **Concluído**. Caso contrário, **prossiga** para a próxima etapa.
+10. Se você estiver usando esses aplicativos, copie a senha de aplicativo fornecida.
+11. Cole a senha que foi copiada para a área de transferência no seu aplicativo que não é navegador.
 
   ![Captura de tela solicitando que o usuário insira a senha de aplicativo](./media/ft-enrollMFA-11-securityVerification.png)
-12.    Clique em **Concluído**.
+12. Clique em **Concluído**.
 
 ### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
