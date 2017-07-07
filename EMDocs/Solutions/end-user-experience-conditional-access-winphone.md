@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: e498fd2a1efea2ef6416185c5ce63223004805c6
+ms.contentlocale: pt-br
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -99,9 +101,4 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 
 ### <a name="where-to-go-from-here"></a>Onde ir daqui
 A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

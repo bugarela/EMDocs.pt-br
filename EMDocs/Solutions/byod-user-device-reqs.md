@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
+ms.contentlocale: pt-br
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -67,9 +69,4 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
 ### <a name="technical-support"></a>Suporte técnico
 - Sua equipe de rede/segurança está pronta para acomodar auditorias de conformidade do dispositivo regular?
 - Você tem procedimentos e políticas de gerenciamento de alterações em vigor para dar suporte à implementação de BYOD?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

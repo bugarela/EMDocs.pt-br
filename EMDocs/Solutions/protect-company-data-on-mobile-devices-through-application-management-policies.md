@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
+ms.contentlocale: pt-br
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -72,9 +74,4 @@ Aplicativos gerenciados são aplicativos que têm políticas de MAM aplicadas qu
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você está familiarizado com o processo geral de MAM, está pronto para [usar políticas de gerenciamento de aplicativos móveis no Intune](mam-intune.md) ou [usar políticas de gerenciamento de aplicativos móveis no Configuration Manager](mam-configmgr.md). Ou você pode ler sobre a [experiência do usuário final de políticas de MAM](end-user-experience-mam.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -64,9 +64,9 @@ Você tem as responsabilidades a seguir durante a integração.
 
 -   Fornecer e configurar certificados públicos de protocolo SSL (Secure Sockets Layer).
 
--     Configure ou atualize o Configuration Manager aos requisitos mínimos para integração do Microsoft Intune com o Configuration Manager.
+-   Configure ou atualize o Configuration Manager aos requisitos mínimos para integração do Microsoft Intune com o Configuration Manager.
 
--     Se necessária para a implantação de Wi-Fi e perfis VPN com o Intune, forneça e configure a autoridade de certificação, e as infraestruturas de Wi-Fi e VPN, conforme necessário.
+-   Se necessária para a implantação de Wi-Fi e perfis VPN com o Intune, forneça e configure a autoridade de certificação, e as infraestruturas de Wi-Fi e VPN, conforme necessário.
 
 -   Redigir da declaração de TOU (termos de uso) da organização a ser configurada e exibida em portais da empresa Microsoft Intune acessíveis aos usuários finais.
 

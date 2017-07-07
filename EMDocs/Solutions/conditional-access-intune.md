@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
+ms.contentlocale: pt-br
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -97,9 +99,4 @@ Além disso:
 > Use a versão mais recente do Exchange Connector local. O Exchange Connector local disponível no console do Intune é específico para seu locatário do Intune e não pode ser usado com nenhum outro locatário. Você também deve garantir que o Exchange Connector para seu locatário esteja instalado em exatamente um computador, e não em várias máquinas.
 
   Agora você está pronto para aprender a [implantar o Exchange Server local com o Intune](conditional-access-intune-exchange.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
+ms.contentlocale: pt-br
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -85,9 +87,4 @@ Além disso:
   Agora você está pronto para aprender a [implantar o Exchange Server local com o Intune](conditional-access-intune-exchange.md).
 
 Se seu ambiente incluir o Exchange Online e o Exchange local, você poderá ler sobre [como implantar o Exchange Online e o Exchange local com o Microsoft Intune e o Configuration Manager](conditional-access-intune-configmgr-coexist.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
