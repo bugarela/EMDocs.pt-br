@@ -4,7 +4,7 @@ description: "Este guia ajudará os clientes a aprenderem sobre roubo de credenc
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 05/18/2017
+ms.date: 06/06/2017
 ms.topic: solution
 ms.prod: 
 ms.service: advanced-threat-analytics
@@ -13,15 +13,17 @@ ms.assetid: da5eda7c-29bb-429f-9366-72495667c010
 ms.reviewer: v-craic
 ms.suite: ems
 ms.translationtype: Human Translation
-ms.sourcegitcommit: cff5b87f6c5d0b9aa987631fefe5bf74e3a43862
-ms.openlocfilehash: 41672ccdbd2c868add70e423b7dbc8048713259b
+ms.sourcegitcommit: b14dcbddb611dc49da2f92cf3f1aca1593af11c0
+ms.openlocfilehash: 923f827a8c122af393b1909ba55bb73c650d62fc
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/14/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 
-# <a name="advanced-threat-analytics-attack-simulation-playbook"></a>Manual de simulação de ataques de análise avançada de ameaça
+<a id="advanced-threat-analytics-attack-simulation-playbook" class="xliff"></a>
+
+# Manual de simulação de ataques de análise avançada de ameaça
 
 Este guia ajudará você a aprender sobre roubo de credenciais como Pass-the-Hash, Pass-the-Ticket, Over-Pass-the-Hash e como usar ferramentas de pesquisa disponíveis publicamente para realizar essas ações. Este manual de simulação é baseado em um cenário de build com ferramentas para a Internet válidas usados pelos invasores. O objetivo é mostrar como pensar como um invasor (em gráficos), se mover dentro de um ambiente com credenciais roubadas e como usar o Microsoft Advanced Threat Analytics (ATA) para detectar essas atividades em seu ambiente.
 
@@ -40,7 +42,9 @@ Este guia mostrará os seguintes cenários de ataque:
 > [!IMPORTANT]
 > As etapas fornecidas neste guia devem ser executadas em um ambiente de laboratório e não em produção.
 
-## <a name="configuring-your-lab-environment"></a>Configurando seu ambiente de laboratório
+<a id="configuring-your-lab-environment" class="xliff"></a>
+
+## Configurando seu ambiente de laboratório
 
 É recomendável seguir estas instruções, incluindo os testes no final.  Há configurações a se fazer, especificamente quatro computadores, três usuários e software de pesquisa a se baixar da Internet.
 
@@ -50,14 +54,18 @@ Visite [Avaliações do Advanced Threat Analytics](http://aka.ms/ataeval), para 
 > Este guia foi criado com base em ATA versão 1.7.
 
 
-### <a name="scenario"></a>Cenário
+<a id="scenario" class="xliff"></a>
+
+### Cenário
 
 Neste exemplo de laboratório, JeffV é um administrador de sua própria estação de trabalho.  Vários departamentos de TI ainda têm sua população de usuários com privilégios de administrador.  Nesses cenários, os ataques de elevação local não são necessárias como o adversário já tem acesso de administrador no ambiente do que executar suas operações de pós infiltração. 
  
 No entanto, mesmo quando os departamentos de TI reduzem os privilégios usando contas não administrativas, outras formas de ataques (conhecido como vulnerabilidades de aplicativos, 0 dias e similares) são executadas para alcançar o escalonamento de privilégio local. Nesse caso, este guia pressupõe que o adversário obteve escalonamento de privilégio local no PC vítima.  Neste laboratório fictício, isso foi obtido por meio de um email de spearphishing para JeffV, conforme explicado em mais detalhes posteriormente neste guia.
 
 
-### <a name="servers-and-workstations"></a>Servidores e estações de trabalho
+<a id="servers-and-workstations" class="xliff"></a>
+
+### Servidores e estações de trabalho
 
 A seguir são listados os computadores que você precisará e as configurações usadas neste exercício.  Esses são todos configurados como VMs convidadas (máquinas virtuais) no Windows 10 Hyper-V.  Se você seguir esse caminho e é recomendável que você faça, certifique-se que as VMs sejam colocadas no mesmo comutador virtual.
 
@@ -71,7 +79,9 @@ A seguir são listados os computadores que você precisará e as configurações
 O domínio para este laboratório é chamado "CONTOSO. LOCAL". Criar o domínio e, em seguida, ingressar no domínio nesses computadores. Depois que todas as quatro máquinas estão funcionando e integradas ao domínio, vá para a próxima seção para adicionar alguns usuários fictícios ao ambiente.
 
 
-### <a name="users-configuration"></a>Configuração do Usuário
+<a id="users-configuration" class="xliff"></a>
+
+### Configuração do Usuário
 
 Agora você criará funções diferentes para assistência técnica e administradores de domínio.  A intenção de criar essas funções é fornecer a separação de funções, no entanto você aprenderá neste guia que isso não é suficiente para impedir o roubo de credenciais, movimentação lateral ou escalonamento de domínio, porque entender as dependências de segurança fora desses dois grupos em um ambiente é complicado. 
 
@@ -102,13 +112,15 @@ Além disso, como em muitos ambientes de TI, *JeffV* foi adicionado como um admi
 ![Propriedades do Admin 2](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig2.png)
 
 
-### <a name="security-research-tools"></a>Ferramentas de pesquisa de segurança
+<a id="security-research-tools" class="xliff"></a>
+
+### Ferramentas de pesquisa de segurança
 
 Para configurar este laboratório, você precisará baixar e instalar as ferramentas abaixo em *c:\Tools.* no computador *PC vítima*:
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz)
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
-- [PsExec](https://technet.microsoft.com/en-us/pxexec) 
+- [PsExec](https://technet.microsoft.com/en-us/sysinternals/bb897553.aspx) 
 - [NetSess.exe](http://www.joeware.net/freetools)
 
 A pasta de ferramentas deve ser semelhante a tela a seguir:
@@ -121,7 +133,9 @@ A pasta de ferramentas deve ser semelhante a tela a seguir:
 
 Para fins deste laboratório, desligue todos os antivírus no computador *PC vítima*. Embora desativar o antivírus possa parecer que isso desviou os resultados, é importante observar que o código-fonte para essas ferramentas está disponível gratuitamente, o que significa que os invasores podem modificar para escapar da detecção por assinatura de antivírus. Também é importante observar que, assim que um adversário alcança o administrador local em um computador, evasão de antivírus se torna muito possível.  A meta nesse ponto é proteger o restante da organização. Um comprometimento de computador não deve levar ao escalonamento de domínio e certamente não ao comprometimento de domínio.
 
-### <a name="environment-topology"></a>Topologia do ambiente
+<a id="environment-topology" class="xliff"></a>
+
+### Topologia do ambiente
 
 Neste ponto, seu código deve ser similar ao seguinte:
 
@@ -129,7 +143,9 @@ Neste ponto, seu código deve ser similar ao seguinte:
 
 Como mencionado anteriormente neste guia, há funções diferentes para *Admins. do domínio* e *Suporte Técnico*, no entanto, durante a demonstração, você verá esse vínculo de dependência de segurança (nesse caso, o usuário *RonHD*) que é o que um adversário precisa para assumir prontamente todo o ambiente com ferramentas de pesquisa.
 
-### <a name="helpdesk-simulation"></a>Simulação de Suporte Técnico
+<a id="helpdesk-simulation" class="xliff"></a>
+
+### Simulação de Suporte Técnico
 
 Para simular um cenário comum de suporte técnico, em que a equipe de suporte técnico está conectada em diferentes computadores, faça logon com *RonHD* no *PC vítima* e, em seguida, faça logon novamente como *JeffV*.  Use o mecanismo de "Mudar usuário" para simular o gerenciamento de credenciais com privilégios nesta estação de trabalho.
 
@@ -139,7 +155,7 @@ Para simular um cenário comum de suporte técnico, em que a equipe de suporte t
 Existem outras maneiras de simular esse fluxo de trabalho de gerenciamento neste laboratório, como a criação de contas de serviço de script em lotes, tarefas agendadas e sessão RDP ou 'Executar como' na linha de comando.  Em operações seguras algo (nem sempre um alguém) deve gerenciar esses recursos e o gerenciamento significa privilégios de administrador local. Para fins deste laboratório e otimizar o tempo, a rota mais rápida para simular esse fluxo de trabalho foi selecionada.
 
 > [!IMPORTANT]
-> Não faça logoff ou reinicie o *PC vítima* neste ponto, pois isso apagará as credenciais *do RonHD* da memória e exigirá aplicar o cenário de *suporte técnico* novamente. 
+> Não faça logoff ou reinicie o *computador que foi vítima* neste ponto, pois isso apagará as credenciais *do RonHD* da memória e exigirá aplicar o cenário de *suporte técnico* novamente. 
 
 A tabela a seguir resume as credenciais que são salvas em cada computador:
 
@@ -150,11 +166,15 @@ A tabela a seguir resume as credenciais que são salvas em cada computador:
 
 Neste ponto, o ambiente de laboratório está pronto. O estado atual do laboratório está em uma posição em que é uma exploração ausente (#1ea) de comprometimento do domínio.  Em seguida, você verá que um compromisso único normalmente é proveniente dos ativos menos privilegiados do seu ambiente contra os aplicativos de Internet de um adversário altamente motivado e não parará.  É aí que a metodologia de [supor uma violação](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/) é abordada.
 
-## <a name="executing-the-attack"></a>Executando o ataque
+<a id="executing-the-attack" class="xliff"></a>
+
+## Executando o ataque
 
 Nesta seção deste guia, você usará as ferramentas do mundo real e simular as atividades de pós-infiltração de um adversário.
 
-### <a name="beachhead-via-spearphish"></a>Beachhead via spearphish
+<a id="beachhead-via-spearphish" class="xliff"></a>
+
+### Beachhead via spearphish
 
 Para esta simulação de ataque, pressupõe-se que o adversário obteve privilégios de administrador local em um computador no ambiente.  Enquanto isso pode ser obtido por meio de métodos diferentes, geralmente isso é obtido por meio de campanhas de spearphshing contra uma organização. 
 
@@ -165,11 +185,15 @@ No [Relatório de Inteligência de Segurança da Microsoft, Volume 21](https://w
 
 Em um ambiente seguro, a perda de um único host não deve levar ao comprometimento de todo um domínio ou floresta.  Detectar a próxima etapa do adversário é fundamental no mundo "pós-violação".
 
-### <a name="reconnaissance"></a>Reconhecimento
+<a id="reconnaissance" class="xliff"></a>
+
+### Reconhecimento
 
 Depois que um adversário humano obtiver presença em um ambiente, o reconhecimento (também chamado de recon) começa.  Nesta fase, o adversário gasta tempo pesquisando o ambiente: detecção de configurações, computadores de interesse, enumerar grupos de segurança e outros objetos do active directory de seu interesse, etc. para pintar uma imagem para si mesmo do seu ambiente.
 
-#### <a name="dns-reconnaissance"></a>Reconhecimento de DNS
+<a id="dns-reconnaissance" class="xliff"></a>
+
+#### Reconhecimento de DNS
 
 Uma das primeiras coisas que os muitos adversários farão é tentar receber todo o conteúdo do DNS e o Microsoft ATA pode detectar essa ação.
 
@@ -197,11 +221,15 @@ Nesse caso o adversário é impedido do que seria uma grande vitória para eles:
  
 No alerta de ATA mostrado acima, você pode perceber a bolha azul na atividade suspeita, isso significa que a ATA está aprendendo constantemente, com base em dados consumidos e do analista.  Os comentários do analista ajudam a remover positivos verdadeiros e a reduzir o ruído ao longo do tempo, personalizando ATA e suas detecções de atividades suspeitas para seu ambiente.
 
-#### <a name="directory-services-enumeration"></a>Enumeração dos serviços de diretório
+<a id="directory-services-enumeration" class="xliff"></a>
+
+#### Enumeração dos serviços de diretório
 
 [Protocolo Remoto do Gerenciador de Conta de Segurança (SAMR)](https://msdn.microsoft.com/library/cc245477.aspx) fornece funcionalidade de gerenciamento para usuários e grupos em um domínio.  Saber que a relação entre usuários, grupos e privilégios pode ser extremamente importante para um adversário.  Qualquer usuário autenticado pode executar esses comandos. Para obter mais informações sobre configurações de SAMR e restringir tal reconhecimento somente para usuários que são membros do grupo de Administradores Locais, consulte [este documento](https://gallery.technet.microsoft.com/SAMRi10-Hardening-Remote-48d94b5b#content).
 
-#### <a name="enumerate-all-users-and-groups"></a>Enumerar todos os usuários e grupos
+<a id="enumerate-all-users-and-groups" class="xliff"></a>
+
+#### Enumerar todos os usuários e grupos
 
 Enumerar os usuários e grupos é muito útil para um adversário.  Conhecer os nomes de usuário e os nomes dos grupos pode vir a ser útil.  Como um invasor, você deseja obter o máximo de informações durante a fase de reconhecimento.
 
@@ -224,7 +252,9 @@ Para essa operação, Microsoft ATA sinaliza um alerta que mostra o ataque e tam
 
 ![Reconhecimento](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig11.png)
 
-#### <a name="enumerate-high-privileged-accounts"></a>Enumerar contas com alto privilégio
+<a id="enumerate-high-privileged-accounts" class="xliff"></a>
+
+#### Enumerar contas com alto privilégio
 
 Neste ponto o invasor armazena a lista de usuários e a lista de grupos.  Mas saber quem está em qual grupo também é importante, especialmente para grupos altamente privilegiados como *Administradores Corporativos* e *Admins. do domínio*. Para obter essas informações no seu ambiente de laboratório, faça logon como *JeffV* no *PC vítima* e execute o comando a seguir:
 
@@ -249,7 +279,9 @@ Um exemplo de como o resultado desse comando é mostrado na imagem a seguir:
 
 No exemplo mostrado acima, há uma única conta no grupo *administradores corporativos*. Nesse caso isso não é uma informação muito útil pois é apenas o padrão, mas o invasor tem que muito mais conhecimento sobre suas contas e identificar qual usuário ele quer comprometer.
 
-### <a name="smb-session-enumeration"></a>Enumeração da sessão SMB
+<a id="smb-session-enumeration" class="xliff"></a>
+
+### Enumeração da sessão SMB
 
 Agora o invasor sabe que eles desejam comprometer as credenciais, no entanto, com as informações atuais não exatamente sabem como comprometer essas credenciais. Usando a enumeração de SMB eles podem obter o local exato em que essas contas altamente interessantes estão expostas.
 
@@ -273,7 +305,9 @@ Microsoft ATA permite que você obtenha os dados relevantes que o invasor tem ac
 
 Os dados que o Microsoft ATA oferece a você são vitais para aumentar a conscientização da segurança, o que ajuda você a estar mais preparado para responder aos ataques.
 
-### <a name="lateral-movement"></a>Movimentação lateral
+<a id="lateral-movement" class="xliff"></a>
+
+### Movimentação lateral
 
 A meta dessa fase é acessar o endereço IP que foi descoberto anteriormente (192.168.10.30), em que as credenciais do computador *do NuckC* estã expostas. Para executar esta ação, você enumerará credenciais na memória localizadas no *PC vítima*. Lembre-se que o *PC vítima* não está apenas exposto às credenciais do *JeffV*, existem muitas outras contas que podem ser úteis para um invasor. 
 
@@ -331,7 +365,7 @@ O invasor usou esse [pensamento gráfico](https://blogs.technet.microsoft.com/jo
 
 Agora é hora de usar o *RonHD* para realizar o movimento lateral, usando o ataque [Overpass-the-Hash](). Se o invasor estiver em um ambiente que não desabilitou WDigest, será o fim do jogo, pois eles tem a senha em texto sem formatação.  Mas, para os propósitos deste laboratório, a suposição é que você não sabe/têm acesso à senha em texto sem formatação.
 
-Usando uma técnica chamada Overpass-the-Hash você pode levar o NTLM hash e usá-lo para obter um tíquete de concessão de tíquete (TGT) via o Kerberos\Active Directory.  Com um TGT você pode disfarçar o Ron**HD e acessar qualquer recurso do domínio ao qual* RonHD* tenha acesso.  
+Usando uma técnica chamada Overpass-the-Hash você pode levar o NTLM hash e usá-lo para obter um tíquete de concessão de tíquete (TGT) via o Kerberos\Active Directory.  Com um TGT, você pode disfarçar o Ron**HD e acessar qualquer recurso do domínio ao qual o *RonHD* tenha acesso.  
 
 Copie o NTLM hash *de RonHD* do pc-vítima.txt, coletado anteriormente (da "Ação: despejo de credenciais do PC vítima"). Em seguida, vá para o *PC vítima*, acesse o local em que *mimikatz* está armazenado no sistema de arquivos e execute os seguintes comandos:
 
@@ -367,7 +401,9 @@ Neste ponto, você deve ter notado que Microsoft ATA gerou um alerta sobre uma i
 
 ![Protocolo incomum](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig24.png) 
 
-### <a name="domain-escalation"></a>Escalonamento de domínio
+<a id="domain-escalation" class="xliff"></a>
+
+### Escalonamento de domínio
 
 Agora, o invasor tem acesso ao *PC Admin*, um computador que foi identificado no reconhecimento como um vetor de ataque, para comprometer *NuckC*, que é uma conta com privilégio alto. O invasor agora deseja se mover para o *PC Admin*, elevando seus direitos dentro do domínio.
 
@@ -454,7 +490,9 @@ Microsoft ATA detectou a execução remota no DC1 do *PC vítima*.  Na tela do e
 
 ![execução remota](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig33.png) 
 
-### <a name="domain-dominance"></a>Predominância de domínio
+<a id="domain-dominance" class="xliff"></a>
+
+### Predominância de domínio
 
 O invasor alcançou a dominância do domínio, ele pode executar qualquer código, como administrador e acessar qualquer recurso no domínio.
  
@@ -536,7 +574,9 @@ Microsoft ATA não apenas detectou o ataque, mas também forneceu as informaçõ
 
 Usar o KRBTGT para assinar tíquetes falsos é conhecido como um ataque de tíquete dourado, que também é detectado pelo ATA.  No entanto, para fins de escopo e detecções baseada em assinatura, está fora do escopo deste guia.
 
-## <a name="conclusion"></a>Conclusão
+<a id="conclusion" class="xliff"></a>
+
+## Conclusão
 
 Microsoft ATA fornece informações e ideias em defesa de rede, que não estão disponíveis em outro lugar.  Microsoft ATA transforma o plano de identidade em uma ferramenta de detecção poderosa que descobre atividades pós-infiltração em seu ambiente.  Microsoft ATA ajuda você a digerir eventos macro e transformá-los rapidamente em histórias coesas de ataque.
 
