@@ -13,34 +13,25 @@ ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5f5f1e4767d285bb220f89e266623fabadde8b1b
 ms.openlocfilehash: 5da41f3d440d7a6463f2a6e23dcd0613f522efe2
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
-<a id="fasttrack-center-benefit-eligible-services-and-plans" class="xliff"></a>
-
-# Planos e Serviços Qualificados do Benefício do FastTrack Center
+# <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Planos e Serviços Qualificados do Benefício do FastTrack Center
 Você pode usar o benefício do serviço quando compra no mínimo 150 licenças do EMS (Enterprise Mobility + Security) ou de qualquer um de seus serviços de nuvem individuais em um plano qualificado. Com o benefício do serviço, é possível trabalhar com especialistas da Microsoft para avaliar, corrigir e habilitar serviços qualificados.
 
 Para aprender sobre o processo do FastTrack Center e quem é responsável pelo quê, veja [Processo de benefício do FastTrack Center para EMS (Enterprise Mobility + Security)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 Procurando informações sobre o FastTrack para Office 365? Consulte [Benefício do FastTrack Center para Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
-<a id="eligible-services" class="xliff"></a>
-
-## Serviços qualificados
+## <a name="eligible-services"></a>Serviços qualificados
 Se você comprar qualquer um dos serviços online da Microsoft a seguir por meio de um plano qualificado, a Microsoft ajudará com sua integração e tentará entrar em contato para oferecer assistência com a integração. Você também pode solicitar assistência do [Centro FastTrack](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização. Para solicitar assistência, entre no [FastTrack Center](http://fasttrack.microsoft.com/), vá até o painel, expanda **Precisa de ajuda?** à esquerda da tela e siga os prompts para concluir a solicitação. Uma vez iniciado o suporte de integração, vamos definir uma agenda de reuniões online.
 
 Os clientes podem optar pelo processo de integração uma vez para cada serviço online qualificado da Microsoft.
 
-<a id="eligible-plans" class="xliff"></a>
-
-## Planos qualificados
+## <a name="eligible-plans"></a>Planos qualificados
 O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para EMS estarão qualificados para o benefício de serviço se você adquirir no mínimo 150 licenças para uma assinatura em um dos seguintes planos qualificados:
 
 |Plano|Qualificado para o benefício do serviço?|
@@ -67,4 +58,3 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 |Proteção de Informações do Microsoft Azure (E3 e E5)|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
 |Microsoft Advanced Threat Analytics|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
 |Microsoft Cloud App Security|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-

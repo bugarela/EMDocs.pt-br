@@ -1,6 +1,6 @@
 ---
 title: "Opções de monitoramento de dispositivo"
-description: "Este artigo fornece diretrizes sobre as opções de monitoramento de dispositivo existentes ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
+description: "Este artigo fornece orientações sobre as opções de monitoramento de dispositivo existentes ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 23cfc12a-fa96-4fb3-8de1-af4569e8cb71
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: fb4062531b8b202fb22ffcb0fbba390879be89cd
-
-
+ms.openlocfilehash: 4160e2f2ad20e862b6ab2caf68e4f86add32143e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-monitoring-options"></a>Opções de monitoramento de dispositivo
 
 >[!NOTE]
@@ -99,9 +98,3 @@ Explore os detalhes sobre as opções de monitoramento de dispositivos móveis e
 - Intune: **[Como monitorar os dispositivos móveis](https://technet.microsoft.com/library/jj733634.aspx)** e [gerenciar relatórios](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune)
 - ConfigMgr: [Como monitorar dispositivos móveis](https://technet.microsoft.com/library/gg682128.aspx) e [gerenciar relatórios](https://technet.microsoft.com/library/gg699377.aspx)
 - MDM para Office 365: [Visão geral das tarefas de gerenciamento de dispositivo](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

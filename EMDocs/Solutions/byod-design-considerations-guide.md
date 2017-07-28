@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
-ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: ad3f594ceb00e7094cc60ff878996f36be17efd4
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="byod-design-considerations-guide"></a>Guia de considerações sobre design para BYOD
 
 Com a proliferação de dispositivos usados pelos funcionários, a maioria das empresas enfrenta um grande dilema: como permitir que os usuários usem seus próprios dispositivos, enquanto protegem os dados corporativos que residem nesses dispositivos? As empresas estão mudando do modelo tradicional, em que elas eram as proprietárias e forneciam dispositivos aos seus funcionários, para um modelo em que os funcionários usam seus dispositivos pessoais para algumas das suas tarefas de trabalho. Esse modelo é frequentemente mencionado como [BYOD (traga seu próprio dispositivo)](https://technet.microsoft.com/library/dn645493.aspx). Nesse modelo, os funcionários têm permissão para usar seus dispositivos pessoais para algumas tarefas de trabalho, mas somente se os funcionários permitirem que a empresa gerencie alguns aspectos dos seus dispositivos para garantir a segurança dos dados corporativos. Geralmente, isso significa que os usuários permitem que a empresa aplique políticas personalizadas, execute proteção dos dispositivos ou padronize o sistema operacional estabelecido pela política da empresa. Executivos e tomadores de decisão que lerem o artigo [CIO considerations for workstyle transformation](http://download.microsoft.com/documents/uk/enterprise/it-trends/Considerations_for_a_Workstyle_Transformation.pdf) (Considerações do CIO para transformação do estilo de trabalho) da Microsoft também poderão identificar os benefícios de adotar um modelo em que as pessoas possam usar os próprios dispositivos para serem produtivas no trabalho.
@@ -76,4 +73,3 @@ Os seguintes problemas ou desafios normalmente são aqueles encontrados por empr
 Organizações com uma grande infraestrutura precisam determinar requisitos antes de passarem de gerenciar os dispositivos elas mesmas — o que presume que a TI tem controle total dos dispositivos — para um modelo em que a TI deve supor que ela tem menos controle dos dispositivos e, ao mesmo tempo, precisa para atender às necessidades dos usuários para acessar dados corporativos. Isso geralmente é chamado de mudança de TI centrada em dispositivo para TI centrada em pessoas. As mesmas considerações e requisitos devem também ser cuidadosamente planejados para aplicativos novos e existentes ou para levar os aplicativos existentes para um ambiente em nuvem. A Figura 1 inclui um diagrama conceitual de domínio do problema do BYOD e as áreas que serão abordadas neste guia.
 
 ![Domínio do problema](./media/BYOD_Figure1.png)
-

@@ -1,6 +1,6 @@
 ---
 title: Identificar requisitos de SaaS
-description: "Este artigo ajuda a identificar os requisitos do software como serviço ao planejar e desenvolver o gerenciamento de dispositivo móvel da Microsoft usando as soluções do Enterprise Mobility + Security."
+description: "Este artigo ajuda a identificar o Software como requisitos de serviço ao planejar e desenvolver o gerenciamento de dispositivo móvel usando as soluções do Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
-
-
+ms.openlocfilehash: b80bc794df43effc05656e7ec0b39cbf476b151e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-requirements"></a>Identificar requisitos de SaaS
 
 >[!NOTE]
@@ -116,9 +115,3 @@ Como parte do planejamento do ciclo de vida de gerenciamento de SaaS, convém re
 
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

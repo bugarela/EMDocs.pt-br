@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: f06e68a00fd97cb48aee21f6ed749f520d157e9b
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 807b5875e12b4303c8d349adaf0702d2fd75d9f1
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="ios"></a>iOS
 
 O processo de registro e as telas que o usuário vê serão um pouco diferentes dependendo da versão do sistema operacional em execução no dispositivo do usuário final. Este tópico descreve a experiência do usuário final para registrar dispositivos iOS.
@@ -95,4 +92,3 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 
 ### <a name="where-to-go-from-here"></a>Onde ir daqui
 A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
-

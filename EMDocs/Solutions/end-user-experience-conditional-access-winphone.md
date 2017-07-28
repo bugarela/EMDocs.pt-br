@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: e498fd2a1efea2ef6416185c5ce63223004805c6
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 46c8690074703d4e7de667cea115ca6db7818984
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="windows-phone"></a>Windows Phone
 
 O processo de registro e as telas que o usuário vê serão um pouco diferentes dependendo da versão do sistema operacional em execução no dispositivo do usuário final.  Este tópico descreve a experiência do usuário final para registrar dispositivos Windows Phone.
@@ -101,4 +98,3 @@ Por padrão, a cada 8 horas os dispositivos são verificados para verificar se e
 
 ### <a name="where-to-go-from-here"></a>Onde ir daqui
 A experiência do usuário final é um pouco diferente em outros dispositivos móveis. Saiba mais sobre a experiência do usuário final para [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
-

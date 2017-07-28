@@ -1,6 +1,6 @@
 ---
 title: "Etapa 1 - Identificar os requisitos de gerenciamento de dispositivos móveis"
-description: "Este artigo fornece considerações de design ao identificar requisitos de gerenciamento de dispositivo móvel para a sua organização."
+description: "Este artigo fornece considerações de design ao identificar requisitos de gerenciamento de dispositivo móvel para sua organização."
 keywords: 
 author: YuriDio
 ms.author: yurid
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 85a05de72b2ba0dd52c9ebe1da274a5783fba34f
-
-
+ms.openlocfilehash: 9501b4f9a2a584e6a54571019a2a3726523cfc5f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-1---identify-your-mobile-device-management-requirements"></a>Etapa 1 - Identificar os requisitos de gerenciamento de dispositivos móveis
 
 >[!NOTE]
@@ -34,9 +33,3 @@ Há 3 etapas nesta seção do guia. O tempo total para leitura das seções é d
 - [Identificar necessidades comerciais](mdm-identify-business-needs.md)
 - [Especificar requisitos do local](mdm-specify-mdm-location-requirements.md)
 - [Desenvolver estratégia de adoção](mdm-develop-mdm-adoption-strategy.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

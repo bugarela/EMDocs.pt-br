@@ -12,13 +12,11 @@ ms.technology:
 ms.assetid: d78e2b94-8ad3-4703-b7f0-db070288a20b
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d4362764cad9264c513ca745c45b96590b18928f
-ms.openlocfilehash: 98efafde6981fa8cb0c49c4b22729c64c8386754
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/24/2017
-
-
+ms.openlocfilehash: 66586ce378ab3faff29286bd032ac4099647494b
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="enable-a-limited-use-shared-device-solution-with-intune"></a>Habilitar uma solução de dispositivo compartilhado de uso limitado com o Intune
 Às vezes, os funcionários precisam compartilhar dispositivos a fim de acessar aplicativos e dados da empresa para concluir uma tarefa básica a qual exige apenas configurações e aplicativos específicos. Isso ocorre normalmente em lojas de varejo, fábricas e setores de transporte. Outras vezes, não são os funcionários, mas os clientes que precisam acessar interativamente os recursos usando dispositivos acessíveis publicamente em locais como conferências, saguões de hotéis, escolas ou bibliotecas. Em alguns casos, talvez seja necessário apenas exibir uma apresentação automática ou fornecer informações estáticas para os transeuntes.
@@ -132,4 +130,3 @@ Após a criação da política, implante-a em um grupo de dispositivos com Windo
 [Começar a usar o Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

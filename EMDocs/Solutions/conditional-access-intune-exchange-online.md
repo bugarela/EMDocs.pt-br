@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: c4743cb8fba4db7072d6af13a2ac4943bd35a423
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="deploy-exchange-online-with-intune"></a>Implantar o Exchange Online com o Intune
 
 Agora que você leu as [diretrizes de arquitetura para proteger emails e documentos da empresa](architecture-guidance-for-protecting-company-email-and-documents.md), está pronto para prosseguir com a implantação de uma solução.
@@ -74,4 +71,3 @@ No painel do Intune, clique no bloco **Dispositivos Bloqueados no Exchange** par
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Depois de implantar uma solução para proteger email corporativo e dados de email em dispositivos móveis, você poderá aprender mais sobre a [experiência de acesso condicional do usuário final](end-user-experience-conditional-access.md). Isso ajudará a preparar você para problemas que possam surgir quando os usuários finais registrarem seus dispositivos específicos.
-

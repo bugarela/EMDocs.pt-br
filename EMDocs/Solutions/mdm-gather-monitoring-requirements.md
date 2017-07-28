@@ -1,6 +1,6 @@
 ---
 title: Reunir os requisitos de monitoramento
-description: "Este artigo ajuda a identificar opções de monitoramento do gerenciamento de dispositivo móvel, ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
+description: "Este artigo ajuda a identificar opções de monitoramento do Gerenciamento de dispositivo móvel, ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
-
-
+ms.openlocfilehash: b6020cf872fdd6f98fe24f10ecb028dd9bc0300f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="gather-monitoring-requirements"></a>Reunir os requisitos de monitoramento
 
 >[!NOTE]
@@ -57,9 +56,3 @@ Responda às seguintes perguntas sobre o planejamento do monitoramento de dispos
 
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,13 +13,11 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ea7cc0c6c7b8286077c0bbc4251a22d138ed8e2
-ms.openlocfilehash: 98acda761b353eacb2ce861dcef2f39385691021
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: 7c835faa3fe56fdc9cf42f0569fefe1acfa22eda
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="protect-on-premises-company-data-with-intune"></a>Proteger dados locais da empresa com o Intune
 Sozinhos, os firewalls não podem fornecer um limite de segurança corporativa adequado. Hoje, os limites de segurança devem incluir o usuário final e como ele acessa, usa e compartilha os dados da empresa. Seja no trabalho com smartphones, tablets ou laptops, os operadores de informação esperam acesso irrestrito aos recursos, em qualquer lugar, em qualquer dispositivo e sempre que necessário. Habilitar recursos de proteção e acesso para usuários pode ser um desafio para os administradores de TI, que também precisam assegurar a proteção dos dados da empresa. Com o Enterprise Mobility + Security (EMS), será possível manter os funcionários produtivos com seus aplicativos e dispositivos favoritos e os dados locais da empresa em segurança. Continue lendo para saber como.
@@ -126,7 +124,7 @@ Em vez de definir as configurações no console de administração do Intune, o 
 
 Também é possível habilitar o logon único (SSO) e o acesso condicional para proteger o acesso remoto seguro a aplicativos Web hospedados localmente usando o Proxy de Aplicativo do Azure AD. O Proxy de Aplicativo do Azure AD facilita para os usuários o acesso a aplicativos Web hospedados localmente, como sites do SharePoint, Outlook Web Access ou outros aplicativos LOB da Web, sem a necessidade de um VPN. Conexões às APIs da Web para dar suporte a diferentes dispositivos e aplicativos hospedados por trás de um Gateway de Área de Trabalho Remota também podem ser protegidas.
 
-[Configurar o Proxy de Aplicativo do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-enable) é fácil. Basta habilitar o recurso no Azure AD (Basic ou Premium), instalar um pequeno serviço chamado conector do Windows Server na rede e, em seguida, publicar aplicativos. Não é necessário abrir portas de entrada de firewall ou colocar algo em um DMZ. Após a configuração, o acesso a aplicativos Web locais é fornecido por um logon único no Azure AD. [Regras de acesso condicional](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-conditional-access), como exigir autenticação multifator ou bloquear o acesso quando os funcionários não estiverem no trabalho, fornecem proteções adicionais
+[Configurar o Proxy de Aplicativo do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-enable) é fácil. Basta habilitar o recurso no Azure AD (Basic ou Premium), instalar um pequeno serviço chamado conector do Windows Server na rede e, em seguida, publicar aplicativos. Não é necessário abrir portas de entrada de firewall ou colocar algo em uma rede de perímetro. Após a configuração, o acesso a aplicativos Web locais é fornecido por um logon único no Azure AD. [Regras de acesso condicional](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-conditional-access), como exigir autenticação multifator ou bloquear o acesso quando os funcionários não estiverem no trabalho, fornecem proteções adicionais
 
 ## <a name="use-certificates-to-secure-company-resource-access"></a>Usar certificados para proteger o acesso aos recursos da empresa
 Ao conceder aos usuários acesso a recursos corporativos por meio de VPN, Wi-Fi ou perfis de email, é possível [proteger o acesso usando um certificado](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles) instalado em cada dispositivo de usuário, em vez de depender de um nome de usuário e senha para autenticação.
@@ -155,4 +153,3 @@ Ao [implantar perfis de certificado](https://docs.microsoft.com/intune/deploy-us
 [Começar a usar o Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

@@ -1,6 +1,6 @@
 ---
 title: "Guia de considerações de design de gerenciamento de dispositivos móveis"
-description: "Este artigo fornece diretrizes para profissionais de TI sobre como projetar soluções MDM (Gerenciamento de Dispositivo Móvel) da Microsoft, criadas no Enterprise Mobility + Security."
+description: "Este artigo fornece orientação para profissionais de TI sobre como projetar soluções MDM (Gerenciamento de Dispositivo Móvel), criadas no Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 770a72932d98c4b9d4b5ce9607bad07c7b6798cb
-
-
+ms.openlocfilehash: 65ecf2d73107237bc586b6827dea5c1466eb3ac0
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="mobile-device-management-design-considerations-guide"></a>Guia de considerações de design de gerenciamento de dispositivos móveis
 
 Com todas as diferentes opções de design e configuração para soluções MDM (gerenciamento de dispositivo móvel), às vezes é difícil determinar qual solução melhor atenderá às necessidades de sua organização. Este guia de design ajudará você a entender os requisitos de design do MDM e fornecerá detalhes de uma série de etapas e tarefas que você pode realizar para criar uma solução de MDM melhor se adapte às necessidades de tecnologia e de negócios de sua organização.
@@ -38,7 +37,7 @@ Especificamente, os objetivos deste guia são ajudá-lo a responder às seguinte
 
 **Como este guia pode ajudar?** Você pode usar este guia para entender como criar uma solução de gerenciamento de dispositivos móveis que possa gerenciar dispositivos de propriedade da empresa, bem como dispositivos de propriedade do usuário em diferentes fatores forma.
 
-![Exemplo de uma solução híbrida MDM do Intune e do System Center Configuration Manager](./media/MDM_Figure_01.png)
+![Exemplo de uma solução híbrida MDM do Intune e do System Center Configuration Manager ](./media/MDM_Figure_01.png)
 **Exemplo de uma solução híbrida MDM do Intune e do System Center Configuration Manager**
 
 A figura acima é um exemplo de uma solução de gerenciamento híbrida, em que aproveita os serviços de nuvem para integrá-los aos recursos locais, a fim de gerenciar todos os tipos de dispositivos, independentemente de sua localização. Embora esse seja um cenário bastante comum, o design de MDM de cada organização pode ser diferente do exemplo, devido aos requisitos exclusivos de gerenciamento de cada organização.
@@ -59,7 +58,7 @@ Você desenvolverá um design de gerenciamento de dispositivos móveis que melho
 - [Etapa 1: Identificar os requisitos do gerenciamento de dispositivo móvel](mdm-step-1-identify-your-mobile-device-management-requirements.md)
 - [Etapa 2: Planejar o gerenciamento de dispositivo móvel](mdm-step-2-plan-for-mobile-device-management.md)
 - [Etapa 3: Planejar a proteção de dispositivos móveis](mdm-step-3-plan-enhancing-mobile-devices-protection.md)
-- [Etapa 4 – Planejar o gerenciamento de dispositivo móvel de software como serviço](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
+- [Etapa 4 - Planejar o gerenciamento de dispositivo móvel de software como serviço](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
 - [Próximas etapas e recursos adicionais](mdm-next-steps-and-additional-resources.md)
 
 >[!NOTE]
@@ -67,9 +66,3 @@ Você desenvolverá um design de gerenciamento de dispositivos móveis que melho
 
 ## <a name="looking-for-a-downloadable-version"></a>Procurando uma versão para download?
 Obtenha uma cópia baixável deste tópico completo na [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

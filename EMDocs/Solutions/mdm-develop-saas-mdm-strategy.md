@@ -1,6 +1,6 @@
 ---
 title: "Desenvolver uma estratégia de gerenciamento de dispositivo móvel SaaS"
-description: "Este artigo visa ajudar os clientes a desenvolver uma estratégia de software como serviço para o seu gerenciamento de dispositivo móvel, usando o Microsoft Enterprise Mobility + Security."
+description: "Este artigo pretende ajudar os clientes a desenvolver um software como uma estratégia de serviço para o seu gerenciamento de dispositivo móvel, usando o Microsoft Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 735874e0f5c30628fbc4bdcdce18e6db3a2ec735
-
-
+ms.openlocfilehash: 9e23ce7f0b20e05c2216addcbbe4e719e64bc7f6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-saas-mobile-device-management-strategy"></a>Desenvolver uma estratégia de gerenciamento de dispositivo móvel SaaS
 
 >[!NOTE]
@@ -75,9 +74,3 @@ Dependendo de como você respondeu às perguntas na Tarefa 1, você precisa cons
 Não deixe de ler o artigo **[Ajudar a proteger seus dados com apagamento remoto, bloqueio remoto ou redefinição de senha com o Microsoft Intune](https://technet.microsoft.com/library/jj676679.aspx)** para entender quais dados são removidos e o efeito nos dados que permanece no dispositivo após um apagamento seletivo por plataforma. Se você tiver um ambiente híbrido, confira o artigo [Como apagar dispositivos móveis remotamente usando o Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para entender como o ConfigMgr pode ser usado para realizar essa tarefa.
 
 Para obter mais detalhes sobre as funcionalidades e os requisitos da solução de SaaS, leia o tópico **[descrição do serviço para Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** para entender as diferenças no suporte a SaaS no [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e em uma infraestrutura [híbrida](https://technet.microsoft.com/library/jj884158.aspx) do Intune e do ConfigMgr.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

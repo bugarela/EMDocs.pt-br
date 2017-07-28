@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: a6bec4e31a346d5b489d9a4fe40ee1b16d1742f9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 #<a name="client-privacy"></a>Privacidade do cliente
 
 >[!NOTE]
@@ -74,4 +71,3 @@ Privacidade é importante tanto para os usuários quanto para sua organização,
 **Desvantagens**
 
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
-

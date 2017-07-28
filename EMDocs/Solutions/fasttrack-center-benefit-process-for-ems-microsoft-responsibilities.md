@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 77e668d5f638ee2e4b9a9e81a1f9181252fde8b9
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="microsoft-responsibilities"></a>Responsabilidades da Microsoft
 
 A Microsoft tem as responsabilidades a seguir durante a integração.
@@ -209,4 +206,3 @@ Fornecimento de orientação sobre:
 **Quer saber mais?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

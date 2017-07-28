@@ -1,6 +1,6 @@
 ---
 title: "Próximas etapas e recursos adicionais"
-description: "Este artigo fornece recursos adicionais, artigos de instruções para implantar e dar suporte a soluções de gerenciamento de dispositivo móvel da Microsoft no Enterprise Mobility + Security."
+description: "Este artigo fornece recursos adicionais, artigos de instruções para implantar e dar suporte a soluções de Gerenciamento de dispositivo móvel da Microsoft no Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
-
-
+ms.openlocfilehash: eaa10ada83bb18b1c5b5094a07a91f5b7dbfc405
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="next-steps-and-additional-resources"></a>Próximas etapas e recursos adicionais
 
 >[!NOTE]
@@ -54,9 +53,3 @@ Monitorar os seguintes recursos fornece as notícias e atualizações mais recen
 - [Blog do Microsoft System Center Configuration Manager](http://blogs.technet.com/b/configurationmgr/)
 - [Blog da Microsoft System Center Configuration Manager Team](http://blogs.technet.com/b/configmgrteam/)
 - [Blog do Microsoft Office 365](http://blogs.office.com/office365forbusiness/)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

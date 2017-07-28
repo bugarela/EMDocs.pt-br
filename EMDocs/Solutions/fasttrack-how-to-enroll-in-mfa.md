@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 66be84d00e73f98217abfb2537bb52ebac94727a
 ms.openlocfilehash: 7120b4ce41e0f9560bdecb3a98da0bd02171fabb
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>Como configurar seu método preferencial de verificação de segurança adicional
 
 
@@ -120,4 +117,3 @@ O aplicativo Microsoft Authenticator está disponível para Windows Phone, Andro
 
 ### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 782f6dac4a366312ce0a6d04735262908df6fe72
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: acdca6a0357487456ccbe28e6977e61943cebffa
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="access-control-to-resources"></a>Controle de acesso aos recursos
 
 >[!NOTE]
@@ -91,4 +88,3 @@ Use a tabela abaixo como referência para ajudar a escolher a opção de MDM que
 **Desvantagens**
 
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
-

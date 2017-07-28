@@ -13,15 +13,12 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-at-the-front-door"></a>Proteger na porta da frente
 
 As soluções tradicionais de segurança costumavam ser o suficiente para proteger seus negócios. Mas isso foi antes do crescimento do setor de mobilidade, que criou um cenário mais amplo de ataques, e da transição para a nuvem, que torna mais complexas as interações de funcionários com outros usuários, dispositivos, aplicativos e dados. Para realmente proteger seus negócios agora, você precisa adotar uma abordagem de segurança mais holística e inovadora, que possa proteger, detectar e responder a ameaças de todos os tipos locais, bem como na nuvem.
@@ -129,4 +126,3 @@ Agora que tem o Azure AD Privileged Identity Management instalado e configurado,
 ![Funções com privilégio](./media/protect-front-door/protect-front-door-fig10.png)
 
 Neste painel, você pode ver a atividade atual, como [alertas de segurança](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) e [acessar análise](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/). Você também pode usar esse painel para [adicionar](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) ou [remover](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim) o acesso de um ou mais usuários ao Azure AD Privileged Identity Management.
-

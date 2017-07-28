@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
-
-
+ms.openlocfilehash: 9cd4d977bc09b710af636d791b60dae1a9e86a73
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-your-mobile-device-management-adoption-strategy"></a>Desenvolver sua estratégia de adoção de gerenciamento de dispositivos móveis
 
 >[!NOTE]
@@ -168,9 +167,3 @@ Entender o comportamento do usuário e conseguir identificar sua localização s
 
 >[!TIP]
 > O isolamento geográfico permite monitorar a localização geográfica de um dispositivo móvel e habilitar/desabilitar os recursos de dispositivo e de rede com base nesse local. Por exemplo, o suporte ao Windows 8.1 permite que um aplicativo defina uma região geográfica e faça com que o sistema alerte o aplicativo quando o dispositivo estiver em execução ou entre ou saia dessa área. Para saber mais sobre esse recurso no Windows 8.1, leia [Isolamento geográfico, do início ao fim (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

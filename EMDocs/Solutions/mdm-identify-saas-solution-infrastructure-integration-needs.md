@@ -1,6 +1,6 @@
 ---
 title: "Identificar as necessidades de integração de infraestrutura da solução SaaS"
-description: "Este artigo ajuda a identificar os requisitos de integração de infraestrutura do software como serviço ao planejar e desenvolver um gerenciamento de dispositivo móvel usando o Microsoft Enterprise Mobility + Security."
+description: "Este artigo ajuda a identificar o Software como requisitos de integração de infraestrutura de serviço ao planejar e desenvolver um gerenciamento de dispositivo móvel usando o Microsoft Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: c21b0a8c413c4e7299e8026f55a3e43e7f825f82
-
-
+ms.openlocfilehash: 8732046974da72071690123def19d707865fc5d8
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-solution-infrastructure-integration-needs"></a>Identificar as necessidades de integração de infraestrutura da solução SaaS
 
 >[!NOTE]
@@ -77,9 +76,3 @@ Como parte do planejamento de ciclo de vida do gerenciamento de SaaS, você deve
 
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

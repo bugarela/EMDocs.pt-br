@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 1bf552e92104a7872099e555df12993dd4258293
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-manage-your-own-password"></a>Como gerenciar sua própria senha
 
 Se você for um usuário (e não um administrador) em uma organização que usa o Office 365 ou contas da Microsoft para acessar recursos de trabalho, leia as seções abaixo para saber como corrigir problemas comuns com sua senha.
@@ -79,4 +76,3 @@ Teve problemas para redefinir sua senha? Leia sobre os [problemas comuns e suas 
 
 ### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-email-and-attachments-from-data-leakage"></a>Proteger emails e anexos contra vazamento de dados
 [Protegendo emails e documentos corporativos](protect-corporate-email-documents.md) descreveu como você pode ter certeza de que apenas dispositivos compatíveis possam acessar emails corporativos. No entanto, o conteúdo de email e anexos de email não são protegidos apenas protegendo o acesso. O conteúdo pode ser copiado, movido, salvo em um local diferente ou compartilhado com outro usuário. O EMS resolve esse problema usando as políticas MAM (gerenciamento de aplicativo móvel).
 
@@ -71,4 +68,3 @@ Os usuários finais podem instalar aplicativos gerenciados e usá-los para fazer
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você sabe como [proteger emails e documentos corporativos](protect-corporate-email-documents.md), bem como anexos de email, é possível aprender a [implementar uma solução que proteja o email corporativo](implement-solution.md).
-

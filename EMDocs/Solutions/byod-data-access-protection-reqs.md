@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: f90989708013339a0bf31157075678739e3197b5
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-requirements"></a>Requisitos de acesso e proteção de dados
 
 Um dos elementos mais importantes ao permitir que os usuários acessem recursos da empresa de seus próprios dispositivos é preservar os dados da empresa e proteger essas informações. Sua empresa pode ter uma variedade de requisitos de conformidade que devem estar disponíveis para garantir que os dados estejam seguros, independentemente de onde estão localizados. A figura abaixo mostra as interações entre usuários e dispositivos durante o acesso a dados e os componentes que devem ser considerados para esse subdomínio.
@@ -93,4 +90,3 @@ As perguntas sobre requisitos de acesso e proteção dos dados são categorizada
     - Nesse caso, como essas normas conduzem as políticas de acesso de dados atuais para recursos locais?
 - Sua empresa tem políticas em vigor para [MDM (Gerenciamento de Dispositivo Móvel)](mdm-design-considerations-guide.md) e [MAM (Gerenciamento de Aplicativo Móvel)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - Sua empresa tem políticas estabelecidas para confiscação de dispositivo no caso de litígio judicial ou investigação criminal?
-

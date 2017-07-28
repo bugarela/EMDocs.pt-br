@@ -11,16 +11,12 @@ ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 81e6b6479dcca1a82b37cfc4c832f36e33ac1b7b
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="track-usage-of-shared-data-and-respond-to-data-abuse"></a>Acompanhar o uso de dados compartilhados e responder a violações de dados
 
 Ter visibilidade e controle sobre os dados compartilhados é essencial para acompanhar o uso ou violações de dados. Hoje em dia, o compartilhamento de dados é mais amplo e as organizações precisam compartilhar dados fora de seu domínio para atender às necessidades de negócios.
@@ -74,4 +70,3 @@ Também há cenários em que você responde a um incidente de segurança. Por ex
 ![Gráfico mostrando o formulário Revogar Acesso que permite revogar o acesso a um documento.](./media/infoprotect-track-usage-scenario/infoprotect-track-usage-scenario-fig5.png)
 
 É possível habilitar a opção de notificar os destinatários de que o acesso ao documento foi revogado e você pode incluir uma mensagem com a explicação de por que o documento foi revogado.
-

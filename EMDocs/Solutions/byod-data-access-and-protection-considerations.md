@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 9eb47bcc9b64495759727b7211161b0945bda8b2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-considerations"></a>Considerações de acesso e proteção de dados
 
 Perda de dados confidenciais é um risco de operação para qualquer empresa e, com o surgimento de BYOD, as informações residem em mais locais do que nunca. Isso resulta em um cenário de mias ameaças e mais riscos que devem ser reduzidos corretamente. Devido a uma variedade de regulamentos legislativos, corporativos e do setor que controlam a proteção de dados confidenciais, a proteção de dados pode ser um processo complexo. É importante levar esses requisitos legais, políticas corporativas internas e regulamentos do setor em conta.
@@ -250,4 +247,3 @@ A aplicação de dados governança em servidores de arquivos para controlar quem
 Ao aproveitar os recursos de Controle de Acesso Dinâmico, você pode identificar dados usando classificação automática e manual dos arquivos. Por exemplo, você pode marcar os dados nos servidores de arquivos em toda a organização. Também é possível controlar o acesso a arquivos aplicando políticas de rede de segurança que usem políticas de acesso centrais. O Controle de Acesso Dinâmico também aproveita a proteção RMS (Rights Management Services, serviços de gerenciamento de direitos) usando criptografia RMS automática para documentos confidenciais. Por exemplo, você pode configurar o RMS para criptografar todos os documentos que contenham informações sobre HIPAA (Health Insurance Portability e Accountability Act, lei de portabilidade e responsabilidade de plano de saúde). Para investigação forense e auditoria, você pode aproveitar as políticas de auditoria centrais para relatórios de conformidade e análise forense. Você pode identificar quem acessou informações altamente confidenciais.
 
 O Controle de Acesso Dinâmico, uma função de servidor de arquivos, habilita à TI os recursos mostrados na tabela anterior. Para saber mais sobre o Controle de Acesso Dinâmico, confira [Controle de Acesso Dinâmico: visão geral de cenários](https://technet.microsoft.com/library/hh831717.aspx).
-

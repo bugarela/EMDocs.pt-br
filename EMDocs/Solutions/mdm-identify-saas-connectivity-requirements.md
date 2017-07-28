@@ -1,6 +1,6 @@
 ---
 title: Identificar requisitos de conectividade de SaaS
-description: "Este artigo ajuda a identificar os requisitos de conectividade do software como serviço ao planejar a implementação de gerenciamento de dispositivo móvel usando as soluções Enterprise Mobility + Security."
+description: "Este artigo ajuda a identificar o Software como requisitos de conectividade de serviço ao planejar a implementação de gerenciamento de dispositivo móvel usando as soluções Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
-
-
+ms.openlocfilehash: 9cc654fadde9494e364d3bc1513bc5bf3c78f6a2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-connectivity-requirements"></a>Identificar requisitos de conectividade de SaaS
 
 >[!NOTE]
@@ -72,9 +71,3 @@ Dependendo de como você respondeu às perguntas na Tarefa 2, você precisa cons
 
 - Para as organizações que não tenham uma infraestrutura do ConfigMgr atual configurada, será necessário planejá-la, instalá-la e configurá-la antes da integração com o Intune
 - Exige requisitos de implantação local adicional e alterações de configuração para as organizações com o ConfigMgr.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

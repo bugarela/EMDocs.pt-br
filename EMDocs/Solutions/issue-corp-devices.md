@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: e9e695ec-5608-43bb-bbfb-808b869b1567
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5be7105266a7f455e1482a814929f65a130db82
-ms.openlocfilehash: 6b220f4992651b5f3c107b5b958c47900515b77f
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2017
-
-
+ms.openlocfilehash: 51e8edb18d68618c147ba5011dc1f047cdb43cac
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-company-owned-devices-with-intune"></a>Gerenciar dispositivos da empresa com o Intune
 
 Há muitas opções disponíveis para atender às expectativas de experiência de mobilidade de funcionários no local de trabalho moderno, incluindo programas BYOD (traga seu próprio dispositivo). No entanto, muitas organizações desejam ter mais controle sobre quais dispositivos são usados para acessar dados da empresa. Nesses cenários, as empresas podem implementar estratégias CYOD (escolha seu próprio dispositivo) em que o departamento de TI fornece dispositivos móveis gerenciados para funcionários.
@@ -162,4 +159,3 @@ Depois de iniciado, o dispositivo iniciará imediatamente o processo de apagamen
 [Começar a usar o Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

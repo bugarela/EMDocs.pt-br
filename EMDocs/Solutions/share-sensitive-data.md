@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="share-sensitive-data-internally-and-externally"></a>Compartilhar dados confidenciais interna e externamente
 
 Embora muitas violações de dados se devam a ataques cibernéticos, os especialistas concordam que muitas resultam do erro humano, que são os momentos de deslize que ocorrem quando os funcionários inadvertidamente vazam dados corporativos confidenciais. Com os protocolos certos de prevenção contra perda de dados e informações de segurança estabelecidos, quase todos esses tipos de violação podem ser evitados.
@@ -96,4 +93,3 @@ Na parte superior dessa janela, é preciso digitar o email do usuário de destin
 
 > [!IMPORTANT]
 > Assista à apresentação [Collaborate securely using Azure Information Protection](https://myignite.microsoft.com/videos/49947) (Colaborar com segurança usando a Proteção de Informações do Azure) no Microsoft Ignite para obter mais informações sobre esse cenário.
-

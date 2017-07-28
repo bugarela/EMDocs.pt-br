@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9cf26f4ead50e00580fc5abe1983ba88ee4c8ce9
-
-
+ms.openlocfilehash: 015ffe6330296a002c09edf1206c09fcbc239a0f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="gather-your-data-protection-requirements"></a>Reunir os requisitos de proteção de dados
 
 >[!NOTE]
@@ -64,9 +63,3 @@ A lista abaixo inclui opções comuns que devem ter o suporte da solução de MD
 
 >[!TIP]
 > No Windows Phone 8.1, a política Permitir retorno ocioso sem senha pode ser configurada usando o [Protocolo de gerenciamento de dispositivos empresariais do Windows Phone 8.1](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

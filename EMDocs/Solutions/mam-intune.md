@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-intune"></a>Usar Políticas de Gerenciamento de Aplicativos Móveis no Intune
 Um dos motivos principais pelos quais muitas empresas usam o Microsoft Intune é implantar aplicativos que os usuários precisam para realizar seu trabalho. Antes de implantar aplicativos, você precisará [tornar seus dispositivos gerenciados](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
@@ -117,4 +114,3 @@ Use os procedimentos a seguir para monitorar a implantação do aplicativo por m
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 
 Depois de criar e implantar um aplicativo associado a uma política de MAM, você pode saber mais sobre o [experiência do usuário final de MAM](end-user-experience-mam.md). Isso ajudará a se preparar para problemas que possam surgir.
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 18540a0fa2fd1852e416adc9f0ced0f1c8d13893
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-requirements"></a>Requisitos de gerenciamento
 
 Gerenciamento de dispositivos é um dos fundamentos de qualquer estratégia centrada em pessoas e deve ser avaliada em relação aos requisitos da empresa. Dependendo do nível de maturidade da empresa, um sistema de gerenciamento pode estar estabelecido, precisando ser expandida para cobrir os cenários BYOD que a empresa está adotando. A figura abaixo mostra interações de gerenciamento ao gerenciar usuários, dispositivos e dados. Considerações devem ser feitas para cada componente do subdomínio de gerenciamento.
@@ -99,4 +96,3 @@ As perguntas sobre requisitos de gerenciamento são categorizadas em sete áreas
 - Os dispositivos pessoais são registrados com a empresa pela TI ou são registrados pessoalmente?
 - Haverá um plano em vigor para permitir que os usuários provisionem serviços usando seus próprios dispositivos?
     - Nesse caso, o sistema de gerenciamento nativamente permite aos usuários executar esta operação em seus dispositivos?
-

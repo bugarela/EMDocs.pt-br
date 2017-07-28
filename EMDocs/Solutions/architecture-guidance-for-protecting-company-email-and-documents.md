@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="architecture-guidance-for-protecting-company-email-and-documents"></a>Diretrizes de arquitetura para proteger documentos e email da empresa
 Este tópico começa com uma visão geral de como você pode fornecer proteção de dados para sua empresa enquanto garante que a experiência do usuário final seja simples e não afete a produtividade. Em seguida, nos concentraremos especificamente em como você pode ajudar a fornecer acesso seguro ao seu email corporativo e ajudar a proteger dados da empresa e anexos de email usando a solução Microsoft Enterprise Mobility + Security.
 
@@ -99,4 +96,3 @@ Além disso, se você quiser saber mais sobre o EMS e Azure Active Directory, po
 - [O que é a Proteção de Informações do Azure?](/information-protection/understand-explore/what-is-azure-rms)
 
 - [Como os aplicativos dão suporte à Proteção de Informações do Azure](/information-protection/understand-explore/applications-support)
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 7f7a8c8fc0333461359440781adc8a6240e9f4bb
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents"></a>Saiba como implantar uma solução para proteger documentos e email da empresa
 Cada vez mais, as empresas estão permitindo que os funcionários aumentem sua produtividade acessando emails, documentos e recursos da empresa por meio de seus dispositivos móveis. No entanto, a quantidade de dados confidenciais armazenados em documentos e emails corporativos apresenta um risco de segurança significativo para as empresas.
 
@@ -70,4 +67,3 @@ Agora que você leu todo este tópico, pode aprender mais sobre como implantar u
 
 - [Usar o acesso condicional com o Microsoft Intune](conditional-access-intune.md)
 - [Usar o acesso condicional com o Microsoft Intune e o Configuration Manager](conditional-access-intune-configmgr.md)
-

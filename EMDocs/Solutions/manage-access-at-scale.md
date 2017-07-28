@@ -14,13 +14,12 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-access-at-scale"></a>Gerenciar acesso em escala
 A Microsoft capacita empresas desde que foi criada. A Microsoft não só fornece uma identidade que leva você a qualquer lugar, mas também fornece um conjunto de ferramentas para automatizar, ajudar a proteger e gerenciar a TI em sua organização. Mesmo após o advento da computação em nuvem, ainda há demanda para gerenciar e controlar tarefas de TI como chamadas de assistência técnica para redefinir senhas de usuários, gerenciamento de grupo de usuários e solicitações de aplicativos.
 
@@ -125,9 +124,3 @@ Os detalhes de um alerta têm mais informações sobre o problema que está caus
 O monitoramento de desempenho do AD Connect Health fornece uma maneira fácil de comparar o desempenho dos DCs monitorados em relação uns aos outros, bem como comparar diferentes métricas de interesse.
 
 ![Captura de tela que mostra o monitoramento de desempenho de controladores de domínio selecionados](./media/manage-access-at-scale/manage-access-at-scale-fig8.png)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

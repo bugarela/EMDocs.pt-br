@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 7f67dbb9e304888bc781d383648191312c8ae616
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="hardening-mobile-devices"></a>Proteção de dispositivos móveis
 
 >[!NOTE]
@@ -94,4 +91,3 @@ A proteção da plataforma de dispositivo móvel desempenha um papel importante 
 
 >[!TIP]
 > Leia mais sobre as configurações do gerenciamento de dispositivo móvel que podem ser definidas em uma política de segurança de dispositivo móvel do Microsoft Intune em [Configurações da política de gerenciamento de dispositivo móvel para o Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).
-

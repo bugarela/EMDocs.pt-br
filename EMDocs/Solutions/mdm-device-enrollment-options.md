@@ -1,6 +1,6 @@
 ---
 title: "Opções de registro do dispositivo"
-description: "Este artigo fornece diretrizes sobre as opções de registro do dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
+description: "Este artigo fornece orientações sobre as opções de registro do dispositivo ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,14 +13,12 @@ ms.technology:
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
-
-
+ms.openlocfilehash: d53e761566189c5c775b129746bb8e5bf9cb59d6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="device-enrollment-options"></a>Opções de registro do dispositivo
 
 >[!NOTE]
@@ -44,9 +42,3 @@ Suas respostas às perguntas na Etapa 1 ajudarão você a decidir como deseja qu
 | Segurança  | Se estiver dando suporte a uma estratégia de BYOD, há uma maior probabilidade de que os administradores possam ver ou expor informações pessoais confidenciais do usuário se controles apropriados de segurança não estiverem em vigor. | Os usuários modernos de dispositivos móveis podem achar que essa centralização é complicada e inconveniente, levando a soluções alternativas definidas pelo usuário que podem comprometer processos de conformidade e segurança de registro |
 
 Sua organização pode desejar permitir ambos os cenários de registro, adotando uma abordagem flexível para permitir diferentes métodos para diferentes departamentos ou situações. Nesse caso, sua solução de gerenciamento de dispositivos móveis deve ter a capacidade de dar suporte a ambos os cenários.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

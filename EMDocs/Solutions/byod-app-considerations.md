@@ -13,16 +13,12 @@ ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 1963fd2b0cba97cbcc5396574cdb4e90a2b36884
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="app-considerations"></a>Considerações sobre aplicativo
 
 Considerações sobre aplicativo para BYOD podem variar de acordo com recursos, restrições e metas da empresa. As empresas devem avaliar seus aplicativos atuais, as tecnologias usados para desenvolver aplicativos, os requisitos para os aplicativos executados em qualquer dispositivo e quais aplicativos é essencial que os usuários possam acessar de qualquer local. Embora os aplicativos modernos não usem recursos de modo tão intensivo quanto os aplicativos baseados em Windows para fins de provisionamento e implantação, ainda há um custo associado ao seu desenvolvimento e manutenção.
@@ -238,4 +234,3 @@ A decisão de qual aplicativo de implantação e experiência serão usados para
 Considere o uso de um ciclo de vida de desenvolvimento de segurança para todos os aplicativos que serão consumidos por usuários que estão usando seus próprios dispositivos. A segurança deve ser incorporada em todas as fases do processo de desenvolvimento e todas as possíveis ameaças devem ser levadas em consideração. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) e outras estratégias de segurança podem ser incorporadas ao ciclo de vida de desenvolvimento usando o [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/security/sdl/process/requirements.aspx) (Ciclo de vida de desenvolvimento de segurança). Como a infraestrutura atual será integrada à estratégia geral de segurança para BYOD é uma consideração importante. O ambiente atual é capaz de fornecer uma base segura para aplicativos? A empresa precisa adquirir soluções de terceiros seguras para mitigar qualquer vulnerabilidade potencial criada por essa nova adoção?
 
 Considerações de segurança são importantes para os aplicativos que serão consumidos pelos usuários usando seus próprios dispositivos. É recomendável usar coleções personalizadas com base em grupos de segurança do Active Directory para limitar os usuários de destino a alguns aplicativos com requisitos de acesso específicos, limitando os usuários que podem instalá-los. A segurança também pode ser utilizada para aprimorar a experiência do usuário, permitindo que os usuários usem o mesmo nome de usuário e senha para acessar recursos corporativos, o que podem ser feito usando AD FS. A segurança também é importante ao projetar a implantação para esses aplicativos. Você deve adquirir e implantar certificados e chaves de sideload antes de habilitar o registro de usuário. Trabalhe em coordenação com outras equipes para simplificar o processo de certificação do aplicativo.
-
