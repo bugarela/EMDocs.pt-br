@@ -1,5 +1,1 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink">Backup do Azure</Token>
-
-<!--HONumber=Jul16_HO3-->
-
-
+<Token xmlns:xlink="http://www.w3.org/1999/xlink">Backup do Microsoft Azure</Token>
