@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 3c933645b8cb7018f486925a16ee8d78cd1f0b7a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-considerations"></a>Consideração sobre gerenciamento
 
 Um domínio de gerenciamento é obrigatório em uma infraestrutura que oferece suporte a um modelo de BYOD. Para dar suporte total às demandas de BYOD, o domínio de gerenciamento deve ser capaz de habilitar a TI a monitorar recursos, fornecer recursos de relatórios, gerenciar recursos de computação e armazenamento, habilitar configuração e automação de dispositivo e gerenciar o provisionamento e a implantação de aplicativos.
@@ -196,4 +193,3 @@ Embora essas sejam duas opções, você pode integrar ambas para oferecer implan
 | Implantar e provisionar aplicativos para dispositivos localizados fora da empresa.   | Microsoft Intune                                       |
 | Implantar e provisionar aplicativos para dispositivos não Windows.                   | Microsoft Intune                                       |
 | Implante e provisione aplicativos em dispositivos localizados apenas no local, implante e provisione aplicativos em dispositivos localizados fora da empresa ou implante e provisione aplicativos em dispositivos não baseados em Windows.       | Microsoft Intune integrado ao Configuration Manager
-

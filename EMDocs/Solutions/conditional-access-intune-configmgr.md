@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-conditional-access-with-intune-and-configuration-manager"></a>Usar o acesso condicional com o Intune e Configuration Manager
 Este tópico supõe que você já esteja usando o System Center Configuration Manager e o Microsoft Exchange Server (com implantação local, no Exchange Online ou uma implantação híbrida de ambos) em sua empresa para gerenciar o acesso ao email. Esta solução combina seu ambiente existente do Configuration Manager com o Intune para gerenciar com segurança o acesso ao email em todos os tipos de dispositivos, independentemente da localização.
 
@@ -87,4 +84,3 @@ Além disso:
   Agora você está pronto para aprender a [implantar o Exchange Server local com o Intune](conditional-access-intune-exchange.md).
 
 Se seu ambiente incluir o Exchange Online e o Exchange local, você poderá ler sobre [como implantar o Exchange Online e o Exchange local com o Microsoft Intune e o Configuration Manager](conditional-access-intune-configmgr-coexist.md).
-

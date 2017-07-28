@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: a7382ec71d94d0b08cc4c89e8dbe90bcd1a4c1d7
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 7cf073e70308862ef21c636146299a40a072f3a0
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-encryption"></a>Criptografia de dados
 
 >[!NOTE]
@@ -82,4 +79,3 @@ A maioria das soluções de MDM usa o SSL para proteger dados em trânsito, port
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
 
 Para saber mais sobre como combinar os recursos do Intune e do ConfigMgr para aumentar a proteção de dados e configurar a criptografia, leia [Managing Encryption on Mobile Devices with Configuration Manager and Intune](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx) (Como gerenciar a criptografia em dispositivos móveis com o Configuration Manager e o Intune).
-

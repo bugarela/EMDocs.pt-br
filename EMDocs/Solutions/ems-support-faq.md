@@ -13,23 +13,16 @@ ms.technology:
 ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: abcb3e7df267e81b43c81ed9c94d955602a67dc6
 ms.openlocfilehash: 2b11d1d3118ce7a2414513b56cf6cfce1b2877ce
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
-<a id="enterprise-mobility--security-support-faqs" class="xliff"></a>
-
-# Perguntas Frequentes de Suporte ao Enterprise Mobility + Security
+# <a name="enterprise-mobility--security-support-faqs"></a>Perguntas Frequentes de Suporte ao Enterprise Mobility + Security
 A Microsoft fornece suporte técnico, de cobrança, assinatura e de pré-vendas global para EMS (Enterprise Mobility + Security). Os administradores podem solicitar suporte por meio do [Portal do Office 365](https://portal.office.com/Default.aspx?SkipSspr=true) ou contatando o [Suporte do Office 365](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad).
 
-<a id="answers-to-common-ems-support-questions" class="xliff"></a>
-
-## Respostas a perguntas comuns de suporte do EMS
+## <a name="answers-to-common-ems-support-questions"></a>Respostas a perguntas comuns de suporte do EMS
 
 **É necessário adquirir um plano de suporte do Azure para enviar uma solicitação de suporte do Enterprise Mobility + Security?**
 
@@ -67,12 +60,9 @@ Vá para o portal do Azure para atribuição de licença. Siga as instruções n
 
 Vá para o portal do Azure para atribuição de licença. Siga as instruções no email de boas-vindas para gerenciar suas novas licenças do Enterprise Mobility + Security.
 
-<a id="additional-help-for-other-questions" class="xliff"></a>
-
-## Ajuda adicional para outras perguntas
+## <a name="additional-help-for-other-questions"></a>Ajuda adicional para outras perguntas
 [Fórum de suporte do Azure Active Directory](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
 
 [Fórum de suporte da Proteção de Informações do Azure](http://www.yammer.com/AskIPTeam)
 
 [Fórum de suporte do Intune](https://social.technet.microsoft.com/forums/windows/home?category=microsoftintune)
-

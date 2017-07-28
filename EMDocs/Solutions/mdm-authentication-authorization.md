@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 29baf40311d0be0fac589ae2e50136d1012d647e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="authentication-and-authorization"></a>Autenticação e autorização
 
 >[!NOTE]
@@ -95,4 +92,3 @@ Use a tabela abaixo como referência para ajudá-lo a escolher a opção de MDM 
 **Desvantagens**
 
 - Não disponível para clientes que não estão adotando uma solução baseada em nuvem
-

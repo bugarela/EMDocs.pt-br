@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 99b39ded38f8980103c57b0359ab5f3c3ee4ef53
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-considerations"></a>Considerações sobre usuários e dispositivos
 
 O primeiro problema de usuários e dispositivos que precisa ser abordado é como as tecnologias estabelecidas afetarão a experiência do usuário ao acessar com segurança os recursos da empresa. Abordar a experiência do usuário em diferentes dispositivos pode ser um desafio, não apenas de um ponto de vista de segurança, mas também de uma perspectiva de desenvolvimento de aplicativo. O canal de comunicação entre o dispositivo e os recursos da empresa deve ser considerado para o nível adequado de segurança de rede necessário para evitar perda de dados enquanto os dados estão em trânsito.
@@ -209,4 +206,3 @@ Use a lista abaixo para entender as vantagens e desvantagens das opções de seg
 > Para saber mais sobre Perfis de Wi-Fi no Configuration Manager, confira [Introdução a perfis Wi-Fi no Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 O local da rede desempenha uma função importante para considerações de usuário e dispositivo. Você pode aproveitar o controle de acesso de vários fatores no AD FS para habilitar políticas de autorização por aplicativo, em que é possível permitir ou negar acesso com base em usuário, dispositivo e local de rede. Confira [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) (Gerenciar risco com controle de acesso de vários fatores) para obter mais informações sobre como configurar um ambiente para validar esse recurso.
-

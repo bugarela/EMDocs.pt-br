@@ -14,13 +14,12 @@ ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: 27f71a706990997908a13b34477a1aa87ba698ab
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="thousands-of-apps-one-identity"></a>Milhares de aplicativos, uma identidade
 O Azure AD (Active Directory) torna os usuários mais produtivos fornecendo a eles uma identidade comum para acessar recursos na nuvem e no local de aplicativos SaaS (software como serviço).
 
@@ -116,9 +115,3 @@ As etapas a seguir descrevem como implementar cada recurso do Azure AD anteriorm
   - https://aadappgallery.azurewebsites.net/M
 - **Tutoriais de aplicativos SaaS**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

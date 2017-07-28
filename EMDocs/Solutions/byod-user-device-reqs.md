@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 331f973fc5fb7d335eda0a2310ba5bd6b9540f87
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-requirements"></a>Requisitos de usuário e dispositivo
 
 Antes de habilitar os usuários a acessarem recursos da empresa de seus dispositivos, responda às perguntas nas seções a seguir trabalhando com os consumidores desses recursos no seu ambiente e o departamento de TI. A Figura abaixo mostra as interações entre usuários e dispositivos com o objetivo final de acesso e consumo de dados. Observe que o diagrama não aborda localização geográfica. Embora a localização geográfica seja uma consideração importante (e será abordada neste documento), a intenção da figura é ilustrar os componentes principais de usuários e dispositivos. Considerações de design devem ser feitas para permitir que essa comunicação ocorra.
@@ -69,4 +66,3 @@ Os requisitos de usuário e dispositivo são categorizados em três áreas:
 ### <a name="technical-support"></a>Suporte técnico
 - Sua equipe de rede/segurança está pronta para acomodar auditorias de conformidade do dispositivo regular?
 - Você tem procedimentos e políticas de gerenciamento de alterações em vigor para dar suporte à implementação de BYOD?
-

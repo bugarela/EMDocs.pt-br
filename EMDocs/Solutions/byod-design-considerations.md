@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 90adc7c2cdbb566467fc1e5daf91d970ed618f39
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="design-considerations"></a>Considerações sobre design
 
 Com um entendimento dos requisitos detalhados em Previsão da solução de infraestrutura BYOD, neste documento, você pode selecionar os produtos e tecnologias apropriados para implementar os requisitos para o design de infraestrutura BYOD. A tabela a seguir lista os produtos, tecnologias e serviços Microsoft que podem ser usados para implementar uma solução de infraestrutura BYOD.
@@ -80,4 +77,3 @@ As seções a seguir descrevem o processo de design, mas, conforme mencionado em
 O restante do documento aborda considerações de design e os produtos, tecnologias e serviços listados na tabela anterior. Quando vários produtos, tecnologias e serviços Microsoft podem ser usados para tratar as considerações de design diferentes, são abordadas os seus prós e contras.
 
 O design de infraestrutura para compatibilidade com a BYOD reúne as respostas às perguntas que foram apresentadas anteriormente neste artigo, bem como os recursos e as opções de tecnologia que foram disponibilizadas para você. O design discutido neste documento usa tecnologia baseada em Microsoft. No entanto, as opções e considerações de design podem ser aplicadas a qualquer infraestrutura usada para adotar o modelo BYOD.
-

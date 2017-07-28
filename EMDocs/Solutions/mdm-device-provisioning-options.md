@@ -1,6 +1,6 @@
 ---
 title: "Opções de provisionamento de dispositivo"
-description: "Este artigo fornece diretrizes sobre as opções de provisionamento de dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
+description: "Este artigo fornece orientações sobre as opções de provisionamento de dispositivo ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
-
-
+ms.openlocfilehash: 93cb2c9af3aecdb409ab2ec1a8cb7f8d1d7bf8ab
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-provisioning-options"></a>Opções de provisionamento de dispositivo
 
 >[!NOTE]
@@ -81,9 +80,3 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você precisa deter
 - Exige configuração adicional para conectar o Intune à infraestrutura local do ConfigMgr
 
 Para obter mais detalhes sobre as opções de registro e provisionamento de dispositivos móveis, lembre-se de examinar como [habilitar registros de dispositivo móvel](/Intune/deploy-use/enroll-devices-in-microsoft-intune) no Intune e comparar esses requisitos e procedimentos com a [habilitação de registros de dispositivo móvel](https://technet.microsoft.com/library/jj884158.aspx) no ConfigMgr e no MDM para Office 365.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

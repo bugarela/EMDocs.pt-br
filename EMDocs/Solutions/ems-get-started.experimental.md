@@ -13,15 +13,12 @@ ms.assetid: 9938ab0e-19b8-49a2-91b5-61d69eb3dc01
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: 7f82e8b0644765fc8cc14024cd65ef99733f1ecb
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="start-using-enterprise-mobility--security"></a>Começar a usar o Enterprise Mobility + Security
 
 Organizações que estão passando pelo processo de transformação digital precisam se proteger contra novas ameaças e desafios, enquanto o setor de TI lida com demandas contínuas de aumentar a eficiência e fazer mais com menos. Além disso, em um mundo que prioriza soluções móveis e em nuvem, os usuários esperam ser produtivos em qualquer lugar, usando qualquer dispositivo. Com o EMS, você tem soluções holísticas para ajudá-lo a:
@@ -145,4 +142,3 @@ O Cloud App Security fornece uma visibilidade profunda das atividades de dados e
 [Saiba mais sobre o Enterprise Mobility + Security](learn-about-ems.md)
 
 [Experimente o EMS gratuitamente](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
-

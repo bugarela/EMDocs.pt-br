@@ -1,6 +1,6 @@
 ---
 title: "Opções de gerenciamento de conectividade de rede"
-description: "Este artigo fornece diretrizes sobre as opções de gerenciamento de conectividade de rede ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
+description: "Este artigo fornece orientações sobre as opções de gerenciamento de conectividade de rede ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft, usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
-
-
+ms.openlocfilehash: b2758b96f5ace6e36d435a8c0d7523e2fa216a9d
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="network-connectivity-management-options"></a>Opções de gerenciamento de conectividade de rede
 
 >[!NOTE]
@@ -71,9 +70,3 @@ Explore os detalhes sobre as opções de gerenciamento de configuração de emai
 
 - Intune: habilitar os perfis [sem fio](/Intune/deploy-use/wi-fi-connections-in-microsoft-intune) e de [VPN](/Intune/deploy-use/vpn-connections-in-microsoft-intune)
 - ConfigMgr: habilitar os perfis [sem fio](https://technet.microsoft.com/library/dn261221.aspx) e de [VPN](https://technet.microsoft.com/library/dn261217.aspx)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

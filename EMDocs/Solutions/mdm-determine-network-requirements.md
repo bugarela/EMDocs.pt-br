@@ -1,6 +1,6 @@
 ---
 title: Determinar os requisitos de rede
-description: "Este artigo ajuda os clientes a determinar os requisitos de rede ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
+description: "Este artigo ajuda os clientes a determinar os requisitos de rede ao planejar e desenvolver uma solução de Gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,19 +13,18 @@ ms.technology:
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
-
-
+ms.openlocfilehash: 67f2fb5648d64a53517ae6eaa3d4661570dd39a9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="determine-network-requirements"></a>Determinar os requisitos de rede
 
 >[!NOTE]
 >Este tópico faz parte de um guia de considerações sobre design mais amplo. Se você quiser começar do início do guia, confira o [tópico principal](mdm-design-considerations-guide.md). Para obter uma cópia baixável deste guia inteiro, visite a [Galeria do TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Habilitar o acesso seguro e gerenciado para uma ampla variedade de recursos corporativos por dispositivos móveis é um recurso importante de uma solução de gerenciamento de dispositivos móveis. Embora esses recursos normalmente sejam localizados em redes locais, é mais comum agora que sejam hospedados em serviços Web baseados em nuvem e redes externas.</para><para>Como os dispositivos móveis se conectam a plataformas de email corporativas, VPNs (Redes Virtuais Privadas) e redes sem fio (WiFi) corporativas, todos desempenham uma função importante em manter dados corporativos e outros recursos protegidos de acesso não autorizado. Igualmente importante é tornar fácil e conveniente para os usuários de dispositivos móveis o acesso seguro a esses recursos para evitar que encontrem um método mais conveniente, mas não seguro, de armazenar ou acessar recursos.</para></content>
+Habilitar o acesso seguro e gerenciado para uma ampla variedade de recursos corporativos por dispositivos móveis é um recurso importante de uma solução de gerenciamento de dispositivos móveis. Embora esses recursos normalmente sejam localizados em redes locais, é mais comum agora que sejam hospedados em serviços Web baseados na nuvem e redes externas.</para><para>Como os dispositivos móveis se conectam a plataformas de email corporativas, VPNs (Redes Virtuais Privadas) e redes sem fio (WiFi) corporativas, todos desempenham uma função importante em manter dados corporativos e outros recursos protegidos de acesso não autorizado. Igualmente importante é tornar fácil e conveniente para os usuários de dispositivos móveis o acesso seguro a esses recursos para evitar que encontrem um método mais conveniente, mas não seguro, de armazenar ou acessar recursos.</para></content>
 
 
 ## <a name="email-management"></a>Gerenciamento de email
@@ -89,7 +88,7 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de conect
 
 ## <a name="certificate-management"></a>Gerenciamento de certificados
 
-Certificados digitais, sejam autoassinados ou emitidos por CAs (Autoridades de Certificação) de terceiros, podem ser usados para autenticar dispositivos móveis em conexões de rede ou em recursos de rede específicos. Para simplificar o gerenciamento de certificados digitais, os administradores normalmente gerenciam os certificados usando perfis de certificados. Isso permite um método uniforme e centralizado para gerenciar certificados, incluindo como eles são criados, emitidos e renovados. Isso também ajuda os usuários se conectarem a recursos corporativos sem precisar solicitar e instalar certificados manualmente ou usando um processo de segurança não aprovado.</para><para>No entanto, o uso de certificados para esse tipo de autenticação geralmente requer requisitos adicionais de infraestrutura local. Isso pode incluir todos ou alguns dos seguintes componentes de rede, dependendo do nível de integração com suporte da solução de gerenciamento de dispositivos móveis:
+Certificados digitais, sejam autoassinados ou emitidos por CAs (Autoridades de Certificação) de terceiros, podem ser usados para autenticar dispositivos móveis em conexões de rede ou em recursos de rede específicos. Para simplificar o gerenciamento de certificados digitais, os administradores normalmente gerenciam os certificados usando perfis de certificados. Isso permite um método uniforme e centralizado para gerenciar certificados, incluindo como eles são criados, emitidos e renovados. Isso também ajuda os usuários se conectarem a recursos corporativos sem precisar solicitar e instalar certificados manualmente ou usando um processo de segurança não aprovado.</para><para>No entanto, o uso de certificados para esse tipo de autenticação geralmente requer requisitos de infraestrutura. adicionais no local. Isso pode incluir todos ou alguns dos seguintes componentes de rede, dependendo do nível de integração com suporte da solução de gerenciamento de dispositivos móveis:
 
 - **Serviços de diretório:** serviços de diretório, como o Active Directory da Microsoft, geralmente são necessários para conectar com segurança e gerenciar todos os outros componentes de rede.
 - **Servidor de AC (autoridade de certificação):** se você estiver emitindo certificados autoassinados para a sua organização, você precisará de uma autoridade de certificação para criar, emitir, gerenciar e renovar os certificados digitais.
@@ -109,9 +108,3 @@ Responda às seguintes perguntas de planejamento sobre o gerenciamento de certif
 
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

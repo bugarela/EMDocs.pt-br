@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protecting-corporate-email-and-documents"></a>Proteção de emails e documentos corporativos
 Proteção de email corporativo envolve dois objetivos principais:
 
@@ -122,4 +119,3 @@ Quando o dispositivo é avaliado como registro e em conformidade, a sincronizaç
 
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 Agora que você sabe como proteger emails e documentos corporativos, pode ler sobre como [proteger anexos de email](protect-email-attachments.md). Ou, se você estiver pronto, saiba mais sobre [como implementar uma solução para proteger seu email corporativo](implement-solution.md).
-

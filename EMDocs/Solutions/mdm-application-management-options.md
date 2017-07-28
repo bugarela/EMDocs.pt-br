@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 1f77eba2-8e27-4e08-b2f2-e71e3d776cf4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 58270148fda3f3b3bb407055abff962ae86f1a14
-
-
+ms.openlocfilehash: 90d23fd6b289971cdd6b0a687799a5b6a34cf772
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="application-management-options"></a>Opções de gerenciamento de aplicativos
 
 >[!NOTE]
@@ -65,9 +64,3 @@ Dependendo de como você respondeu às perguntas na Etapa 1, você deverá ser c
 - Para as organizações que não tenham uma infraestrutura do ConfigMgr atual configurada, será necessário planejá-la, instalá-la e configurá-la antes da integração com o Intune
 
 Explore os detalhes sobre as opções de gerenciamento de aplicativos móveis revisando o seguinte para o Intune e o ConfigMgr: Configurar e implantar políticas de gerenciamento de aplicativos móveis no console do Microsoft Intune. Além disso, não deixe de conferir a lista de aplicativos da Microsoft que podem ser usados com as políticas de MAM do Intune, bem como a lista crescente de aplicativos parceiros compatíveis com o Intune.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

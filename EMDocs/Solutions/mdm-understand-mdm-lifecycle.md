@@ -1,6 +1,6 @@
 ---
 title: Compreender o ciclo de vida do MDM
-description: "Este artigo fornece diretrizes sobre como o ciclo de vida da solução de gerenciamento de dispositivo móvel da Microsoft funciona, para que os clientes possam planejar e desenvolver melhor as suas soluções de gerenciamento de dispositivo móvel usando o Microsoft Enterprise Mobility + Security."
+description: "Este artigo fornece orientação sobre como o ciclo de vida da solução de gerenciamento de dispositivo móvel da Microsoft funciona, para que os clientes possam planejar e desenvolver melhor suas soluções de gerenciamento de dispositivo móvel usando o Microsoft Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
-
-
+ms.openlocfilehash: 24cd67176f90baaf5fd1b7d2dc0174a058fbad2f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="understand-the-mdm-lifecycle"></a>Compreender o ciclo de vida do MDM
 
 >[!NOTE]
@@ -138,9 +137,3 @@ Responda às seguintes perguntas de planejamento sobre a desativação e cancela
 
 >[!TIP]
 >Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. As tarefas posteriores apresentarão as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Responder a essas perguntas ajudará você a escolher a opção mais adequada às suas necessidades comerciais.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

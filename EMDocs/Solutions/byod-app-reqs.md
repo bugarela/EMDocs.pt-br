@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 64d000d8d4313f9b10d145564eef3d2d2cbff5ed
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="app-requirements"></a>Requisitos de aplicativo
 
 Cada organização usa uma variedade de recursos técnicos para permitir que a equipe de trabalho realize suas tarefas de forma otimizada e, na maioria das vezes, a principal ferramenta é um aplicativo. Esses recursos poderiam ser combinados em uma abordagem de várias plataformas em que tecnologias diferentes são usadas para atingir uma meta determinada ou criando um aplicativo personalizado capaz de executar uma tarefa ou automatizar certos processos. É importante considerar os aplicativos ao criar a estratégia de BYOD. Os usuários usarão diferentes formatos para consumir esses aplicativos; portanto, você precisa considerar a variedade de recursos a que esses aplicativos devem ter suporte. A figura abaixo mostra como usuários e dispositivos usam aplicativos para consumir dados e as considerações para cada componente do subdomínio de aplicativos.
@@ -119,4 +116,3 @@ os requisitos de aplicativo são categorizados em seis áreas:
 - Você executa alguma análise de privacidade para esses aplicativos?
 - Os aplicativos usará blocos dinâmicos?
     - Nesse caso, esses blocos dinâmicos poderiam, inadvertidamente, causar divulgação de informações?
-

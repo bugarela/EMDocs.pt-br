@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
-ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/22/2017
-
-
+ms.openlocfilehash: 98bedbc50843cb7cfc284f5f29d40ca8b298f11a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="secure-data-using-classification-labeling-and-protection"></a>Proteger dados usando classificação, rotulação e proteção
 
 Atualmente, o compartilhamento de informações acontece em vários dispositivos e entre fronteiras organizacionais.  É fundamental garantir que dados corporativos críticos não sejam comprometidos nesse processo, enquanto permite que os usuários possam compartilhar com segurança o que é importante para que possam executar seus trabalhos. Com as tendências como a terceirização, você precisa compartilhar dados confidenciais da empresa com contratados e fornecedores. Como nem todos os conteúdos precisam da mesma proteção, as empresas enfrentam o desafio de identificar quais dados precisam de proteção e quais não precisam.
@@ -110,4 +107,3 @@ As políticas podem ser definidas por administradores de TI para aplicar automat
 - IBAN (Número de Conta Bancária Internacional)
 
 Leia [Informações sobre as condições internas](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions) para obter mais detalhes sobre esse tipo de implementação.
-

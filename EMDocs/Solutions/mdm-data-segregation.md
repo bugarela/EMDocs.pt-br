@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 030d0c1dca506ac7757e8c26910ea4725a1b9c2c
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: ffed65ca17663ac0e2ff758318bbf6f0e1540b57
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-segregation"></a>Diferenciação de dados
 
 >[!NOTE]
@@ -92,4 +89,3 @@ A tabela abaixo compara os recursos de apagamento seletivo disponíveis em difer
 - Se a organização não tiver uma infraestrutura local do ConfigMgr atual, será necessário planejar, instalar e configurar essa plataforma antes da integração
 
 Não deixe de ler o artigo [Ajudar a proteger seus dados com apagamento completo ou seletivo usando o Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para entender como os dados são removidos e mantidos após um apagamento seletivo para cada plataforma de dispositivo móvel. Se você tiver um ambiente híbrido, confira o artigo [Como apagar dispositivos móveis remotamente usando o Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para entender como o ConfigMgr pode ser usado para realizar essa tarefa.
-

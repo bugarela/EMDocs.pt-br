@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: 580d2e909813390fbc86d3ca8edaf88f0f19a6d7
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 1daeb790d5e01f0b59829231ce0e0401a9ff749d
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="end-user-experience-of-conditional-access"></a>Experiência do usuário final para acesso condicional
 Quando o usuário tenta acessar email no dispositivo pela primeira vez ou sincronizar posteriormente, o status de conformidade e de registro do dispositivo é verificado. O processo de registrar ou corrigir problemas de conformidade é uma experiência guiada. São mostradas ao usuário final as etapas necessárias para registrar o dispositivo e torná-lo compatível sem necessidade de chamar o suporte técnico da TI:
 
@@ -42,4 +39,3 @@ Quando o dispositivo é avaliado como registro e em conformidade, a sincronizaç
 ## <a name="windows-phone"></a>Windows Phone
 
 [Este tópico](end-user-experience-conditional-access-winphone.md) descreve a experiência do usuário final após o acesso condicional ser habilitado e um usuário final tentar acessar email em seu Windows Phone.
-

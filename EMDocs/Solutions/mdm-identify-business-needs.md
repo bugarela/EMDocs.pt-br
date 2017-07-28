@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: e109d6025513fde7a9cf09afc6e6dbb31222c467
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-your-business-needs"></a>Identificar suas necessidades comerciais
 
 >[!NOTE]
@@ -82,4 +79,3 @@ Durante esta tarefa, você deve também avaliar se a empresa tem políticas exis
 
 >[!TIP]
 > Lembre-se de fazer anotações de cada resposta e entender a lógica por trás da resposta. A próxima seção apresentará as opções disponíveis e as vantagens/desvantagens de cada uma delas.  Ao responder a essas perguntas, você poderá selecionar a solução que melhor atende às suas necessidades de negócios.
-

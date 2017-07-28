@@ -1,6 +1,6 @@
 ---
 title: "Opções de gerenciamento de dispositivo"
-description: "Este artigo fornece diretrizes sobre as opções de gerenciamento de dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
+description: "Este artigo fornece orientações sobre as opções de gerenciamento de dispositivo ao planejar e desenvolver uma solução de gerenciamento de dispositivo móvel da Microsoft usando o Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3e930a5a9a39b15a4ce39c5cfa1e37038917f842
-
-
+ms.openlocfilehash: 5ea6bd936a464bd6f89be622d652f011a3acdd24
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-management-options"></a>Opções de gerenciamento de dispositivo
 
 >[!NOTE]
@@ -95,9 +94,3 @@ Suas respostas às perguntas na Etapa 1 podem ajudá-lo a determinar como você 
 - Para as organizações que não têm uma infraestrutura do ConfigMgr atual configurada, será necessário planejá-la, instalá-la e configurá-la antes da integração com o Intune
 - Atualmente, não há suporte para perfis de VPN e de email para dispositivos com Android
 - Atualmente, não há suporte para o suporte ao navegador gerenciado
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-
