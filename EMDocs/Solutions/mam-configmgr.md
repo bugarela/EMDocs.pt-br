@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
-ms.contentlocale: pt-br
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-configuration-manager"></a>Usar políticas de gerenciamento de aplicativos móveis no Configuration Manager
 Começando com o System Center 2012 Configuration Manager SP2, as políticas de gerenciamento de aplicativos permitem mudar a funcionalidade dos aplicativos implantados para ajudar a alinhá-los com as políticas de conformidade e segurança de sua empresa. Por exemplo, você pode restringir as operações de recortar, copiar e colar em um aplicativo restrito, ou configurar um aplicativo para abrir todos os links da web dentro do navegador gerenciado. As políticas de gerenciamento de aplicativos dão suporte a:
 
@@ -39,7 +36,7 @@ Ao contrário dos itens de configuração e das linhas de base no Configuration 
 Para aplicar restrições a um aplicativo, o aplicativo deve incorporar o SDK (Software Development Kit) do aplicativo Microsoft Intune. Há dois métodos de obter esse tipo de aplicativo:
 
 - **Usar um aplicativo gerenciado por política** (Android e iOS): tem o SDK do aplicativo inserido. Para adicionar este tipo de aplicativo, especifique um link para o aplicativo de uma loja de aplicativos, como a iTunes Store ou o Google Play. Nenhum processamento adicional é necessário para este tipo de aplicativo. Para obter uma lista dos aplicativos gerenciados pela política que estão disponíveis para dispositivos iOS e Android, veja [Galeria de aplicativos móveis do Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
-- **Usar um aplicativo "encapsulado"** (Android e iOS): aplicativos que são empacotados novamente para incluir o SDK do aplicativo usando a Ferramenta de disposição de aplicativos do Microsoft Intune. Normalmente, essa ferramenta é usada para processar aplicativos da empresa criados internamente. Ele não pode ser usado para processar aplicativos que foram baixados da loja de aplicativos. Consulte [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição de Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) e [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição do Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
+- **Use um aplicativo "encapsulado" ** (Android e iOS): aplicativos que são empacotados novamente para incluir o SDK do aplicativo usando a Ferramenta de Disposição do Aplicativo do Microsoft Intune. Normalmente, essa ferramenta é usada para processar aplicativos da empresa criados internamente. Ele não pode ser usado para processar aplicativos que foram baixados da loja de aplicativos. Consulte [Preparar aplicativos iOS para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição de Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) e [Preparar aplicativos Android para o gerenciamento de aplicativos móveis com a Ferramenta de Disposição do Aplicativo do Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
 
 ## <a name="create-and-deploy-an-app-in-configuration-manager-with-a-mobile-app-management-policy"></a>Criar e implantar um aplicativo no Configuration Manager com uma política de gerenciamento do aplicativo móvel
 
@@ -83,4 +80,3 @@ Para obter informações gerais sobre como monitorar aplicativos, veja [Como mon
 ## <a name="where-to-go-from-here"></a>Onde ir daqui
 
 Depois de criar e implantar um aplicativo associado a uma política de MAM, você pode saber mais sobre o [experiência do usuário final de MAM](end-user-experience-mam.md). Isso ajudará a se preparar para problemas que possam surgir.
-
