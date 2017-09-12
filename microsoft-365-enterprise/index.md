@@ -1,34 +1,31 @@
 ---
-title: "Documentação do Microsoft 365 Enterprise | Microsoft Docs"
+title: "Visão geral dos serviços do Microsoft 365 Enterprise | Microsoft Docs"
 description: "Este conteúdo oferece uma visão geral do Microsoft 365 Enterprise e recomendações para uso empresarial."
 author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 08/01/2017
+ms.date: 08/23/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: e5d8dd792837456b7e760653c6574dc87f173128
-ms.sourcegitcommit: 3bfff5fcd8746d8d6ea6e2d494ca8742f54e973f
+ms.openlocfilehash: fd15e4215ec60a510cb5d6892b53f11f94fec84d
+ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/09/2017
 ---
-# <a name="microsoft-365-enterprise-documentation"></a>Documentação do Microsoft 365 Enterprise
-O Microsoft 365 Enterprise é uma solução completa e inteligente que inclui o Office 365, o Windows 10 e o EMS (Enterprise Mobility + Security), que capacita todos para serem criativos e trabalharem juntos, com segurança. 
-
-O Microsoft 365 Enterprise foi desenvolvido para grandes organizações e integra o Office 365 Enterprise, o Windows 10 Enterprise e o EMS. 
-
+# <a name="microsoft-365-enterprise-services-and-concepts"></a>Serviços e conceitos do Microsoft 365 Enterprise
+O Microsoft 365 Enterprise foi desenvolvido para grandes organizações e integra o Office 365 Enterprise, o Windows 10 Enterprise e o EMS.
 
 ## <a name="microsoft-365-services-overview"></a>Visão geral dos serviços do Microsoft 365
 
 Esta seção oferece uma visão geral dos serviços do EMS e do Office 365 incluídos no Microsoft 365 Enterprise e também apresenta os conceitos básicos necessários para entender como usá-lo para suas necessidades organizacionais. Esses serviços oferecem funcionalidades que permitem que os administradores de empresa da nuvem da Microsoft não só protejam as identidades e os dispositivos dos funcionários da empresa, como também controlem o acesso aos próprios dados da empresa; tanto em trânsito quanto em repouso.
- 
+
 |Serviço|Descrição|
 |-------|-----------|
 |[Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)|O Azure AD oferece um pacote completo de funcionalidades de gerenciamento de identidade, incluindo autenticação multifator, registro de dispositivos, gerenciamento de senha de autoatendimento, gerenciamento de grupo de autoatendimento, controle de acesso baseado em função, monitoramento de uso do aplicativo, alerta e monitoramento avançados de segurança e de auditoria.|
-|[Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-identityprotection)|Esse serviço permite que você detecte possíveis vulnerabilidades que afetam as identidades da sua organização e configure respostas automatizadas por meio de políticas de acesso condicional para risco do usuário e risco de conexão baixo, médio e alto.|
+|[Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection)|Esse serviço permite que você detecte possíveis vulnerabilidades que afetam as identidades da sua organização e configure respostas automatizadas por meio de políticas de acesso condicional para risco do usuário e risco de conexão baixo, médio e alto.|
 |[Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)|Esse serviço permite que as organizações minimizem o número de pessoas que têm acesso persistente a operações privilegiadas. Para isso, o Azure AD Privileged Identity Management apresenta o conceito de um administrador qualificado. Os administradores qualificados devem ser usuários que precisam de acesso privilegiado de vez em quando, mas não todos os dias. A função ficará inativa até o usuário precisar de acesso. Depois de concluir um processo de ativação, ele se tornará um administrador ativo durante um período de tempo predeterminado.|
 |[Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection)| A Proteção de Informações do Azure é uma solução baseada em nuvem, fornecida como parte da oferta do EMS E5, que ajuda uma organização a classificar, rotular e proteger seus documentos e emails. Isso pode ser feito automaticamente por administradores que definem regras e condições, manualmente pelos usuários, ou uma combinação na qual os usuários recebem as recomendações. Você utiliza rótulos da Proteção de Informações do Azure para aplicar classificação a documentos e emails. Quando você faz isso, a classificação fica identificável sempre, independentemente de onde os dados são armazenados ou com quem eles são compartilhados. <br><br>As configurações da política de Proteção de Informações do Azure são protegidas pelo [Azure Rights Management](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms). De forma semelhante à maneira como os rótulos são aplicados, a proteção aplicada usando o Rights Management permanece com os documentos e emails, independentemente do local — dentro ou fora de sua organização, redes, servidores de arquivos e aplicativos.|
 |[Microsoft Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)|O Intune é um serviço de EMM (gerenciamento de mobilidade empresarial) baseado em nuvem que ajuda a habilitar sua força de trabalho a ser produtiva enquanto mantém dados corporativos protegidos. O Intune integra-se completamente ao Azure AD para oferecer controle de acesso e de identidade e é usado para gerenciamento de dispositivos e de aplicativos. As funcionalidades do [Gerenciamento de dispositivo do Intune](https://docs.microsoft.com/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) são usadas para configurar e proteger os dispositivos do seu usuário, incluindo computadores Windows. <br><br>As funcionalidades do gerenciamento de dispositivo do Intune dão suporte ao registro [BYOD (Traga seu próprio dispositivo)](https://docs.microsoft.com/enterprise-mobility-security/solutions/enable-byod), que permite que os usuários registrem seus celulares, tablets ou computadores, e ao registro [COD (Dispositivo de propriedade corporativa)](https://docs.microsoft.com/enterprise-mobility-security/solutions/issue-corp-devices) que habilita cenários de gerenciamento como registro automático, dispositivos compartilhados ou configurações de requisito de registro pré-autorizado. Para ter mais segurança, ainda é possível exigir que a MFA registre um dispositivo. Depois de registrado no gerenciamento, o Intune poderá configurar os recursos e as configurações do dispositivo para habilitar o acesso seguro aos recursos da empresa.|
@@ -49,12 +46,16 @@ Os conceitos básicos e as funcionalidades do EMS com as quais você deve estar 
 |Agentes de identidade da Microsoft|A Microsoft fornece aplicativos para toda plataforma móvel que permitem a passagem de credenciais entre aplicativos de diferentes fornecedores e permitem recursos aprimorados especiais que exigem um local seguro único do qual validar as credenciais. Nós os chamamos de agentes. No iOS e no Android, esses agentes são fornecidos por meio dos aplicativos Microsoft Authenticator e Portal da Empresa do Intune. No Windows 10, essa funcionalidade é fornecida por um seletor de contas incorporado ao sistema operacional, conhecido tecnicamente como Agente de Autenticação da Web.|
 
 ## <a name="security-best-practices-and-recommendations"></a>Recomendações e melhores práticas de segurança
+Embora não haja uma única melhor recomendação para todos os ambientes de clientes, o artigo [Políticas de segurança e configurações recomendadas](microsoft-365-policies-configurations.md) apresenta conceitos importantes de melhores práticas para serem compreendidos. Este artigo também descreve as recomendações gerais da Microsoft sobre como aplicar a política e a configuração na nuvem da Microsoft para garantir que os seus colaboradores estejam protegidos e também sejam produtivos.
 
 ### <a name="baseline-recommended-security-policies-and-configurations"></a>Configurações e políticas de segurança recomendadas de linha de base
-Embora não haja uma melhor recomendação única para todos os ambientes de cliente, as melhores práticas para [configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md) descrevem recomendações gerais da Microsoft sobre como aplicar as definições de configuração e de política do Microsoft 365 Enterprise na nuvem da Microsoft para garantir que seus funcionários estejam protegidos e sejam produtivos. 
+A [identidade geral e as recomendações da política de acesso do dispositivo](identity-access-policies.md) descrevem as políticas normalmente recomendadas para ajudar você a proteger o Microsoft 365 Enterprise. Também são abordadas as configurações padrão do cliente da plataforma que recomendamos para oferecer a melhor experiência SSO para seus usuários, bem como os pré-requisitos técnicos para acesso condicional.
 
-### <a name="secure-email-recommended-policies"></a>Políticas recomendadas de email seguro
-As [políticas recomendadas de email seguro](secure-email-recommended-policies.md) neste artigo fornecem recomendações de política para ajudar a proteger o email organizacional e os clientes de email que dão suporte à Autenticação Moderna e ao Acesso Condicional. Também são abordadas as configurações padrão do cliente da plataforma que recomendamos para oferecer a melhor experiência SSO para seus usuários, bem como os pré-requisitos técnicos para acesso condicional.
+### <a name="exchange-online-access-policies"></a>Políticas de acesso do Exchange Online
+As [recomendações de política para ajudar a proteger emails](secure-email-recommended-policies.md) fornecem recomendações da Microsoft para ajudar você a proteger o email organizacional e os clientes de email que dão suporte à Autenticação Moderna e ao Acesso Condicional. Essas recomendações são um complemento à [identidade comum e às recomendações da política de acesso](identity-access-policies.md).
+
+### <a name="sharepoint-online-access-policies"></a>Políticas de acesso do SharePoint Online
+As recomendações são fornecidas para [proteger o acesso aos arquivos do SharePoint Online](sharepoint-file-access-policies.md), além da [identidade comum e das recomendações da política de acesso](identity-access-policies.md) e das [recomendações de política para ajudar a proteger emails](secure-email-recommended-policies.md). Este artigo descreve as novas políticas que devem ser criadas e como as políticas existentes devem ser corrigidas para proteger o email do Exchange Online e o acesso aos arquivos do SharePoint Online.
 
 ## <a name="learn-more"></a>Saiba mais
-[Página do produto do Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) 
+[Página do produto do Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)
