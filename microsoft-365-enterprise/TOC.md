@@ -1,10 +1,18 @@
 # [Documentação do Microsoft 365 Enterprise](index.md)
 
-# [Políticas de segurança e configurações recomendadas](microsoft-365-policies-configurations.md)
-## [Políticas recomendadas de email seguro](secure-email-recommended-policies.md)
-### [Implantar políticas recomendadas de email seguro](secure-email-deploy-recommended-policies.md)
+# [Modelos e cartazes de arquitetura](architecture-models-posters.md)
 
-# [Proteger dados corporativos em documentos que usam suplementos do Office](office-add-ins-wip.md)
+# [Identidade e configurações de acesso ao dispositivo](microsoft-365-policies-configurations.md)
+## [Identidade comum e políticas de acesso ao dispositivo](identity-access-policies.md)
+## [Políticas de acesso do Exchange Online](secure-email-recommended-policies.md)
+## [Políticas de acesso do SharePoint Online](sharepoint-file-access-policies.md)
 
-# [Implantar Office 365 ProPlus com Intune](deploy-office-proplus-intune.md)
+# [Proteger sites e arquivos do SharePoint](secure-sharepoint-online-sites-and-files.md)
+## [Implantar sites para três camadas de proteção](deploy-sites-for-three-tiers-of-protection.md)
+## [Proteger arquivos com rótulos do Office 365 e com o DLP](protect-files-with-o365-labels-dlp.md)
+## [Proteger arquivos com o AIP](protect-files-with-aip.md)
+## [Proteger os sites do SharePoint Online em um ambiente de desenvolvimento/teste](secure-sharepoint-online-sites-dev-test.md)
+## [Usar o WIP com arquivos executando suplementos do Office](office-add-ins-wip.md)
 
+# [Soluções específicas do setor]()
+## [Orientação de segurança para campanhas políticas e organizações sem fins lucrativos](microsoft-security-guidance.md)
