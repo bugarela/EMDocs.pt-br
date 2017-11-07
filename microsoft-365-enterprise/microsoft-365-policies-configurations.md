@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 869fd439cfd1dc1fa74bf108341fec18929d92a3
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: d08bc136e3842e8384e5c562df1a2fb543786ced
+ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="recommended-security-policies-and-configurations"></a>Políticas de segurança e configurações recomendadas
 
@@ -48,7 +48,6 @@ Para começar a autenticação, o cliente envia as credenciais (como nome de usu
 Depois que o artefato de SSO e/ou as credenciais tiverem sido verificadas no Azure AD e todas as políticas aplicáveis tiverem sido avaliadas, um token de acesso para o provedor de recursos (Office 365 no diagrama acima) será emitido. O Azure AD também emite um artefato de SSO como parte da resposta para permitir que os clientes atinjam o SSO em solicitações subsequentes. O cliente armazena o artefato de SSO e envia o token de acesso como uma prova de identidade para o provedor de recursos. Depois que o Office 365 verifica o token de acesso e executa as verificações necessárias, ele concede ao cliente o acesso aos documentos.
 
 #### <a name="single-sign-on-sso-refresh-tokens"></a>Tokens de atualização de SSO (logon único)
-
 O SSO pode ser obtido de várias maneiras. Por exemplo, os cookies de um provedor de identidade podem ser usados como o artefato de SSO para armazenar o estado de entrada para um usuário em um navegador. Futuras tentativas de entrar no modo silencioso (sem nenhum prompt de credenciais) para aplicativos que usam o mesmo provedor de identidade são possíveis então.
 
 Quando um usuário se autentica com o Azure AD, uma sessão de SSO é estabelecida com o navegador do usuário e o Azure AD. O token do SSO, na forma de um cookie, representa essa sessão. O Azure AD usa dois tipos de tokens de sessão de SSO: persistentes e não persistentes. Os tokens de sessão persistentes são armazenados como cookies persistentes por navegadores quando a caixa de seleção **Manter-me conectado** é selecionada durante a entrada. Os tokens de sessão não persistentes são armazenados como cookies de sessão e são destruídos quando o navegador é fechado.
