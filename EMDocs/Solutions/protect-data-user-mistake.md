@@ -13,11 +13,11 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-ms.openlocfilehash: 4c6c81cd9d59f402c1ce458e54063e2986324c5b
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 5836807982072f9115e49db17c8c6560c23d2c11
+ms.sourcegitcommit: a7fd3ad8a351e9cc72ea37486342a273ed29b883
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="protect-data-against-user-mistakes"></a>Proteger dados contra erros do usuário
 
@@ -60,15 +60,15 @@ Siga estas etapas para implementar o [Cloud App Security](https://technet.micros
 
 Os aplicativos em nuvem estão sendo usados pela maioria das empresas de hoje, e logo chegaremos a um tempo em que mais dados corporativos serão armazenados na nuvem do que no local. Muitas vezes, os usuários usarão aplicativos SaaS de seus dispositivos sem permissão ou conhecimento da empresa, o que causará um aumento no uso de TI sombra da nuvem. Essa conclusão vem de estudos que mostram que 80% dos funcionários admitiram usar aplicativos SaaS não aprovados para uso corporativo. O [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx) fornece uma visão geral detalhada de todos os aplicativos em nuvem que estão sendo usados na organização. Ele identifica todos os usuários e os endereços IP que acessam um aplicativo. Ele também faz uma avaliação de riscos para mais de 13.000 aplicativos de nuvem e fornece uma pontuação de risco automatizada para cada aplicativo com base em mais de 60 parâmetros. 
 
-Siga a etapa 1 para descobrir os aplicativos em nuvem no seu ambiente e implementar políticas para controlá-los. A segunda etapa dessa solução implementará a [Proteção de Informações do Azure](https://docs.microsoft.com/en-us/information-protection/get-started/requirements) para proteger e classificar dados, o que pode reduzir erros dos usuários e o uso incorreto de dados.
+Siga a etapa 1 para descobrir os aplicativos em nuvem no seu ambiente e implementar políticas para controlá-los. A segunda etapa dessa solução implementará a [Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/get-started/requirements) para proteger e classificar dados, o que pode reduzir erros dos usuários e o uso incorreto de dados.
 
 ### <a name="step-1-discover-cloud-apps-in-use-and-control-them-with-policy"></a>Etapa 1: Descobrir aplicativos na nuvem em uso e controlá-los com política
 
-A primeira etapa para usar o Cloud App Security é [descobrir seus aplicativos](https://technet.microsoft.com/en-us/library/mt657567.aspx). Se você ignorar essa etapa, não haverá aplicativos a serem analisados e restringidos usando políticas. Se você não tiver iniciado o processo de descoberta, a opção Descobrir no painel do Cloud App Security mostrará a seguinte mensagem:
+A primeira etapa para usar o Cloud App Security é [descobrir seus aplicativos](https://technet.microsoft.com/library/mt657567.aspx). Se você ignorar essa etapa, não haverá aplicativos a serem analisados e restringidos usando políticas. Se você não tiver iniciado o processo de descoberta, a opção Descobrir no painel do Cloud App Security mostrará a seguinte mensagem:
 
 ![Captura de tela mostrando a mensagem que o usuário ainda não carregou um log do Cloud Discovery.](./media/protect-data-user-mistake/protect-data-user-mistake-fig2-1.png)
 
-Descobrir quais aplicativos estão em uso em toda a organização é a primeira etapa para garantir que dados corporativos confidenciais sejam protegidos. Assim que o processo de descoberta for finalizado, você poderá ver uma lista de aplicativos que foram descobertos no [painel do Cloud Discovery](https://technet.microsoft.com/en-us/library/mt727946.aspx).
+Descobrir quais aplicativos estão em uso em toda a organização é a primeira etapa para garantir que dados corporativos confidenciais sejam protegidos. Assim que o processo de descoberta for finalizado, você poderá ver uma lista de aplicativos que foram descobertos no [painel do Cloud Discovery](https://technet.microsoft.com/library/mt727946.aspx).
 
 ![Captura de tela mostrando o painel do Cloud Discovery e uma lista de aplicativos que foram descobertos.](./media/protect-data-user-mistake/protect-data-user-mistake-fig3.png)
 
@@ -88,7 +88,7 @@ Nesse caso específico, há três correspondências para essa política, o que s
 
 ### <a name="step-2-protect-data-on-premises-or-in-the-cloud"></a>Etapa 2: Proteger dados no local ou na nuvem
 
-Antes de implementar essa solução, examine os requisitos para a [Proteção de Informações do Azure](https://docs.microsoft.com/en-us/information-protection/get-started/infoprotect-tutorial-step1).
+Antes de implementar essa solução, examine os requisitos para a [Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/get-started/infoprotect-tutorial-step1).
 
 A Proteção de Informações do Microsoft Azure ajuda você a classificar e rotular os dados no momento da criação. A Proteção (criptografia + autenticação + direitos de uso) pode ser então aplicada aos dados confidenciais. Os rótulos de classificação e a proteção são persistentes, acompanhando os dados para que eles possam ser identificados e protegidos o tempo todo, independentemente de onde são armazenados ou com quem são compartilhados. Ao planejar a implementação de rótulos e políticas de proteção de informações, use as seguintes diretrizes:
 
@@ -109,15 +109,15 @@ No exemplo a seguir, você pode ver sub-rótulos personalizados que foram criado
 ![Captura de tela mostrando os sub-rótulos personalizados que foram criados sob o rótulo "Segredo". ](./media/protect-data-user-mistake/protect-data-user-mistake-fig7.png)
 
 
-Depois de definir como usará os rótulos (padrão ou personalizados), [configure um rótulo para aplicar a proteção do Rights Management](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
+Depois de definir como usará os rótulos (padrão ou personalizados), [configure um rótulo para aplicar a proteção do Rights Management](https://docs.microsoft.com/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
 
 Com a Proteção de Informações do Azure, controles de proteção e classificação de dados são integrados ao Office e a outros aplicativos comuns. Essa integração oferece opções simples de um clique para proteger os dados com que os usuários estão trabalhando. No portal do Azure, um administrador pode aplicar padrões predefinidos, como "Números de cartão de crédito" ou "Números do seguro social dos EUA", como uma condição para classificação automática. Como alternativa, ele pode usar padrões de texto e expressões regulares para definir uma cadeia de caracteres ou um padrão personalizado.
 
-Quando configura condições para um rótulo, você pode atribuir automaticamente um rótulo a um documento/email ou pode solicitar que os usuários selecionem o rótulo que você recomenda. Leia [Como configurar condições para classificação automática e recomendada da Proteção de Informações do Azure](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-classification) para obter mais informações sobre como fazer essa configuração.
+Quando configura condições para um rótulo, você pode atribuir automaticamente um rótulo a um documento/email ou pode solicitar que os usuários selecionem o rótulo que você recomenda. Leia [Como configurar condições para classificação automática e recomendada da Proteção de Informações do Azure](https://docs.microsoft.com/rights-management/information-protection/configure-policy-classification) para obter mais informações sobre como fazer essa configuração.
 
 > [!NOTE]
-> Para saber mais sobre classificação e proteção de dados, leia [Secure data using classification, labeling and protection](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario) (Proteger dados usando classificação, rotulagem e proteção).
+> Para saber mais sobre classificação e proteção de dados, leia [Secure data using classification, labeling and protection](https://docs.microsoft.com/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario) (Proteger dados usando classificação, rotulagem e proteção).
 
 ## <a name="next-steps"></a>Próximas etapas
 
-O Microsoft Cloud App Security fornece uma solução abrangente para descobrir, monitorar, controlar e proteger os dados em aplicativos de nuvem. O Cloud App Security ajuda os administradores de TI a criptografar diretamente do console do Cloud App Security usando a Proteção de Informações do Azure. Por meio da integração com a Proteção de Informações do Azure, agora você pode aplicar proteção genérica a arquivos armazenados no SharePoint Online e no One Drive for Business se você vê uma necessidade. Para obter mais informações sobre a integração entre o Cloud App Security e a Proteção de Informações do Azure, leia [Integração da Proteção de informações do Azure](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
+O Microsoft Cloud App Security fornece uma solução abrangente para descobrir, monitorar, controlar e proteger os dados em aplicativos de nuvem. O Cloud App Security ajuda os administradores de TI a criptografar diretamente do console do Cloud App Security usando a Proteção de Informações do Azure. Por meio da integração com a Proteção de Informações do Azure, agora você pode aplicar proteção genérica a arquivos armazenados no SharePoint Online e no One Drive for Business se você vê uma necessidade. Para obter mais informações sobre a integração entre o Cloud App Security e a Proteção de Informações do Azure, leia [Integração da Proteção de informações do Azure](https://docs.microsoft.com/cloud-app-security/azip-integration).
