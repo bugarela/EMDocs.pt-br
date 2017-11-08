@@ -1,19 +1,19 @@
 ---
 title: "Visão geral das políticas de acesso do dispositivo e identidade – Microsoft 365 Enterprise | Microsoft Docs"
 description: "Descreve as políticas para as recomendações da Microsoft sobre como aplicar as configurações e políticas de dispositivo e identidade."
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
-ms.author: jeffgilb
+ms.date: 10/27/2017
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 36cf308ea2e00b3c291b0e23f5fd3250136eaaf2
-ms.sourcegitcommit: 0e0a15476e3bbd2d4ac6101c2cedd02e082ee25d
+ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
+ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Recomendações gerais de política de acesso de dispositivo e identidade
 Este artigo descreve as políticas recomendadas comuns para ajudá-lo a proteger o Microsoft 365 Enterprise. Também são abordadas as configurações padrão do cliente da plataforma que recomendamos para oferecer a melhor experiência SSO para seus usuários, bem como os pré-requisitos técnicos para acesso condicional.
@@ -54,7 +54,7 @@ Para acessar os documentos protegidos pela Proteção de Informações do Azure,
 
 
 ### <a name="recommended-client-platforms-when-securing-documents"></a>Plataformas de cliente recomendadas ao proteger documentos
-Os seguintes clientes são recomendados quando uma política de documentos seguros é aplicada. 
+Os seguintes clientes são recomendados quando uma política de documentos seguros é aplicada.
 
 |Plataforma|Word/Excel/PowerPoint|OneNote|Aplicativo OneDrive|Aplicativo do SharePoint|Cliente de sincronização do OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
@@ -73,7 +73,7 @@ Os seguintes clientes são recomendados quando uma política de documentos segur
 > As seguintes recomendações se baseiam em três diferentes camadas de segurança e proteção para seu email que podem ser aplicadas com base na granularidade de suas necessidades: **linha de base**, **confidencial** e **altamente controlada**. Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
 
 
-## <a name="baseline"></a>Linha de base 
+## <a name="baseline"></a>Linha de base
 Esta seção descreve as recomendações para a camada de linha de base de dados, identidade e proteção do dispositivo. Essas recomendações devem atender às necessidades de proteção padrão de muitas organizações.
 
 >[!NOTE]
@@ -82,7 +82,7 @@ Esta seção descreve as recomendações para a camada de linha de base de dados
 
 ### <a name="conditional-access-policy-settings"></a>Configurações de política de acesso condicional
 
-#### <a name="identity-protection"></a>Proteção de identidade 
+#### <a name="identity-protection"></a>Proteção de identidade
 Você pode fornecer a experiência de SSO (logon único) dos usuários conforme descrito nas seções anteriores. Você só precisará intervir quando necessário com base em [eventos de risco](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events).  
 
 * MFA necessária com base no risco de entrada **médio ou acima**
@@ -92,7 +92,7 @@ Você pode fornecer a experiência de SSO (logon único) dos usuários conforme 
 >A [sincronização de senha](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization) e a [redefinição de senha de autoatendimento](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) são necessárias para esta recomendação de política.
 >
 
-#### <a name="data-loss-prevention"></a>Prevenção de perda de dados 
+#### <a name="data-loss-prevention"></a>Prevenção de perda de dados
 A meta de suas políticas de gerenciamento de aplicativo e dispositivo é proteger contra a perda de dados no caso de um dispositivo perdido ou roubado. Você pode fazer isso garantindo que o acesso aos dados está protegido por um PIN, que os dados estão criptografados no dispositivo e que o dispositivo não está comprometido.
 
 |Recomendação de política|Descrição|
@@ -107,19 +107,19 @@ A meta de suas políticas de gerenciamento de aplicativo e dispositivo é proteg
 
 Para a maioria das organizações, é importante poder definir as expectativas dos usuários em relação a quando e para quais condições eles deverão se conectar no Office 365 para acessar seu email.  
 
-Os usuários normalmente se beneficiam do SSO (logo único), exceto durante as seguintes situações: 
+Os usuários normalmente se beneficiam do SSO (logo único), exceto durante as seguintes situações:
 * Ao solicitar tokens de autenticação para o Exchange Online:
   * Os usuários podem ser solicitados a utilizar a MFA sempre que um risco de entrada **médio ou acima** é detectado e os usuários ainda não executaram a MFA em suas sessões atuais.  
-  * Os usuários precisarão usar aplicativos de email que dão suporte ao SDK de Proteção de Aplicativo do Intune ou acessar os emails de dispositivos ingressados no domínio do AD ou em conformidade com o Intune. 
+  * Os usuários precisarão usar aplicativos de email que dão suporte ao SDK de Proteção de Aplicativo do Intune ou acessar os emails de dispositivos ingressados no domínio do AD ou em conformidade com o Intune.
 * Quando usuários em risco entram e concluem com sucesso a MFA, é solicitado que eles alterem a senha.
 
 ## <a name="sensitive"></a>Confidencial
-Esta seção descreve as recomendações para a camada confidencial de dados, identidade e proteção do dispositivo. Essas recomendações são para clientes que têm um subconjunto de dados que devem ser protegidos em níveis mais altos ou exigem que todos os dados sejam protegidos nesses níveis mais altos. 
+Esta seção descreve as recomendações para a camada confidencial de dados, identidade e proteção do dispositivo. Essas recomendações são para clientes que têm um subconjunto de dados que devem ser protegidos em níveis mais altos ou exigem que todos os dados sejam protegidos nesses níveis mais altos.
 
-Você pode aplicar mais proteção a todos ou conjuntos de dados específicos em seu ambiente do Office 365. Por exemplo, você pode aplicar políticas para garantir que os dados confidenciais serão compartilhados apenas entre aplicativos protegidos para evitar a perda de dados. É recomendável proteger identidades e dispositivos que acessam dados confidenciais com níveis compatíveis de segurança. 
+Você pode aplicar mais proteção a todos ou conjuntos de dados específicos em seu ambiente do Office 365. Por exemplo, você pode aplicar políticas para garantir que os dados confidenciais serão compartilhados apenas entre aplicativos protegidos para evitar a perda de dados. É recomendável proteger identidades e dispositivos que acessam dados confidenciais com níveis compatíveis de segurança.
 
 ### <a name="conditional-access-policy-settings"></a>Configurações de política de acesso condicional
-#### <a name="identity-protection"></a>Proteção de identidade 
+#### <a name="identity-protection"></a>Proteção de identidade
 
 Você pode fornecer a experiência de SSO (logon único) dos usuários conforme descrito nas seções anteriores. Você só precisará intervir quando necessário com base em [eventos de risco](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events).   
 
@@ -130,7 +130,7 @@ Você pode fornecer a experiência de SSO (logon único) dos usuários conforme 
 >A [sincronização de senha](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization) e a [redefinição de senha de autoatendimento](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) são necessárias para esta recomendação de política.
 >
 
-#### <a name="data-loss-prevention"></a>Prevenção de perda de dados 
+#### <a name="data-loss-prevention"></a>Prevenção de perda de dados
 
 A meta dessas políticas de gerenciamento de aplicativo e dispositivo é proteger contra a perda de dados no caso de um dispositivo perdido ou roubado. Você pode fazer isso garantindo que o acesso aos dados está protegido por um PIN, que os dados estão criptografados no dispositivo e que o dispositivo não está comprometido.
 
@@ -143,19 +143,19 @@ A meta dessas políticas de gerenciamento de aplicativo e dispositivo é protege
 |**Aplicar uma Política de Proteção de Aplicativo do Intune para aplicativos gerenciados em execução em dispositivos não gerenciados**|Aplique uma Política de Proteção de Aplicativo do Intune para aplicativos gerenciados em execução em dispositivos móveis pessoais não gerenciados para exigir: um PIN com no mínimo 6 caracteres, criptografia de dados e que o dispositivo esteja íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade).|
 
 ### <a name="user-impact"></a>Impacto do usuário
-Para a maioria das organizações, é importante poder definir as expectativas dos usuários específicas para quando e sob quais condições é esperado que eles entrem no email do Office 365. 
+Para a maioria das organizações, é importante poder definir as expectativas dos usuários específicas para quando e sob quais condições é esperado que eles entrem no email do Office 365.
 
-Os usuários normalmente se beneficiam do SSO (logo único), exceto nas seguintes situações: 
+Os usuários normalmente se beneficiam do SSO (logo único), exceto nas seguintes situações:
 * Ao solicitar tokens de autenticação para o Exchange Online:
   * Os usuários serão solicitados a utilizar a MFA sempre que um risco de entrada **baixo ou acima** é detectado e os usuários ainda não executaram a MFA em suas sessões atuais.  
-  * Os usuários precisarão usar aplicativos de email que dão suporte ao SDK de Proteção de Aplicativo do Intune ou acessar os emails de dispositivos ingressados no domínio do AD ou em conformidade com o Intune. 
+  * Os usuários precisarão usar aplicativos de email que dão suporte ao SDK de Proteção de Aplicativo do Intune ou acessar os emails de dispositivos ingressados no domínio do AD ou em conformidade com o Intune.
 * Quando usuários em risco entram e concluem com sucesso a MFA, é solicitado que eles alterem a senha.
 
 ## <a name="highly-regulated"></a>Altamente controlada
-Esta seção descreve as recomendações para a camada altamente controlada de dados, identidade e proteção do dispositivo. Essas recomendações são para clientes que podem ter uma quantidade muito pequena de dados altamente confidenciais, segredos comerciais ou dados controlados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos. 
+Esta seção descreve as recomendações para a camada altamente controlada de dados, identidade e proteção do dispositivo. Essas recomendações são para clientes que podem ter uma quantidade muito pequena de dados altamente confidenciais, segredos comerciais ou dados controlados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
 
 ### <a name="conditional-access-policy-settings"></a>Configurações de política de acesso condicional
-#### <a name="identity-protection"></a>Proteção de identidade 
+#### <a name="identity-protection"></a>Proteção de identidade
 
 Para a camada altamente controlada, a Microsoft recomenda a aplicação da MFA para todas as sessões.
 * Exigir a MFA para todas as novas sessões
@@ -178,15 +178,15 @@ Para a camada altamente controlada, recomendamos exigir aplicativos que dão sup
 |**Aplicar uma política de conformidade do dispositivo do Intune em dispositivos gerenciados**|Aplique uma política de conformidade de dispositivo do Intune para dispositivos móveis corporativos gerenciados e computadores gerenciados pelo Intune que exigem: um PIN com no mínimo seis caracteres, criptografia de dispositivo, um dispositivo íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade) e, se disponível, exija dispositivos que são de Baixo risco conforme determinado por um MTP de terceiros como o Lookout ou SkyCure.|
 
 ### <a name="user-impact"></a>Impacto do usuário
-Para a maioria das organizações, é importante poder definir as expectativas dos usuários específicas para quando e sob quais condições é esperado que eles entrem nos arquivos do Office 365. 
+Para a maioria das organizações, é importante poder definir as expectativas dos usuários específicas para quando e sob quais condições é esperado que eles entrem nos arquivos do Office 365.
 
-* Tempo de vida máximo de uma sessão de logon único é de um dia. Será solicitado que os usuários se autentiquem novamente com o MFA após a sessão expirar.
+* Os usuários configurados como altamente regulamentados deverão se autenticar novamente com o MFA depois que a sessão expirar.
 * Quando usuários em risco entrarem, será solicitado que eles alterem sua senha após concluir a MFA.
 * Ao solicitar tokens de autenticação para o Exchange Online:
   * Será solicitado que os usuários realizem a MFA sempre que iniciarem uma nova sessão.  
   * Será exigido que os usuários usem aplicativos de email que dão suporte ao SDK de Proteção de Aplicativo do Intune
-  * Será exigido que os usuários acessem emails de dispositivos ingressados em domínio de AD ou em conformidade do Intune. 
- 
+  * Será exigido que os usuários acessem emails de dispositivos ingressados em domínio de AD ou em conformidade do Intune.
+
 ## <a name="next-steps"></a>Próximas etapas
 
 [Saiba mais sobre recomendações de política para proteger o email](secure-email-recommended-policies.md)
