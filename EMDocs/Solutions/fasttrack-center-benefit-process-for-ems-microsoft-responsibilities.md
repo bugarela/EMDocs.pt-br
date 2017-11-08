@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 77e668d5f638ee2e4b9a9e81a1f9181252fde8b9
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
+ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="microsoft-responsibilities"></a>Responsabilidades da Microsoft
 
@@ -109,7 +109,16 @@ Fornecimento de orientação sobre:
 -   Para um ambiente de várias florestas:
 
     -   Ao instalar a sincronização do Azure AD Connect, configure para vários cenários de floresta.
+-   Para ambientes de uma ou várias florestas:
+    -   Configuração da autenticação de passagem do Azure Active Directory, se necessário.
+    -   Configuração do logon único (SSO) contínuo do Azure Active Directory, se necessário. 
+        > [!NOTE]
+        > A autenticação de passagem do Azure Active Directory para ambientes de várias florestas é compatível quando há relações de confiança de floresta entre as florestas do Active Directory e quando o roteamento do sufixo do nome está configurado corretamente. Agentes adicionais podem ser instalados em vários servidores locais para fornecer alta disponibilidade para solicitações de conexão. 
 
+    - Para obter mais informações, consulte [Autenticação de passagem do Azure Active Directory: início rápido] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) e [Logon único contínuo do Azure Active Directory: início rápido] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
+    - Para obter mais informações sobre os limites de autenticação de passagem, consulte [Autenticação de passagem do Azure Active Directory: limitações atuais] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
+    - Para obter mais informações sobre problemas de SSO contínuo, consulte [Solucionar problemas de logon único contínuo do Azure Active Directory] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
+  
         > [!NOTE]
         > A sincronização de hash de senha e write-back de senha dão suporte a várias florestas. No entanto, não há suporte para outros cenários de write-back.
 
@@ -152,6 +161,8 @@ Fornecimento de orientação sobre a configuração de:
   - Identity Protection.
 
   - Privileged Identity Management.
+  
+  - Acesso condicional ao Azure Active Directory. 
 
   - Relatórios de uso e segurança para administradores.
 
