@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/31/2017
+ms.date: 11/16/2017
 ms.author: josephd
-ms.openlocfilehash: 8a0ff4ec1813551b35bc801f4afa1d44c21c73b0
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: b1ccd2c771592b3c57acf01938b20f48173e8e02
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Diretrizes de segurança da Microsoft para campanhas políticas, organizações sem fins lucrativos e outras organizações ágeis
 
@@ -43,15 +43,10 @@ Estas diretrizes descrevem como implementar um ambiente de nuvem seguro. As dire
 
 
 ## <a name="test-lab-guides"></a>Guias de laboratório de teste
-Para criar um ambiente de desenvolvimento/teste para esta solução, use os seguintes guias de laboratório de teste:
-* [Ambiente de desenvolvimento/teste do Office 365](https://technet.microsoft.com/library/mt736406.aspx). Crie uma assinatura de avaliação para o Office 365.
-* [O ambiente de desenvolvimento/teste do Microsoft 365 Enterprise](https://technet.microsoft.com/library/mt825155.aspx). Adicione uma assinatura de avaliação para EMS.
-* [Proteger os sites do SharePoint Online em um ambiente de desenvolvimento/teste](https://technet.microsoft.com/library/mt842552.aspx). Adicione usuários e grupos do Azure AD. Criar sites do SharePoint seguros e configurar a segurança de arquivos. Use esse ambiente para criar quatro sites de equipe do SharePoint Online com os níveis de segurança Interno, Privado, Confidencial e Altamente Confidencial.
+Para criar um ambiente de desenvolvimento/teste para esta solução, faça o seguinte:
+* [Configure grupos e usuários](https://technet.microsoft.com/library/mt493459.aspx). Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.
+* [Crie sites de equipe do SharePoint Online](https://technet.microsoft.com/library/mt842184.aspx). Crie sites de equipe do SharePoint Online públicos, privados, confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste de campanha política.
 
 
 ## <a name="next-steps"></a>Próximas etapas
-[Soluções de segurança](https://technet.microsoft.com/library/mt784690.aspx)
-
-[TLGs (Guias de Laboratório de Teste) de adoção de nuvem](https://technet.microsoft.com/library/dn635308.aspx)
-
-[Recursos de arquitetura de TI do Microsoft Cloud](https://technet.microsoft.com/library/dn919927.aspx)
+[Consulte soluções de segurança adicionais](https://technet.microsoft.com/library/mt784690.aspx)
