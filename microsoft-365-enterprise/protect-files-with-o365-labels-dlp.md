@@ -1,5 +1,5 @@
 ---
-title: "Proteger arquivos com rótulos do Office 365 e prevenção de perda de dados | Microsoft Docs"
+title: "Proteger arquivos do SharePoint Online com rótulos e prevenção de perda de dados do Office 365| Microsoft Docs"
 description: "Aplique rótulos do Office 365 e políticas de DLP (prevenção de perda de dados) aos sites de equipe do SharePoint Online com vários níveis de proteção de informações."
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
@@ -13,15 +13,15 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/15/2017
 ms.author: josephd
-ms.openlocfilehash: e9138c2c563c8081f075ffa3e65ecf917456c23c
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: ec400ac466aeb5a20473c00f7a7df488e4b23725
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="protect-files-with-office-365-labels-and-data-loss-prevention"></a>Proteger arquivos com rótulos do Office 365 e prevenção de perda de dados
+# <a name="protect-sharepoint-online-files-with-office-365-labels-and-data-loss-prevention"></a>Proteger arquivos do SharePoint Online com rótulos do Office 365 e prevenção de perda de dados
 
 ## <a name="introduction"></a>Introdução
 Use as etapas neste artigo para projetar e implantar políticas de DLP (prevenção de perda de dados) e rótulos do Office 365 para sites de equipe do SharePoint Online de linha de base, confidenciais e altamente confidenciais. Para obter mais informações sobre essas três camadas de proteção, consulte [Arquivos e sites do SharePoint Online seguros](secure-sharepoint-online-sites-and-files.md).
@@ -88,9 +88,9 @@ Use estas etapas para aplicar os rótulos do Office 365 às pastas de documentos
 5. Em **Permissões e Gerenciamento**, clique em **Aplicar o rótulo aos itens nessa biblioteca**.
 6. Em **Configurações – Aplicar Rótulo**, selecione o rótulo adequado e clique em **Salvar**.
 7. Feche a guia para o site do SharePoint Online.
-8. Repita as etapas acima para atribuir os rótulos do Office 365 aos seus sites do SharePoint Online adicionais.
+8. Repita as etapas 3 a 8 acima para atribuir rótulos do Office 365 aos sites adicionais do SharePoint Online.
 
-Abaixo está a configuração resultante.
+Aqui está a configuração resultante.
 
  ![Proteção de Linha de Base](./media/protect-files-with-o365-labels-dlp/site_labels.png)
 
@@ -111,14 +111,14 @@ Use estas etapas para configurar uma política DLP que notifica os usuários qua
 12. No painel **Personalizar os tipos de informações confidenciais que deseja proteger** e clique em **Avançar**.
 13. No painel **O que deseja fazer se detectarmos informações confidenciais?**, clique em **Personalizar a dica e o email**.
 14. No painel **Personalizar dicas de política e notificações de email**, clique em **Personalizar o texto da dica da política**.
-15. Na caixa de texto, digite ou cole o seguinte e clique em **OK**.
- * Para compartilhar com um usuário de fora da organização, baixe o arquivo e abra-o. Clique em **Arquivo**, em seguida, **Proteger Documento** e **Criptografar com Senha** e especifique uma senha forte. Envie a senha em um email separado ou outros meios de comunicação.
+15. Na caixa de texto, digite ou cole o seguinte:
+ * Para compartilhar com um usuário de fora da organização, baixe o arquivo e abra-o. Clique em Arquivo, em seguida, Proteger Documento e Criptografar com Senha e especifique uma senha forte. Envie a senha em um email separado ou outros meios de comunicação.
  * Digite ou cole em sua própria dica de política que instrui os usuários sobre como compartilhar um arquivo fora da organização.
-16. No painel **O que deseja fazer se detectarmos informações confidenciais?**, desmarque a caixa de seleção **Impedir que as pessoas compartilhem e restringir o acesso ao conteúdo compartilhado** e clique em **Avançar**.
+16. Clique em **OK** no painel **O que você quer fazer se detectamos informações confidenciais?**, desmarque a caixa de seleção **Impedir que as pessoas compartilhem e restringir o acesso ao conteúdo compartilhado** e clique em **Avançar**.
 17. No painel **Deseja ativar a política ou testar primeiro?**, clique em **Yes** para ativá-la imediatamente e clique em **Avançar**.
 18. No painel **Examine as configurações**, clique em **Criar** e clique em **Fechar**.
 
-Abaixo está a configuração resultante para sites de equipe do SharePoint Online confidenciais.
+Aqui está a configuração resultante dos sites confidenciais da equipe do SharePoint Online.
 
  ![Proteção Confidencial](./media/protect-files-with-o365-labels-dlp/sensitive_w_dlp.png)
 
@@ -131,32 +131,28 @@ Em seguida, use estas etapas para configurar uma política DLP que bloqueia os u
 5. No painel **Atribuir um nome à política**, digite o nome da política DLP de nível altamente confidencial em **Nome** e clique em **Avançar**.
 6. No painel **Escolher locais**, clique em **Deixe-me escolher locais específicos** e clique em **Avançar**.
 7. Na lista de locais, desabilite os locais **Email do Exchange** e **Contas do OneDrive** e clique em **Avançar**.
-8. No painel **Personalizar os tipos de informações confidenciais que deseja proteger**, clique em **Editar** e, no painel **Escolher os tipos de conteúdo a serem protegidos**, clique em **Adicionar** na caixa suspensa e clique em **Rótulos**.
-9.  No painel **Rótulos**, clique em **+ Adicionar**, selecione o **rótulo Altamente Confidencial**, clique em **Adicionar** e clique em **Concluído**.
-10. No painel **Escolher os tipos de conteúdo a serem protegidos**, clique em **Salvar** e, no painel **Personalizar os tipos de informações confidenciais que deseja proteger**, clique em **Avançar**.
-11. No painel **O que deseja fazer se detectarmos informações confidenciais?**, clique em **Personalizar a dica e o email**.
-12. No painel **Personalizar dicas de política e notificações de email**, clique em **Personalizar o texto da dica da política**.
-13. Na caixa de texto, digite ou cole o seguinte e clique em OK:
+8. No painel **Personalizar os tipos de informações confidenciais que você quer proteger** e clique em **Editar**
+9. No painel **Escolher os tipos de conteúdo para proteger**, clique em **Adicionar** na caixa suspensa e clique em **Rótulos**.
+10. No painel **Rótulos**, clique em **+ Adicionar**, selecione o **rótulo Altamente Confidencial**, clique em **Adicionar** e clique em **Concluído**.
+11. No painel **Escolher os tipos de conteúdo para proteger**, clique em **Salvar**.
+12. No painel **Personalizar os tipos de informações confidenciais que deseja proteger** e clique em **Avançar**.
+13. No painel **O que deseja fazer se detectarmos informações confidenciais?**, clique em **Personalizar a dica e o email**.
+14. No painel **Personalizar dicas de política e notificações de email**, clique em **Personalizar o texto da dica da política**.
+15. Na caixa de texto, digite ou cole o seguinte:
  * Para compartilhar com um usuário de fora da organização, baixe o arquivo e abra-o. Clique em **Arquivo**, em seguida, **Proteger Documento** e **Criptografar com Senha** e especifique uma senha forte. Envie a senha em um email separado ou outros meios de comunicação.
  * Digite ou cole em sua própria dica de política que instrui os usuários sobre como compartilhar um arquivo fora da organização.
-14. No painel **O que deseja fazer se detectarmos informações confidenciais?**, selecione **Exigir uma justificativa de negócios para substituir** e clique em **Avançar**.
-15. No painel **Deseja ativar a política ou testar primeiro?**, clique em **Yes** para ativá-la imediatamente e clique em **Avançar**.
-16. No painel **Examine as configurações**, clique em **Criar** e clique em **Fechar**.
+16. Clique em **OK**.
+17. No painel **O que deseja fazer se detectarmos informações confidenciais?**, selecione **Exigir uma justificativa de negócios para substituir** e clique em **Avançar**.
+18. No painel **Deseja ativar a política ou testar primeiro?**, clique em **Yes** para ativá-la imediatamente e clique em **Avançar**.
+19. No painel **Examine as configurações**, clique em **Criar** e clique em **Fechar**.
 
-Abaixo está a configuração resultante para sites de equipe do SharePoint Online de alta confidencialidade.
+Aqui está a configuração resultante para sites de equipe do SharePoint Online de alta confidencialidade.
 
  ![Proteção Altamente Confidencial](./media/protect-files-with-o365-labels-dlp/hc_w_dlp.png)
 
-Para obter mais informações, consulte [Proteger arquivos com AIP](protect-files-with-aip.md).
-
 ## <a name="next-steps"></a>Próximas etapas
-[Diretrizes de segurança da Microsoft para campanhas políticas, organizações sem fins lucrativos e outras organizações ágeis](https://technet.microsoft.com/library/mt493213.aspx)
 
-[Proteger sites e arquivos do SharePoint Online seguros](secure-sharepoint-online-sites-and-files.md)
-
-[Proteger os sites do SharePoint Online em um ambiente de desenvolvimento/teste](secure-sharepoint-online-sites-dev-test.md)
-
-[Adoção da nuvem e soluções híbridas](https://technet.microsoft.com/library/dn262744.aspx)
+[Proteger arquivos do SharePoint Online com a Proteção de Informações do Azure](protect-files-with-aip.md)
 
 
 

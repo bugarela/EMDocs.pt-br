@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 6c8ad1b7a297c28e52cfc5412fe40d3001d2efa3
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: b2650e0c792c32cb4bc43556be9efc30ed9609e3
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
@@ -172,7 +172,7 @@ Além das políticas acima, você deve definir as seguintes configurações de a
 
 Para garantir que o email está protegido pelas recomendações de política indicadas anteriormente para cada camada de proteção de dados e segurança, você deve criar políticas de proteção de aplicativo do Intune de dentro do Portal do Azure.
 
-Para criar uma nova política de proteção de aplicativo, faça logon no Portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até **Proteção de Aplicativo do Intune > Configurações > Política de aplicativo**.
+Para criar uma nova política de proteção de aplicativo, faça logon no portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue em **Proteção de Aplicativo do Intune > Política de aplicativo**.
 
 Adicione uma nova política (+Adicionar), conforme mostrado na captura de tela a seguir:
 
@@ -216,7 +216,7 @@ Ao concluir, lembre-se de clicar em "Criar". Repita as etapas acima e substitua 
 Crie as seguintes políticas de configuração e conformidade fazendo logon na [Portal de Gerenciamento da Microsoft (http://manage.microsoft.com)](https://manage.microsoft.com/) com suas credenciais de administrador.
 
 #### <a name="ios-email-profile"></a>Perfil de email do iOS
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > iOS > Perfil de Email (iOS 8 e posterior)**.
+No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > Política de Email do iOS**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -233,7 +233,7 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 |||Sincronizar os endereços de email usados recentemente|verdadeiro|Verificar|
 
 #### <a name="ios-app-sharing-profile"></a>Perfil de compartilhamento de aplicativo do iOS
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > iOS > Configuração Geral (iOS 8.0 e posterior)**.
+No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as políticas de configuração a seguir **Política > Políticas de Configuração > Adicionar > Política de compartilhamento do aplicativo iOS**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -251,7 +251,7 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 ||Conteúdo de mídia|Tudo|Não configurado|||
 
 #### <a name="android-email-profile"></a>Perfil de email do Android
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > iOS > Perfil de Email (Samsung KNOX Standard 4.0 e posterior)**.
+No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as políticas de configuração a seguir em **Política > Políticas de Configuração > Adicionar > Política de Email do Android**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -272,7 +272,7 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 |||Anotações|verdadeiro|Verificar|
 
 #### <a name="android-for-work-email-profile"></a>Perfil de email do Android for Work
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > iOS > Perfil de Email (Android for Work – Gmail)**.
+No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > Android > Perfil de Email (Android for Work – Gmail)**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -285,7 +285,7 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 |||Usar SSL|verdadeiro|Verificar|
 
 #### <a name="android-for-work-app-sharing-profile"></a>Perfil de compartilhamento de aplicativo do Android for Work
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > iOS > Configuração Geral (Android for Work)**.
+No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as políticas de configuração a seguir em **Política > Políticas de Configuração > Adicionar > Política de compartilhamento de aplicativos do Android for Work**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|

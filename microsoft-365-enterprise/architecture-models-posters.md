@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/14/2017
 ms.author: josephd
-ms.openlocfilehash: a8541e02b94d038fd3e97e59f052cd8158d82227
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: d6e1c50deb4b5c94859f6dcf420038251e10f4fa
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="architecture-models-and-posters-for-microsoft-365-enterprise"></a>Modelos de arquitetura e cartazes para Microsoft 365 Enterprise
 
@@ -51,9 +51,6 @@ As funcionalidades são recomendadas em três camadas — proteção de linha de
 
 [PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365 file protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365 file protection.vsdx)
 
-### <a name="windows-10-protection-solutions"></a>Soluções de proteção do Windows 10
-**Em breve**
-
 ### <a name="information-protection-for-office-365"></a>Proteção de Informações para o Office 365
 
  [![Proteção de Informações](./media/architecture-models-posters/image3.png)](https://www.microsoft.com/download/details.aspx?id=54429)
@@ -63,18 +60,19 @@ As funcionalidades são recomendadas em três camadas — proteção de linha de
 ## <a name="windows-10-and-office-365-proplus-deployment-and-change-management"></a>Gerenciamento de alterações e de implantação do Windows 10 e do Office 365 ProPlus
 O Windows 10 e o Office 365 ProPlus são otimizados para a nuvem e agregam valor às empresas além de qualquer cliente concorrente. Esses recursos mostram como arquitetar soluções de ponta a ponta para implantação, proteção e gerenciamento de alterações da área de trabalho moderna.
 
+### <a name="deploy-a-modern-and-secure-desktop"></a>Implantar uma área de trabalho protegida e moderna
+
+[![Desktop moderno e seguro](./media/architecture-models-posters/image13.png)](https://www.microsoft.com/download/details.aspx?id=55987)
+
+
+[PDF](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf) | [Visio](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) 
+
 ### <a name="change-management-for-office-365-clients"></a>Gerenciamento de alterações para clientes do Office 365
 
  [![Gerenciamento de alterações](./media/architecture-models-posters/image4.png)](https://www.microsoft.com/download/details.aspx?id=49141)
 
 
 [PDF](https://go.microsoft.com/fwlink/p/?LinkId=626681) | [Visio](https://go.microsoft.com/fwlink/p/?LinkId=626680) | [Artigo](https://technet.microsoft.com/library/mt584223.aspx) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=49141)
-
-### <a name="deploy-a-modern-and-secure-desktop"></a>Implantar uma área de trabalho protegida e moderna
-**Em breve**
-
-### <a name="deploy-office-365-proplus"></a>Implantar o Office 365 ProPlus
-**Em breve**
 
 ## <a name="microsoft-cloud-for-enterprise-architects-series"></a>Série do Microsoft Cloud para Enterprise Architects
 A Microsoft oferece o conjunto mais amplo de ofertas de nuvem com o maior potencial para integração. Esses recursos demonstram abordagens comuns para arquitetos de TI, arquitetos de soluções e tomadores de decisões de TI.
@@ -99,29 +97,20 @@ A Microsoft desenvolveu melhores práticas de ponta no design e gerenciamento de
 
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Microsoft Cloud Networking para Enterprise Architects
 A migração para a nuvem altera o volume e a natureza dos fluxos de tráfego dentro e fora de uma rede corporativa. Isso também afeta abordagens para atenuar o risco de segurança. Saiba mais sobre os componentes de infraestrutura de rede afetados pela adoção do Office 365, do Microsoft Intune ou do 365 Dynamics e pela implantação de aplicativos de linha de negócios no PaaS e IaaS do Azure.
-
-
- [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)
+ 
+|**Item**|**Descrição**|
+|:-----|:-----|
+| [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)|Este modelo contém: <ul><li>Expandindo sua rede para conectividade de nuvem</li><li>Elementos comuns de conectividade de nuvem da Microsoft</li><li>ExpressRoute para conectividade de nuvem da Microsoft</li><li>Criando rede para a SaaS da Microsoft (Office 365, Microsoft Intune e Dynamics CRM Online)</li><li>Criando rede para PaaS do Azure</li>Criando rede para IaaS do Azure<li></ul></li>Assista a [Otimizar sua rede para ofertas do Microsoft Cloud](https://mva.microsoft.com/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743), um novo curso da Microsoft Virtual Academy baseado nesse cartaz de arquitetura.|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | [Artigo](https://technet.microsoft.com/library/mt733214.aspx) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=54425)
 
-Esse modelo contém as seguintes páginas:
-
-* **Evoluindo sua rede para conectividade de nuvem** A migração para a nuvem altera o volume e a natureza dos fluxos de tráfego dentro e fora de uma rede corporativa. Isso também afeta abordagens para atenuar o risco de segurança.
-* **Elementos comuns da conectividade de rede da Microsoft** A integração da sua rede com a nuvem da Microsoft fornece o acesso ideal a uma grande variedade de serviços.
-* **ExpressRoute para conectividade de rede da Microsoft** A ExpressRoute fornece uma conexão de rede privada, dedicada de taxa de transferência alta para a nuvem da Microsoft.
-* **Criação de rede para o SaaS da Microsoft (Office 365, Microsoft Intune e Dynamics CRM Online)** A otimização de sua rede para serviços de SaaS da Microsoft requer a análise cuidadosa de sua borda de Internet, seus dispositivos cliente e suas operações típicas de TI.
-* **Criação de rede para o PaaS do Azure** A otimização da rede para aplicativos PaaS do Azure requer a largura de banda de Internet adequada e pode exigir a distribuição do tráfego de rede em vários sites ou aplicativos.
-* **Criação de rede para o IaaS do Azure** Percorra o processo de design para criar uma VNet (rede virtual) do Azure para hospedar as cargas de trabalho de TI baseadas no servidor, incluindo sub-redes, espaços de endereço, roteamento, DNS, balanceamento de carga e conectividade com sua rede local, outras VNets e com a Internet.
-
-Assista a [Otimizar sua rede para ofertas do Microsoft Cloud](https://mva.microsoft.com/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743), um novo curso da Microsoft Virtual Academy baseado nesse cartaz de arquitetura.
 
 ### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Nuvem Híbrida da Microsoft para Enterprise Architects
 Você pode usar soluções de nuvem híbrida, como um caminho para migrar seus negócios e necessidades de TI para a nuvem ou integrar as plataformas e os serviços de nuvem à sua infraestrutura local existente como parte de sua estratégia de TI geral. Saiba mais sobre as soluções híbridas para cargas de trabalho do Office 365, cargas de trabalho de PaaS e soluções de LOB de IaaS.
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-| [![Nuvem Híbrida](./media/architecture-models-posters/image8.png)](https://www.microsoft.com/download/details.aspx?id=54424)|Este modelo contém: <ul><li>Principais aplicativos móveis para negócios </li><li>Plataforma, serviços e recursos para o desenvolvimento de aplicativos móveis </li><li>Gerenciando o acesso a aplicativos baseados em nuvem e os dados de dispositivos móveis </li><li>Comparação de funcionalidades e suporte à plataforma para Office 365 MDM, Azure Active Directory Premium e Intune</ul></li>|
+| [![Nuvem Híbrida](./media/architecture-models-posters/image8.png)](https://www.microsoft.com/download/details.aspx?id=54424)|Este modelo contém: <ul><li>Visão geral da nuvem híbrida </li><li>Arquitetura de cenários de nuvem híbrida da Microsoft </li><li>Cenários de nuvem híbrida para Microsoft SaaS (Office 365) </li><li>Cenários de nuvem híbrida para a PaaS do Azure </li><li>Cenários de nuvem híbrida para a IaaS do Azure </ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842082) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842083) | [Artigo](https://technet.microsoft.com/library/mt750500.aspx) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=54424)
 
@@ -139,7 +128,7 @@ O armazenamento é uma das primeiras cargas de trabalho que as organizações mo
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-| [![Armazenamento na nuvem](./media/architecture-models-posters/image10.png)](https://www.microsoft.com/download/details.aspx?id=49552)|Este modelo contém: <ul><li>Motivos para usar o armazenamento em nuvem e os cenários principais </li><li>Opções de armazenamento de em nuvem prontas para a movimentação empacotadas com os serviços existentes, que você pode usar imediatamente e com o mínimo de configuração </li><li>Alguns assemblies exigem opções de armazenamento que você pode usar como um ponto de partida para sua solução de armazenamento com configuração ou codificação adicional para um ajuste personalizado </li><li>Crie-os do zero com os blocos de construção de armazenamento para criar sua própria solução de armazenamento ou armazenamento para seus aplicativos do zero</ul></li>|
+| [![Armazenamento na nuvem](./media/architecture-models-posters/image10.png)](https://www.microsoft.com/download/details.aspx?id=49552)|Este modelo contém: <ul><li>Motivos para usar o armazenamento em nuvem e os cenários principais </li><li>Opções de armazenamento de nuvem incluídas com os serviços existentes </li><li>Opções de armazenamento que você pode usar como ponto de partida para sua solução de armazenamento </li><li>Blocos de construção de armazenamento para criar sua própria solução de armazenamento ou armazenamento para os aplicativos</ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842079) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842080) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=49552)
 
@@ -148,7 +137,7 @@ Veja como uma organização global fictícia, mas representativa, implementou as
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-| [![Contoso na nuvem](./media/architecture-models-posters/image11.png)](https://www.microsoft.com/download/details.aspx?id=54427)|Este modelo contém: <ul><li>Motivos para usar o armazenamento em nuvem e os cenários principais </li><li>Opções de armazenamento de em nuvem prontas para a movimentação empacotadas com os serviços existentes, que você pode usar imediatamente e com o mínimo de configuração </li><li>Alguns assemblies exigem opções de armazenamento que você pode usar como um ponto de partida para sua solução de armazenamento com configuração ou codificação adicional para um ajuste personalizado</li><li>Crie-os do zero com os blocos de construção de armazenamento para criar sua própria solução de armazenamento ou armazenamento para seus aplicativos do zero</ul></li>|
+| [![Contoso na nuvem](./media/architecture-models-posters/image11.png)](https://www.microsoft.com/download/details.aspx?id=54427)|Este modelo contém: <ul><li>Visão geral da Contoso Corporation </li><li>Infraestrutura e necessidades de TI da Contoso </li><li>Nuvem de rede para a Contoso</li><li>Identidade de nuvem para a Contoso</li><li>Contas de usuário, licenças e assinaturas da Contoso</li><li>Segurança de nuvem para a Contoso</li><li>Cenários de nuvem corporativa da Contoso</ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842085) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842086) | [Artigo](https://technet.microsoft.com/library/mt775341.aspx) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=54427)
 

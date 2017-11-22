@@ -1,6 +1,6 @@
 ---
 title: Proteger sites e arquivos do SharePoint Online seguros | Microsoft Docs
-description: "Recomendações de configuração para proteção de arquivos no SharePoint Online e no Office 365."
+description: "Recomendações de configuração para proteger arquivos de sites de equipe do SharePoint Online no Office 365."
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/15/2017
 ms.author: josephd
-ms.openlocfilehash: f26ee8b2d33c9b22bfe72443be2caae4ebf4a6e4
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: 1bfa989d3929092c254972d3066246e1548ce198
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Proteger sites e arquivos do SharePoint Online seguros
 
@@ -41,7 +41,7 @@ Para obter mais informações sobre essas camadas e recursos recomendados para c
 ## <a name="capability-overview"></a>Visão geral da funcionalidade
 As recomendações para sites de equipe do SharePoint Online traçam uma variedade de recursos do Office 365. Para sites altamente confidenciais, recomenda-se a Proteção de Informações do Azure. Ela está incluída no EMS (Enterprise Mobility + Security). 
 
-O diagrama a seguir mostra as configurações recomendadas para quatro sites de equipe do SharePoint Online.
+Este diagrama mostra as configurações recomendadas para quatro sites de equipe do SharePoint Online.
 
  ![Configurações do SharePoint recomendadas](./media/secure-sharepoint-online-sites-and-files/capabilityoverview.png)
 
@@ -101,7 +101,9 @@ A tabela a seguir resume a configuração para cada um dos sites de equipe descr
 |Políticas DLP|||Avisar os usuários quando enviar arquivos que são rotulados como Confidencial para fora da organização. <br>Para bloquear o compartilhamento externo de tipos de dados confidenciais, como números de cartão de crédito ou outros dados pessoais, você pode configurar políticas DLP adicionais para esses tipos de dados (incluindo tipos de dados personalizados que você configurar).|Impedir que os usuários enviem arquivos rotulados como altamente confidenciais para fora da organização. Permitir que os usuários substituam isso fornecendo justificativa, incluindo com quem eles estão compartilhando o arquivo.|
 |Azure Information Protection||||Usar a Proteção de Informações do Azure para automaticamente criptografar e conceder permissões aos arquivos. Essa proteção acompanha os arquivos caso eles sejam vazados. O Office 365 não pode ler arquivos criptografados com a Proteção de Informações do Azure. Além disso, as políticas DLP podem funcionar apenas com os metadados (incluindo rótulos), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).|
 
-Para obter informações sobre como implantar os quatro tipos diferentes de sites de equipe do SharePoint Online nesta solução, consulte [Implantar sites para três camadas de proteção](deploy-sites-for-three-tiers-of-protection.md).
+Para as etapas de implantação dos quatro tipos diferentes de sites da equipe do SharePoint Online nesta solução, consulte [Implantar sites para três camadas de proteção](deploy-sites-for-three-tiers-of-protection.md).
+
+Para obter instruções passo a passo e definir isso para demonstração, prova de conceito ou desenvolvimento/teste, consulte [Sites seguros do SharePoint Online em um ambiente de desenvolvimento/teste](secure-sharepoint-online-sites-dev-test.md).
 
 ## <a name="office-365-classification-and-labels"></a>Rótulos e classificação do Office 365
 O uso dos rótulos do Office 365 é recomendado para ambientes com os dados confidenciais. Depois de configurar e publicar os rótulos do Office 365, você pode:
@@ -110,7 +112,6 @@ O uso dos rótulos do Office 365 é recomendado para ambientes com os dados conf
 * Aplicar rótulos ao conteúdo automaticamente se ele corresponder a condições específicas.
 * Criar políticas DLP que se baseiam nos rótulos do Office 365.
 * Permitir que pessoas na sua organização apliquem um rótulo manualmente ao conteúdo no Outlook na Web, Outlook 2010 e posterior, OneDrive para Empresas, SharePoint Online e grupos do Office 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando, portanto eles podem classificá-lo e ter a política DLP apropriada aplicada.
-
 
  ![Rótulos do Office 365](./media/secure-sharepoint-online-sites-and-files/labels.png)
  
@@ -121,21 +122,23 @@ Conforme ilustrado, essa solução inclui a criação dos seguintes rótulos:
 * Private
 * Público Interno
 
-Esses rótulos são mapeados para os sites recomendados nas ilustrações e gráficos anteriormente neste artigo. Essa solução recomenda a configuração de políticas DLP para ajudar a evitar o vazamento de arquivos rotulados como Confidenciais e Altamente Confidenciais.
+Esses rótulos são mapeados para os sites recomendados nas ilustrações e gráficos anteriormente neste artigo. Esta solução recomenda a configuração de políticas DLP para ajudar a evitar vazamento de arquivos rotulados como Confidenciais e Altamente Confidenciais fora da organização.
 
-Para obter informações sobre como configurar políticas DLP e rótulos do Office 365 nessa solução, consulte [Proteger arquivos com rótulos do Office 365 e com o DLP](protect-files-with-o365-labels-dlp.md).
+Para as etapas de configuração de rótulos e políticas DLP do Office 365 nesta solução, consulte [Proteger os arquivos do SharePoint Online com rótulos e DLP do Office 365](protect-files-with-o365-labels-dlp.md).
+
+Para obter instruções passo a passo e definir isso para demonstração, prova de conceito ou desenvolvimento/teste, consulte [Sites seguros do SharePoint Online em um ambiente de desenvolvimento/teste](secure-sharepoint-online-sites-dev-test.md).
 
 ## <a name="azure-information-protection"></a>Azure Information Protection
-Use a Proteção de Informações do Azure para aplicar rótulos e proteções que seguem os arquivos onde quer que eles estejam. Para esta solução, recomendamos que você use o rótulo Altamente Confidencial para criptografar e conceder permissões a arquivos que precisam ser protegidos com o nível mais alto de segurança. 
+Use a Proteção de Informações do Azure para aplicar rótulos e proteções que seguem os arquivos onde quer que eles estejam. Para esta solução, recomendamos que você use uma política de Proteção de Informações do Azure e um sub-rótulo altamente confidencial para criptografar e conceder permissões a arquivos que precisam ser protegidos com o mais alto nível de segurança. 
 
-Lembre-se de que quando a criptografia do Azure Rights Management é aplicada aos arquivos armazenados no Office 365, o serviço não pode processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos de colaboração não funcionam. As políticas DLP podem agir com base nos rótulos do Office 365, mas não no conteúdo dos arquivos.
+Lembre-se de que quando a criptografia da Proteção de Informações do Azure é aplicada aos arquivos armazenados no Office 365, o serviço não pode processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos de colaboração não funcionam. Políticas de DLP só funcionam com metadados (incluindo rótulos do Office 365), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
 
  ![Rótulos do Office 365](./media/secure-sharepoint-online-sites-and-files/azureinfoprotect.png)
 
 Conforme ilustrado:
 
-* Configure a Proteção de Informações do Azure no Portal do Microsoft Azure. É recomendável configurar o rótulo Altamente Confidencial na Política de Proteção de Informações do Azure Global.
-* Os rótulos da Proteção de Informações do Azure aparecem como uma barra de ferramentas de **Confidencialidade** em aplicativos do Office. 
+* Configure políticas e rótulos da Proteção de Informações do Azure no Portal do Microsoft Azure. É recomendável configurar um sub-rótulo de uma política em escopo.
+* Os rótulos da Proteção de Informações do Azure aparecem como uma barra de ferramentas de **Proteção de informações** em aplicativos do Office. 
 
 ### <a name="adding-permissions-for-external-users"></a>Adicionando permissões para usuários externos
 Há duas maneiras em que você pode conceder aos usuários externos o acesso aos arquivos protegidos com a Proteção de Informações do Azure. Em ambos os casos, os usuários externos devem ter uma conta do Azure AD. Se os usuários externos não forem membros de uma organização que usa o Azure AD, eles poderão obter uma conta do Azure AD como um indivíduo usando essa página de entrada: [https://aka.ms/aip-signup](https://aka.ms/aip-signup).
@@ -147,15 +150,10 @@ Há duas maneiras em que você pode conceder aos usuários externos o acesso aos
  Você pode adicionar todos os usuários de uma organização (por exemplo, Fabrikam.com), um grupo do Azure AD (por exemplo, um grupo de finanças dentro de uma organização) ou um usuário individual. Por exemplo, você pode adicionar uma equipe externa de agências reguladoras à proteção para um rótulo. Com esse método, as permissões são concedidas apenas para arquivos protegidos com o rótulo depois que a entidade externa é adicionada à proteção.
 
 ### <a name="deploying-and-using-azure-information-protection"></a>Implantando e usando a Proteção de Informações do Azure
-Para obter informações sobre a configuração da AIP (Proteção de Informações do Azure) nessa solução, consulte [Proteger arquivos com AIP](protect-files-with-aip.md).
+Para as etapas de configuração de Proteção de Informações do Azure nesta solução, consulte [Proteger arquivos do SharePoint Online com a Proteção de Informações do Azure](protect-files-with-aip.md).
+
+Para obter instruções passo a passo e definir isso para demonstração, prova de conceito ou desenvolvimento/teste, consulte [Sites seguros do SharePoint Online em um ambiente de desenvolvimento/teste](secure-sharepoint-online-sites-dev-test.md).
 
 ## <a name="next-steps"></a>Próximas etapas 
 
-[Diretrizes de segurança da Microsoft para campanhas políticas, organizações sem fins lucrativos e outras organizações ágeis](https://technet.microsoft.com/library/mt493213.aspx)
-
-[Soluções de segurança](https://technet.microsoft.com/library/mt784690.aspx)
-
-[Adoção da nuvem e soluções híbridas](https://technet.microsoft.com/library/dn262744.aspx)
-
-[Proteger os sites do SharePoint Online em um ambiente de desenvolvimento/teste](secure-sharepoint-online-sites-dev-test.md)
- 
+[Implantar sites para três camadas de proteção](deploy-sites-for-three-tiers-of-protection.md)
