@@ -13,15 +13,15 @@ ms.technology:
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 395ed9dafde409d2357bfe7f72283bb7eff24820
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 29dae4030d38fed20585715de68492d37c1b67cf
+ms.sourcegitcommit: 5cde65a0e614800ebd9c8479437dc9dd846c8cd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>Instruções de registro do usuário final no Intune para administradores de TI
 
-Este documento contém instruções de registro que você pode personalizar e fornecer aos usuários para ajudá-los a registrar seus dispositivos iOS e Android no Microsoft Intune™ (para dispositivos Windows, consulte Usando seu dispositivo Windows com o Intune). Recomendamos que você copie as partes deste documento que considerar mais adequadas para seus usuários. Por exemplo, você pode querer produzir um único documento para cada plataforma de dispositivo ou adicionar mais capturas de tela.
+Este documento contém instruções de registro que você pode personalizar e fornecer aos usuários para ajudá-los a registrar seus dispositivos iOS e Android no Microsoft Intune™ (para dispositivos Windows, consulte [Usando seu dispositivo Windows com o Intune](/intune-user-help/using-your-windows-device-with-intune)). Recomendamos que você copie as partes deste documento que considerar mais adequadas para seus usuários. Por exemplo, você pode querer produzir um único documento para cada plataforma de dispositivo ou adicionar mais capturas de tela.
 
 Além dessas instruções escritas, você também pode incluir hiperlinks para qualquer um dos vídeos para o usuário final do Intune, encontrados em [https://channel9.msdn.com/Series/IntuneEnrollment](https://channel9.msdn.com/Series/IntuneEnrollment).
 
