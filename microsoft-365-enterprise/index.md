@@ -8,14 +8,14 @@ keywords: "Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 
 ms.localizationpriority: high
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
-ms.date: 09/25/2017
+ms.date: 12/10/2017
 title: "Documentação e recursos do Microsoft 365 Enterprise"
 description: "Saiba mais sobre a documentação do produto e os recursos disponíveis para administradores de TI, operadores de informações e parceiros do Microsoft 365 Enterprise."
-ms.openlocfilehash: d8e1842574b3edf56249a4db0084ad90724320d5
-ms.sourcegitcommit: 586bfc33601ccc5f3c05ff5c4157eddb9eef4479
+ms.openlocfilehash: ea8c8cc2adedec9515bc1307e80b929b503053eb
+ms.sourcegitcommit: feafa54c1fb5266d123bda8f4f15a929814f4714
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 12/10/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -1141,18 +1141,18 @@ ms.lasthandoff: 10/18/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                <a href="https://developer.microsoft.com/windows/enterprise" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Develop enterprise UWP apps" />
+                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Windows Dev Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Desenvolva aplicativos UWP corporativos</h3>
-                                                    <p>Obtenha uma visão geral dos principais recursos corporativos para aplicativos da Plataforma Universal do Windows (UWP) do Windows 10 incluindo segurança, associação de dados e empresas, rede e serialização de dados e muito mais.</p>
+                                                    <h3>Centro de Desenvolvimento do Windows</h3>
+                                                    <p>Obtenha uma visão geral dos recursos corporativos de chave para Windows 10 e encontre recursos para o desenvolvimento de aplicativos da Plataforma Universal Windows (UWP).</p>
                                                 </div>
                                             </div>
                                         </div>
