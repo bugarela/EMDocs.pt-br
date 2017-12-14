@@ -5,15 +5,15 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 10/27/2017
+ms.date: 12/10/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
-ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
+ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
+ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Recomendações gerais de política de acesso de dispositivo e identidade
 Este artigo descreve as políticas recomendadas comuns para ajudá-lo a proteger o Microsoft 365 Enterprise. Também são abordadas as configurações padrão do cliente da plataforma que recomendamos para oferecer a melhor experiência SSO para seus usuários, bem como os pré-requisitos técnicos para acesso condicional.
@@ -23,7 +23,7 @@ Estas diretrizes descrevem como implantar as políticas recomendadas em um ambie
 Para implantar as políticas recomendadas com êxito, você precisa executar ações no Portal do Azure para atender aos pré-requisitos mencionados anteriormente. Especificamente, você precisa:
 * Configurar redes nomeadas, para garantir que o Azure Identity Protection possa gerar corretamente a pontuação de risco
 * Exigir que todos os usuários se registrem para a MFA (autenticação multifator)
-* Configurar a sincronização de senha e a redefinição de senha de autoatendimento para permitir que os próprios usuários possam redefinir as senhas
+* Configurar a sincronização de hash de senha e a redefinição de senha de autoatendimento para permitir que os próprios usuários possam redefinir as senhas
 
 Você pode direcionar políticas do Azure AD e do Intune para grupos ou usuários específicos. Sugerimos que você implante as políticas definidas anteriormente em etapas. Dessa forma, que você pode validar o desempenho das políticas e das suas equipes de suporte em relação à política incrementalmente.
 
@@ -31,9 +31,10 @@ Você pode direcionar políticas do Azure AD e do Intune para grupos ou usuário
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Antes de implementar as políticas descritas no restante deste documento, existem vários pré-requisitos que sua organização deve atender:
+* [Configurar sincronização de hash de senha](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization). Isso deve ser habilitado para detectar credenciais perdidas e atuar sobre elas para Acesso Condicional com base no risco. **Observação:** isso é necessário, independentemente de a sua organização usar autenticação gerenciada, como PTA (Autenticação de passagem), ou autenticação federada.
 * [Configurar redes nomeadas](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). O Azure AD Identity Protection coleta e analisa todos os dados de sessão disponíveis para gerar uma pontuação de risco. É recomendável que você especifique os intervalos de IP públicos da sua organização para sua rede na configuração de redes nomeadas do Azure AD. O tráfego proveniente desses intervalos recebe uma pontuação de risco reduzida, para que o tráfego de fora do ambiente corporativo seja tratado como uma pontuação de risco mais alta.
 * [Registrar todos os usuários com a MFA (autenticação multifator)](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-manage-users-and-devices). O Azure AD Identity Protection utiliza o MFA do Azure para executar a verificação de segurança adicional. É recomendável que você exija que todos os usuários se registrem para o MFA do Azure antecipadamente.
-* [Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). O acesso condicional pode garantir que o dispositivo se conectando ao serviço é um dispositivo em conformidade ou ingressado no domínio. Para dar suporte a isso em computadores Windows, o dispositivo deve ser registrado com o Azure AD.  Este artigo discute como configurar o registro de dispositivo automático.  Observe que o AD FS é um requisito.
+* [Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). O acesso condicional pode garantir que o dispositivo se conectando ao serviço é um dispositivo em conformidade ou ingressado no domínio. Para dar suporte a isso em computadores Windows, o dispositivo deve ser registrado com o Azure AD.  Este artigo discute como configurar o registro de dispositivo automático.
 * **Preparar sua equipe de suporte**. Tenha um plano em vigor para os usuários que não podem concluir a MFA. Isso pode ser adicioná-los a um grupo de exclusão de política ou registrar novas informações de MFA para eles. Antes de fazer qualquer uma dessas alterações importantes de segurança, você precisa garantir que o usuário atual está fazendo a solicitação. Exigir que os gerentes dos usuários ajudem na aprovação é uma etapa eficaz.
 * [Configurar o write-back de senha para o AD local](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). O write-back de senha permite que o Azure AD exija que os usuários alterem suas senhas locais quando um alto risco de comprometimento de contas tiver sido detectado. Você pode habilitar esse recurso usando o Azure AD Connect de uma das duas maneiras. Você pode habilitar o write-back de senha na tela de recursos opcionais do assistente de configuração do Azure AD Connect ou pode habilitá-lo por meio do Windows PowerShell.  
 * [Habilitar a autenticação moderna](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) e [proteger pontos de extremidade herdados](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-supported-apps).  O acesso condicional funciona com aplicativos móveis e de área de trabalho que usam autenticação moderna. Se o aplicativo usa protocolos de autenticação herdados, ele pode obter acesso apesar das condições sendo aplicadas. É importante saber quais aplicativos podem usar as regras de acesso condicional e as etapas que você precisa realizar para proteger outros pontos de entrada do aplicativo.
