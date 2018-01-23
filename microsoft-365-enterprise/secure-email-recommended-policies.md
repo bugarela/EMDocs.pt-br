@@ -5,34 +5,46 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 01/18/2018
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: b2650e0c792c32cb4bc43556be9efc30ed9609e3
-ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
+ms.openlocfilehash: c86f8f86d134d77e45ab7a59564b9f0d4821ed38
+ms.sourcegitcommit: eb3521981c5dec164ce2a14b4d4d53830b5ba461
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/18/2018
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
 Este artigo descreve as políticas recomendadas para ajudar a proteger o email organizacional e os clientes de email que dão suporte à Autenticação Moderna e ao Acesso Condicional. Essas recomendações são um complemento à [identidade comum e às recomendações da política de acesso](identity-access-policies.md).
 
-As seguintes recomendações se baseiam em três diferentes camadas de segurança e proteção para seu email que podem ser aplicadas com base na granularidade de suas necessidades: **linha de base**, **confidencial** e **altamente controlada**. Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
+As recomendações a seguir se baseiam em três camadas de segurança e proteção diferentes para o seu email que podem ser aplicadas com base na granularidade das suas necessidades:
 
->[!NOTE]
->Todos os grupos de segurança criados como parte dessas recomendações devem ser criados com recursos do Office habilitados. Isso é especificamente importante para a implantação do AIP ao proteger documentos no SharePoint.
+- **Linha de base**: a Microsoft recomenda que você estabeleça um padrão mínimo para a proteção dos dados e também das identidades e dos dispositivos que acessam os dados. A Microsoft fornece uma proteção padrão forte que atende às necessidades de diversas organizações. Algumas organizações precisam de recursos adicionais para atender aos seus requisitos de linha de base.
+- **Confidencial**: alguns clientes têm um subconjunto de dados que precisam ser protegidos em níveis mais altos. Você pode aplicar uma proteção maior a conjuntos de dados específicos no ambiente do Office 365. A Microsoft recomenda proteger as identidades e os dispositivos que acessam os dados confidenciais com os mesmos níveis de segurança. 
+- **Altamente regulamentada**: algumas organizações têm uma quantidade muito pequena de dados classificados como altamente confidenciais, segredos comerciais ou dados regulamentados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
+
+Consulte o tópico [Políticas de segurança e configurações recomendadas](microsoft-365-policies-configurations.md) para obter mais detalhes.
+
+> [!IMPORTANT]
+> Todos os grupos de segurança criados como parte dessas recomendações devem ser criados com recursos do Office habilitados. Isso é importante principalmente para a implantação da AIP (Proteção de Informações do Azure) ao proteger documentos no SharePoint Online.
 >
 >![Recursos do Office habilitados para grupos de segurança](./media/security-group.png)
 >
 
 ## <a name="baseline"></a>Linha de base
-Para criar uma nova política de acesso condicional, faça logon no Portal do Microsoft Azure com suas credenciais de administrador. Navegue até **Azure Active Directory > Segurança > Acesso condicional**.
+Para criar uma nova política de acesso condicional: 
 
-Você pode adicionar uma nova política (+Adicionar), conforme mostrado na captura de tela a seguir:
+1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
 
-![Política de AC de linha de base](./media/secure-email/baseline-ca-policy.png)
+2. Escolha **Azure Active Directory** no menu à esquerda.
+
+3. Na seção **Segurança**, escolha **Acesso condicional**.
+
+4. Escolha **Nova política**, como mostra a captura de tela abaixo:
+
+![Política de AC de linha de base](./media/secure-email/CA-EXO-policy-1.png)
 
 As tabelas a seguir descrevem as configurações apropriadas necessárias para expressar as políticas necessárias para cada nível de proteção.
 
@@ -56,43 +68,53 @@ A tabela a seguir descreve as configurações de política de acesso condicional
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir um dispositivo em conformidade ou ingressado no domínio
 
-Para criar uma nova Política de Acesso Condicional do Intune para Exchange Online, faça logon no [Portal de Gerenciamento da Microsoft (http://manage.microsoft.com)](http://manage.microsoft.com/) com suas credenciais de administrador e navegue até **Política > Acesso Condicional > Política do Exchange Online**.
+Para criar uma política de acesso condicional para o Exchange Online:
 
-![Política do Exchange Online](./media/secure-email/exchange-online-policy.png)
+1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
 
-Você deve definir uma política de acesso condicional especificamente para o Exchange Online no Portal de Gerenciamento do Intune para exigir um dispositivo em conformidade ou ingressado no domínio.
+2. Escolha **Azure Active Directory** no menu à esquerda.
 
-|Categories|Tipo|Propriedades|Valores|Anotações|
-|:---------|:---|:---------|:-----|:----|
-|**Acesso ao aplicativo**|Outlook e outros aplicativos que usam autenticação moderna|Todas as plataformas|verdadeiro|Selecionada|
-|||O Windows deve atender aos seguintes requisitos|O dispositivo deve estar ingressado no domínio ou estar em conformidade|Selecionado (Lista)|
-|||Plataforma selecionada|Falso||
-||Outlook Web Access (OWA)|Bloquear dispositivos sem conformidade na mesma plataforma que o Outlook|verdadeiro|Verificar|
-||Aplicativos do Exchange ActiveSync que usam autenticação básica|Bloquear dispositivos incompatíveis em plataformas com suporte pelo Microsoft Intune|verdadeiro|Verificar|
-|||Bloquear todos os outros dispositivos em plataformas sem suporte pelo Microsoft Intune|verdadeiro|Verificar|
-|**Implantação de política**|Grupos de destino|Selecione os grupos do Active Directory a serem atingidos por essa política|||
-|||todos os usuários|Falso||
-|||Grupos de segurança selecionados|verdadeiro|Selecionada|
-|||Modificar|Selecione grupos de segurança específicos que contém os usuários de destino||
-||Grupos isentos|Selecione os grupos do Active Directory a serem isentados desta política (substitui membros da lista de Grupos de Destino)|||
-|||Nenhum usuário isento|verdadeiro|Selecionada|
-|||Grupos de segurança selecionados|Falso|||
+3. Na seção **Segurança**, escolha **Acesso condicional**.
 
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Acesso condicional para gerenciamento de aplicativos móveis para o Exchange Online
+4. Escolha **Nova política**.
 
-Você deve definir uma política de acesso condicional especificamente para o Exchange Online no Portal de Gerenciamento do Intune para gerenciar aplicativos móveis.
+5. Insira um nome para a política e escolha os **Usuários e grupos** aos quais deseja aplicar a política.
 
-Para gerenciar aplicativos móveis, faça logon no Portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até **Proteção de Aplicativo do Intune > Configurações > Acesso Condicional > Exchange Online**.
+6. Escolha **Aplicativos na nuvem**.
 
-|Categories|Tipo|Propriedades|Valores|Anotações|
-|:---------|:---|:---------|:-----|:----|
-|**Acesso ao aplicativo**|Aplicativos permitidos|Habilitar acesso ao aplicativo|Permitir os aplicativos que dão suporte a políticas de aplicativo do Intune|Selecionado (lista) – isso resulta em uma lista de combinações de aplicativos/plataforma com suporte pelas políticas de aplicativo do Intune|
-|**Acesso do usuário**|Aplicativos permitidos|Grupos de usuários com restrições|Adicionar grupos de usuários – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto|
-|||Grupos de usuários isentos|Grupos de segurança de exceção|||
+7. Escolha **Selecionar aplicativos**, selecione **Office 365 Exchange Online** na lista **Aplicativos na nuvem** e clique em **Selecionar**. Depois que o aplicativo **Office 365 Exchange Online** for selecionado, clique em **Concluído**.
 
-#### <a name="apply-to"></a>Aplicar a
+8. Escolha **Conceder** na seção **Controles de acesso**.
 
-Depois que o projeto foi concluído, essas políticas devem aplicadas a todos os usuários em sua organização.
+9. Escolha **Conceder acesso**, selecione **Exigir que o dispositivo seja marcado como em conformidade** e **Exigir que esteja ingressado no domínio (Azure AD Híbrido)** e, em seguida, escolha **Selecionar**.
+
+10. Clique em **Criar** para criar a política de acesso condicional do Exchange Online.
+
+    > [!NOTE]
+    > Ao começar a usar o Intune no Azure, você precisará criar todas as políticas de acesso condicional na carga de trabalho do Azure Active Directory. O Intune fornece um link para a carga de trabalho de políticas de acesso condicional do Azure AD em seu portal para facilitar o processo.
+
+    > [!IMPORTANT]
+    > Se você precisar de assistência ao migrar as políticas de acesso condicional que já foram criadas no portal clássico do Intune para o Intune no portal do Azure, consulte o tópico [Reatribuir políticas de acesso condicional no portal clássico do Intune para o Portal do Azure](https://docs.microsoft.com/intune/conditional-access-intune-reassign). 
+
+### <a name="app-based-conditional-access-for-exchange-online"></a>Acesso condicional baseado em aplicativo para o Exchange Online
+
+Você pode adicionar mais uma camada de segurança, configurando uma política de acesso condicional baseada em aplicativo para o Exchange Online no Intune no portal do Azure. Ao aplicar um acesso condicional baseado em aplicativo no Exchange Online, você passa a exigir que os usuários usem um aplicativo específico (por exemplo, o aplicativo Microsoft Outlook) para acessar o email corporativo.
+
+Para adicionar uma política de acesso condicional baseada em aplicativo:
+
+1. Vá para o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais do Intune. Depois de entrar com êxito, você verá o Painel do Azure.
+
+2. Escolha **Mais serviços** no menu à esquerda e, em seguida, digite: "**Intune**".
+
+3. Escolha **Proteção de Aplicativo do Intune**.
+
+4. Na folha **Gerenciamento de aplicativo móvel do Intune**, escolha **Todas as Configurações**.
+
+5. Escolha **Exchange Online** na seção **Acesso condicional**.
+
+6. Selecione **Permitir aplicativos compatíveis com as políticas de aplicativo do Intune** e, em seguida, escolha o aplicativo (por exemplo, o Microsoft Outlook).
+
+7. Escolha **Grupos de usuário com restrições**, clique em **Selecionar grupos**, selecione o usuário ou o grupo ao qual deseja aplicar a política e clique em **Selecionar**.
 
 ## <a name="sensitive"></a>Confidencial
 
@@ -117,7 +139,7 @@ A tabela a seguir descreve as configurações de política de acesso condicional
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir um dispositivo em conformidade ou ingressado no domínio
 (Consulte as instruções de linha de base)
 
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Acesso condicional para gerenciamento de aplicativos móveis para o Exchange Online
+### <a name="app-based-conditional-access-for-exchange-online"></a>Acesso condicional baseado em aplicativo para o Exchange Online
 
 (Consulte as instruções de linha de base)
 
@@ -144,7 +166,7 @@ A tabela a seguir descreve as configurações de política de acesso condicional
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir um dispositivo em conformidade ou ingressado no domínio
 (Consulte as instruções de linha de base)
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Acesso condicional para gerenciamento de aplicativos móveis para o Exchange Online
+### <a name="app-based-conditional-access-for-exchange-online"></a>Acesso condicional baseado em aplicativo para o Exchange Online
 (Consulte as instruções de linha de base)
 #### <a name="apply-to"></a>Aplicar a
 Depois que o projeto piloto foi concluído, essas políticas devem ser aplicadas aos usuários em sua organização que exigem acesso ao email considerado altamente controlado.
@@ -176,7 +198,7 @@ Para criar uma nova política de proteção de aplicativo, faça logon no portal
 
 Adicione uma nova política (+Adicionar), conforme mostrado na captura de tela a seguir:
 
-![Gerenciamento de aplicativos móveis do Intune](./media/secure-email/intune-mobile-app-mgmt.png)
+![Gerenciamento de aplicativos móveis do Intune](./media/secure-email/CA-EXO-policy-2.png)
 
 >[!NOTE]
 >Há pequenas diferenças nas opções de política de proteção de aplicativo entre o iOS e o Android. A política abaixo é especificamente para Android.
@@ -212,11 +234,13 @@ As tabelas a seguir descrevem as configurações de política de proteção de a
 
 Ao concluir, lembre-se de clicar em "Criar". Repita as etapas acima e substitua a plataforma selecionada (menu suspenso) por iOS. Isso cria duas políticas de aplicativo, portanto, após criar a política, atribua grupos à política e implante-a.
 
+- Consulte [Como criar e atribuir as políticas de proteção de aplicativo](https://docs.microsoft.com/intune/app-protection-policies) para obter mais detalhes.
+
 ### <a name="intune-mobile-device-management"></a>Gerenciamento de dispositivo móvel do Intune
-Crie as seguintes políticas de configuração e conformidade fazendo logon na [Portal de Gerenciamento da Microsoft (http://manage.microsoft.com)](https://manage.microsoft.com/) com suas credenciais de administrador.
+Para criar os perfis de configuração do dispositivo e as políticas de conformidade do dispositivo a seguir, você deverá fazer logon no [Intune no portal do Azure](https://portal.azure.com) com suas credenciais do Intune.
 
 #### <a name="ios-email-profile"></a>Perfil de email do iOS
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > Política de Email do iOS**.
+No [Intune no portal do Azure](https://portal.azure.com), você pode criar os seguintes perfis de configuração do dispositivo em **Configuração do dispositivo > Perfis > Criar Perfil > Plataforma (iOS) > Tipo de perfil (email)**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -232,26 +256,8 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 |||Permitir que o email seja enviado de aplicativos de terceiros|verdadeiro||
 |||Sincronizar os endereços de email usados recentemente|verdadeiro|Verificar|
 
-#### <a name="ios-app-sharing-profile"></a>Perfil de compartilhamento de aplicativo do iOS
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as políticas de configuração a seguir **Política > Políticas de Configuração > Adicionar > Política de compartilhamento do aplicativo iOS**.
-
-|Categories|Tipo|Propriedades|Valores|Anotações|
-|:---------|:---|:---------|:-----|:----|
-|**Security**|Tudo|Tudo|Não configurado||
-|**Nuvem**|Tudo|Tudo|Não configurado||
-|**Aplicativos**|Navegador|Tudo|Não configurado||
-||Aplicativos|Permitir instalação de aplicativos|Não configurado||
-|||Exigir uma senha para acessar a loja de aplicativo|Não configurado||
-|||Todas as compras no aplicativo|Não configurado||
-|||Permitir documentos gerenciados em outros aplicativos gerenciados (iOS 8.0 e posterior)|Não|Selecionado – lista suspensa|
-|||Permitir documentos não gerenciados em outros aplicativos gerenciados|Não configurado||
-|||Permitir videoconferência|Não configurado||
-|||Permitir que o usuário confie em novos autores de aplicativos empresariais|Não configurado||
-||Jogos|Tudo|Não configurado||
-||Conteúdo de mídia|Tudo|Não configurado|||
-
 #### <a name="android-email-profile"></a>Perfil de email do Android
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as políticas de configuração a seguir em **Política > Políticas de Configuração > Adicionar > Política de Email do Android**.
+No [Intune no portal do Azure](https://portal.azure.com), você pode criar os seguintes perfis de configuração do dispositivo em **Configuração do dispositivo > Perfis > Criar Perfil > Plataforma (Android) > Tipo de perfil (email)**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -266,13 +272,13 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 |||Usar SSL|verdadeiro|Verificar|
 |||Tipo de conteúdo para sincronizar|||
 |||Email|verdadeiro|Verificar (bloqueado)|
-|||Contatos|verdadeiro|Verificar|
+|||Contacts|verdadeiro|Verificar|
 |||Calendário|verdadeiro|Verificar|
 |||Tarefas|verdadeiro|Verificar|
 |||Anotações|verdadeiro|Verificar|
 
 #### <a name="android-for-work-email-profile"></a>Perfil de email do Android for Work
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Políticas de Configuração > Adicionar > Android > Perfil de Email (Android for Work – Gmail)**.
+No [Intune no portal do Azure](https://portal.azure.com), você pode criar os seguintes perfis de configuração do dispositivo em **Configuração do dispositivo > Perfis > Criar Perfil > Plataforma (Android for Work) > Tipo de perfil (email)**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
@@ -284,25 +290,8 @@ No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://ma
 ||Configurações de sincronização|Número de dias de email para sincronizar|Duas semanas|Selecionado – lista suspensa|
 |||Usar SSL|verdadeiro|Verificar|
 
-#### <a name="android-for-work-app-sharing-profile"></a>Perfil de compartilhamento de aplicativo do Android for Work
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as políticas de configuração a seguir em **Política > Políticas de Configuração > Adicionar > Política de compartilhamento de aplicativos do Android for Work**.
-
-|Categories|Tipo|Propriedades|Valores|Anotações|
-|:---------|:---|:---------|:-----|:----|
-|**Security**|Senha|Comprimento mínimo da senha|Não configurado||
-|||Número de falhas de conexão repetidas antes da remoção do perfil de trabalho|Não configurado||
-|||Minutos de inatividade antes da tela do dispositivo ser bloqueada|Não configurado||
-|||Expiração da senha (dias)|Não configurado||
-|||Lembrar de histórico de senha|Não configurado||
-|||Exigir uma senha para desbloquear o dispositivo móvel|Não configurado||
-|||Permitir desbloqueio por impressão digital (Android 6.0+)|Não configurado||
-|||Permitir o Smart Lock e outros agentes de confiança (Android 6.0+)|Não configurado||
-||Configurações de perfil de trabalho|Permitir o compartilhamento de dados entre perfis de trabalho e pessoais|Aplicativos do perfil de trabalho podem manipular solicitações de compartilhamento no perfil pessoal|Selecionado – lista suspensa|
-|||Ocultar notificações de perfil de trabalho quanto o dispositivo estiver bloqueado (Android 6.0+)|Não configurado||
-|||Definir política de permissão do aplicativo padrão (Android 6.0+)|Não configurado|||
-
 #### <a name="device-compliance-policy"></a>Política de conformidade do dispositivo
-No [Portal de gerenciamento do Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) crie as seguintes políticas de configuração em **Política > Política de Conformidade > Adicionar**.
+No [Intune no portal do Azure](https://portal.azure.com), você pode criar as seguintes políticas de conformidade do dispositivo em **Conformidade do dispositivo > Políticas > Criar Política > Plataforma (iOS, Android ou outras) > Configurações**.
 
 |Categories|Tipo|Propriedades|Valores|Anotações|
 |:---------|:---|:---------|:-----|:----|
