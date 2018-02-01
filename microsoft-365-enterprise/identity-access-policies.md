@@ -7,13 +7,13 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 12/10/2017
 ms.author: barlan
-ms.reviewer: jsnow
+ms.reviewer: martincoetzer
 ms.custom: it-pro
-ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: 54b3308b334f60e47e78bdf4bc194495fe348814
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Recomendações gerais de política de acesso de dispositivo e identidade
 Este artigo descreve as políticas recomendadas comuns para ajudá-lo a proteger o Microsoft 365 Enterprise. Também são abordadas as configurações padrão do cliente da plataforma que recomendamos para oferecer a melhor experiência SSO para seus usuários, bem como os pré-requisitos técnicos para acesso condicional.
@@ -43,12 +43,12 @@ Antes de implementar as políticas descritas no restante deste documento, existe
 ### <a name="recommended-email-clients"></a>Clientes de email recomendados
 Os clientes de email a seguir dão suporte ao acesso condicional e à autenticação moderna. A Proteção de Informações do Azure ainda não está disponível para todos os clientes.
 
-|Plataforma|Cliente|Versão/Notas|Azure Information Protection|
+|Plataforma|Cliente|Versão/Notas|Proteção de Informações do Azure|
 |:-------|:-----|:------------|:--------------------|
-|**Windows**|Outlook|2016, 2013 [Habilitar autenticação moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910)|Sim|
+|**Windows**|Outlook|2016, 2013 [Habilitar autenticação moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), [Atualizações necessárias](https://support.office.com/en-us/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|Sim|
 |**iOS**|Outlook|[Mais recente](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|Não|
 |**Android**|Outlook|[Mais recente](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|Não|
-|**macOS**|Visualização pública||Não|
+|**macOS**|Outlook|2016|Não|
 |**Linux**|Sem suporte||Não|
 
 Para acessar os documentos protegidos pela Proteção de Informações do Azure, pode ser necessário ter software adicional. Certifique-se de que você esteja usando os [formatos de documento e software com suporte](https://docs.microsoft.com/information-protection/get-started/requirements-applications) para criar e exibir documentos protegidos com a Proteção de Informações do Azure.
@@ -100,7 +100,7 @@ A meta de suas políticas de gerenciamento de aplicativo e dispositivo é proteg
 |:--------------------|:----------|
 |**Requer gerenciamento do computador do usuário**|Exija que os usuários ingressem seus computadores Windows em um Domínio do Active Directory ou registrem seus computadores no gerenciamento com o Microsoft Intune ou System Center Configuration Manager.|
 |**Aplicar configurações de segurança por meio de GPOs (objetos de política de grupo) ou políticas do Configuration Manager para computadores ingressados no domínio**|Implante as políticas que configuram computadores gerenciados para habilitar o BitLocker, o antivírus e o firewall.|
-|**Exigir o gerenciamento de dispositivo móvel do usuário**|Exija que os dispositivos do usuário usados para acessar emails sejam gerenciados pelo Intune **ou** que o email da empresa seja acessado apenas por aplicativos móveis de email protegidos pelas políticas da Proteção de Aplicativo do Intune como o Outlook Mobile.|
+|**Exigir o gerenciamento de dispositivo móvel do usuário**|Exija que os dispositivos do usuário usados para acessar emails sejam gerenciados pelo Intune **ou** que o email da empresa seja acessado apenas por aplicativos móveis de email protegidos pelas políticas da Proteção de Aplicativo do Intune como o Outlook para iOS ou Android.|
 |**Aplicar uma política de conformidade do dispositivo do Intune em dispositivos gerenciados**|Aplique uma política de conformidade de dispositivo do Intune para dispositivos móveis corporativos gerenciados e computadores gerenciados pelo Intune que exigem: um PIN com no mínimo seis caracteres, criptografia de dispositivo, um dispositivo íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade) e, se disponível, exija dispositivos que são de **baixo** risco conforme determinado por um MTP de terceiros como o Lookout ou SkyCure.|
 |**Aplicar uma Política de Proteção de Aplicativo do Intune para aplicativos gerenciados em execução em dispositivos não gerenciados**|Aplique uma Política de Proteção de Aplicativo do Intune para aplicativos gerenciados em execução em dispositivos móveis pessoais não gerenciados para exigir: um PIN com no mínimo 6 caracteres, criptografia de dados e que o dispositivo esteja íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade).|
 
@@ -139,7 +139,7 @@ A meta dessas políticas de gerenciamento de aplicativo e dispositivo é protege
 |:--------------------|:----------|
 |**Requer gerenciamento do computador do usuário**|Exija que os usuários ingressem seus computadores em um Domínio do Active Directory ou registrem seus computadores no gerenciamento com o Intune ou Configuration Manager e garantam que esses dispositivos estejam em conformidade com as políticas antes de permitir o acesso ao email.|
 |**Aplicar configurações de segurança por meio de GPOs (objetos de política de grupo) ou políticas do Configuration Manager para computadores ingressados no domínio**|Implante as políticas que configuram computadores gerenciados para habilitar o BitLocker, o antivírus e o firewall.|
-|**Exigir o gerenciamento de dispositivo móvel do usuário**|Exija que os dispositivos do usuário usados para acessar emails sejam gerenciados pelo Intune **ou** que o email da empresa seja acessado apenas por aplicativos móveis de email protegidos pelas políticas da Proteção de Aplicativo do Intune como o Outlook Mobile.|
+|**Exigir o gerenciamento de dispositivo móvel do usuário**|Exija que os dispositivos do usuário usados para acessar emails sejam gerenciados pelo Intune **ou** que o email da empresa seja acessado apenas por aplicativos móveis de email protegidos pelas políticas da Proteção de Aplicativo do Intune como o Outlook para iOS ou Android.|
 |**Aplicar uma política de conformidade do dispositivo do Intune em dispositivos gerenciados**|Aplique uma política de conformidade de dispositivo do Intune para dispositivos móveis corporativos gerenciados e computadores gerenciados pelo Intune que exigem: um PIN com no mínimo seis caracteres, criptografia de dispositivo, um dispositivo íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade) e, se disponível, exija dispositivos que são de **baixo** risco conforme determinado por um MTP de terceiros como o Lookout ou SkyCure.|
 |**Aplicar uma Política de Proteção de Aplicativo do Intune para aplicativos gerenciados em execução em dispositivos não gerenciados**|Aplique uma Política de Proteção de Aplicativo do Intune para aplicativos gerenciados em execução em dispositivos móveis pessoais não gerenciados para exigir: um PIN com no mínimo 6 caracteres, criptografia de dados e que o dispositivo esteja íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade).|
 
@@ -175,7 +175,7 @@ Para a camada altamente controlada, recomendamos exigir aplicativos que dão sup
 |:--------------------|:----------|
 |**Requer gerenciamento do computador do usuário**|Exija que os usuários ingressem seus computadores Windows em um Domínio do Active Directory **ou** registrem seus computadores no gerenciamento com o Intune ou Configuration Manager e garantam que esses dispositivos estejam em conformidade com as políticas antes de permitir o acesso ao email.|
 |**Aplicar configurações de segurança por meio de GPOs (objetos de política de grupo) ou políticas do Configuration Manager para computadores ingressados no domínio**|Implante as políticas que configuram computadores gerenciados para habilitar o BitLocker, o antivírus e o firewall.|
-|**Exigir o gerenciamento de dispositivo móvel do usuário**|Exija que os dispositivos usados para acessar arquivos e o email do Office 365 sejam gerenciados pelo Intune ou que o email da empresa seja acessado apenas por aplicativos móveis de email protegidos pelas políticas da Proteção de Aplicativo do Intune como o Outlook Mobile.|
+|**Exigir o gerenciamento de dispositivo móvel do usuário**|Exija que os dispositivos usados para acessar arquivos e o email do Office 365 sejam gerenciados pelo Intune ou que o email da empresa seja acessado apenas por aplicativos móveis de email protegidos pelas políticas da Proteção de Aplicativo do Intune, como o Outlook para iOS ou Android.|
 |**Aplicar uma política de conformidade do dispositivo do Intune em dispositivos gerenciados**|Aplique uma política de conformidade de dispositivo do Intune para dispositivos móveis corporativos gerenciados e computadores gerenciados pelo Intune que exigem: um PIN com no mínimo seis caracteres, criptografia de dispositivo, um dispositivo íntegro (que não esteja com jailbreak ou com raiz, que passe o atestado de integridade) e, se disponível, exija dispositivos que são de Baixo risco conforme determinado por um MTP de terceiros como o Lookout ou SkyCure.|
 
 ### <a name="user-impact"></a>Impacto do usuário

@@ -1,19 +1,19 @@
 ---
 title: "Políticas de segurança e configurações recomendadas – Microsoft 365 Enterprise | Microsoft Docs"
 description: "Descreve as recomendações da Microsoft e os conceitos principais para implantar configurações e políticas de email seguro, documentos e aplicativos."
-author: barlanmsft
-manager: angrobe
+author: dougeby
+manager: dougeby
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 70eb0ba8a887a703ee8c723a3a4584f3bedc1e7f
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: a7f6ab6765be5462c652feb006839f0839b1136e
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="recommended-security-policies-and-configurations"></a>Políticas de segurança e configurações recomendadas
 
@@ -110,7 +110,7 @@ Há uma compensação entre a segurança e a produtividade. Para ajudar a entend
 
 ![Vantagens e desvantagens de produtividade e segurança](./media/policies-configurations/security-triad.png)
 
-As recomendações são fornecidas com base nos seguintes princípios da tríade de segurança de SFU:
+As recomendações fornecidas são baseadas nos seguintes princípios da tríade de segurança de SFU:
 
 * Conhecer o público-alvo – Ser flexível por barra de segurança/função de trabalho
 * Aplicar a política de segurança no momento e certificar-se de que é significativa
