@@ -36,7 +36,7 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 
 |Plano|Qualificado para o benefício do serviço?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |Sim*|
+|Enterprise Mobility + Security |Sim\*|
 |Enterprise Mobility + Security (como parte do Secure Productive Enterprise)|Sim*|
 |Microsoft Azure Active Directory Premium (E3 e E5)**|Sim|
 |Microsoft Intune**|Sim|
