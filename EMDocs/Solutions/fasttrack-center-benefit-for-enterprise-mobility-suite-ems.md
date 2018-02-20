@@ -38,16 +38,16 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 |--------|-------------------------------------|
 |Enterprise Mobility + Security |Sim\*|
 |Enterprise Mobility + Security (como parte do Secure Productive Enterprise)|Sim*|
-|Microsoft Azure Active Directory Premium (E3 e E5)**|Sim|
-|Microsoft Intune**|Sim|
-|Microsoft Intune para Educação** |Sim |
-|Proteção de Informações do Microsoft Azure (E3 e E5)**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-|Microsoft Advanced Threat Analytics**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-|Microsoft Cloud App Security**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Azure Active Directory Premium (E3 e E5)** |Sim|
+|Microsoft Intune** |Sim|
+|Microsoft Intune para Educação**  |Sim |
+|Proteção de Informações do Microsoft Azure (E3 e E5)** |Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics** |Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security** |Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
 
 &ast; Disponível apenas para serviços de nuvem qualificados para os benefícios. Consulte a tabela a seguir.
 
-**Comprado como um plano autônomo.
+** Comprado como um plano autônomo.
 
 &nbsp;
 
