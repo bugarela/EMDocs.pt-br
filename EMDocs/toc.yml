@@ -38,7 +38,7 @@
           href: /advanced-threat-analytics/
           homepage: /advanced-threat-analytics
           items:
-            - name: Entender e explorar
+            - name: Compreender e Explorar
               href: /advanced-threat-analytics/understand-explore/
               homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
             - name: Planejar e projetar
@@ -50,6 +50,9 @@
             - name: Solucionar problemas
               href: /advanced-threat-analytics/troubleshoot/
               homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+        - name: Azure Threat Protection
+          href: /azure-threat-protection/
+          homepage: /azure-advanced-threat-protection
         - name: Microsoft 365 Enterprise
           href: /microsoft-365-enterprise/
           homepage: /microsoft-365-enterprise
@@ -68,7 +71,7 @@
           href: /intune-classic/
           homepage: /intune-classic
           items:
-            - name: Entender e explorar
+            - name: Compreender e Explorar
               href: /intune-classic/understand-explore/
               homepage: /intune-classic/understand-explore/introduction-to-microsoft-intune
             - name: Planejar e projetar
@@ -89,11 +92,11 @@
             - name: Novidades
               href: /intune-classic/whats-new/
               homepage: /intune-classic/whats-new/whats-new-in-microsoft-intune
-        - name: Azure Information Protection
+        - name: Proteção de Informações do Azure
           href: /information-protection/
           homepage: /information-protection
           items:
-            - name: Entender e explorar
+            - name: Compreender e Explorar
               href: /information-protection/understand-explore/
               homepage: /information-protection/understand-explore/what-is-azure-rights-management
             - name: Introdução
