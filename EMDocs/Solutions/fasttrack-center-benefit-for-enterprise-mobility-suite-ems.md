@@ -13,14 +13,14 @@ ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 5da41f3d440d7a6463f2a6e23dcd0613f522efe2
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 097dfcd7b862735a53d629d7e099a68044d590c7
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Planos e Serviços Qualificados do Benefício do FastTrack Center
-Você pode usar o benefício do serviço quando compra no mínimo 150 licenças do EMS (Enterprise Mobility + Security) ou de qualquer um de seus serviços de nuvem individuais em um plano qualificado. Com o benefício do serviço, é possível trabalhar com especialistas da Microsoft para avaliar, corrigir e habilitar serviços qualificados.
+Você pode usar o benefício do serviço quando compra no mínimo 150 licenças do EMS (Enterprise Mobility + Security) ou de qualquer um de seus serviços de nuvem individuais em um plano qualificado. Com o benefício do serviço, é possível trabalhar com especialistas do FastTrack para avaliar, corrigir e habilitar serviços qualificados.
 
 Para aprender sobre o processo do FastTrack Center e quem é responsável pelo quê, veja [Processo de benefício do FastTrack Center para EMS (Enterprise Mobility + Security)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
@@ -36,18 +36,18 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 
 |Plano|Qualificado para o benefício do serviço?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |Sim\*|
+|Enterprise Mobility + Security |Sim*|
 |Enterprise Mobility + Security (como parte do Secure Productive Enterprise)|Sim*|
-|Microsoft Azure Active Directory Premium (E3 e E5)** |Sim|
-|Microsoft Intune** |Sim|
-|Microsoft Intune para Educação**  |Sim |
-|Proteção de Informações do Microsoft Azure (E3 e E5)** |Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-|Microsoft Advanced Threat Analytics** |Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-|Microsoft Cloud App Security** |Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Azure Active Directory Premium (E3 e E5)**|Sim|
+|Microsoft Intune**|Sim|
+|Microsoft Intune para Educação** |Sim |
+|Proteção de Informações do Microsoft Azure (E3 e E5)**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
 
 &ast; Disponível apenas para serviços de nuvem qualificados para os benefícios. Consulte a tabela a seguir.
 
-** Comprado como um plano autônomo.
+**Comprado como um plano autônomo.
 
 &nbsp;
 

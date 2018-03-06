@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
-ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
+ms.openlocfilehash: 102ff22c60aa58cddbc07ddd485a57e9e7340a92
+ms.sourcegitcommit: 024fad70d2c4976f039e3e572c7334927375b17e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="microsoft-responsibilities"></a>Responsabilidades da Microsoft
 
@@ -104,7 +104,7 @@ Fornecimento de orientação sobre:
 
     -   Instalação de uma sincronização de diretórios entre o AD DS (Serviços de Domínio do Active Directory) e o Azure AD Connect, se necessário.
 
-    -   Configuração da sincronização de senha com a ferramenta Azure AD Connect.
+    -   Configuração de um método de autenticação (Sincronização de Hash de Senha ou Autenticação de Passagem) com a ferramenta do Azure AD Connect.
 
 -   Para um ambiente de várias florestas:
 
@@ -148,7 +148,7 @@ Fornecimento de orientação sobre a configuração de:
 
   - Autenticação Multifator do Azure.
 
-  - Uma integração de aplicativo SaaS (software como serviço) com SSO do [Marketplace do Azure Active Directory](https://azure.microsoft.com/marketplace/active-directory/).
+  - Até três (3) ou mais integrações de aplicativo SaaS (software como serviço) com SSO do [Marketplace do Azure Active Directory](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Tela de logon personalizada, incluindo logotipo, texto e imagens.
 
