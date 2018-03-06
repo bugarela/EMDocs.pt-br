@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 02bbc73649604736bca8c6da167653d904218fad
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="your-responsibilities"></a>Suas responsabilidades
 
@@ -69,7 +69,7 @@ Você tem as responsabilidades a seguir durante a integração.
 
 ## <a name="initiate-phase"></a>Fase Iniciar
 
--   Trabalhe com a equipe da Microsoft para começar a integração de serviços qualificados.
+-   Trabalhe com a equipe do FastTrack para começar a integração de serviços qualificados.
 
 -   Participe da reunião de lançamento do contrato, gerencie e comande os participantes de sua organização e confirme os cronogramas de correção.
 
@@ -77,7 +77,7 @@ Você tem as responsabilidades a seguir durante a integração.
 
 -   Identifique os participantes adequados (incluindo um gerente de projeto) para concluir as atividades de avaliação necessárias.
 
--   Compartilhe sua tela com a Microsoft, caso precise de diretrizes ao executar as ferramentas de avaliação em seu ambiente ou EMS ou em sua assinatura de serviço de nuvem individual (se você optar por isso).
+-   Compartilhe sua tela com a equipe do FastTrack caso precise de diretrizes ao executar as ferramentas de avaliação em seu ambiente, no EMS ou em suas assinaturas de serviço de nuvem individuais (se você optar por isso).
 
 -   Participe de reuniões para criar a lista de verificação de correção e contribuir para o plano geral, incluindo infraestrutura, rede, administração, preparação para sincronização de diretório, segurança de rede e tópicos de identidade federada.
 
@@ -95,19 +95,21 @@ Você tem as responsabilidades a seguir durante a integração.
 
 ## <a name="enable-phase"></a>Fase Habilitar
 
--   Compartilhe sua tela com a Microsoft, caso precise de diretrizes ao executar as ferramentas de avaliação em seu ambiente ou EMS ou em sua assinatura de serviço de nuvem individual (se você optar por isso). Gerenciar os recursos, conforme necessário.
+-   Compartilhe sua tela com a equipe do FastTrack caso precise de diretrizes ao executar as ferramentas de avaliação em seu ambiente, no EMS ou em suas assinaturas de serviço de nuvem individuais (se você optar por isso). Gerenciar os recursos, conforme necessário.
 
--   Configure itens relacionados à rede segundo as diretrizes da Microsoft.
+-   Configure itens relacionados à rede segundo as diretrizes da equipe do FastTrack.
 
--   Execute a preparação para o diretório e configure a sincronização de diretório segundo as orientações da Microsoft.
+-   Execute a preparação para o diretório e configure a sincronização de diretório segundo as diretrizes da equipe do FastTrack.
 
--   Configurar a infraestrutura relacionada à segurança (como portas de firewall) segundo as diretrizes da Microsoft.
+-   Configure um método de autenticação, como gerenciado ou federado. 
+
+-   Configure a infraestrutura relacionada à segurança (como portas de firewall) segundo as diretrizes da equipe do FastTrack.
 
 -   Implemente a infraestrutura de cliente apropriada.
 
--   Implemente uma abordagem de provisionamento de usuários segundo as diretrizes da Microsoft.
+-   Implemente uma abordagem de provisionamento de usuários segundo as diretrizes da equipe do FastTrack.
 
--   Habilite serviços diversos de acordo com as diretrizes da Microsoft.
+-   Habilite serviços diversos de acordo com as diretrizes da equipe do FastTrack.
 
 **Quer saber mais?**
 
