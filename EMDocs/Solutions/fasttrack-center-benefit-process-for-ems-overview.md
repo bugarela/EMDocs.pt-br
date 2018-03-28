@@ -1,28 +1,27 @@
 ---
-title: "Visão geral"
-description: "Visão geral"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
+title: Visão geral
+description: Visão geral
+keywords: ''
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 73eba9ac70a39db1af85b1e5dac5ebbb2da958f9
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: fe44be0fb38e47456fff063511944551dba5b4eb
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="fasttrack-center-benefit-overview"></a>Visão Geral do Benefício do FastTrack Center
 
-Com o Benefício do Centro FastTrack para Microsoft Azure Active Directory Premium e Microsoft Intune, você trabalha remotamente com especialistas do FastTrack para deixar seu ambiente pronto para uso e planejar a distribuição e o uso dentro da sua organização. Para saber mais sobre qualificação, veja [Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
-
+Com o Benefício do FastTrack Center para Microsoft Azure Active Directory Premium e Microsoft Intune, você trabalha remotamente com especialistas do FastTrack para deixar seu ambiente pronto para uso e planejar a distribuição e o uso dentro da sua organização. Para saber mais sobre qualificação, veja [Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 A integração tem dois componentes principais:
 
@@ -50,6 +49,9 @@ Todo o suporte à integração será fornecido remotamente por funcionários do 
 
 -   A equipe FastTrack pode trabalhar diretamente com você ou seu representante.
 
-**Quer saber mais?**
+> [!NOTE]
+> **Quer saber mais?** Consulte [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="next-steps"></a>Próximas etapas
+
+[Benefício do FastTrack Center para EMS – expectativas do ambiente de origem](fasttrack-center-benefit-process-for-ems-environment-expectations.md)

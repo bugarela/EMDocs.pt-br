@@ -1,26 +1,26 @@
 ---
 title: O processo do FastTrack
-description: "Visão geral do processo de integração do Benefício do FastTrack Center"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+description: Visão geral do processo de integração do Benefício do FastTrack Center
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: f22c4fc117368bc92bed6f9d3e707ef83327abb3
-ms.sourcegitcommit: 024fad70d2c4976f039e3e572c7334927375b17e
+ms.openlocfilehash: 53f96bd0ea1579ef7597d74690a2bac005c132c0
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)
-Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas da Microsoft para deixar o Microsoft Azure Active Directory Premium e o Microsoft Intune prontos para uso. Você também pode solicitar ajuda por meio do [site do FastTrack](http://fasttrack.microsoft.com/ems) para Proteção de Informações do Azure, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Para saber se a sua organização está qualificada, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas do FastTrack para deixar o Microsoft Azure Active Directory Premium e o Microsoft Intune prontos para uso. Você também pode solicitar ajuda por meio do [site do FastTrack](http://fasttrack.microsoft.com/ems) para Proteção de Informações do Azure, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Para saber se a sua organização está qualificada, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Aqui está o que abordamos sobre o processo de integração:
@@ -43,7 +43,7 @@ Eis o que você pode esperar quando a integração for concluída:
 
     -   Identidades de nuvem (contas exclusivas de EMS).
 
-    -   Identidades sincronizadas: contas do EMS sincronizadas do Active Directory local usando a ferramenta do Azure Active Directory Connect. Essa opção é voltada para clientes com uma única floresta ou com várias florestas do Active Directory.
+    -   Identidades sincronizadas: contas do EMS sincronizadas do Active Directory local usando a ferramenta do Azure Active Directory Connect (Sincronização de Hash de Senha ou Autenticação de Passagem). Essa opção é voltada para clientes com uma única floresta ou com várias florestas do Active Directory.
 
     -   Identidades Federadas — com contas do EMS da Microsoft que são:
 
