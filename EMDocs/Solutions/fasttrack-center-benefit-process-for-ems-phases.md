@@ -1,25 +1,26 @@
 ---
-title: "Fases de migração e integração"
-description: "Fases do Benefício do FastTrack Center"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+title: Fases de migração e integração
+description: Fases do Benefício do FastTrack Center
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 38cb0503eb6444ed577703e2c7ab6c981369ff07
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: 7d73513b80778ec91c9b3bee284175aa43751afc
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
-# <a name="onboarding-and-migration-phases"></a>Fases de Migração e Integração
+# <a name="onboarding-phases"></a>Fases de integração
+
 Quando você usa os [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para deixar o Microsoft Azure Active Directory Premium e o Microsoft Intune prontos para uso, há várias fases envolvidas no processo. As seções a seguir descrevem cada fase do processo de integração.
 
 A integração tem quatro fases principais:
@@ -28,11 +29,21 @@ A integração tem quatro fases principais:
 
 
 ## <a name="initiate-phase"></a>Fase Iniciar
-Após ter comprado o número de licenças apropriado, siga as diretrizes no email de confirmação de compra para associar as licenças ao seu locatário existente ou novo locatário. A Microsoft verificará sua qualificação para o Benefício do FastTrack Center e tentará entrar em contato com você para oferecer assistência com a integração. Você também pode solicitar assistência do [FastTrack Center](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização.
 
-Para solicitar assistência, entre no [FastTrack Center](http://fasttrack.microsoft.com/) com sua conta corporativa ou de estudante, vá até o painel, expanda **Precisa de ajuda?** à esquerda da tela e siga os prompts para concluir a solicitação. Uma vez iniciado o suporte de integração, nós definimos uma agenda de reuniões online.
+Após ter comprado o número de licenças apropriado, siga as diretrizes no email de confirmação de compra para associar as licenças ao seu locatário existente ou novo locatário. A Microsoft verificará sua qualificação para o Benefício do FastTrack Center e tentará entrar em contato com você para oferecer assistência com a integração.
 
-Durante essa fase, discutimos o processo de integração, verificamos os dados e programamos uma reunião inicial.
+> [!NOTE] 
+> Você também pode solicitar assistência do [FastTrack Center](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização.
+
+### <a name="to-request-assistance"></a>Como solicitar assistência
+
+1. Acesse o [Centro FastTrack](http://fasttrack.microsoft.com/) e entre com sua conta corporativa ou de estudante.
+
+2. No Painel do Cliente, clique em **Ir para o FastTrack** na parte inferior direita da página.
+
+3. No Painel do FastTrack, expanda **Preciso de ajuda** na parte inferior direita da página e siga as instruções para concluir sua solicitação.
+
+Quando o processo de suporte à integração é iniciado, o FastTrack agenda reuniões online com você para discutir o processo de integração, verificar dados e agendar uma reunião inicial.
 
 ![Fase inicial da integração](./media/ft-initiate-phase.png)
 
@@ -119,9 +130,6 @@ Para o Intune, vamos orientá-lo sobre como se preparar para usar o Microsoft In
 
     -   Configurar o System Center Configuration Manager como sua autoridade de MDM se você tiver uma implementação existente do Configuration Manager e quiser expandir seus recursos de gerenciamento com o Intune.
 
-        > [!NOTE]
-        > Se você quiser apenas aproveitar o MDM nos dispositivos de propriedade dos usuários finais, dispositivos compartilhados ou dispositivos do tipo quiosque, a configuração de uma autoridade de MDM não será necessária.
-
 -   Fornecer diretrizes de MDM para:
 
     -   Configuração de grupos de testes a serem usados para validar as políticas de gerenciamento do MDM.
@@ -138,9 +146,9 @@ Para o Intune, vamos orientá-lo sobre como se preparar para usar o Microsoft In
 
     -   Registro de dispositivos de cada [plataforma com suporte](https://technet.microsoft.com/library/dn600287.aspx) no Intune ou o no Configuration Manager com o serviço do Intune.
 
--   Fornecimento de diretrizes de MAM (gerenciamento de aplicativo móvel) sobre:
+-   Fornecimento de diretrizes da Proteção de Aplicativo do Intune (gerenciamento de aplicativos) sobre:
 
-    -   Configuração de políticas de MAM para cada plataforma com suporte.
+    -   Configuração de políticas de proteção de aplicativo para cada plataforma compatível.
 
     -   Configuração de políticas de acesso condicional para aplicativos gerenciados.
 
@@ -154,6 +162,9 @@ Para o Intune, vamos orientá-lo sobre como se preparar para usar o Microsoft In
 
     -   Uso dos relatórios de hardware e software disponíveis no Intune.
 
+    > [!IMPORTANT]
+    > O FastTrack não é compatível com o gerenciamento clássico em PCs Windows 10 com o Intune. O FastTrack só é compatível com o gerenciamento de dispositivos Windows 10 por meio do MDM (gerenciamento de dispositivo móvel) do Intune.
+
 A Microsoft também fornece a você diretrizes de como chegar a uma adoção bem-sucedida dos serviços qualificados.
 
 ![Fase de habilitação da integração - Intune](./media/ft-enable-phase_intune_mam.png)
@@ -162,6 +173,9 @@ A Microsoft também fornece a você diretrizes de como chegar a uma adoção bem
 
 ![Fase de habilitação da integração - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
-**Quer saber mais?**
+> [!NOTE]
+> **Quer saber mais?** Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="next-steps"></a>Próximas etapas
+
+[Benefícios do FastTrack para o EMS – responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
