@@ -1,7 +1,7 @@
 # Soluções
 ## Descrições de serviços
 ### [Descrição do serviço do Enterprise Mobility + Security for US Government](ems-govt-service-description.md)
-###[Descrição do serviço do Azure Active Directory Premium para governo](azure-ad-premium-govt-service-description.md)
+### [Descrição do serviço do Azure Active Directory Premium para governo](azure-ad-premium-govt-service-description.md)
 ## [Gerenciamento de Identidade e Acesso]()
 ### [Milhares de aplicativos, uma identidade](thousands-apps-one-identity.md)
 ### [Habilitar negócios sem fronteiras](enable-business-without-borders.md)
@@ -19,5 +19,5 @@
 #### [Visão geral](fasttrack-center-benefit-process-for-ems-overview.md)
 #### [Expectativas para o ambiente de origem](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 #### [Fases de migração e integração](fasttrack-center-benefit-process-for-ems-phases.md)
-#### [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+#### [Responsabilidades do FastTrack](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
 #### [Suas responsabilidades](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
