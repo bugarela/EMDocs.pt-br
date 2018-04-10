@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 7d73513b80778ec91c9b3bee284175aa43751afc
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: c12542c9eed9daaa5a76241ce5045751b8473551
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="onboarding-phases"></a>Fases de integração
 
@@ -32,7 +32,7 @@ A integração tem quatro fases principais:
 
 Após ter comprado o número de licenças apropriado, siga as diretrizes no email de confirmação de compra para associar as licenças ao seu locatário existente ou novo locatário. A Microsoft verificará sua qualificação para o Benefício do FastTrack Center e tentará entrar em contato com você para oferecer assistência com a integração.
 
-> [!NOTE] 
+> [!NOTE]
 > Você também pode solicitar assistência do [FastTrack Center](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização.
 
 ### <a name="to-request-assistance"></a>Como solicitar assistência
@@ -78,7 +78,7 @@ A integração de núcleo envolve o provisionamento de serviços e a integraçã
 > Um método de autenticação gerenciado inclui, entre outros, a Sincronização de Hash de Senha.
 
 > [!NOTE]
-> A integração de identidade é realizada somente uma vez e não inclui a migração ou desativação de métodos de autenticação existentes, como o gerenciado ou federado. 
+> A integração de identidade é realizada somente uma vez e não inclui a migração ou desativação de métodos de autenticação existentes, como o gerenciado ou federado.
 
 ### <a name="enable-phase---azure-ad-premium"></a>Fase Habilitar – Azure AD Premium
 
@@ -107,10 +107,6 @@ A instalação do Azure AD Premium inclui a habilitação dos recursos a seguir:
 -   Privileged Identity Management.
 
 -   Acesso condicional ao Azure Active Directory.
-
--   Relatórios de uso e segurança para administradores.
-
--   Notificações e alertas administrativos.
 
 ![Fase de habilitação da integração – Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
@@ -178,4 +174,4 @@ A Microsoft também fornece a você diretrizes de como chegar a uma adoção bem
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Benefícios do FastTrack para o EMS – responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+[Benefícios do FastTrack para o EMS – responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)

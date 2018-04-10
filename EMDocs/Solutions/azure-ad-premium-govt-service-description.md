@@ -1,24 +1,24 @@
 ---
-title: "Descrição de serviços do Azure Active Directory Premium Government"
-description: "Os planos do Azure Active Directory Premium Government são assinaturas mensais e licenciados por usuário."
-keywords: "de autenticação"
+title: Descrição de serviços do Azure Active Directory Premium Government
+description: Os planos do Azure Active Directory Premium Government são assinaturas mensais e licenciados por usuário.
+keywords: de autenticação
 author: arob98
 ms.author: mtillman
 manager: mtillman
 ms.date: 12/21/2017
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 112289b0-0336-4cc0-b471-42fc2c015c64
-ms.reviewer: 
-ms.suite: 
-ms.custom: 
-ms.openlocfilehash: e301c5f8807d5253643b843e7714a4dae5a9fefb
-ms.sourcegitcommit: fdce79d807b742def3b3732cac664d1167b7cfe7
+ms.reviewer: ''
+ms.suite: ''
+ms.custom: ''
+ms.openlocfilehash: 7eb4740e44a5b4104de7d39667e9653e29213315
+ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="azure-active-directory-premium-government-service-description"></a>Descrição de serviços do Azure Active Directory Premium Government
 

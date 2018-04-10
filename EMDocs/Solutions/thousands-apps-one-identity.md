@@ -1,24 +1,24 @@
 ---
 title: Milhares de aplicativos, uma identidade
-description: "Este artigo descreve como o Enterprise Mobility + Security pode ser usado para fornecer uma única identidade que funcione em aplicativos baseados na Web do setor aproveitando as ferramentas do Azure Active Directory."
-keywords: 
+description: Este artigo descreve como o Enterprise Mobility + Security pode ser usado para fornecer uma única identidade que funcione em aplicativos baseados na Web do setor aproveitando as ferramentas do Azure Active Directory.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: b995c17749d1eaf6ae9561980ff87b97f7f5e1a0
-ms.sourcegitcommit: 5cde65a0e614800ebd9c8479437dc9dd846c8cd8
+ms.openlocfilehash: 7710b1465256e99b9a0f7fa05af780af079731ae
+ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="thousands-of-apps-one-identity"></a>Milhares de aplicativos, uma identidade
 O Azure AD (Active Directory) torna os usuários mais produtivos fornecendo a eles uma identidade comum para acessar recursos na nuvem e no local de aplicativos SaaS (software como serviço).
@@ -102,16 +102,16 @@ Os usuários finais podem acessar seus aplicativos no local da mesma forma que a
 ## <a name="how-to-implement-this-solution"></a>Como implementar esta solução
 As etapas a seguir descrevem como implementar cada recurso do Azure AD anteriormente discutido. Cada link representa um conjunto diferente de artigos com um conjunto diferente de instruções/etapas a serem implementadas na sua organização:
 1. [Habilite o logon único com proxy de aplicativo.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-- [Forneça acesso remoto seguro a aplicativos locais.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-  - [Trabalhe com domínios personalizados no proxy de aplicativo do Azure AD.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-  - [Trabalhe com aplicativos com reconhecimento de declarações no proxy de aplicativo.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-  - [Trabalhe com acesso condicional para aplicativos publicados usando o proxy de aplicativo.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
-- [Coloque seus próprios aplicativos no Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
+2. [Forneça acesso remoto seguro a aplicativos locais.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Trabalhe com domínios personalizados no proxy de aplicativo do Azure AD.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [Trabalhe com aplicativos com reconhecimento de declarações no proxy de aplicativo.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [Trabalhe com acesso condicional para aplicativos publicados usando o proxy de aplicativo.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+3. [Coloque seus próprios aplicativos no Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - **Galeria de aplicativos em Azure.com**
   - https://azure.microsoft.com/marketplace/active-directory/
 - **Lista de aplicativos SaaS** (com recursos de integração)
-  - https://aadappgallery.azurewebsites.NET/default.aspx?Microsoft_Integrated_Synchronization=on
+  - https://aadappgallery.azurewebsites.net/Default.aspx?Microsoft_Integrated_Synchronization=on
 - **Tutoriais de aplicativos SaaS**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/
