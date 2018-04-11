@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 53f96bd0ea1579ef7597d74690a2bac005c132c0
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: e26aa24ea38c9ec2fa0dabe9044256fa5bfd9b4a
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>Processo do Benefício do FastTrack Center para o EMS (Enterprise Mobility + Security)
 Se sua organização estiver qualificada para o Benefício do FastTrack Center para EMS, você poderá trabalhar remotamente com especialistas do FastTrack para deixar o Microsoft Azure Active Directory Premium e o Microsoft Intune prontos para uso. Você também pode solicitar ajuda por meio do [site do FastTrack](http://fasttrack.microsoft.com/ems) para Proteção de Informações do Azure, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Para saber se a sua organização está qualificada, veja [Planos e Serviços Qualificados do Benefício do FastTrack Center](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
@@ -31,7 +31,7 @@ Aqui está o que abordamos sobre o processo de integração:
 
 -   [Fases do processo de integração](fasttrack-center-benefit-process-for-ems-phases.md)
 
--   [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) para cada fase
+-   [Responsabilidades do FastTrack](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md) para cada fase
 
 -   [Responsabilidades do cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) para cada fase
 
