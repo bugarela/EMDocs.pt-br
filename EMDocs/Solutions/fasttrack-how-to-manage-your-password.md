@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 0d4d4c9419fb027b87ceb92fcabb8af17f983f63
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 0146fc11fb08c1c7d4442cc78a7af8aa8d2dcdab
+ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-your-own-password"></a>Como gerenciar sua própria senha
 
@@ -32,7 +32,7 @@ A maneira mais rápida para se registrar para redefinição de senha é ir até 
 ![Captura de tela mostrando blahblah](./media/ft-mngPW-1-setup.png)
 4.  Selecione o código de seu país/região na lista suspensa e insira seu número de telefone completo com código de área.
 ![Captura de tela mostrando como selecionar um código de país. ](./media/ft-mngPW-2-enterNumber.png)![Captura de tela mostrando onde digitar um número de telefone.](./media/ft-mngPW-3-enterNumber2.png)
-5.  Selecione uma das opções **enviar texto** ou **telefonar**. Nesse caso, selecionarei **enviar texto**, que enviará um código de 6 dígitos para meu telefone. Aguarde até que o código chegue em seu telefone.
+5.  Selecione uma das opções **enviar texto** ou **telefonar**. Nesse caso, selecionarei **enviar texto**, que enviará um código de 6 dígitos para meu telefone. Aguarde até que o código chegue em seu telefone.  
 ![Captura de tela mostrando um código de seis dígitos enviado a um telefone.](./media/ft-mngPW-4-textCode.png)
 6.  Após o código chegar, insira-o na caixa de entrada e clique em "verificar".
 7.  Quando vir **Obrigado**, você terminou! Agora é possível usar aquilo para o que você se registrou para redefinir sua senha a qualquer momento acessando [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com). ![Captura de tela mostrando a mensagem de agradecimento recebida quando o registro é concluído.](./media/ft-mngPW-5-thanks.png)
@@ -62,7 +62,7 @@ Siga as etapas abaixo para redefinir a senha de sua conta corporativa ou de estu
    ![Captura de tela solicitando que o usuário escolha o método pelo qual deseja ser contatado para verificação.](./media/ft-mngPW-8-answerQuestions.png)
 5. Vamos usar a opção **Enviar SMS para meu celular** como exemplo. Se estiver usando uma opção baseada em telefone, você precisará verificar o número de telefone antes de nós enviarmos um SMS. Insira seu número de telefone completo e clique em **Avançar** para confirmar que ele está correto e enviar um SMS.
    ![Captura de tela mostrando que o usuário deve inserir o número de telefone no qual receberá a mensagem de texto de verificação.](./media/ft-mngPW-9-textNumber.png)
-6. Quando receber o texto, certifique-se de usar o código de verificação no corpo da mensagem, não o número do qual o código foi enviado. Pode levar alguns minutos para você receber o SMS, então vá tomar um café!
+6. Quando receber o texto, certifique-se de usar o código de verificação no corpo da mensagem, não o número do qual o código foi enviado. Pode levar alguns minutos para você receber o SMS, então vá tomar um café!  
    ![Captura de tela mostrando o código de verificação recebido.](./media/ft-mngPW-10-verificationCode.png)
 7. Agora, digite o código que acabou de receber em seu telefone na caixa de entrada na página.
    ![Captura de tela mostrando que o usuário deve digitar o código de verificação recebido.](./media/ft-mngPW-11-enterCode.png)
