@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b984f825ba2c799f7a6e5585e038e017df3ee417
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: a5fce16f550e3b0e620e2cc6eb1f3d9e9cf7dc32
+ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="fasttrack-responsibilities"></a>Responsabilidades do FastTrack
 
@@ -159,6 +159,8 @@ Fornecimento de orientação sobre a configuração de:
   - Privileged Identity Management.
 
   - Acesso condicional ao Azure Active Directory.
+  
+  - Ingresso híbrido no Azure AD
 
 ### <a name="enable-phase---intune"></a>Fase Habilitar – Intune
 
