@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: fe9ee9f1eeb36e4f1df8d1bd2da63ab08e515098
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: bba697474155bbd85927da8af86d72dcc5aad531
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="your-responsibilities"></a>Suas responsabilidades
 
@@ -66,6 +66,10 @@ Você tem as responsabilidades a seguir durante a integração.
 -   Se necessária para a implantação de Wi-Fi e perfis VPN com o Intune, forneça e configure a autoridade de certificação, e as infraestruturas de Wi-Fi e VPN, conforme necessário.
 
 -   Redigir da declaração de TOU (termos de uso) da organização a ser configurada e exibida em portais da empresa Microsoft Intune acessíveis aos usuários finais.
+
+-   Inscreva-se para assinaturas do Team Viewer, da Defesa contra Ameaças Móveis e da Solução de gerenciamento de despesas de telecomunicações.
+
+-   Inscreva-se para licenças de Proteção Avançada contra Ameaças do Windows Defender. (licenças do Windows E5 ou Microsoft E5).
 
 ## <a name="initiate-phase"></a>Fase Iniciar
 
