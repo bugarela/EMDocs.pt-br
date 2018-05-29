@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 0146fc11fb08c1c7d4442cc78a7af8aa8d2dcdab
-ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
+ms.openlocfilehash: bc2ea11b240fabc94241c9569c8f8df15dd598d4
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="how-to-manage-your-own-password"></a>Como gerenciar sua própria senha
 
@@ -71,7 +71,7 @@ Siga as etapas abaixo para redefinir a senha de sua conta corporativa ou de estu
    ![Captura de tela mostrando que o usuário deve digitar e confirmar uma nova senha.](./media/ft-mngPW-12-clickFinish.png)
 10. Quando vir a página êxito, você estará pronto para começar! Agora, você pode entrar com sua nova senha.
     ![Captura de tela mostrando que o processo de redefinição de senha foi concluído.](./media/ft-mngPW-13-success.png)
-    Teve problemas para redefinir sua senha? Leia sobre os [problemas comuns e suas soluções](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
+    Teve problemas para redefinir sua senha? Leia sobre os [problemas comuns e suas soluções](https://azure.microsoft.com/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
 
 ### <a name="want-to-learn-more"></a>Quer saber mais?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).

@@ -1,24 +1,24 @@
 ---
 title: Gerenciar acesso em escala
-description: "Este artigo descreve como o Enterprise Mobility + Security pode ser usado para capacitar uma organização com o gerenciamento de acesso de identidade aproveitando as ferramentas do Azure Active Directory."
-keywords: 
+description: Este artigo descreve como o Enterprise Mobility + Security pode ser usado para capacitar uma organização com o gerenciamento de acesso de identidade aproveitando as ferramentas do Azure Active Directory.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: aba57397c4e66d03f89a7e9c9d872903520f5c0c
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-access-at-scale"></a>Gerenciar acesso em escala
 A Microsoft capacita empresas desde que foi criada. A Microsoft não só fornece uma identidade que leva você a qualquer lugar, mas também fornece um conjunto de ferramentas para automatizar, ajudar a proteger e gerenciar a TI em sua organização. Mesmo após o advento da computação em nuvem, ainda há demanda para gerenciar e controlar tarefas de TI como chamadas de assistência técnica para redefinir senhas de usuários, gerenciamento de grupo de usuários e solicitações de aplicativos.
@@ -43,7 +43,7 @@ O Azure AD fornece gerenciamento automatizado e avançado de ciclo de vida do us
 ![Gráfico mostrando como o Azure AD Connect sincroniza usuários e grupos entre o Windows Server Active Directory e o Azure Active Directory](./media/manage-access-at-scale/manage-access-at-scale-fig1.png)
 
 ### <a name="application-management"></a>Gerenciamento de aplicativos
-Quantos usuários gostam de se lembrar de senhas para cada aplicativo que usam todos os dias? O [logon único](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) trata desse problema comum. É possível fazer logon em vários aplicativos de SaaS usando uma única conta de usuário e senha. O logon único pode ser provisionado automaticamente para todos os aplicativos de sua organização. Essa capacidade está disponível para aplicativos de nuvem da Microsoft, como o Office 365 e para aplicativos de terceiros, como Salesforce, ServiceNow e Workday.
+Quantos usuários gostam de se lembrar de senhas para cada aplicativo que usam todos os dias? O [logon único](https://azure.microsoft.com/documentation/articles/active-directory-appssoaccess-whatis/) trata desse problema comum. É possível fazer logon em vários aplicativos de SaaS usando uma única conta de usuário e senha. O logon único pode ser provisionado automaticamente para todos os aplicativos de sua organização. Essa capacidade está disponível para aplicativos de nuvem da Microsoft, como o Office 365 e para aplicativos de terceiros, como Salesforce, ServiceNow e Workday.
 
 Veja mais detalhes sobre o logon único:
 
@@ -98,7 +98,7 @@ Por padrão, o Azure AD vem com um recurso gratuito que permite que todo adminis
 
 Usando o Azure AD Premium, você poderá além dos administradores de TI, fornecendo recursos de portal de autoatendimento para redefinição de senha para seus usuários. Você pode, rapidamente, habilitar políticas de redefinição de senha do usuário que estenderão os mesmos recursos de administração avançada para todos os usuários no diretório.
 
-Saiba mais sobre o [pré-requisitos, como habilitar e como configurar o portal de autoatendimento de senha](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/) em seu locatário do Azure AD.
+Saiba mais sobre o [pré-requisitos, como habilitar e como configurar o portal de autoatendimento de senha](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/) em seu locatário do Azure AD.
 
 ## <a name="how-to-use-azure-ad-connect-health"></a>Como usar o Azure AD Connect Health
 Você pode verificar a [documentação do Azure AD Connect Health](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/) para coletar mais informações sobre a ferramenta, seus recursos e as etapas que você pode executar para começar a usá-la em sua organização.

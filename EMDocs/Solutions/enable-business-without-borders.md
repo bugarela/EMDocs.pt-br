@@ -1,24 +1,24 @@
 ---
-title: "Habilitar negócios sem fronteiras"
-description: "Este artigo descreve como o Enterprise Mobility + Security pode ser usado para fornecer uma única identidade que funcione em ativos na nuvem e no local, além de manter a produtividade máxima dos usuários aproveitando as ferramentas do Azure Active Directory."
-keywords: 
+title: Habilitar negócios sem fronteiras
+description: Este artigo descreve como o Enterprise Mobility + Security pode ser usado para fornecer uma única identidade que funcione em ativos na nuvem e no local, além de manter a produtividade máxima dos usuários aproveitando as ferramentas do Azure Active Directory.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 8f79e391813c7a15e522f07ff27a2f6abd8536cc
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 756df8b2432788ba1152c5ef5a195d84cd6cf82b
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="enable-business-without-borders"></a>Habilitar negócios sem fronteiras
 A identidade não é algo secundário, mas a principal parte de uma força de trabalho eficiente. As organizações precisam capacitar seus funcionários para acessar todos os dados e aplicativos de qualquer dispositivo e de qualquer lugar. Os usuários precisam colaborar entre si e com parceiros, bem como se conectar com clientes. As ferramentas que eles usam não ficam mais em um ambiente protegido e controlado; elas podem ser encontradas em qualquer nuvem pública.
@@ -58,4 +58,4 @@ A colaboração B2B do Azure AD se baseia em um modelo de convite e resgate, que
 ## <a name="how-to-implement-this-solution"></a>Como implementar esta solução
 As etapas a seguir descrevem como implementar cada colaboração B2B do Azure AD discutida anteriormente. Cada link representa um conjunto diferente de artigos com um conjunto diferente de instruções/etapas a serem implementadas na sua organização:
 - Saiba [Como usar a colaboração B2B do Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/).
-- Saiba [como usar o arquivo CSV para especificar informações de usuário do parceiro](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-references-csv-file-format/).
+- Saiba [como usar o arquivo CSV para especificar informações de usuário do parceiro](https://azure.microsoft.com/documentation/articles/active-directory-b2b-references-csv-file-format/).
