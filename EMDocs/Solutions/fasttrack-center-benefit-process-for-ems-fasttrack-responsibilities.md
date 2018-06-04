@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 03/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: b984f825ba2c799f7a6e5585e038e017df3ee417
+ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848233"
 ---
 # <a name="fasttrack-responsibilities"></a>Responsabilidades do FastTrack
 
@@ -165,7 +166,7 @@ Fornecimento de orientação sobre a configuração de:
 > [!IMPORTANT]
 > O FastTrack não é compatível com o gerenciamento clássico em PCs Windows 10 com o Intune. O FastTrack só é compatível com o gerenciamento do Windows 10 por meio do MDM (gerenciamento de dispositivo móvel) do Intune.
 
-Forneça **orientação** sobre:
+Fornecimento de orientação sobre:
 
 -   Configuração de identidades a serem utilizadas pelo Intune por meio do Active Directory local ou das identidades de nuvem (Azure Active Directory).
 
@@ -209,14 +210,7 @@ Forneça **orientação** sobre:
 
     -   Conexão com o Intune Data Warehouse.
 
-    -   Integrando o Intune ao:
-        -   Team Viewer para assistência remota (é necessária uma assinatura do Team Viewer).
-
-        -   Soluções de parceiros de Defesa Contra Ameaças Móveis (é necessária uma assinatura de solução de parceiro de Defesa Contra Ameaças de Móveis).
-
-        -   Soluções de gerenciamento de despesas de telecomunicações (é necessária uma assinatura da Solução de gerenciamento de despesas de telecomunicações).
-
-        -   Proteção Avançada contra Ameaças do Windows Defender (licenças Windows E5 ou Microsoft 365 E5 são necessárias).
+    -   Integração do Intune com o Team Viewer para assistência remota, parceiros do Mobile Threat Defense e do Telecom Expense (licenciamento de produto de terceiros não incluído na assinatura do Intune).
 
     -   Configuração de atualizações de software para as plataformas compatíveis aplicáveis.
 
