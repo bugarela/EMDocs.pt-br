@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: 212acc335e4c0a21c2a6f72c3df1226ebc21e156
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2018
-ms.locfileid: "32045244"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569537"
 ---
 # <a name="fasttrack-responsibilities"></a>Responsabilidades do FastTrack
 
@@ -176,7 +176,7 @@ Forneça **orientação** sobre:
 
 -   Configurar sua autoridade de MDM (gerenciamento de dispositivo móvel), com base em suas necessidades de gerenciamento, incluindo:
 
-    -   Configurar o Intune como sua autoridade de MDM quando o Intune for a única solução de MDM.
+    -   Configurar o Intune como sua autoridade de MDM.
 
     -   Configurar o System Center Configuration Manager como sua autoridade de MDM se você tiver uma implementação existente do Configuration Manager e quiser expandir seus recursos de gerenciamento com o Intune.
 
@@ -222,6 +222,44 @@ Forneça **orientação** sobre:
     -   Configuração de atualizações de software para as plataformas compatíveis aplicáveis.
 
     -   Recursos de planejamento de adoção do usuário.
+
+### <a name="enable-phase---co-management"></a>Fase Habilitar – Cogerenciamento
+
+Fornecimento de orientação sobre:
+
+-   Licenciamento dos usuários finais.
+
+-   Adicionar usuários à sua assinatura do Intune, definir funções de administrador de TI e criar grupos de usuários e dispositivos (se o Intune não estiver instalado).
+
+-   Configurar o Azure Active Directory para o registro automático de MDM.
+
+-   Configurar a junção híbrida do Azure Active Directory.
+
+-   Configurar o Gateway de Gerenciamento de Nuvem.
+
+-   Adicionar usuários à sua assinatura do Intune, definir funções de administrador de TI e criar grupos de usuários e dispositivos.
+
+-   Preparar o Intune (se o Intune não estiver instalado):
+
+    -   Configurar sua autoridade de MDM (gerenciamento de dispositivo móvel), com base em suas necessidades de gerenciamento, incluindo:
+
+    -   Configurar o Intune como sua autoridade de MDM.
+
+    -   Configuração de grupos de testes a serem usados para validar as políticas de gerenciamento do MDM.
+
+    -   Navegação no portal do administrador do Intune para localizar informações sobre usuários e dispositivos.
+
+    -   Configuração de funções no Intune (operador de suporte técnico, administradores etc.)
+
+    -   Configuração e implantação de políticas de proteção de aplicativo do Intune para cada plataforma compatível.
+
+    -   Registrar dispositivos do Windows 10 no Intune.
+
+- Habilitar o cogerenciamento no console do Configuration Manager.
+
+- Alternar as cargas de trabalho para o Intune.
+
+- Monitorar a atividade de cogerenciamento em seu ambiente.
 
 > [!NOTE]
 > **Quer saber mais?** Consulte [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).

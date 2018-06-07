@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: bba697474155bbd85927da8af86d72dcc5aad531
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: ef6e0021018087b6550ecff4c01d4aab68b32b15
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569520"
 ---
 # <a name="your-responsibilities"></a>Suas responsabilidades
 
@@ -57,7 +58,7 @@ Você tem as responsabilidades a seguir durante a integração.
 
 -   Construir e manter seu ambiente de teste.
 
--   Instalar service packs e outras atualizações necessárias nos servidores de infraestrutura.
+-   Instalar service packs/atualizações cumulativas (CUs) e outras atualizações necessárias nos servidores de infraestrutura.
 
 -   Fornecer e configurar certificados públicos de protocolo SSL (Secure Sockets Layer).
 
@@ -66,6 +67,10 @@ Você tem as responsabilidades a seguir durante a integração.
 -   Se necessária para a implantação de Wi-Fi e perfis VPN com o Intune, forneça e configure a autoridade de certificação, e as infraestruturas de Wi-Fi e VPN, conforme necessário.
 
 -   Redigir da declaração de TOU (termos de uso) da organização a ser configurada e exibida em portais da empresa Microsoft Intune acessíveis aos usuários finais.
+
+-   Atualize o servidor do site do Configuration Manager e os clientes do Configuration Manager para as versões de build mais recentes (quando necessário).
+
+-   Inscreva-se para assinaturas de terceiros como Defesa contra Ameaças Móveis, despesas de telecomunicações, etc. quando a integração com o Microsoft Intune for necessária.
 
 -   Inscreva-se para assinaturas do Team Viewer, da Defesa contra Ameaças Móveis e da Solução de gerenciamento de despesas de telecomunicações.
 

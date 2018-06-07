@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: e63644b2e8db81f6293dbad4ca4de14dbe40ecac
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: d3d66f6a790140a9b461d5a63398a81a3485f9fc
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569554"
 ---
 # <a name="onboarding-phases"></a>Fases de integração
 
@@ -172,11 +173,41 @@ Para o Intune, vamos orientá-lo sobre como se preparar para usar o Microsoft In
     > [!IMPORTANT]
     > O FastTrack não é compatível com o gerenciamento clássico em PCs Windows 10 com o Intune. O FastTrack só é compatível com o gerenciamento de dispositivos Windows 10 por meio do MDM (gerenciamento de dispositivo móvel) do Intune.
 
-A Microsoft também fornece a você diretrizes de como chegar a uma adoção bem-sucedida dos serviços qualificados.
+#### <a name="co-management"></a>Cogerenciamento
+
+O FastTrack orientará você durante a preparação para gerenciar simultaneamente dispositivos Windows 10 com o Configuration Manager e o Intune. As etapas exatas dependem do seu ambiente de origem e elas podem incluir:
+
+- Explicar os benefícios do cogerenciamento.
+
+- Licenciar seus usuários finais. O FastTrack também fornece assistência sobre como ativar licenças de volume para seu locatário de serviço de nuvem da Microsoft (conforme necessário).
+
+- Configurar as identidades que serão usadas pelo Intune usando as identidades de nuvem e/ou do Active Directory local.
+
+- Adicionar usuários à sua assinatura do Intune, definir funções de administrador de TI e criar grupos de usuários e dispositivos.
+
+- Fornecer orientações sobre como mover do Intune integrado ao System Center Configuration Manager (híbrido) para o Intune autônomo.
+
+- Fornecer orientações sobre como configurar o Azure Active Directory para o registro automático de MDM.
+
+- Fornecer orientações sobre como configurar a junção híbrida do Azure Active Directory.
+
+- Fornecer orientações sobre como configurar o Gateway de Gerenciamento de Nuvem
+
+- Habilitar o cogerenciamento no console do Configuration Manager.
+
+- Configurar as cargas de trabalho suportadas que você deseja alternar para o Intune.
+
+- Instalar o cliente do Configuration Manager em dispositivos registrados no Intune.
+
+- Fornecer orientações sobre como monitorar a atividade de cogerenciamento em seu ambiente.
+
+O FastTrack também fornece orientações sobre como gerar uma adoção bem-sucedida dos serviços qualificados.
 
 ![Fase de habilitação da integração - Intune](./media/ft-enable-phase_intune_mam.png)
 
 ![Fase de habilitação da integração - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
+
+![Fase de habilitação da integração – Cogerenciamento](./media/ft-9-enable-phase-comanagement.png)
 
 ![Fase de habilitação da integração - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
