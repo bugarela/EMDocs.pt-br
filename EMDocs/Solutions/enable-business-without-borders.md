@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34473996"
 ---
 # <a name="enable-business-without-borders"></a>Habilitar negócios sem fronteiras
 A identidade não é algo secundário, mas a principal parte de uma força de trabalho eficiente. As organizações precisam capacitar seus funcionários para acessar todos os dados e aplicativos de qualquer dispositivo e de qualquer lugar. Os usuários precisam colaborar entre si e com parceiros, bem como se conectar com clientes. As ferramentas que eles usam não ficam mais em um ambiente protegido e controlado; elas podem ser encontradas em qualquer nuvem pública.

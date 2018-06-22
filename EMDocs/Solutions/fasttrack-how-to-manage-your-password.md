@@ -18,6 +18,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474030"
 ---
 # <a name="how-to-manage-your-own-password"></a>Como gerenciar sua própria senha
 

@@ -18,6 +18,7 @@ ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/05/2018
+ms.locfileid: "30817671"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Planos e Serviços Qualificados do Benefício do FastTrack Center
 Você pode usar o benefício do serviço quando compra no mínimo 150 licenças do EMS (Enterprise Mobility + Security) ou de qualquer um de seus serviços de nuvem individuais em um plano qualificado. Com o benefício do serviço, é possível trabalhar com especialistas do FastTrack para avaliar, corrigir e habilitar serviços qualificados.

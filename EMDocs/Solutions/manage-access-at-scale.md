@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474098"
 ---
 # <a name="manage-access-at-scale"></a>Gerenciar acesso em escala
 A Microsoft capacita empresas desde que foi criada. A Microsoft não só fornece uma identidade que leva você a qualquer lugar, mas também fornece um conjunto de ferramentas para automatizar, ajudar a proteger e gerenciar a TI em sua organização. Mesmo após o advento da computação em nuvem, ainda há demanda para gerenciar e controlar tarefas de TI como chamadas de assistência técnica para redefinir senhas de usuários, gerenciamento de grupo de usuários e solicitações de aplicativos.

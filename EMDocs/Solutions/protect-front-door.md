@@ -1,12 +1,12 @@
 ---
 title: Proteger na porta da frente | Microsoft Docs
-description: "Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para proteger a identidade para acesso seguro aos recursos da empresa, aproveitando os recursos Microsoft Azure Active Directory Identity Protection e Azure Active Directory Privileged Identity Management."
+description: Um cenário que descreve como o Enterprise Mobility + Security pode ser usado para proteger a identidade para acesso seguro aos recursos da empresa, aproveitando os recursos Microsoft Azure Active Directory Identity Protection e Azure Active Directory Privileged Identity Management.
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
 ms.date: 05/18/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
 ms.technology: techgroup-identity
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/25/2017
+ms.locfileid: "20629019"
 ---
 # <a name="protect-at-the-front-door"></a>Proteger na porta da frente
 

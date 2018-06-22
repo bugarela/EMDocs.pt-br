@@ -18,6 +18,7 @@ ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/22/2018
+ms.locfileid: "30008783"
 ---
 # <a name="fasttrack-center-benefit-overview"></a>Visão Geral do Benefício do FastTrack Center
 

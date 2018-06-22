@@ -18,6 +18,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474081"
 ---
 # <a name="detect-attacks-before-they-cause-damage"></a>Detectar ataques antes que causem danos
 Uma postura de segurança forte requer um sistema de detecção avançado em vigor para identificar ameaças antes que causem maiores danos. As organizações podem aproveitar facilmente a inteligência de segurança da Microsoft para detectar atividades suspeitas no local e na nuvem.

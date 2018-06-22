@@ -18,6 +18,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848012"
 ---
 # <a name="how-to-use-apps-with-multi-identity-support"></a>Como usar aplicativos com suporte para várias identidades
 

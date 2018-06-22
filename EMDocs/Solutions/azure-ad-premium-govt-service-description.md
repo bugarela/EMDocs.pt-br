@@ -19,6 +19,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848165"
 ---
 # <a name="azure-active-directory-premium-government-service-description"></a>Descrição de serviços do Azure Active Directory Premium Government
 
