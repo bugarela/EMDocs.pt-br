@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b7adfe06ba063c9df152eb21d913cb9c43127c6b
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 268ab59474a117b2809baec0906ed3738d509914
+ms.sourcegitcommit: b93dc7df0f9978ac7bb8fe8e3d3cc15635ceb0e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2018
-ms.locfileid: "30848097"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38147589"
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>Instruções de registro do usuário final no Intune para administradores de TI
 
@@ -38,7 +38,7 @@ Para usar seu dispositivo no trabalho, registre-o no Intune usando o Portal da E
 
 Essas etapas de registro são para dispositivos Samsung Knox Android e dispositivos Android "nativos" (que não são Samsung Knox). Para determinar se você tem um dispositivo Samsung Knox, vá até **Configurações > Sobre o telefone**. Se você não vir a palavra "Knox" listada, terá um dispositivo Android nativo. As telas mostradas em seu dispositivo podem parecer um pouco diferentes das apresentadas nesta seção.
 
-Se receber um erro ao tentar registrar seu dispositivo no Intune, consulte [Enviar erros de registro ao administrador de TI](https://technet.microsoft.com/en-US/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
+Se receber um erro ao tentar registrar seu dispositivo no Intune, consulte [Enviar erros de registro ao administrador de TI](https://technet.microsoft.com/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
 
 Antes ou após o registro, você poderá ser solicitado a escolher uma categoria que melhor descreva como você usa o dispositivo. O administrador de TI usa essa categoria para ajudar a determinar quais aplicativos você terá acesso.
 1. Instale o aplicativo gratuito Portal da Empresa do Microsoft Intune em seu dispositivo na [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
