@@ -58,7 +58,7 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 
 &ast; Disponível apenas para serviços de nuvem qualificados para os benefícios. Consulte a tabela a seguir.
 
-**Comprado como um plano autônomo.
+\*\*Comprado como um plano autônomo.
 
 &nbsp;
 
