@@ -5,19 +5,18 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/09/2018
+ms.date: 08/13/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: ''
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 5f1e470e32262e65ac9ef7d2d0cb6dce3de9c139
-ms.sourcegitcommit: 8209dd3332db21aa1b38f8a6311d8853938e7ad8
+ms.openlocfilehash: 45c0d051dc3ade44e54b4c724217870a7204ceca
+ms.sourcegitcommit: cfa80b7829abb2fca321ebb9cfcd96dbd8c06990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2018
+ms.lasthandoff: 10/15/2018
 ms.locfileid: "39320890"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Planos e Serviços Qualificados do Benefício do FastTrack Center
@@ -47,18 +46,18 @@ O EMS e os serviços de nuvem incluídos no Benefício do FastTrack Center para 
 
 |Plano|Qualificado para o benefício do serviço?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |Sim*|
-|Enterprise Mobility + Security (como parte do Secure Productive Enterprise)|Sim*|
-|Microsoft Azure Active Directory Premium (E3 e E5)**|Sim|
-|Microsoft Intune**|Sim|
-|Microsoft Intune para Educação** |Sim |
-|Proteção de Informações do Microsoft Azure (E3 e E5)**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-|Microsoft Advanced Threat Analytics**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
-|Microsoft Cloud App Security**|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Enterprise Mobility + Security |Sim\*|
+|Enterprise Mobility + Security (como parte do Secure Productive Enterprise)|Sim\*|
+|Microsoft Azure Active Directory Premium (E3 e E5)\*\*|Sim|
+|Microsoft Intune\*\*|Sim|
+|Microsoft Intune para Educação\*\* |Sim |
+|Proteção de Informações do Microsoft Azure (E3 e E5)\*\*|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics\*\*|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security\*\*|Limitado</br>Somente para os planos com êxito. As solicitações de assistência devem ser feitas em **Precisa de Ajuda**, na [Central de Monitoramento Rápido](https://fasttrack.microsoft.com/)|
 
 &ast; Disponível apenas para serviços de nuvem qualificados para os benefícios. Consulte a tabela a seguir.
 
-\*\*Comprado como um plano autônomo.
+\*\* Comprado como um plano autônomo.
 
 &nbsp;
 
